@@ -6,7 +6,7 @@ const Meta = () => {
       <link
         rel="apple-touch-icon"
         sizes="180x180"
-        href="/favicon/apple-touch-icon.png"
+        href="/favicon/favicon-32x32.png"
       />
       <link
         rel="icon"
@@ -33,7 +33,7 @@ const Meta = () => {
       <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
       <meta
         name="description"
-        content={`An example blog using Next.js + Outstatic.`}
+        content={`AI Marketing Solutions`}
       />
       <meta
         property="og:image"

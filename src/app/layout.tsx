@@ -5,13 +5,13 @@ import '../styles/index.css'
 export const metadata: Metadata = {
   metadataBase: new URL('https://outstatic.com'),
   title: {
-    default: 'Outstatic',
+    default: 'AI Marketing Solutions',
     template: '%s | Outstatic'
   },
-  description: 'A blog starter built with Outstatic.',
+  description: 'Your expert on digital marketing',
   openGraph: {
-    title: 'Outstatic - A Static Site CMS for Next.js',
-    description: 'A blog starter built with Outstatic.',
+    title: 'Ai Marketing Solutions',
+    description: 'The evolution of digital marketing.',
     url: absoluteUrl('/'),
     siteName: 'Next.js',
     images: [
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   },
   icons: {
     icon: [{ url: '/favicon/favicon-32x32.png' }],
-    apple: [{ url: '/favicon/apple-touch-icon.png' }]
+    apple: [{ url: '/favicon/favicon-32x32.png' }]
   }
 }
 

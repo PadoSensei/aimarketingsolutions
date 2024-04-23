@@ -1,6 +1,6 @@
 {
-  "commit": "4b8ca15309d4a1e235ba3f30a95acb6fe267baa6",
-  "generated": "Mon, 06 Feb 2023 00:55:33 GMT",
+  "commit": "f1d49d79a01c1d85981f368c71944529e6583183",
+  "generated": "2024-04-23T11:25:47.813Z",
   "metadata": [
     {
       "__outstatic": {
@@ -35,12 +35,21 @@
       "publishedAt": "2022-07-14T02:34:02.322Z",
       "slug": "how-to-create-an-outstatic-blog",
       "status": "published",
-      "title": "Learn how to create your blog with Outstatic",
       "tags": [
-        { "label": "NextJs", "value": "nextJs" },
-        { "label": "GitHub", "value": "gitHub" },
-        { "label": "Outstatic", "value": "outstatic" }
-      ]
+        {
+          "label": "NextJs",
+          "value": "nextJs"
+        },
+        {
+          "label": "GitHub",
+          "value": "gitHub"
+        },
+        {
+          "label": "Outstatic",
+          "value": "outstatic"
+        }
+      ],
+      "title": "Learn how to create your blog with Outstatic"
     },
     {
       "__outstatic": {
@@ -127,6 +136,34 @@
       "slug": "flycream-travel",
       "status": "published",
       "title": "Flycream Travel"
+    },
+    {
+      "__outstatic": {
+        "commit": "f1d49d79a01c1d85981f368c71944529e6583183",
+        "hash": "3018398781",
+        "path": "outstatic/content/posts/generative-ai-for-personalization.md"
+      },
+      "author": {
+        "name": "Ludmila FD",
+        "picture": "https://avatars.githubusercontent.com/u/84784950?v=4"
+      },
+      "collection": "posts",
+      "coverImage": "https://imageio.forbes.com/specials-images/imageserve/654e8e769c18afa87a8d2184//960x0.jpg?format=jpg&width=1440",
+      "description": "Generative AI for Personalization is a powerful tool for businesses to create and target buyer personas, implement AI-driven personalization, and leverage AI for a data-driven experimentation strategy. This technology allows for unparalleled customization and interaction levels, generating unique client engagements by analyzing extensive data.",
+      "publishedAt": "2024-04-23T11:28:31.249Z",
+      "slug": "generative-ai-for-personalization",
+      "status": "draft",
+      "tags": [
+        {
+          "label": "Outstatic",
+          "value": "outstatic"
+        },
+        {
+          "label": "generativeAI",
+          "value": "generativeAi"
+        }
+      ],
+      "title": "Generative AI for Personalization"
     }
   ]
 }

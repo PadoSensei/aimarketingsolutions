@@ -1,6 +1,6 @@
 {
-  "commit": "58c6ab9fbb5401d2c294ce06143f55ee7d8bdb9e",
-  "generated": "Tue, 23 Apr 2024 22:37:47 GMT",
+  "commit": "e43f1652ed02ad37a3e1dd028c7904829f64b92f",
+  "generated": "2024-04-23T22:43:44.872Z",
   "metadata": [
     {
       "__outstatic": {
@@ -143,23 +143,6 @@
       "slug": "couple-pizza",
       "status": "published",
       "title": "Couple Pizza"
-    },
-    {
-      "__outstatic": {
-        "commit": "998b7f74af83e46bbdb4ab5302c8e4c39963278f",
-        "hash": "3707858083",
-        "path": "outstatic/content/posts/the-wrong-decision.md"
-      },
-      "author": {
-        "name": "Naval Ravikant"
-      },
-      "collection": "posts",
-      "coverImage": "/images/skyline.png",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
-      "publishedAt": "2022-03-26T05:35:07.322Z",
-      "slug": "the-wrong-decision",
-      "status": "published",
-      "title": "If you want to make the wrong decision, ask everyone"
     },
     {
       "__outstatic": {

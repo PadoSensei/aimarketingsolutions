@@ -32,6 +32,10 @@
         {
           "value": "iagenerativa",
           "label": "IAGENERATIVA"
+        },
+        {
+          "value": "portuguese",
+          "label": "Portuguese"
         }
       ]
     }

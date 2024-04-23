@@ -36,6 +36,10 @@
         {
           "value": "portuguese",
           "label": "Portuguese"
+        },
+        {
+          "value": "english",
+          "label": "ENGLISH"
         }
       ]
     }

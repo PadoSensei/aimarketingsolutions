@@ -1,6 +1,6 @@
 {
-  "commit": "cdb3015af06b034daaf884a1e187e116a9505755",
-  "generated": "2024-04-23T11:39:16.048Z",
+  "commit": "be4303fe2881d6435153f66e5c2a3c8d96f66ced",
+  "generated": "2024-04-23T11:39:32.204Z",
   "metadata": [
     {
       "__outstatic": {
@@ -167,8 +167,8 @@
     },
     {
       "__outstatic": {
-        "commit": "cdb3015af06b034daaf884a1e187e116a9505755",
-        "hash": "407205386",
+        "commit": "be4303fe2881d6435153f66e5c2a3c8d96f66ced",
+        "hash": "2162098640",
         "path": "outstatic/content/posts/generative-ai-for-personalization.md"
       },
       "author": {
@@ -191,8 +191,8 @@
           "value": "generativeAi"
         },
         {
-          "label": "Portuguese",
-          "value": "portuguese"
+          "label": "ENGLISH",
+          "value": "english"
         }
       ],
       "title": "Generative AI for Personalization"

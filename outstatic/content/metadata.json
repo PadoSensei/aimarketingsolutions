@@ -1,6 +1,6 @@
 {
-  "commit": "f1d49d79a01c1d85981f368c71944529e6583183",
-  "generated": "2024-04-23T11:25:47.813Z",
+  "commit": "6e73b19dd98f0feb4fd77bd467bb20e382a3ad26",
+  "generated": "2024-04-23T11:29:09.178Z",
   "metadata": [
     {
       "__outstatic": {
@@ -164,6 +164,34 @@
         }
       ],
       "title": "Generative AI for Personalization"
+    },
+    {
+      "__outstatic": {
+        "commit": "6e73b19dd98f0feb4fd77bd467bb20e382a3ad26",
+        "hash": "1754486929",
+        "path": "outstatic/content/posts/is-generativa-para-personalizacao.md"
+      },
+      "author": {
+        "name": "Ludmila FD",
+        "picture": "https://avatars.githubusercontent.com/u/84784950?v=4"
+      },
+      "collection": "posts",
+      "coverImage": "https://presto.com/wp-content/uploads/2023/01/presto_voice_website_location_map.jpg",
+      "description": "A IA Generativa para Personalização é uma ferramenta poderosa para empresas criarem e direcionarem personas de compradores, implementarem personalização impulsionada por IA e aproveitarem a IA para uma estratégia de experimentação orientada por dados. Esta tecnologia permite uma personalização e interação sem precedentes, gerando engajamentos únicos com clientes ao analisar dados extensivos.",
+      "publishedAt": "2024-04-23T11:32:54.970Z",
+      "slug": "is-generativa-para-personalizacao",
+      "status": "draft",
+      "tags": [
+        {
+          "label": "IA ",
+          "value": "ia"
+        },
+        {
+          "label": "IAGENERATIVA",
+          "value": "iagenerativa"
+        }
+      ],
+      "title": "IS Generativa para Personalização"
     }
   ]
 }

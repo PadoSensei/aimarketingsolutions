@@ -1,6 +1,6 @@
 {
-  "commit": "6e73b19dd98f0feb4fd77bd467bb20e382a3ad26",
-  "generated": "2024-04-23T11:29:09.178Z",
+  "commit": "6e9c7348aa662741bc8f07eab8605b7da536abbb",
+  "generated": "2024-04-23T11:29:34.526Z",
   "metadata": [
     {
       "__outstatic": {
@@ -167,8 +167,8 @@
     },
     {
       "__outstatic": {
-        "commit": "6e73b19dd98f0feb4fd77bd467bb20e382a3ad26",
-        "hash": "1754486929",
+        "commit": "6e9c7348aa662741bc8f07eab8605b7da536abbb",
+        "hash": "1729662081",
         "path": "outstatic/content/posts/is-generativa-para-personalizacao.md"
       },
       "author": {
@@ -191,7 +191,7 @@
           "value": "iagenerativa"
         }
       ],
-      "title": "IS Generativa para Personalização"
+      "title": "IA Generativa para Personalização"
     }
   ]
 }

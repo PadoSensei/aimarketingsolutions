@@ -1,5 +1,5 @@
 ---
-title: 'IS Generativa para Personalização'
+title: 'IA Generativa para Personalização'
 status: 'draft'
 author:
   name: 'Ludmila FD'

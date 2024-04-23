@@ -1,6 +1,6 @@
 ---
 title: 'Generative AI for Personalization'
-status: 'draft'
+status: 'published'
 author:
   name: 'Ludmila FD'
   picture: 'https://avatars.githubusercontent.com/u/84784950?v=4'

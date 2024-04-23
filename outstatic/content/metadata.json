@@ -1,6 +1,6 @@
 {
-  "commit": "6e9c7348aa662741bc8f07eab8605b7da536abbb",
-  "generated": "2024-04-23T11:29:34.526Z",
+  "commit": "f9034bf6cbf355157555d0a822ccdb464cd78c10",
+  "generated": "2024-04-23T11:32:08.328Z",
   "metadata": [
     {
       "__outstatic": {
@@ -139,34 +139,6 @@
     },
     {
       "__outstatic": {
-        "commit": "f1d49d79a01c1d85981f368c71944529e6583183",
-        "hash": "3018398781",
-        "path": "outstatic/content/posts/generative-ai-for-personalization.md"
-      },
-      "author": {
-        "name": "Ludmila FD",
-        "picture": "https://avatars.githubusercontent.com/u/84784950?v=4"
-      },
-      "collection": "posts",
-      "coverImage": "https://imageio.forbes.com/specials-images/imageserve/654e8e769c18afa87a8d2184//960x0.jpg?format=jpg&width=1440",
-      "description": "Generative AI for Personalization is a powerful tool for businesses to create and target buyer personas, implement AI-driven personalization, and leverage AI for a data-driven experimentation strategy. This technology allows for unparalleled customization and interaction levels, generating unique client engagements by analyzing extensive data.",
-      "publishedAt": "2024-04-23T11:28:31.249Z",
-      "slug": "generative-ai-for-personalization",
-      "status": "draft",
-      "tags": [
-        {
-          "label": "Outstatic",
-          "value": "outstatic"
-        },
-        {
-          "label": "generativeAI",
-          "value": "generativeAi"
-        }
-      ],
-      "title": "Generative AI for Personalization"
-    },
-    {
-      "__outstatic": {
         "commit": "6e9c7348aa662741bc8f07eab8605b7da536abbb",
         "hash": "1729662081",
         "path": "outstatic/content/posts/is-generativa-para-personalizacao.md"
@@ -192,6 +164,34 @@
         }
       ],
       "title": "IA Generativa para Personalização"
+    },
+    {
+      "__outstatic": {
+        "commit": "f9034bf6cbf355157555d0a822ccdb464cd78c10",
+        "hash": "2426572342",
+        "path": "outstatic/content/posts/generative-ai-for-personalization.md"
+      },
+      "author": {
+        "name": "Ludmila FD",
+        "picture": "https://avatars.githubusercontent.com/u/84784950?v=4"
+      },
+      "collection": "posts",
+      "coverImage": "https://imageio.forbes.com/specials-images/imageserve/654e8e769c18afa87a8d2184//960x0.jpg?format=jpg&width=1440",
+      "description": "Generative AI for Personalization is a powerful tool for businesses to create and target buyer personas, implement AI-driven personalization, and leverage AI for a data-driven experimentation strategy. This technology allows for unparalleled customization and interaction levels, generating unique client engagements by analyzing extensive data.",
+      "publishedAt": "2024-04-23T11:28:31.249Z",
+      "slug": "generative-ai-for-personalization",
+      "status": "published",
+      "tags": [
+        {
+          "label": "Outstatic",
+          "value": "outstatic"
+        },
+        {
+          "label": "generativeAI",
+          "value": "generativeAi"
+        }
+      ],
+      "title": "Generative AI for Personalization"
     }
   ]
 }

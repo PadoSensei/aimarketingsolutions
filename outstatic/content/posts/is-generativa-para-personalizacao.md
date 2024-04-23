@@ -1,6 +1,6 @@
 ---
 title: 'IA Generativa para Personalização'
-status: 'draft'
+status: 'published'
 author:
   name: 'Ludmila FD'
   picture: 'https://avatars.githubusercontent.com/u/84784950?v=4'

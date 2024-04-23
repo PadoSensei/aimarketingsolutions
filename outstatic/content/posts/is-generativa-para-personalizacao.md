@@ -7,7 +7,7 @@ author:
 slug: 'is-generativa-para-personalizacao'
 description: 'A IA Generativa para Personalização é uma ferramenta poderosa para empresas criarem e direcionarem personas de compradores, implementarem personalização impulsionada por IA e aproveitarem a IA para uma estratégia de experimentação orientada por dados. Esta tecnologia permite uma personalização e interação sem precedentes, gerando engajamentos únicos com clientes ao analisar dados extensivos.'
 coverImage: 'https://presto.com/wp-content/uploads/2023/01/presto_voice_website_location_map.jpg'
-tags: [{"label":"IA ","value":"ia"},{"label":"IAGENERATIVA","value":"iagenerativa"}]
+tags: [{"label":"IA ","value":"ia"},{"label":"IAGENERATIVA","value":"iagenerativa"},{"value":"portuguese","label":"Portuguese"}]
 publishedAt: '2024-04-23T11:32:54.970Z'
 ---
 

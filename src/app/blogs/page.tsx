@@ -5,20 +5,16 @@ import { getDocumentSlugs, load } from 'outstatic/server'
 import { notFound } from 'next/navigation'
 
 export default async function Blogs () {
-    const posts = await getData()
-    console.log("posts", posts)
+    const { allPosts } = await getData()
+    console.log("posts", allPosts)
     return (
         <>
         <NavBar />
         <p>Blog Page</p>
-        {/* {posts.map(function(post){
-            return (
-                <>
-                <p>post.title</p>
-                <p>post.slug</p>
-                </>
-            )
-        })} */}
+        {allPosts.length > 0 && (
+          allPosts.map((post) => (
+          <p> {post.title}</p>)
+        ))}
         </>
     )
 }

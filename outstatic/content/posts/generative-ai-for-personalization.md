@@ -1,14 +1,15 @@
 ---
-title: 'Generative AI for Personalization'
-status: 'published'
+key: ''
+language: 'eng'
+tags: [{"label":"generativeAI","value":"generativeAi"}]
+coverImage: 'https://imageio.forbes.com/specials-images/imageserve/654e8e769c18afa87a8d2184//960x0.jpg?format=jpg&width=1440'
+description: 'Generative AI for Personalization is a powerful tool for businesses to create and target buyer personas, implement AI-driven personalization, and leverage AI for a data-driven experimentation strategy. This technology allows for unparalleled customization and interaction levels, generating unique client engagements by analyzing extensive data.'
+slug: 'generative-ai-for-personalization'
 author:
   name: 'Ludmila FD'
   picture: 'https://avatars.githubusercontent.com/u/84784950?v=4'
-slug: 'generative-ai-for-personalization'
-description: 'Generative AI for Personalization is a powerful tool for businesses to create and target buyer personas, implement AI-driven personalization, and leverage AI for a data-driven experimentation strategy. This technology allows for unparalleled customization and interaction levels, generating unique client engagements by analyzing extensive data.'
-coverImage: 'https://imageio.forbes.com/specials-images/imageserve/654e8e769c18afa87a8d2184//960x0.jpg?format=jpg&width=1440'
-tags: [{"value":"outstatic","label":"Outstatic"},{"label":"generativeAI","value":"generativeAi"}]
-language: 'eng'
+status: 'published'
+title: 'Generative AI for Personalization'
 publishedAt: '2024-04-23T11:28:31.249Z'
 ---
 

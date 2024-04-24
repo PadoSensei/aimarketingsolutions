@@ -4,23 +4,8 @@
   "properties": {
     "tags": {
       "required": false,
-      "description": "Add tags to the post",
-      "fieldType": "Tags",
-      "dataType": "array",
-      "title": "Tags",
+      "description": "Tag post with subject",
       "values": [
-        {
-          "value": "nextJs",
-          "label": "NextJs"
-        },
-        {
-          "value": "gitHub",
-          "label": "GitHub"
-        },
-        {
-          "value": "outstatic",
-          "label": "Outstatic"
-        },
         {
           "value": "generativeAi",
           "label": "generativeAI"
@@ -32,20 +17,15 @@
         {
           "value": "iagenerativa",
           "label": "IAGENERATIVA"
-        },
-        {
-          "value": "portuguese",
-          "label": "Portuguese"
-        },
-        {
-          "value": "english",
-          "label": "ENGLISH"
         }
-      ]
+      ],
+      "fieldType": "Tags",
+      "dataType": "array",
+      "title": "Tags"
     },
     "language": {
       "required": true,
-      "description": "",
+      "description": "tag each post with 'eng' or 'pt'",
       "fieldType": "String",
       "dataType": "string",
       "title": "Language"

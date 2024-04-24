@@ -11,14 +11,14 @@ export default async function Blogs () {
         <>
         <NavBar />
         <p>Blog Page</p>
-        {posts.map(function(post){
+        {/* {posts.map(function(post){
             return (
                 <>
                 <p>post.title</p>
                 <p>post.slug</p>
                 </>
             )
-        })}
+        })} */}
         </>
     )
 }

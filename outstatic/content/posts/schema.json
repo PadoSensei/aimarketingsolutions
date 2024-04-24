@@ -49,6 +49,13 @@
       "fieldType": "String",
       "dataType": "string",
       "title": "Language"
+    },
+    "key": {
+      "required": true,
+      "description": "Number each post",
+      "fieldType": "Number",
+      "dataType": "number",
+      "title": "Key"
     }
   }
 }

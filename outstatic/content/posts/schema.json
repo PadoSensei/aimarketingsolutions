@@ -9,6 +9,14 @@
         {
           "value": "generativeAi",
           "label": "generativeAI"
+        },
+        {
+          "value": "ia",
+          "label": "IA "
+        },
+        {
+          "value": "iagenerativa",
+          "label": "IAGENERATIVA"
         }
       ],
       "fieldType": "Tags",

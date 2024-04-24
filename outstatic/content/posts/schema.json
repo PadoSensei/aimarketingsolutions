@@ -17,7 +17,7 @@
     },
     "language": {
       "required": true,
-      "description": "",
+      "description": "tag each post with 'eng' or 'pt'",
       "fieldType": "String",
       "dataType": "string",
       "title": "Language"

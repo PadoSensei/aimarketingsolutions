@@ -5,7 +5,16 @@
     "tags": {
       "required": true,
       "description": "Tag post with subject and language",
-      "values": [],
+      "values": [
+        {
+          "value": "outstatic",
+          "label": "Outstatic"
+        },
+        {
+          "value": "generativeAi",
+          "label": "generativeAI"
+        }
+      ],
       "fieldType": "Tags",
       "dataType": "array",
       "title": "Tags"

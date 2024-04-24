@@ -1,7 +1,38 @@
 {
-  "commit": "c96ca222510754ad05cf6eb50acfdb32f9b13361",
-  "generated": "2024-04-24T17:55:47.570Z",
+  "commit": "f6cdcdacb14be51087b0195d70499dc5c93b850c",
+  "generated": "Wed, 24 Apr 2024 17:56:31 GMT",
   "metadata": [
+    {
+      "__outstatic": {
+        "commit": "a8f3724fba2e214af1138944db676db73af2def2",
+        "hash": "2506648264",
+        "path": "outstatic/content/posts/how-to-create-an-outstatic-blog.md"
+      },
+      "author": {
+        "name": "Andre Vitorio"
+      },
+      "collection": "posts",
+      "coverImage": "/images/jupiter-spaceship.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
+      "publishedAt": "2022-07-14T02:34:02.322Z",
+      "slug": "how-to-create-an-outstatic-blog",
+      "status": "published",
+      "tags": [
+        {
+          "label": "NextJs",
+          "value": "nextJs"
+        },
+        {
+          "label": "GitHub",
+          "value": "gitHub"
+        },
+        {
+          "label": "Outstatic",
+          "value": "outstatic"
+        }
+      ],
+      "title": "Learn how to create your blog with Outstatic"
+    },
     {
       "__outstatic": {
         "commit": "848f41c042cb2c1bd1d87d2250b7e1da6dac02cb",
@@ -48,6 +79,26 @@
       "slug": "home",
       "status": "published",
       "title": "Home"
+    },
+    {
+      "__outstatic": {
+        "commit": "3ea104706b986697e9244dea47b00780602800bf",
+        "hash": "3178810709",
+        "path": "outstatic/content/posts/nothing-wrong.md"
+      },
+      "author": {
+        "name": "Andre Vitorio"
+      },
+      "collection": "posts",
+      "coverImage": "",
+      "description": "One more day, one more joy. I feel blessed.",
+      "language": "eng",
+      "publishedAt": "2022-09-14T17:55:40.452Z",
+      "slug": "nothing-wrong",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "Nothing is wrong. Everything is perfect"
     },
     {
       "__outstatic": {
@@ -129,58 +180,6 @@
       "slug": "bearbnb",
       "status": "published",
       "title": " 🧸 Bearbnb"
-    },
-    {
-      "__outstatic": {
-        "commit": "bef1725ca6d256af1274f6ee7afd12e5c0ebb6ec",
-        "hash": "3178810709",
-        "path": "outstatic/content/posts/nothing-wrong.md"
-      },
-      "author": {
-        "name": "Andre Vitorio"
-      },
-      "collection": "posts",
-      "coverImage": "",
-      "description": "One more day, one more joy. I feel blessed.",
-      "language": "eng",
-      "publishedAt": "2022-09-14T17:55:40.452Z",
-      "slug": "nothing-wrong",
-      "status": "published",
-      "tags": [
-      ],
-      "title": "Nothing is wrong. Everything is perfect"
-    },
-    {
-      "__outstatic": {
-        "commit": "c96ca222510754ad05cf6eb50acfdb32f9b13361",
-        "hash": "24748301",
-        "path": "outstatic/content/posts/how-to-create-an-outstatic-blog.md"
-      },
-      "author": {
-        "name": "Andre Vitorio"
-      },
-      "collection": "posts",
-      "coverImage": "",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
-      "language": "eng",
-      "publishedAt": "2022-07-14T02:34:02.322Z",
-      "slug": "how-to-create-an-outstatic-blog",
-      "status": "published",
-      "tags": [
-        {
-          "label": "NextJs",
-          "value": "nextJs"
-        },
-        {
-          "label": "GitHub",
-          "value": "gitHub"
-        },
-        {
-          "label": "Outstatic",
-          "value": "outstatic"
-        }
-      ],
-      "title": "Learn how to create your blog with Outstatic"
     }
   ]
 }

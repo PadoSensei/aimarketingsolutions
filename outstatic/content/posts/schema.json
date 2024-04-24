@@ -3,11 +3,8 @@
   "type": "object",
   "properties": {
     "tags": {
-      "required": false,
+      "required": true,
       "description": "Add tags to the post",
-      "fieldType": "Tags",
-      "dataType": "array",
-      "title": "Tags",
       "values": [
         {
           "value": "nextJs",
@@ -36,12 +33,11 @@
         {
           "value": "portuguese",
           "label": "Portuguese"
-        },
-        {
-          "value": "english",
-          "label": "ENGLISH"
         }
-      ]
+      ],
+      "fieldType": "Tags",
+      "dataType": "array",
+      "title": "Tags"
     },
     "language": {
       "required": true,

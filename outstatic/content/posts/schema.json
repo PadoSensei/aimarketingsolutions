@@ -3,13 +3,9 @@
   "type": "object",
   "properties": {
     "tags": {
-      "required": true,
-      "description": "Tag post with subject and language",
+      "required": false,
+      "description": "Tag post with subject",
       "values": [
-        {
-          "value": "outstatic",
-          "label": "Outstatic"
-        },
         {
           "value": "generativeAi",
           "label": "generativeAI"

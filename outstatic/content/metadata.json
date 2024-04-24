@@ -1,38 +1,7 @@
 {
-  "commit": "4311e15575c0abd3253ca40c6ce58c90979cd4e1",
-  "generated": "2024-04-24T18:28:01.912Z",
+  "commit": "ae964ed9a805c54476493d4454cc2e117ace0d14",
+  "generated": "2024-04-24T19:23:43.288Z",
   "metadata": [
-    {
-      "__outstatic": {
-        "commit": "a8f3724fba2e214af1138944db676db73af2def2",
-        "hash": "2506648264",
-        "path": "outstatic/content/posts/how-to-create-an-outstatic-blog.md"
-      },
-      "author": {
-        "name": "Andre Vitorio"
-      },
-      "collection": "posts",
-      "coverImage": "/images/jupiter-spaceship.png",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
-      "publishedAt": "2022-07-14T02:34:02.322Z",
-      "slug": "how-to-create-an-outstatic-blog",
-      "status": "published",
-      "tags": [
-        {
-          "label": "NextJs",
-          "value": "nextJs"
-        },
-        {
-          "label": "GitHub",
-          "value": "gitHub"
-        },
-        {
-          "label": "Outstatic",
-          "value": "outstatic"
-        }
-      ],
-      "title": "Learn how to create your blog with Outstatic"
-    },
     {
       "__outstatic": {
         "commit": "2e47122b5b6d49d6d1ddb15bcd33edc4a0c1256e",

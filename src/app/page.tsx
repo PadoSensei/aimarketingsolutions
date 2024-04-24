@@ -12,6 +12,7 @@ import NavBar from '@/components/NavBar'
 
 export default async function Index() {
   const { content, allPosts, allProjects } = await getData()
+  // console.log(content, allPosts, allProjects)
 
   // Original layout code
   // <div className="max-w-6xl mx-auto px-5">

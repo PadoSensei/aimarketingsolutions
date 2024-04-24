@@ -7,14 +7,6 @@
       "description": "English",
       "values": [
         {
-          "value": "nextJs",
-          "label": "NextJs"
-        },
-        {
-          "value": "gitHub",
-          "label": "GitHub"
-        },
-        {
           "value": "generativeAi",
           "label": "generativeAI"
         },

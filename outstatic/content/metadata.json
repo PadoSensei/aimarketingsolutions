@@ -1,6 +1,6 @@
 {
-  "commit": "e1ef9221a68db009e76452bff1e2646bf20ca136",
-  "generated": "2024-04-24T18:05:57.002Z",
+  "commit": "4311e15575c0abd3253ca40c6ce58c90979cd4e1",
+  "generated": "2024-04-24T18:28:01.912Z",
   "metadata": [
     {
       "__outstatic": {
@@ -102,26 +102,6 @@
       "slug": "bearbnb",
       "status": "published",
       "title": " 🧸 Bearbnb"
-    },
-    {
-      "__outstatic": {
-        "commit": "3ea104706b986697e9244dea47b00780602800bf",
-        "hash": "3178810709",
-        "path": "outstatic/content/posts/nothing-wrong.md"
-      },
-      "author": {
-        "name": "Andre Vitorio"
-      },
-      "collection": "posts",
-      "coverImage": "",
-      "description": "One more day, one more joy. I feel blessed.",
-      "language": "eng",
-      "publishedAt": "2022-09-14T17:55:40.452Z",
-      "slug": "nothing-wrong",
-      "status": "published",
-      "tags": [
-      ],
-      "title": "Nothing is wrong. Everything is perfect"
     },
     {
       "__outstatic": {

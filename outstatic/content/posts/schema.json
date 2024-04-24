@@ -4,7 +4,7 @@
   "properties": {
     "tags": {
       "required": true,
-      "description": "Add tags to the post",
+      "description": "English",
       "values": [
         {
           "value": "nextJs",
@@ -13,10 +13,6 @@
         {
           "value": "gitHub",
           "label": "GitHub"
-        },
-        {
-          "value": "outstatic",
-          "label": "Outstatic"
         },
         {
           "value": "generativeAi",

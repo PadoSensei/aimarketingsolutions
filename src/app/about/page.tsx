@@ -1,4 +1,5 @@
 import Footer2 from "@/components/Footer2"
+import Layout from "@/components/Layout"
 import NavBar from "@/components/NavBar"
 
 // TODO - Footer not at bottom
@@ -7,7 +8,8 @@ export default function About() {
     return (
         <>
             <NavBar />
-            <section className="bg-white border-gray-200 container p-12 h-full justify-center items-center space-y-6 ">
+            <Layout>
+            <section className="bg-white border-gray-200 container h-fit p-12 justify-center items-center space-y-6 ">
                 <div className="">
                     Hello, and welcome! I'm Ludmila Domingos.
                 </div>
@@ -36,7 +38,8 @@ export default function About() {
                     Step into the future with me, and transform the way you do business. Let’s harness the full potential of AI together and not just meet the future but create it.
                 </div>
             </section>
-            {/* <Footer2 /> */}
+            </Layout>
+            <Footer2 />
         </>
     )
 }

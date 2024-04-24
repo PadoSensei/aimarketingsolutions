@@ -1,7 +1,7 @@
 ---
 key: ''
 language: 'eng'
-tags: [{"value":"outstatic","label":"Outstatic"},{"label":"generativeAI","value":"generativeAi"}]
+tags: [{"label":"generativeAI","value":"generativeAi"}]
 coverImage: 'https://imageio.forbes.com/specials-images/imageserve/654e8e769c18afa87a8d2184//960x0.jpg?format=jpg&width=1440'
 description: 'Generative AI for Personalization is a powerful tool for businesses to create and target buyer personas, implement AI-driven personalization, and leverage AI for a data-driven experimentation strategy. This technology allows for unparalleled customization and interaction levels, generating unique client engagements by analyzing extensive data.'
 slug: 'generative-ai-for-personalization'

@@ -1,6 +1,6 @@
 {
-  "commit": "ae964ed9a805c54476493d4454cc2e117ace0d14",
-  "generated": "2024-04-24T19:23:43.288Z",
+  "commit": "8aa56e93ddfed8e0809f98b760358f5742a31bd5",
+  "generated": "2024-04-24T19:23:55.433Z",
   "metadata": [
     {
       "__outstatic": {
@@ -103,8 +103,8 @@
     },
     {
       "__outstatic": {
-        "commit": "e1ef9221a68db009e76452bff1e2646bf20ca136",
-        "hash": "1760038985",
+        "commit": "8aa56e93ddfed8e0809f98b760358f5742a31bd5",
+        "hash": "2647283566",
         "path": "outstatic/content/posts/generative-ai-for-personalization.md"
       },
       "author": {
@@ -120,10 +120,6 @@
       "slug": "generative-ai-for-personalization",
       "status": "published",
       "tags": [
-        {
-          "label": "Outstatic",
-          "value": "outstatic"
-        },
         {
           "label": "generativeAI",
           "value": "generativeAi"

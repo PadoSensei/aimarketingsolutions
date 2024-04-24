@@ -4,25 +4,8 @@
   "properties": {
     "tags": {
       "required": true,
-      "description": "English",
-      "values": [
-        {
-          "value": "generativeAi",
-          "label": "generativeAI"
-        },
-        {
-          "value": "ia",
-          "label": "IA "
-        },
-        {
-          "value": "iagenerativa",
-          "label": "IAGENERATIVA"
-        },
-        {
-          "value": "portuguese",
-          "label": "Portuguese"
-        }
-      ],
+      "description": "Tag post with subject and language",
+      "values": [],
       "fieldType": "Tags",
       "dataType": "array",
       "title": "Tags"

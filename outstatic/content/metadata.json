@@ -1,6 +1,6 @@
 {
-  "commit": "26a8d29c2a411220a064a18caee5091650b874ff",
-  "generated": "Tue, 23 Apr 2024 22:43:52 GMT",
+  "commit": "bef1725ca6d256af1274f6ee7afd12e5c0ebb6ec",
+  "generated": "2024-04-24T17:55:17.523Z",
   "metadata": [
     {
       "__outstatic": {
@@ -163,19 +163,22 @@
     },
     {
       "__outstatic": {
-        "commit": "d2f316fd04def3347c906f5227da5daf79971f61",
-        "hash": "4086614036",
+        "commit": "bef1725ca6d256af1274f6ee7afd12e5c0ebb6ec",
+        "hash": "3178810709",
         "path": "outstatic/content/posts/nothing-wrong.md"
       },
       "author": {
         "name": "Andre Vitorio"
       },
       "collection": "posts",
-      "coverImage": "/images/industrial-pattern.png",
+      "coverImage": "",
       "description": "One more day, one more joy. I feel blessed.",
+      "language": "eng",
       "publishedAt": "2022-09-14T17:55:40.452Z",
       "slug": "nothing-wrong",
       "status": "published",
+      "tags": [
+      ],
       "title": "Nothing is wrong. Everything is perfect"
     }
   ]

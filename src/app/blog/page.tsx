@@ -11,9 +11,9 @@ export default async function Blogs() {
     const { allPosts } = await getData()
     console.log("posts", allPosts)
 
-    const ptPosts = allPosts.filter(post => post.language = 'pt')
+    const ptPosts = allPosts.filter(post => post.language === 'pt')
 
-    const engPosts = allPosts.filter(post => post.language = 'eng')
+    const engPosts = allPosts.filter(post => post.language === 'eng')
 
     console.log('pt', ptPosts)
 
@@ -25,7 +25,7 @@ export default async function Blogs() {
             <Layout>
             <ContentGrid
                 title="Blog Posts"
-                items={allPosts}
+                items={engPosts}
                 collection="posts"
                 priority
             />

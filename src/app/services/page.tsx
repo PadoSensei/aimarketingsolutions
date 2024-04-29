@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 export default function Services () {
     return (
       <section className="flex items-center justify-center h-screen bg-black">
@@ -22,6 +24,7 @@ export default function Services () {
                     <p className="text-zinc-200 dark:text-zinc-100">
                     Educate teams on AI capabilities and best practices with comprehensive training tailored to business needs.
                     </p>
+                    <Link className='bg-white px-4' href="./courses">Find Out More</Link>
                   </div>
                   <div className="flex flex-col items-center space-y-2 border-gray-800 p-4 rounded-lg">
                     <div className="p-2 bg-black bg-opacity-50 rounded-full">

@@ -25,8 +25,8 @@ export default async function Blogs() {
             <Layout>
             <ContentGrid
                 title="Blog Posts"
-                items={engPosts}
-                collection="posts"
+                items={allPosts}
+                collection="blog"
                 priority
             />
             </Layout>

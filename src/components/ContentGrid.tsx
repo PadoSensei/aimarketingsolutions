@@ -44,7 +44,7 @@ const ContentGrid = ({
                   </h2>
                 )}
               </div> */}
-              {collection === 'posts' && (
+              {collection && (
                 <div className="p-4">
                   {Array.isArray(item?.tags)
                     ? item.tags.map(({ label }) => (

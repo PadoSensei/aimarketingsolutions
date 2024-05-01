@@ -7,7 +7,7 @@ import { getDocumentSlugs, load } from 'outstatic/server'
 
 export default async function Courses() {
     const { allCourses } = await getData()
-    console.log(allCourses)
+    console.log('courses',allCourses)
 
     // const collection = "courses"
     // const slug = "page"
@@ -18,7 +18,7 @@ export default async function Courses() {
             <NavBar />
             <Layout>
             <ContentGrid
-                title="Courses"
+                title="AI Literacy Courses"
                 items={allCourses}
                 collection="courses"
                 priority
@@ -40,15 +40,15 @@ async function getData() {
     // const content = await markdownToHtml(page.content)
 
     const allCourses = await db
-        .find({ collection: 'posts' }, [
+        .find({ collection: 'courses' }, [
             'title',
             'publishedAt',
             'slug',
             'coverImage',
-            'description',
-            'tags',
-            'language',
-            'key'
+            // 'description',
+            // 'tags',
+            // 'language',
+            // 'key'
         ])
         .sort({ publishedAt: -1 })
         .toArray()

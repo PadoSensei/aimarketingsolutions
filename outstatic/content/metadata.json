@@ -1,6 +1,6 @@
 {
-  "commit": "24c4b5f817a77b2a0f6d88a16e6677cd6a12a4c0",
-  "generated": "2024-04-24T19:25:24.504Z",
+  "commit": "db2d006086a9fa46c95d186f2a8220be25996425",
+  "generated": "2024-05-01T19:55:16.107Z",
   "metadata": [
     {
       "__outstatic": {
@@ -126,6 +126,24 @@
         }
       ],
       "title": "IA Generativa para Personalização"
+    },
+    {
+      "__outstatic": {
+        "commit": "db2d006086a9fa46c95d186f2a8220be25996425",
+        "hash": "673848135",
+        "path": "outstatic/content/courses/test-course.md"
+      },
+      "author": {
+        "name": "Padraig",
+        "picture": "https://avatars.githubusercontent.com/u/44815835?v=4"
+      },
+      "collection": "courses",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-05-01T20:00:15.111Z",
+      "slug": "test-course",
+      "status": "published",
+      "title": "Test course"
     }
   ]
 }

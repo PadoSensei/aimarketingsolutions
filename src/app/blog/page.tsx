@@ -9,15 +9,15 @@ import Footer2 from "@/components/Footer2"
 
 export default async function Blogs() {
     const { allPosts } = await getData()
-    console.log("posts", allPosts)
+    // console.log("posts", allPosts)
 
     const ptPosts = allPosts.filter(post => post.language === 'pt')
 
     const engPosts = allPosts.filter(post => post.language === 'eng')
 
-    console.log('pt', ptPosts)
+    // console.log('pt', ptPosts)
 
-    console.log('eng', engPosts)
+    // console.log('eng', engPosts)
 
     return (
         <>

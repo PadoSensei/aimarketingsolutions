@@ -7,7 +7,7 @@ type Item = {
 } & OstDocument
 
 type Props = {
-  collection: 'posts' | 'projects'
+  collection: 'posts' | 'projects' | 'courses'
   title?: string
   items: Item[]
   priority?: boolean

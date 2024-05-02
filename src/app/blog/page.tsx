@@ -7,8 +7,8 @@ import ContentGrid from '../../components/ContentGrid'
 import Layout from "@/components/Layout"
 import Footer2 from "@/components/Footer2"
 
-export default async function Blogs() {
-    const { allPosts } = await getData()
+export default async function Blogs( params : Params) {
+    const { allPosts } = await getData(params)
     console.log("posts from the Blog page", allPosts)
 
     const ptPosts = allPosts.filter(post => post.language === 'pt')
@@ -35,7 +35,7 @@ export default async function Blogs() {
     )
 }
 
-async function getData() {
+async function getData({ params }: Params) {
     const db = await load()
 
     // const page = await db

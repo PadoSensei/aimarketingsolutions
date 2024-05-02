@@ -5,8 +5,14 @@ import ContentGrid from "@/components/ContentGrid";
 import Layout from "@/components/Layout";
 import { getDocumentSlugs, load } from 'outstatic/server'
 
-export default async function Courses() {
-    const { allCourses } = await getData()
+interface Params {
+    params: {
+      slug: string
+    }
+  }
+
+export default async function Courses(params: Params) {
+    const { allCourses } = await getData(params)
     console.log('courses',allCourses)
 
     // const collection = "courses"
@@ -30,7 +36,7 @@ export default async function Courses() {
     )
 }
 
-async function getData() {
+async function getData({ params }: Params) {
     const db = await load()
 
     // const page = await db

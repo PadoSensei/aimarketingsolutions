@@ -1,6 +1,6 @@
 {
   "commit": "fba269b8a936de822633c2a34fc7f1b94cf4389a",
-  "generated": "Thu, 02 May 2024 13:03:16 GMT",
+  "generated": "Thu, 02 May 2024 15:17:03 GMT",
   "metadata": [
     {
       "__outstatic": {
@@ -58,6 +58,40 @@
     },
     {
       "__outstatic": {
+        "commit": "aa1f387e5c66347e675bed0862b070d8946c95f4",
+        "hash": "1055690014",
+        "path": "outstatic/content/projects/couple-pizza.md"
+      },
+      "author": {
+        "name": "Bob Marley"
+      },
+      "collection": "projects",
+      "coverImage": "/images/couple-pizza.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
+      "publishedAt": "2022-03-16T05:35:07.322Z",
+      "slug": "couple-pizza",
+      "status": "published",
+      "title": "Couple Pizza"
+    },
+    {
+      "__outstatic": {
+        "commit": "caeb954ea1579e04b6b74c80ddf718e56c60a67d",
+        "hash": "1076515129",
+        "path": "outstatic/content/projects/bearbnb.md"
+      },
+      "author": {
+        "name": "Andre Vitorio"
+      },
+      "collection": "projects",
+      "coverImage": "/images/bearbnb.png",
+      "description": "Amazing rental locations for your teddy bear.",
+      "publishedAt": "2022-03-17T05:35:07.322Z",
+      "slug": "bearbnb",
+      "status": "published",
+      "title": " 🧸 Bearbnb"
+    },
+    {
+      "__outstatic": {
         "commit": "c768d5200824d9e3adff1de4701c71a7e7e970e9",
         "hash": "2077514224",
         "path": "outstatic/content/posts/is-generativa-para-personalizacao.md"
@@ -87,23 +121,6 @@
     },
     {
       "__outstatic": {
-        "commit": "caeb954ea1579e04b6b74c80ddf718e56c60a67d",
-        "hash": "1076515129",
-        "path": "outstatic/content/projects/bearbnb.md"
-      },
-      "author": {
-        "name": "Andre Vitorio"
-      },
-      "collection": "projects",
-      "coverImage": "/images/bearbnb.png",
-      "description": "Amazing rental locations for your teddy bear.",
-      "publishedAt": "2022-03-17T05:35:07.322Z",
-      "slug": "bearbnb",
-      "status": "published",
-      "title": " 🧸 Bearbnb"
-    },
-    {
-      "__outstatic": {
         "commit": "a69a9aa8363084c92856046ac6cbaf9afc26bf08",
         "hash": "2647283566",
         "path": "outstatic/content/posts/generative-ai-for-personalization.md"
@@ -127,23 +144,6 @@
         }
       ],
       "title": "Generative AI for Personalization"
-    },
-    {
-      "__outstatic": {
-        "commit": "aa1f387e5c66347e675bed0862b070d8946c95f4",
-        "hash": "1055690014",
-        "path": "outstatic/content/projects/couple-pizza.md"
-      },
-      "author": {
-        "name": "Bob Marley"
-      },
-      "collection": "projects",
-      "coverImage": "/images/couple-pizza.png",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
-      "publishedAt": "2022-03-16T05:35:07.322Z",
-      "slug": "couple-pizza",
-      "status": "published",
-      "title": "Couple Pizza"
     }
   ]
 }

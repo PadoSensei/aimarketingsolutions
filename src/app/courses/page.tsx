@@ -20,7 +20,6 @@ export default async function Courses(params: Params) {
 
     return (
         <>
-            <>
             <NavBar />
             <Layout>
             <ContentGrid
@@ -31,7 +30,7 @@ export default async function Courses(params: Params) {
             />
             </Layout>
             <Footer2 />
-        </>
+        
         </>
     )
 }

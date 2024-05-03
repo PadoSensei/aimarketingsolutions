@@ -2,6 +2,7 @@ import { load } from 'outstatic/server'
 import markdownToHtml from '../lib/markdownToHtml'
 import { OstDocument } from 'outstatic'
 import { notFound } from 'next/navigation'
+import Link from 'next/link'
 
 type Post = {
     tags: { value: string; label: string }[]
@@ -23,11 +24,13 @@ export default async function DataTest (){
     const { allPosts, allProjects } = await getData()
     const {content} = await getDataSlug(exampleSlug)
     console.log(content, "content")
+    const collection = 'posts'
 return (
     <>
     <p> data test section </p>
     <>{allPosts[0].slug}</>
     <p>{content}</p>
+    <Link href={`/${collection}/${allPosts[0].slug}`}>here's the button</Link>
     </>
 )
 }

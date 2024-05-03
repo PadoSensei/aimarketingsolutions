@@ -35,7 +35,7 @@ return (
     <ContentGrid
      title="Blog Posts"
      items={allPosts}
-     collection="posts"
+     collection="courses"
      />
     </>
 )

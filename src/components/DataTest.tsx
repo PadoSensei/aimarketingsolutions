@@ -22,7 +22,7 @@ type Post = {
   }
 
 export default async function DataTest (){
-    const { allPosts, allProjects } = await getData()
+    const { allPosts } = await getData()
     const {content} = await getDataSlug(exampleSlug)
     console.log(content, "content")
     const collection = 'posts'
@@ -51,7 +51,7 @@ async function getData() {
     const content = await markdownToHtml(page.content)
   
     const allPosts = await db
-      .find({ collection: 'posts' }, [
+      .find({ collection: 'courses' }, [
         'title',
         'publishedAt',
         'slug',
@@ -62,15 +62,9 @@ async function getData() {
       .sort({ publishedAt: -1 })
       .toArray()
   
-    const allProjects = await db
-      .find({ collection: 'projects' }, ['title', 'slug', 'coverImage'])
-      .sort({ publishedAt: -1 })
-      .toArray()
-  
     return {
       content,
       allPosts,
-      allProjects
     }
   }
   

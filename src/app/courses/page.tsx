@@ -15,8 +15,7 @@ export default async function Courses(params: Params) {
     const { allCourses } = await getData(params)
     console.log('courses',allCourses)
 
-    // const collection = "courses"
-    // const slug = "page"
+
 
     return (
         <>
@@ -38,12 +37,6 @@ export default async function Courses(params: Params) {
 async function getData({ params }: Params) {
     const db = await load()
 
-    // const page = await db
-    //   .find({ collection: 'pages', slug: 'home' }, ['content'])
-    //   .first()
-
-    // const content = await markdownToHtml(page.content)
-
     const allCourses = await db
         .find({ collection: 'courses' }, [
             'title',
@@ -57,11 +50,6 @@ async function getData({ params }: Params) {
         ])
         .sort({ publishedAt: -1 })
         .toArray()
-
-    // const allProjects = await db
-    //   .find({ collection: 'projects' }, ['title', 'slug', 'coverImage'])
-    //   .sort({ publishedAt: -1 })
-    //   .toArray()
 
     return {
         //   content,

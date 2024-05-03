@@ -15,10 +15,6 @@ export default async function Blogs( params : Params) {
 
     const engPosts = allPosts.filter(post => post.language === 'eng')
 
-    // console.log('pt', ptPosts)
-
-    // console.log('eng', engPosts)
-
     return (
         <>
             <NavBar />

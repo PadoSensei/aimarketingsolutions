@@ -1,35 +1,31 @@
-import Footer2 from "@/components/Footer2";
-import NavBar from "@/components/NavBar";
-import Link from "next/link";
-import ContentGrid from "@/components/ContentGrid";
-import Layout from "@/components/Layout";
+//@ts-nocheck
+import NavBar from "@/components/NavBar"
+import markdownToHtml from '@/lib/markdownToHtml'
 import { getDocumentSlugs, load } from 'outstatic/server'
+import { notFound } from 'next/navigation'
+import ContentGrid from '../../components/ContentGrid'
+import Layout from "@/components/Layout"
+import Footer2 from "@/components/Footer2"
 
-interface Params {
-    params: {
-      slug: string
-    }
-  }
+export default async function Courses( params : Params) {
+    const { allPosts } = await getData(params)
 
-export default async function Courses(params: Params) {
-    const { allCourses } = await getData(params)
-    console.log('courses',allCourses)
+    const ptPosts = allPosts.filter(post => post.language === 'pt')
 
-
+    const engPosts = allPosts.filter(post => post.language === 'eng')
 
     return (
         <>
             <NavBar />
             <Layout>
             <ContentGrid
-                title="AI Literacy Courses"
-                items={allCourses}
+                title="Blog Posts"
+                items={allPosts}
                 collection="courses"
                 priority
             />
             </Layout>
             <Footer2 />
-        
         </>
     )
 }
@@ -37,23 +33,21 @@ export default async function Courses(params: Params) {
 async function getData({ params }: Params) {
     const db = await load()
 
-    const allCourses = await db
+    const allPosts = await db
         .find({ collection: 'courses' }, [
             'title',
             'publishedAt',
             'slug',
             'coverImage',
-            // 'description',
-            // 'tags',
-            // 'language',
-            // 'key'
+            'description',
+            'tags',
+            'language',
+            'key'
         ])
         .sort({ publishedAt: -1 })
         .toArray()
 
     return {
-        //   content,
-        allCourses,
-        //   allProjects
+        allPosts,
     }
 }

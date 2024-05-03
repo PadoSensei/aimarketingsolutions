@@ -55,7 +55,7 @@ export async function generateMetadata(params: Params): Promise<Metadata> {
 
 export default async function Post(params: Params) {
   const post = await getData(params)
-  console.log('posts from slug', post)
+
   return (
     <Layout>
       <div className="max-w-6xl mx-auto px-5">

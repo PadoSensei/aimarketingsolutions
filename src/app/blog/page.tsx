@@ -9,7 +9,6 @@ import Footer2 from "@/components/Footer2"
 
 export default async function Blogs( params : Params) {
     const { allPosts } = await getData(params)
-    console.log("posts from the Blog page", allPosts)
 
     const ptPosts = allPosts.filter(post => post.language === 'pt')
 
@@ -34,12 +33,6 @@ export default async function Blogs( params : Params) {
 async function getData({ params }: Params) {
     const db = await load()
 
-    // const page = await db
-    //   .find({ collection: 'pages', slug: 'home' }, ['content'])
-    //   .first()
-
-    // const content = await markdownToHtml(page.content)
-
     const allPosts = await db
         .find({ collection: 'posts' }, [
             'title',
@@ -54,14 +47,7 @@ async function getData({ params }: Params) {
         .sort({ publishedAt: -1 })
         .toArray()
 
-    // const allProjects = await db
-    //   .find({ collection: 'projects' }, ['title', 'slug', 'coverImage'])
-    //   .sort({ publishedAt: -1 })
-    //   .toArray()
-
     return {
-        //   content,
         allPosts,
-        //   allProjects
     }
 }

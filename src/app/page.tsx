@@ -47,7 +47,6 @@ export default async function Index() {
       <Services />
       <ImageBlurb />
       <Footer2 />
-      {/* <BlogHome /> */}
     </Layout>
   )
 }

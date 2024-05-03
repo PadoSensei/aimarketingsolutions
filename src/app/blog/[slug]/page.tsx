@@ -129,7 +129,7 @@ export async function generateMetadata(params: Params): Promise<Metadata> {
       title: post.title,
       description: post.description,
       type: 'article',
-      url: absoluteUrl(`/posts/${post.slug}`),
+      url: absoluteUrl(`/blog/${post.slug}`),
       images: [
         {
           url: absoluteUrl(post?.coverImage || '/images/og-image.png'),

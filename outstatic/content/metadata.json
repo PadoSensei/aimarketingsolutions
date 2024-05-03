@@ -1,6 +1,6 @@
 {
-  "commit": "9b9e62f17c2ce9817cefc236ded11551ace16aed",
-  "generated": "Thu, 02 May 2024 22:30:25 GMT",
+  "commit": "6c723c373aa1c0b68091a013c84823684f43d210",
+  "generated": "2024-05-03T18:38:51.088Z",
   "metadata": [
     {
       "__outstatic": {
@@ -144,6 +144,24 @@
         }
       ],
       "title": "IA Generativa para Personalização"
+    },
+    {
+      "__outstatic": {
+        "commit": "6c723c373aa1c0b68091a013c84823684f43d210",
+        "hash": "3078058056",
+        "path": "outstatic/content/courses/2nd-test.md"
+      },
+      "author": {
+        "name": "Padraig",
+        "picture": "https://avatars.githubusercontent.com/u/44815835?v=4"
+      },
+      "collection": "courses",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-05-03T18:44:08.767Z",
+      "slug": "2nd-test",
+      "status": "published",
+      "title": "2nd test"
     }
   ]
 }

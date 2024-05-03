@@ -21,7 +21,7 @@ export default async function Courses( params : Params) {
             <ContentGrid
                 title="Blog Posts"
                 items={allPosts}
-                collection="courses"
+                collection="posts"
                 priority
             />
             </Layout>

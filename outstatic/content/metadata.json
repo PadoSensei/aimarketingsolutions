@@ -1,7 +1,25 @@
 {
-  "commit": "6c723c373aa1c0b68091a013c84823684f43d210",
-  "generated": "2024-05-03T18:38:51.088Z",
+  "commit": "bccf16a20b0c5d0c32f6e9b3c8537149c472cdb1",
+  "generated": "Fri, 03 May 2024 18:39:01 GMT",
   "metadata": [
+    {
+      "__outstatic": {
+        "commit": "8f3fe55886d2f8c97caf5932796501656ec34a3d",
+        "hash": "3078058056",
+        "path": "outstatic/content/courses/2nd-test.md"
+      },
+      "author": {
+        "name": "Padraig",
+        "picture": "https://avatars.githubusercontent.com/u/44815835?v=4"
+      },
+      "collection": "courses",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-05-03T18:44:08.767Z",
+      "slug": "2nd-test",
+      "status": "published",
+      "title": "2nd test"
+    },
     {
       "__outstatic": {
         "commit": "2e47122b5b6d49d6d1ddb15bcd33edc4a0c1256e",
@@ -75,6 +93,35 @@
     },
     {
       "__outstatic": {
+        "commit": "c768d5200824d9e3adff1de4701c71a7e7e970e9",
+        "hash": "2077514224",
+        "path": "outstatic/content/posts/is-generativa-para-personalizacao.md"
+      },
+      "author": {
+        "name": "Ludmila FD",
+        "picture": "https://avatars.githubusercontent.com/u/84784950?v=4"
+      },
+      "collection": "posts",
+      "coverImage": "https://presto.com/wp-content/uploads/2023/01/presto_voice_website_location_map.jpg",
+      "description": "A IA Generativa para Personalização é uma ferramenta poderosa para empresas criarem e direcionarem personas de compradores, implementarem personalização impulsionada por IA e aproveitarem a IA para uma estratégia de experimentação orientada por dados. Esta tecnologia permite uma personalização e interação sem precedentes, gerando engajamentos únicos com clientes ao analisar dados extensivos.",
+      "language": "pt",
+      "publishedAt": "2024-04-23T11:32:54.970Z",
+      "slug": "is-generativa-para-personalizacao",
+      "status": "published",
+      "tags": [
+        {
+          "label": "IA ",
+          "value": "ia"
+        },
+        {
+          "label": "IAGENERATIVA",
+          "value": "iagenerativa"
+        }
+      ],
+      "title": "IA Generativa para Personalização"
+    },
+    {
+      "__outstatic": {
         "commit": "aa1f387e5c66347e675bed0862b070d8946c95f4",
         "hash": "1055690014",
         "path": "outstatic/content/projects/couple-pizza.md"
@@ -115,53 +162,6 @@
         }
       ],
       "title": "Generative AI for Personalization"
-    },
-    {
-      "__outstatic": {
-        "commit": "c768d5200824d9e3adff1de4701c71a7e7e970e9",
-        "hash": "2077514224",
-        "path": "outstatic/content/posts/is-generativa-para-personalizacao.md"
-      },
-      "author": {
-        "name": "Ludmila FD",
-        "picture": "https://avatars.githubusercontent.com/u/84784950?v=4"
-      },
-      "collection": "posts",
-      "coverImage": "https://presto.com/wp-content/uploads/2023/01/presto_voice_website_location_map.jpg",
-      "description": "A IA Generativa para Personalização é uma ferramenta poderosa para empresas criarem e direcionarem personas de compradores, implementarem personalização impulsionada por IA e aproveitarem a IA para uma estratégia de experimentação orientada por dados. Esta tecnologia permite uma personalização e interação sem precedentes, gerando engajamentos únicos com clientes ao analisar dados extensivos.",
-      "language": "pt",
-      "publishedAt": "2024-04-23T11:32:54.970Z",
-      "slug": "is-generativa-para-personalizacao",
-      "status": "published",
-      "tags": [
-        {
-          "label": "IA ",
-          "value": "ia"
-        },
-        {
-          "label": "IAGENERATIVA",
-          "value": "iagenerativa"
-        }
-      ],
-      "title": "IA Generativa para Personalização"
-    },
-    {
-      "__outstatic": {
-        "commit": "6c723c373aa1c0b68091a013c84823684f43d210",
-        "hash": "3078058056",
-        "path": "outstatic/content/courses/2nd-test.md"
-      },
-      "author": {
-        "name": "Padraig",
-        "picture": "https://avatars.githubusercontent.com/u/44815835?v=4"
-      },
-      "collection": "courses",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2024-05-03T18:44:08.767Z",
-      "slug": "2nd-test",
-      "status": "published",
-      "title": "2nd test"
     }
   ]
 }

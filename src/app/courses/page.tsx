@@ -10,9 +10,9 @@ import Footer2 from "@/components/Footer2"
 export default async function Courses( params : Params) {
     const { allPosts } = await getData(params)
 
-    const ptPosts = allPosts.filter(post => post.language === 'pt')
+    // const ptPosts = allPosts.filter(post => post.language === 'pt')
 
-    const engPosts = allPosts.filter(post => post.language === 'eng')
+    // const engPosts = allPosts.filter(post => post.language === 'eng')
 
     return (
         <>

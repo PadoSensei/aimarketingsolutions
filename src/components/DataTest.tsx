@@ -3,6 +3,7 @@ import markdownToHtml from '../lib/markdownToHtml'
 import { OstDocument } from 'outstatic'
 import { notFound } from 'next/navigation'
 import Link from 'next/link'
+import ContentGrid from './ContentGrid'
 
 type Post = {
     tags: { value: string; label: string }[]
@@ -31,6 +32,11 @@ return (
     <>{allPosts[0].slug}</>
     <p>{content}</p>
     <Link href={`/${collection}/${allPosts[0].slug}`}>here's the button</Link>
+    <ContentGrid
+     title="Blog Posts"
+     items={allPosts}
+     collection="posts"
+     />
     </>
 )
 }

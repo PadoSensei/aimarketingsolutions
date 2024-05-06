@@ -1,4 +1,4 @@
-//@ts-nocheck
+
 import NavBar from "@/components/NavBar"
 import markdownToHtml from '@/lib/markdownToHtml'
 import { getDocumentSlugs, load } from 'outstatic/server'
@@ -6,6 +6,12 @@ import { notFound } from 'next/navigation'
 import ContentGrid from '../../components/ContentGrid'
 import Layout from "@/components/Layout"
 import Footer2 from "@/components/Footer2"
+
+interface Params {
+    params: {
+      slug: string
+    }
+  }
 
 export default async function Blogs( params : Params) {
     const { allPosts } = await getData(params)
@@ -21,7 +27,7 @@ export default async function Blogs( params : Params) {
             <ContentGrid
                 title="Blog Posts"
                 items={allPosts}
-                collection="courses"
+                collection="blog"
                 priority
             />
             </Layout>
@@ -34,7 +40,7 @@ async function getData({ params }: Params) {
     const db = await load()
 
     const allPosts = await db
-        .find({ collection: 'courses' }, [
+        .find({ collection: 'posts' }, [
             'title',
             'publishedAt',
             'slug',

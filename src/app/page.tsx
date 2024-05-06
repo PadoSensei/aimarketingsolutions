@@ -9,7 +9,6 @@ import BlogHome from '@/components/BlogHome'
 import ImageBlurb from '@/components/ImageBlurb'
 import Services from './services/page'
 import NavBar from '@/components/NavBar'
-import DataTest from '@/components/DataTest'
 
 export default async function Index() {
   const { content, allPosts, allProjects } = await getData()
@@ -43,7 +42,6 @@ export default async function Index() {
     <Layout>
       <NavBar />
       <Hero />
-      <DataTest />
       <Services />
       <ImageBlurb />
       <Footer2 />

@@ -9,6 +9,7 @@ import DateFormatter from '@/components/DateFormatter'
 import { absoluteUrl } from '@/lib/utils'
 import { notFound } from 'next/navigation'
 import Footer2 from '@/components/Footer2'
+import NavBar from '@/components/NavBar'
 
 type Post = {
   tags: { value: string; label: string }[]
@@ -59,6 +60,7 @@ export default async function Course(params: Params) {
   return (
     <>
     <Layout>
+    <NavBar/>
       <div className="max-w-6xl mx-auto px-5">
         {/* <Header /> */}
         <article className="mb-32">

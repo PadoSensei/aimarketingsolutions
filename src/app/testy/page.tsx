@@ -7,7 +7,7 @@ import ContentGrid from '../../components/ContentGrid'
 import Layout from "@/components/Layout"
 import Footer2 from "@/components/Footer2"
 
-export default async function Blogs( params : Params) {
+export default async function Testy( params : Params) {
     const { allPosts } = await getData(params)
 
     // const ptPosts = allPosts.filter(post => post.language === 'pt')

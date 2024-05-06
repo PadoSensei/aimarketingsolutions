@@ -148,7 +148,7 @@ export async function generateMetadata(params: Params): Promise<Metadata> {
   }
 }
 
-export default async function Blog(params: Params) {
+export default async function TestyPost(params: Params) {
   const post = await getData(params)
   console.log('posts from slug', post)
   return (

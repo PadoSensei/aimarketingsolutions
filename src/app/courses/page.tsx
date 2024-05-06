@@ -19,9 +19,9 @@ export default async function Courses( params : Params) {
             <NavBar />
             <Layout>
             <ContentGrid
-                title="Blog Posts"
+                title="Courses"
                 items={allPosts}
-                collection="posts"
+                collection="courses"
                 priority
             />
             </Layout>
@@ -40,9 +40,9 @@ async function getData({ params }: Params) {
             'slug',
             'coverImage',
             'description',
-            'tags',
-            'language',
-            'key'
+            // 'tags',
+            // 'language',
+            // 'key'
         ])
         .sort({ publishedAt: -1 })
         .toArray()

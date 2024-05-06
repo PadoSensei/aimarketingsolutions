@@ -1,24 +1,32 @@
 {
-  "commit": "aa65d904b444b8fc6ee5d5f990d42cedb04e1954",
-  "generated": "2024-05-06T18:18:27.433Z",
+  "commit": "7e1a6f8f9ba11bdd6abce0764c64ded09d842b09",
+  "generated": "Mon, 06 May 2024 21:29:10 GMT",
   "metadata": [
     {
       "__outstatic": {
-        "commit": "8f3fe55886d2f8c97caf5932796501656ec34a3d",
-        "hash": "3078058056",
-        "path": "outstatic/content/courses/2nd-test.md"
+        "commit": "a69a9aa8363084c92856046ac6cbaf9afc26bf08",
+        "hash": "2647283566",
+        "path": "outstatic/content/posts/generative-ai-for-personalization.md"
       },
       "author": {
-        "name": "Padraig",
-        "picture": "https://avatars.githubusercontent.com/u/44815835?v=4"
+        "name": "Ludmila FD",
+        "picture": "https://avatars.githubusercontent.com/u/84784950?v=4"
       },
-      "collection": "courses",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2024-05-03T18:44:08.767Z",
-      "slug": "2nd-test",
+      "collection": "posts",
+      "coverImage": "https://imageio.forbes.com/specials-images/imageserve/654e8e769c18afa87a8d2184//960x0.jpg?format=jpg&width=1440",
+      "description": "Generative AI for Personalization is a powerful tool for businesses to create and target buyer personas, implement AI-driven personalization, and leverage AI for a data-driven experimentation strategy. This technology allows for unparalleled customization and interaction levels, generating unique client engagements by analyzing extensive data.",
+      "key": "",
+      "language": "eng",
+      "publishedAt": "2024-04-23T11:28:31.249Z",
+      "slug": "generative-ai-for-personalization",
       "status": "published",
-      "title": "2nd test"
+      "tags": [
+        {
+          "label": "generativeAI",
+          "value": "generativeAi"
+        }
+      ],
+      "title": "Generative AI for Personalization"
     },
     {
       "__outstatic": {
@@ -40,6 +48,24 @@
     },
     {
       "__outstatic": {
+        "commit": "8f3fe55886d2f8c97caf5932796501656ec34a3d",
+        "hash": "3078058056",
+        "path": "outstatic/content/courses/2nd-test.md"
+      },
+      "author": {
+        "name": "Padraig",
+        "picture": "https://avatars.githubusercontent.com/u/44815835?v=4"
+      },
+      "collection": "courses",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-05-03T18:44:08.767Z",
+      "slug": "2nd-test",
+      "status": "published",
+      "title": "2nd test"
+    },
+    {
+      "__outstatic": {
         "commit": "2e47122b5b6d49d6d1ddb15bcd33edc4a0c1256e",
         "hash": "217348983",
         "path": "outstatic/content/pages/home.md"
@@ -58,20 +84,21 @@
     },
     {
       "__outstatic": {
-        "commit": "aa1f387e5c66347e675bed0862b070d8946c95f4",
-        "hash": "1055690014",
-        "path": "outstatic/content/projects/couple-pizza.md"
+        "commit": "26b813b7d9f09caa9a53ead4f515ea28e26ab2be",
+        "hash": "3896763695",
+        "path": "outstatic/content/testing/tester.md"
       },
       "author": {
-        "name": "Bob"
+        "name": "paddya",
+        "picture": "https://avatars.githubusercontent.com/u/44815835?v=4"
       },
-      "collection": "projects",
-      "coverImage": "/images/couple-pizza.png",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
-      "publishedAt": "2022-03-16T05:35:07.322Z",
-      "slug": "couple-pizza",
+      "collection": "testing",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-05-06T18:24:01.819Z",
+      "slug": "tester",
       "status": "published",
-      "title": "Couple Pizza"
+      "title": "tester"
     },
     {
       "__outstatic": {
@@ -90,6 +117,40 @@
       "slug": "flycream-travel",
       "status": "published",
       "title": "Flycream Travel"
+    },
+    {
+      "__outstatic": {
+        "commit": "caeb954ea1579e04b6b74c80ddf718e56c60a67d",
+        "hash": "1076515129",
+        "path": "outstatic/content/projects/bearbnb.md"
+      },
+      "author": {
+        "name": "Andre Vitorio"
+      },
+      "collection": "projects",
+      "coverImage": "/images/bearbnb.png",
+      "description": "Amazing rental locations for your teddy bear.",
+      "publishedAt": "2022-03-17T05:35:07.322Z",
+      "slug": "bearbnb",
+      "status": "published",
+      "title": " 🧸 Bearbnb"
+    },
+    {
+      "__outstatic": {
+        "commit": "aa1f387e5c66347e675bed0862b070d8946c95f4",
+        "hash": "1055690014",
+        "path": "outstatic/content/projects/couple-pizza.md"
+      },
+      "author": {
+        "name": "Bob Marley"
+      },
+      "collection": "projects",
+      "coverImage": "/images/couple-pizza.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
+      "publishedAt": "2022-03-16T05:35:07.322Z",
+      "slug": "couple-pizza",
+      "status": "published",
+      "title": "Couple Pizza"
     },
     {
       "__outstatic": {
@@ -119,67 +180,6 @@
         }
       ],
       "title": "IA Generativa para Personalização"
-    },
-    {
-      "__outstatic": {
-        "commit": "caeb954ea1579e04b6b74c80ddf718e56c60a67d",
-        "hash": "1076515129",
-        "path": "outstatic/content/projects/bearbnb.md"
-      },
-      "author": {
-        "name": "Andre Vitorio"
-      },
-      "collection": "projects",
-      "coverImage": "/images/bearbnb.png",
-      "description": "Amazing rental locations for your teddy bear.",
-      "publishedAt": "2022-03-17T05:35:07.322Z",
-      "slug": "bearbnb",
-      "status": "published",
-      "title": " 🧸 Bearbnb"
-    },
-    {
-      "__outstatic": {
-        "commit": "a69a9aa8363084c92856046ac6cbaf9afc26bf08",
-        "hash": "2647283566",
-        "path": "outstatic/content/posts/generative-ai-for-personalization.md"
-      },
-      "author": {
-        "name": "Ludmila FD",
-        "picture": "https://avatars.githubusercontent.com/u/84784950?v=4"
-      },
-      "collection": "posts",
-      "coverImage": "https://imageio.forbes.com/specials-images/imageserve/654e8e769c18afa87a8d2184//960x0.jpg?format=jpg&width=1440",
-      "description": "Generative AI for Personalization is a powerful tool for businesses to create and target buyer personas, implement AI-driven personalization, and leverage AI for a data-driven experimentation strategy. This technology allows for unparalleled customization and interaction levels, generating unique client engagements by analyzing extensive data.",
-      "key": "",
-      "language": "eng",
-      "publishedAt": "2024-04-23T11:28:31.249Z",
-      "slug": "generative-ai-for-personalization",
-      "status": "published",
-      "tags": [
-        {
-          "label": "generativeAI",
-          "value": "generativeAi"
-        }
-      ],
-      "title": "Generative AI for Personalization"
-    },
-    {
-      "__outstatic": {
-        "commit": "aa65d904b444b8fc6ee5d5f990d42cedb04e1954",
-        "hash": "3896763695",
-        "path": "outstatic/content/testing/tester.md"
-      },
-      "author": {
-        "name": "paddya",
-        "picture": "https://avatars.githubusercontent.com/u/44815835?v=4"
-      },
-      "collection": "testing",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2024-05-06T18:24:01.819Z",
-      "slug": "tester",
-      "status": "published",
-      "title": "tester"
     }
   ]
 }

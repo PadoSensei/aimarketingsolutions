@@ -21,7 +21,7 @@ export default async function Blogs( params : Params) {
             <ContentGrid
                 title="Blog Posts"
                 items={allPosts}
-                collection="courses"
+                collection="blog"
                 priority
             />
             </Layout>
@@ -34,7 +34,7 @@ async function getData({ params }: Params) {
     const db = await load()
 
     const allPosts = await db
-        .find({ collection: 'courses' }, [
+        .find({ collection: 'posts' }, [
             'title',
             'publishedAt',
             'slug',

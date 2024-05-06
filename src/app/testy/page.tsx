@@ -19,7 +19,7 @@ export default async function Blogs( params : Params) {
             <NavBar />
             <Layout>
             <ContentGrid
-                title="Blog Posts"
+                title="Courses"
                 items={allPosts}
                 collection="courses"
                 priority

@@ -57,9 +57,10 @@ export default async function Course(params: Params) {
   const post = await getData(params)
 
   return (
+    <>
     <Layout>
       <div className="max-w-6xl mx-auto px-5">
-        <Header />
+        {/* <Header /> */}
         <article className="mb-32">
           <div className="relative mb-2 md:mb-4 sm:mx-0 w-full h-52 md:h-96">
             {/* <Image
@@ -70,7 +71,7 @@ export default async function Course(params: Params) {
               priority
             /> */}
           </div>
-          {Array.isArray(post?.tags)
+          {/* {Array.isArray(post?.tags)
             ? post.tags.map(({ label }) => (
                 <span
                   key="label"
@@ -82,7 +83,7 @@ export default async function Course(params: Params) {
             : null}
           <h1 className="font-primary text-2xl font-bold md:text-4xl mb-2">
             {post.title}
-          </h1>
+          </h1> */}
           <div className="hidden md:block md:mb-12 text-slate-600">
             Written on <DateFormatter dateString={post.publishedAt} /> by{' '}
             {post?.author?.name || ''}.
@@ -96,8 +97,9 @@ export default async function Course(params: Params) {
           </div>
         </article>
       </div>
-      <Footer2 />
     </Layout>
+      <Footer2 />
+      </>
   )
 }
 

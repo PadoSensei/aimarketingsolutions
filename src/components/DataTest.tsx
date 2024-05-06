@@ -24,7 +24,6 @@ type Post = {
 export default async function DataTest (){
     const { allPosts } = await getData()
     const {content} = await getDataSlug(exampleSlug)
-    console.log(content, "content")
     const collection = 'posts'
 return (
     <>

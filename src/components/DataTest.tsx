@@ -37,6 +37,7 @@ return (
      items={allPosts}
      collection="courses"
      />
+     <Link key={3} href={`/courses/test-course`}>testlink</Link>
     </>
 )
 }

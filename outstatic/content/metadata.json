@@ -1,6 +1,6 @@
 {
-  "commit": "f8602a011758cbbce8102c866521a7b7b705b3dc",
-  "generated": "Mon, 06 May 2024 17:21:17 GMT",
+  "commit": "aa65d904b444b8fc6ee5d5f990d42cedb04e1954",
+  "generated": "2024-05-06T18:18:27.433Z",
   "metadata": [
     {
       "__outstatic": {
@@ -162,6 +162,24 @@
         }
       ],
       "title": "Generative AI for Personalization"
+    },
+    {
+      "__outstatic": {
+        "commit": "aa65d904b444b8fc6ee5d5f990d42cedb04e1954",
+        "hash": "3896763695",
+        "path": "outstatic/content/testing/tester.md"
+      },
+      "author": {
+        "name": "paddya",
+        "picture": "https://avatars.githubusercontent.com/u/44815835?v=4"
+      },
+      "collection": "testing",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-05-06T18:24:01.819Z",
+      "slug": "tester",
+      "status": "published",
+      "title": "tester"
     }
   ]
 }

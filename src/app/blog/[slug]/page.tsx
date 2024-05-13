@@ -160,13 +160,13 @@ export default async function Blog(params: Params) {
 
         <article className="mb-32">
           <div className="relative mb-2 md:mb-4 sm:mx-0 w-full h-52 md:h-96">
-            {/* <Image
+            <Image
               alt={post.title}
               src={post?.coverImage || ''}
               fill
               className="object-cover object-center"
               priority
-            /> */}
+            />
           </div>
           {Array.isArray(post?.tags)
             ? post.tags.map(({ label }) => (

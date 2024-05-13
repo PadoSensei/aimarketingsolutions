@@ -1,6 +1,6 @@
 {
-  "commit": "2e8cf37dc36fa22834ef4d131680d6fedec00ade",
-  "generated": "2024-05-13T21:01:22.679Z",
+  "commit": "d88674e9125b5c1a45b1e7e9d05b8fc9a98d4218",
+  "generated": "2024-05-13T21:02:06.170Z",
   "metadata": [
     {
       "__outstatic": {
@@ -63,24 +63,6 @@
       "slug": "home",
       "status": "published",
       "title": "Home"
-    },
-    {
-      "__outstatic": {
-        "commit": "8f3fe55886d2f8c97caf5932796501656ec34a3d",
-        "hash": "3078058056",
-        "path": "outstatic/content/courses/2nd-test.md"
-      },
-      "author": {
-        "name": "Padraig",
-        "picture": "https://avatars.githubusercontent.com/u/44815835?v=4"
-      },
-      "collection": "courses",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2024-05-03T18:44:08.767Z",
-      "slug": "2nd-test",
-      "status": "published",
-      "title": "2nd test"
     },
     {
       "__outstatic": {
@@ -180,6 +162,24 @@
         }
       ],
       "title": "IA Generativa para Personalização"
+    },
+    {
+      "__outstatic": {
+        "commit": "d88674e9125b5c1a45b1e7e9d05b8fc9a98d4218",
+        "hash": "1453234425",
+        "path": "outstatic/content/courses/2nd-test.md"
+      },
+      "author": {
+        "name": "Padraig",
+        "picture": "https://avatars.githubusercontent.com/u/44815835?v=4"
+      },
+      "collection": "courses",
+      "coverImage": "/images/dall-e-2024-02-28-00.06.38---1.-a-serene-japanese-garden--where-a-ninja-is-meditatively-preparing-tea--symbolizing-the-creation-of-a-promise-in-a-peaceful-and-focused-manner.-the--A0NT.webp",
+      "description": "",
+      "publishedAt": "2024-05-03T18:44:08.767Z",
+      "slug": "2nd-test",
+      "status": "published",
+      "title": "2nd test"
     }
   ]
 }

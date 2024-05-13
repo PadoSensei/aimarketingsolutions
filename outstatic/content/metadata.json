@@ -1,11 +1,11 @@
 {
-  "commit": "6f28ac27524fde9bc0525c1477782a2ba1903bec",
-  "generated": "2024-05-13T21:02:28.229Z",
+  "commit": "41ceecc117eddc4dec94d0969aa04a1174b5025a",
+  "generated": "Mon, 13 May 2024 21:11:00 GMT",
   "metadata": [
     {
       "__outstatic": {
         "commit": "2e64dc1e22d94dfb979869d8f6d63e10b8633a58",
-        "hash": "2647283566",
+        "hash": "2945424743",
         "path": "outstatic/content/posts/generative-ai-for-personalization.md"
       },
       "author": {
@@ -13,7 +13,7 @@
         "picture": "https://avatars.githubusercontent.com/u/84784950?v=4"
       },
       "collection": "posts",
-      "coverImage": "https://imageio.forbes.com/specials-images/imageserve/654e8e769c18afa87a8d2184//960x0.jpg?format=jpg&width=1440",
+      "coverImage": "/images/dall-e-2024-03-11-13.00.43---an-art-deco-style-party-scene-celebrating-the-league-of-extraordinary-contrarians--infused-with-salvador-dali-s-surrealistic-elements.-the-scene-depic-1-EyNz.webp",
       "description": "Generative AI for Personalization is a powerful tool for businesses to create and target buyer personas, implement AI-driven personalization, and leverage AI for a data-driven experimentation strategy. This technology allows for unparalleled customization and interaction levels, generating unique client engagements by analyzing extensive data.",
       "key": "",
       "language": "eng",
@@ -27,6 +27,24 @@
         }
       ],
       "title": "Generative AI for Personalization"
+    },
+    {
+      "__outstatic": {
+        "commit": "7eca05ac85115d9f26ed9da62aa6272a7289c7e9",
+        "hash": "1453234425",
+        "path": "outstatic/content/courses/2nd-test.md"
+      },
+      "author": {
+        "name": "Padraig",
+        "picture": "https://avatars.githubusercontent.com/u/44815835?v=4"
+      },
+      "collection": "courses",
+      "coverImage": "/images/dall-e-2024-02-28-00.06.38---1.-a-serene-japanese-garden--where-a-ninja-is-meditatively-preparing-tea--symbolizing-the-creation-of-a-promise-in-a-peaceful-and-focused-manner.-the--A0NT.webp",
+      "description": "",
+      "publishedAt": "2024-05-03T18:44:08.767Z",
+      "slug": "2nd-test",
+      "status": "published",
+      "title": "2nd test"
     },
     {
       "__outstatic": {
@@ -48,20 +66,21 @@
     },
     {
       "__outstatic": {
-        "commit": "caeb954ea1579e04b6b74c80ddf718e56c60a67d",
-        "hash": "1076515129",
-        "path": "outstatic/content/projects/bearbnb.md"
+        "commit": "e0f2265addf9ad25028af294c207b9b84b2deae3",
+        "hash": "4211004557",
+        "path": "outstatic/content/courses/test-course.md"
       },
       "author": {
-        "name": "Andre Vitorio"
+        "name": "Padraig",
+        "picture": "https://avatars.githubusercontent.com/u/44815835?v=4"
       },
-      "collection": "projects",
-      "coverImage": "/images/bearbnb.png",
-      "description": "Amazing rental locations for your teddy bear.",
-      "publishedAt": "2022-03-17T05:35:07.322Z",
-      "slug": "bearbnb",
+      "collection": "courses",
+      "coverImage": "/images/dall-e-2024-03-15-00.31.10---a-dynamic-representation-of-event-capturing-in-javascript--set-in-a-japanese-techno-ninja-cityscape.-the-image-shows-an-inverted-tree-structure-with-n-M0OT.webp",
+      "description": "",
+      "publishedAt": "2024-05-01T20:00:15.111Z",
+      "slug": "test-course",
       "status": "published",
-      "title": " 🧸 Bearbnb"
+      "title": "Test course"
     },
     {
       "__outstatic": {
@@ -80,6 +99,52 @@
       "slug": "tester",
       "status": "published",
       "title": "tester"
+    },
+    {
+      "__outstatic": {
+        "commit": "caeb954ea1579e04b6b74c80ddf718e56c60a67d",
+        "hash": "1076515129",
+        "path": "outstatic/content/projects/bearbnb.md"
+      },
+      "author": {
+        "name": "Andre Vitorio"
+      },
+      "collection": "projects",
+      "coverImage": "/images/bearbnb.png",
+      "description": "Amazing rental locations for your teddy bear.",
+      "publishedAt": "2022-03-17T05:35:07.322Z",
+      "slug": "bearbnb",
+      "status": "published",
+      "title": " 🧸 Bearbnb"
+    },
+    {
+      "__outstatic": {
+        "commit": "faa4d95d574e1848f7f3aa7e1134e5d0c888464b",
+        "hash": "3047923081",
+        "path": "outstatic/content/posts/is-generativa-para-personalizacao.md"
+      },
+      "author": {
+        "name": "Ludmila FD",
+        "picture": "https://avatars.githubusercontent.com/u/84784950?v=4"
+      },
+      "collection": "posts",
+      "coverImage": "/images/dall-e-2024-02-28-17.27.34---a-master-ninja-demonstrating-advanced-techniques-to-apprentices-in-a-dojo--with-the-scene-void-of-any-text-to-emphasize-the-interaction-context-of--th-UxMD.webp",
+      "description": "A IA Generativa para Personalização é uma ferramenta poderosa para empresas criarem e direcionarem personas de compradores, implementarem personalização impulsionada por IA e aproveitarem a IA para uma estratégia de experimentação orientada por dados. Esta tecnologia permite uma personalização e interação sem precedentes, gerando engajamentos únicos com clientes ao analisar dados extensivos.",
+      "language": "pt",
+      "publishedAt": "2024-04-23T11:32:54.970Z",
+      "slug": "is-generativa-para-personalizacao",
+      "status": "published",
+      "tags": [
+        {
+          "label": "IA ",
+          "value": "ia"
+        },
+        {
+          "label": "IAGENERATIVA",
+          "value": "iagenerativa"
+        }
+      ],
+      "title": "IA Generativa para Personalização"
     },
     {
       "__outstatic": {
@@ -115,71 +180,6 @@
       "slug": "couple-pizza",
       "status": "published",
       "title": "Couple Pizza"
-    },
-    {
-      "__outstatic": {
-        "commit": "2e8cf37dc36fa22834ef4d131680d6fedec00ade",
-        "hash": "3047923081",
-        "path": "outstatic/content/posts/is-generativa-para-personalizacao.md"
-      },
-      "author": {
-        "name": "Ludmila FD",
-        "picture": "https://avatars.githubusercontent.com/u/84784950?v=4"
-      },
-      "collection": "posts",
-      "coverImage": "/images/dall-e-2024-02-28-17.27.34---a-master-ninja-demonstrating-advanced-techniques-to-apprentices-in-a-dojo--with-the-scene-void-of-any-text-to-emphasize-the-interaction-context-of--th-UxMD.webp",
-      "description": "A IA Generativa para Personalização é uma ferramenta poderosa para empresas criarem e direcionarem personas de compradores, implementarem personalização impulsionada por IA e aproveitarem a IA para uma estratégia de experimentação orientada por dados. Esta tecnologia permite uma personalização e interação sem precedentes, gerando engajamentos únicos com clientes ao analisar dados extensivos.",
-      "language": "pt",
-      "publishedAt": "2024-04-23T11:32:54.970Z",
-      "slug": "is-generativa-para-personalizacao",
-      "status": "published",
-      "tags": [
-        {
-          "label": "IA ",
-          "value": "ia"
-        },
-        {
-          "label": "IAGENERATIVA",
-          "value": "iagenerativa"
-        }
-      ],
-      "title": "IA Generativa para Personalização"
-    },
-    {
-      "__outstatic": {
-        "commit": "d88674e9125b5c1a45b1e7e9d05b8fc9a98d4218",
-        "hash": "1453234425",
-        "path": "outstatic/content/courses/2nd-test.md"
-      },
-      "author": {
-        "name": "Padraig",
-        "picture": "https://avatars.githubusercontent.com/u/44815835?v=4"
-      },
-      "collection": "courses",
-      "coverImage": "/images/dall-e-2024-02-28-00.06.38---1.-a-serene-japanese-garden--where-a-ninja-is-meditatively-preparing-tea--symbolizing-the-creation-of-a-promise-in-a-peaceful-and-focused-manner.-the--A0NT.webp",
-      "description": "",
-      "publishedAt": "2024-05-03T18:44:08.767Z",
-      "slug": "2nd-test",
-      "status": "published",
-      "title": "2nd test"
-    },
-    {
-      "__outstatic": {
-        "commit": "6f28ac27524fde9bc0525c1477782a2ba1903bec",
-        "hash": "4211004557",
-        "path": "outstatic/content/courses/test-course.md"
-      },
-      "author": {
-        "name": "Padraig",
-        "picture": "https://avatars.githubusercontent.com/u/44815835?v=4"
-      },
-      "collection": "courses",
-      "coverImage": "/images/dall-e-2024-03-15-00.31.10---a-dynamic-representation-of-event-capturing-in-javascript--set-in-a-japanese-techno-ninja-cityscape.-the-image-shows-an-inverted-tree-structure-with-n-M0OT.webp",
-      "description": "",
-      "publishedAt": "2024-05-01T20:00:15.111Z",
-      "slug": "test-course",
-      "status": "published",
-      "title": "Test course"
     }
   ]
 }

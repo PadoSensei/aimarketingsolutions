@@ -7,7 +7,7 @@ type Item = {
 } & OstDocument
 
 type Props = {
-  collection: 'posts' | 'projects' | 'courses'| 'testy'
+  collection: 'posts' | 'projects' | 'courses' | 'testy'
   title?: string
   items: Item[]
   priority?: boolean
@@ -48,17 +48,16 @@ const ContentGrid = ({
                 <div className="p-4">
                   {Array.isArray(item?.tags)
                     ? item.tags.map(({ label }) => (
-                        <span
-                          key={label}
-                          className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
-                        >
-                          {label}
-                        </span>
-                      ))
+                      <span
+                        key={label}
+                        className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
+                      >
+                        {label}
+                      </span>
+                    ))
                     : null}
                   <h3 className="text-xl mb-2 leading-snug font-bold hover:underline">
                     {item.title}
-                    {item.coverImage}
                   </h3>
                   <div className="text-md mb-4 text-slate-700"></div>
                   <p className="text-lg leading-relaxed mb-4">

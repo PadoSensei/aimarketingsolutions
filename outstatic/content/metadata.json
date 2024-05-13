@@ -1,6 +1,6 @@
 {
-  "commit": "b8e61905ad88dad6d183bb8c690ac6ef7ffedb03",
-  "generated": "Mon, 13 May 2024 18:02:32 GMT",
+  "commit": "6f28ac27524fde9bc0525c1477782a2ba1903bec",
+  "generated": "2024-05-13T21:02:28.229Z",
   "metadata": [
     {
       "__outstatic": {
@@ -30,24 +30,6 @@
     },
     {
       "__outstatic": {
-        "commit": "dce274a0328a88437783b6344c3d4aa96699c457",
-        "hash": "673848135",
-        "path": "outstatic/content/courses/test-course.md"
-      },
-      "author": {
-        "name": "Padraig",
-        "picture": "https://avatars.githubusercontent.com/u/44815835?v=4"
-      },
-      "collection": "courses",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2024-05-01T20:00:15.111Z",
-      "slug": "test-course",
-      "status": "published",
-      "title": "Test course"
-    },
-    {
-      "__outstatic": {
         "commit": "2e47122b5b6d49d6d1ddb15bcd33edc4a0c1256e",
         "hash": "217348983",
         "path": "outstatic/content/pages/home.md"
@@ -63,53 +45,6 @@
       "slug": "home",
       "status": "published",
       "title": "Home"
-    },
-    {
-      "__outstatic": {
-        "commit": "8f3fe55886d2f8c97caf5932796501656ec34a3d",
-        "hash": "3078058056",
-        "path": "outstatic/content/courses/2nd-test.md"
-      },
-      "author": {
-        "name": "Padraig",
-        "picture": "https://avatars.githubusercontent.com/u/44815835?v=4"
-      },
-      "collection": "courses",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2024-05-03T18:44:08.767Z",
-      "slug": "2nd-test",
-      "status": "published",
-      "title": "2nd test"
-    },
-    {
-      "__outstatic": {
-        "commit": "c768d5200824d9e3adff1de4701c71a7e7e970e9",
-        "hash": "2077514224",
-        "path": "outstatic/content/posts/is-generativa-para-personalizacao.md"
-      },
-      "author": {
-        "name": "Ludmila FD",
-        "picture": "https://avatars.githubusercontent.com/u/84784950?v=4"
-      },
-      "collection": "posts",
-      "coverImage": "https://presto.com/wp-content/uploads/2023/01/presto_voice_website_location_map.jpg",
-      "description": "A IA Generativa para Personalização é uma ferramenta poderosa para empresas criarem e direcionarem personas de compradores, implementarem personalização impulsionada por IA e aproveitarem a IA para uma estratégia de experimentação orientada por dados. Esta tecnologia permite uma personalização e interação sem precedentes, gerando engajamentos únicos com clientes ao analisar dados extensivos.",
-      "language": "pt",
-      "publishedAt": "2024-04-23T11:32:54.970Z",
-      "slug": "is-generativa-para-personalizacao",
-      "status": "published",
-      "tags": [
-        {
-          "label": "IA ",
-          "value": "ia"
-        },
-        {
-          "label": "IAGENERATIVA",
-          "value": "iagenerativa"
-        }
-      ],
-      "title": "IA Generativa para Personalização"
     },
     {
       "__outstatic": {
@@ -180,6 +115,71 @@
       "slug": "couple-pizza",
       "status": "published",
       "title": "Couple Pizza"
+    },
+    {
+      "__outstatic": {
+        "commit": "2e8cf37dc36fa22834ef4d131680d6fedec00ade",
+        "hash": "3047923081",
+        "path": "outstatic/content/posts/is-generativa-para-personalizacao.md"
+      },
+      "author": {
+        "name": "Ludmila FD",
+        "picture": "https://avatars.githubusercontent.com/u/84784950?v=4"
+      },
+      "collection": "posts",
+      "coverImage": "/images/dall-e-2024-02-28-17.27.34---a-master-ninja-demonstrating-advanced-techniques-to-apprentices-in-a-dojo--with-the-scene-void-of-any-text-to-emphasize-the-interaction-context-of--th-UxMD.webp",
+      "description": "A IA Generativa para Personalização é uma ferramenta poderosa para empresas criarem e direcionarem personas de compradores, implementarem personalização impulsionada por IA e aproveitarem a IA para uma estratégia de experimentação orientada por dados. Esta tecnologia permite uma personalização e interação sem precedentes, gerando engajamentos únicos com clientes ao analisar dados extensivos.",
+      "language": "pt",
+      "publishedAt": "2024-04-23T11:32:54.970Z",
+      "slug": "is-generativa-para-personalizacao",
+      "status": "published",
+      "tags": [
+        {
+          "label": "IA ",
+          "value": "ia"
+        },
+        {
+          "label": "IAGENERATIVA",
+          "value": "iagenerativa"
+        }
+      ],
+      "title": "IA Generativa para Personalização"
+    },
+    {
+      "__outstatic": {
+        "commit": "d88674e9125b5c1a45b1e7e9d05b8fc9a98d4218",
+        "hash": "1453234425",
+        "path": "outstatic/content/courses/2nd-test.md"
+      },
+      "author": {
+        "name": "Padraig",
+        "picture": "https://avatars.githubusercontent.com/u/44815835?v=4"
+      },
+      "collection": "courses",
+      "coverImage": "/images/dall-e-2024-02-28-00.06.38---1.-a-serene-japanese-garden--where-a-ninja-is-meditatively-preparing-tea--symbolizing-the-creation-of-a-promise-in-a-peaceful-and-focused-manner.-the--A0NT.webp",
+      "description": "",
+      "publishedAt": "2024-05-03T18:44:08.767Z",
+      "slug": "2nd-test",
+      "status": "published",
+      "title": "2nd test"
+    },
+    {
+      "__outstatic": {
+        "commit": "6f28ac27524fde9bc0525c1477782a2ba1903bec",
+        "hash": "4211004557",
+        "path": "outstatic/content/courses/test-course.md"
+      },
+      "author": {
+        "name": "Padraig",
+        "picture": "https://avatars.githubusercontent.com/u/44815835?v=4"
+      },
+      "collection": "courses",
+      "coverImage": "/images/dall-e-2024-03-15-00.31.10---a-dynamic-representation-of-event-capturing-in-javascript--set-in-a-japanese-techno-ninja-cityscape.-the-image-shows-an-inverted-tree-structure-with-n-M0OT.webp",
+      "description": "",
+      "publishedAt": "2024-05-01T20:00:15.111Z",
+      "slug": "test-course",
+      "status": "published",
+      "title": "Test course"
     }
   ]
 }

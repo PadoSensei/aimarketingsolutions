@@ -104,6 +104,7 @@ import DateFormatter from '@/components/DateFormatter'
 import { absoluteUrl } from '@/lib/utils'
 import { notFound } from 'next/navigation'
 import Footer2 from '@/components/Footer2'
+import NavBar from '@/components/NavBar'
 
 type Post = {
   tags: { value: string; label: string }[]
@@ -152,9 +153,11 @@ export default async function Blog(params: Params) {
   const post = await getData(params)
   console.log('posts from slug', post)
   return (
+    <>
+    <NavBar />
     <Layout>
       <div className="max-w-6xl mx-auto px-5">
-        <Header />
+
         <article className="mb-32">
           <div className="relative mb-2 md:mb-4 sm:mx-0 w-full h-52 md:h-96">
             {/* <Image
@@ -193,6 +196,7 @@ export default async function Blog(params: Params) {
       </div>
       <Footer2 />
     </Layout>
+   </> 
   )
 }
 

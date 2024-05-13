@@ -58,6 +58,7 @@ const ContentGrid = ({
                     : null}
                   <h3 className="text-xl mb-2 leading-snug font-bold hover:underline">
                     {item.title}
+                    {item.coverImage}
                   </h3>
                   <div className="text-md mb-4 text-slate-700"></div>
                   <p className="text-lg leading-relaxed mb-4">

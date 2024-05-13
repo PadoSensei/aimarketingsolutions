@@ -1,6 +1,6 @@
 {
-  "commit": "d88674e9125b5c1a45b1e7e9d05b8fc9a98d4218",
-  "generated": "2024-05-13T21:02:06.170Z",
+  "commit": "6f28ac27524fde9bc0525c1477782a2ba1903bec",
+  "generated": "2024-05-13T21:02:28.229Z",
   "metadata": [
     {
       "__outstatic": {
@@ -27,24 +27,6 @@
         }
       ],
       "title": "Generative AI for Personalization"
-    },
-    {
-      "__outstatic": {
-        "commit": "dce274a0328a88437783b6344c3d4aa96699c457",
-        "hash": "673848135",
-        "path": "outstatic/content/courses/test-course.md"
-      },
-      "author": {
-        "name": "Padraig",
-        "picture": "https://avatars.githubusercontent.com/u/44815835?v=4"
-      },
-      "collection": "courses",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2024-05-01T20:00:15.111Z",
-      "slug": "test-course",
-      "status": "published",
-      "title": "Test course"
     },
     {
       "__outstatic": {
@@ -180,6 +162,24 @@
       "slug": "2nd-test",
       "status": "published",
       "title": "2nd test"
+    },
+    {
+      "__outstatic": {
+        "commit": "6f28ac27524fde9bc0525c1477782a2ba1903bec",
+        "hash": "4211004557",
+        "path": "outstatic/content/courses/test-course.md"
+      },
+      "author": {
+        "name": "Padraig",
+        "picture": "https://avatars.githubusercontent.com/u/44815835?v=4"
+      },
+      "collection": "courses",
+      "coverImage": "/images/dall-e-2024-03-15-00.31.10---a-dynamic-representation-of-event-capturing-in-javascript--set-in-a-japanese-techno-ninja-cityscape.-the-image-shows-an-inverted-tree-structure-with-n-M0OT.webp",
+      "description": "",
+      "publishedAt": "2024-05-01T20:00:15.111Z",
+      "slug": "test-course",
+      "status": "published",
+      "title": "Test course"
     }
   ]
 }

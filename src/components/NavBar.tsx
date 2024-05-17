@@ -17,7 +17,7 @@ import Link from 'next/link'
     // </div>
 const NavBar = () => {
   return (
-<nav className="bg-white border-gray-200 rounded-lg">
+<nav className="bg-white border-gray-200 rounded-lg m-0 p-0">
   <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
   <a href="#" className="flex items-center space-x-3 rtl:space-x-reverse">
       <img src="/images/Logo-White.png" className="h-8" alt="Logo" />

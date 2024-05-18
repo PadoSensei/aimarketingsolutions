@@ -1,85 +1,66 @@
-import Link from 'next/link'
+import Link from 'next/link';
+// import { IconPersonVideo3, IconPersonChalkboard, IconProbot, IconLike } from './icons';
 
-export default function Services () {
-    return (
-      <section className="flex items-center justify-center h-screen bg-black">
-        <div className="container px-4 md:px-6">
-          <div className="grid gap-4 items-center">
-            <div className="flex flex-col justify-center space-y-8 text-center">
-              <div className="space-y-2">
-                <h1 id="services" className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-500">
-                  Discover Our Unique Services
-                </h1>
-                <p className="max-w-[600px] text-zinc-200 md:text-xl dark:text-zinc-100 mx-auto">
-                  Our services are designed to enhance your productivity and streamline your workflow.
-                </p>
-              </div>
-              <div className="w-full max-w-full space-y-4 mx-auto">
-                <div className="grid grid-cols-2 gap-8">
-                  <div className="flex flex-col items-center space-y-2 border-gray-800 p-4 rounded-lg">
-                    <div className="p-2 bg-black bg-opacity-50 rounded-full">
-                      <IconPersonVideo3 className="text-white h-6 w-6 mb-2 opacity-75" />
-                    </div>
-                    <h2 className="text-xl font-bold text-white">AI Literacy Training</h2>
-                    <p className="text-zinc-200 dark:text-zinc-100">
-                    Educate teams on AI capabilities and best practices with comprehensive training tailored to business needs.
-                    </p>
-                    <Link className='bg-white px-4' href="./courses">Find Out More</Link>
-                  </div>
-                  <div className="flex flex-col items-center space-y-2 border-gray-800 p-4 rounded-lg">
-                    <div className="p-2 bg-black bg-opacity-50 rounded-full">
-                      <IconPersonChalkboard className="text-white h-6 w-6 mb-2 opacity-75" />
-                    </div>
-                    <h2 className="text-xl font-bold text-white">AI Marketing Consulting</h2>
-                    <p className="text-zinc-200 dark:text-zinc-100">
-                    Get expert advice and strategic planning to seamlessly integrate AI into your marketing efforts.
-                    </p>
-                  </div>
-                  <div className="flex flex-col items-center space-y-2 border-gray-800 p-4 rounded-lg">
-                    <div className="p-2 bg-black bg-opacity-50 rounded-full">
-                      <IconProbot className="text-white h-6 w-6 mb-2 opacity-75" />
-                    </div>
-                    <h2 className="text-xl font-bold text-white">Custom AI Agents</h2>
-                    <p className="text-zinc-200 dark:text-zinc-100">
-                    Develop AI-driven agents to automate marketing tasks and enhance customer interactions, boosting performance.
-                    </p>
-                  </div>
-                  <div className="flex flex-col items-center space-y-2 border-gray-800 p-4 rounded-lg">
-                    <div className="p-2 bg-black bg-opacity-50 rounded-full">
-                      <IconLike className="text-white h-6 w-6 mb-2 opacity-75" />
-                    </div>
-                    <h2 className="text-xl font-bold text-white">AI Digital Marketing Agency:</h2>
-                    <p className="text-zinc-200 dark:text-zinc-100">
-                    Full-service digital marketing from AI-enhanced content creation to SEO and Google Ads, optimized for your business success.
-                    </p>
-                  </div>
-                  {/* <div className="flex flex-col items-center space-y-2 border-gray-800 p-4 rounded-lg">
-                    <div className="p-2 bg-black bg-opacity-50 rounded-full">
-                      <LockIcon className="text-white h-6 w-6 mb-2 opacity-75" />
-                    </div>
-                    <h2 className="text-xl font-bold text-white">Reliable Security</h2>
-                    <p className="text-zinc-200 dark:text-zinc-100">
-                      With Reliable Security, your data is always safe and protected.
-                    </p>
-                  </div>
-                  <div className="flex flex-col items-center space-y-2 border-gray-800 p-4 rounded-lg">
-                    <div className="p-2 bg-black bg-opacity-50 rounded-full">
-                      <MergeIcon className="text-white h-6 w-6 mb-2 opacity-75" />
-                    </div>
-                    <h2 className="text-xl font-bold text-white">Easy Collaboration</h2>
-                    <p className="text-zinc-200 dark:text-zinc-100">
-                      Easy Collaboration allows you to share and edit documents with your team in real time.
-                    </p>
-                  </div> */}
-                </div>
-              </div>
+//TODO Refactor icons to another file
+
+export default function Services() {
+  return (
+    <section id="services" className="bg-black py-16 md:py-24">
+      <div className="container mx-auto px-4 md:px-6">
+        <header className="text-center mb-12">
+          <h2 className="text-4xl md:text-5xl font-bold tracking-tighter bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-500">
+            Discover Our Unique Services
+          </h2>
+          <p className="mt-4 text-lg md:text-xl text-zinc-200 dark:text-zinc-100 max-w-3xl mx-auto">
+            Our services are designed to enhance your productivity and streamline your workflow.
+          </p>
+        </header>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="flex flex-col items-center space-y-4 border-gray-800 p-6 rounded-lg">
+            <div className="p-3 bg-black bg-opacity-50 rounded-full">
+              <IconPersonVideo3 className="text-white h-8 w-8 opacity-75" />
             </div>
+            <h3 className="text-2xl font-bold text-white">AI Literacy Training</h3>
+            <p className="text-lg text-zinc-200 dark:text-zinc-100 text-center">
+              Educate teams on AI capabilities and best practices with comprehensive training tailored to business needs.
+            </p>
+            <Link className="bg-white px-6 py-2 rounded-md text-lg font-semibold" href="./courses">
+              Find Out More
+            </Link>
+          </div>
+          <div className="flex flex-col items-center space-y-4 border-gray-800 p-6 rounded-lg">
+            <div className="p-3 bg-black bg-opacity-50 rounded-full">
+              <IconPersonChalkboard className="text-white h-8 w-8 opacity-75" />
+            </div>
+            <h3 className="text-2xl font-bold text-white">AI Marketing Consulting</h3>
+            <p className="text-lg text-zinc-200 dark:text-zinc-100 text-center">
+              Get expert advice and strategic planning to seamlessly integrate AI into your marketing efforts.
+            </p>
+          </div>
+          <div className="flex flex-col items-center space-y-4 border-gray-800 p-6 rounded-lg">
+            <div className="p-3 bg-black bg-opacity-50 rounded-full">
+              <IconProbot className="text-white h-8 w-8 opacity-75" />
+            </div>
+            <h3 className="text-2xl font-bold text-white">Custom AI Agents</h3>
+            <p className="text-lg text-zinc-200 dark:text-zinc-100 text-center">
+              Develop AI-driven agents to automate marketing tasks and enhance customer interactions, boosting performance.
+            </p>
+          </div>
+          <div className="flex flex-col items-center space-y-4 border-gray-800 p-6 rounded-lg">
+            <div className="p-3 bg-black bg-opacity-50 rounded-full">
+              <IconLike className="text-white h-8 w-8 opacity-75" />
+            </div>
+            <h3 className="text-2xl font-bold text-white">AI Digital Marketing Agency</h3>
+            <p className="text-lg text-zinc-200 dark:text-zinc-100 text-center">
+              Full-service digital marketing from AI-enhanced content creation to SEO and Google Ads, optimized for your business success.
+            </p>
           </div>
         </div>
-      </section>
-    )
-  }
-  
+      </div>
+    </section>
+  );
+}
+
 
 function IconProbot(props: React.SVGProps<SVGSVGElement>) {
   return (

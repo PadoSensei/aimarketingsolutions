@@ -1,5 +1,13 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  theme: {
+    extend: {
+      colors: {
+        'gradient-blue':'#A8E5FE', 
+        'gradient-purple':'#64149C'  
+      }
+    }
+  },
   content: [
     './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
     './src/components/**/*.{js,ts,jsx,tsx,mdx}',
@@ -7,3 +15,6 @@ module.exports = {
   ],
   plugins: [require('@tailwindcss/typography')]
 }
+
+
+

@@ -2,8 +2,6 @@
 import Link from 'next/link';
 import { useState, useEffect, useRef } from 'react';
 
-interface NavBarProps {}
-
 const NavBar: React.FC<NavBarProps> = () => {
   const [isMenuOpen, setIsMenuOpen] = useState<boolean>(false);
   const menuRef = useRef<HTMLDivElement>(null);

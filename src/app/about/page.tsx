@@ -1,6 +1,6 @@
 import Footer2 from "@/components/Footer2"
-import Layout from "@/components/Layout"
 import NavBar from "@/components/NavBar"
+import Layout from "@/components/Layout"
 
 export default function About() {
     return (

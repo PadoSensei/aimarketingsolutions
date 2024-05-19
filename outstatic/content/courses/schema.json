@@ -1,0 +1,13 @@
+{
+  "title": "courses",
+  "type": "object",
+  "properties": {
+    "price": {
+      "required": true,
+      "description": "Price",
+      "fieldType": "String",
+      "dataType": "string",
+      "title": "Price"
+    }
+  }
+}

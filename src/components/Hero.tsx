@@ -5,7 +5,7 @@ import Image from 'next/image'
 
 const Hero = () => {
   return (
-    <section className="relative bg-gray-900 min-h-screen flex items-center">
+    <section className="relative min-h-screen flex items-center bg-gradient-to-r from-gradient-purple to-gradient-blue">
       <div className="container mx-auto px-4 md:px-6 grid grid-cols-1 md:grid-cols-2 gap-8">
         <div className="md:order-1">
           <div className="max-w-xl mx-auto bg-white rounded-lg shadow-xl p-8 md:p-12">

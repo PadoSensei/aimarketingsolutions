@@ -41,7 +41,10 @@ export default async function Index() {
   return (
     <Layout>
       <NavBar />
+      <div className='bg-gradient-to-r from-gradient-blue-left to-gradient-purple-right '>
+
       <Hero />
+      </div>
       <Services />
       <ImageBlurb />
       <Footer2 />

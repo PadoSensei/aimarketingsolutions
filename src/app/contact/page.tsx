@@ -1,21 +1,15 @@
 'use client'
 import ContactForm from "@/components/ContactForm";
 import Footer2 from "@/components/Footer2";
+import Layout from "@/components/Layout";
 import NavBar from "@/components/NavBar";
-import { useForm, ValidationError } from "@formspree/react";
 
 export default function Contact() {
-    const [state, handleSubmit] = useForm("https://formspree.io/f/xeqyvozd");
-
-
-    if (state.succeeded) {
-        return <p>Thanks for your submission!</p>;
-    }
     return (
-        <>
+        <div className="flex flex-col min-h-screen">
             <NavBar />
             <ContactForm />
             <Footer2 />
-        </>
+        </div>
     )
 }

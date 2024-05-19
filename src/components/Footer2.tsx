@@ -1,30 +1,36 @@
-
-// TODO Fix span / AI MARKETING link
 const Footer2 = () => {
     return (
-
-
-        <footer className="h-full bg-black rounded-lg shadow dark:bg-black">
-            <div className="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
-                <span className="text-sm text-gray-500 sm:text-center dark:text-white">All Rights Reserved
-                    <a href="/" className="hover:underline md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">AI Marketing Solutions™</a>
-                    2024 ©
-                </span>
-                <ul className="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-white sm:mt-0">
-                    <li>
-                        <a href="/about" className="hover:underline me-4 md:me-6 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">About</a>
-                    </li>
-                    <li>
-                        <a href="#services" className="hover:underline me-4 md:me-6 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Services</a>
-                    </li>
-                    <li>
-                        <a href="/contact" className="hover:underline md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Contact</a>
-                    </li>
-                </ul>
+      <footer className="bg-black text-white">
+        <div className="max-w-screen-xl mx-auto px-4 py-8 md:py-12">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div className="flex items-center">
+              <h3 className="text-lg font-bold mr-4">AI Marketing Solutions™</h3>
+              <p className="text-sm">All Rights Reserved 2024 ©</p>
             </div>
-        </footer>
-
-    )
-}
-
-export default Footer2
+            <nav aria-label="Footer Navigation">
+              <ul className="flex flex-col md:flex-row md:justify-end">
+                <li className="mb-2 md:mb-0 md:mr-4">
+                  <a href="/about" className="text-sm hover:underline">
+                    About
+                  </a>
+                </li>
+                <li className="mb-2 md:mb-0 md:mr-4">
+                  <a href="#services" className="text-sm hover:underline">
+                    Services
+                  </a>
+                </li>
+                <li>
+                  <a href="/contact" className="text-sm hover:underline">
+                    Contact
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </footer>
+    );
+  };
+  
+  export default Footer2;
+  

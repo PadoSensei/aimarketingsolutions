@@ -62,6 +62,9 @@ const NavBar: React.FC<NavBarProps> = () => {
               <Link href="/#services" className="text-gray-800 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition duration-300">
                 Services
               </Link>
+              <Link href="/courses" className="text-gray-800 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition duration-300">
+                Courses
+              </Link>
               <Link href="/contact" className="text-gray-800 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition duration-300">
                 Contact
               </Link>

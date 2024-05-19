@@ -1,6 +1,6 @@
 {
-  "commit": "a025d41c2d4cb0bfdd6ea43c8d2247c01d2ad729",
-  "generated": "2024-05-19T19:25:47.142Z",
+  "commit": "e90f004eb101365865fe8ded46f73f1ad6d0e82f",
+  "generated": "2024-05-19T19:27:13.863Z",
   "metadata": [
     {
       "__outstatic": {
@@ -180,26 +180,6 @@
       "slug": "couple-pizza",
       "status": "published",
       "title": "Couple Pizza"
-    },
-    {
-      "__outstatic": {
-        "commit": "a025d41c2d4cb0bfdd6ea43c8d2247c01d2ad729",
-        "hash": "2998715572",
-        "path": "outstatic/content/courses/ff.md"
-      },
-      "author": {
-        "name": "Ludmila FD",
-        "picture": "https://avatars.githubusercontent.com/u/84784950?v=4"
-      },
-      "collection": "courses",
-      "coverImage": "",
-      "description": "",
-      "price": "100",
-      "publishedAt": "2024-05-19T19:30:38.579Z",
-      "slug": "ff",
-      "status": "published",
-      "title": "ff",
-      "urlPaymentLink": "https://comunidadedeestatistica.com.br/introducao-a-web-analytics-com-inteligencia-artificial/"
     }
   ]
 }

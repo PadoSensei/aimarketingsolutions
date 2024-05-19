@@ -59,47 +59,54 @@ export default async function Course(params: Params) {
 
   return (
     <>
-    <Layout>
-    <NavBar/>
-      <div className="max-w-6xl mx-auto px-5">
-        {/* <Header /> */}
+     <NavBar />
+      {/* <Layout> */}
+      <div className='flex flex-col min-h-screen flex-grow bg-gradient-to-r from-gradient-purple to-gradient-blue'>
+      <main className="max-w-6xl mx-auto px-5 ">
         <article className="mb-32">
           <div className="relative mb-2 md:mb-4 sm:mx-0 w-full h-52 md:h-96">
-            {/* <Image
+            <Image
               alt={post.title}
               src={post?.coverImage || ''}
               fill
               className="object-cover object-center"
               priority
-            /> */}
-          </div>
-          {/* {Array.isArray(post?.tags)
-            ? post.tags.map(({ label }) => (
-                <span
-                  key="label"
-                  className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
-                >
-                  {label}
-                </span>
-              ))
-            : null}
-          <h1 className="font-primary text-2xl font-bold md:text-4xl mb-2">
-            {post.title}
-          </h1> */}
-          <div className="hidden md:block md:mb-12 text-slate-600">
-            Written on <DateFormatter dateString={post.publishedAt} /> by{' '}
-            {post?.author?.name || ''}.
-          </div>
-          <hr className="border-neutral-200 mt-10 mb-10" />
-          <div className="max-w-2xl mx-auto">
-            <div
-              className="prose lg:prose-xl"
-              dangerouslySetInnerHTML={{ __html: post.content }}
             />
+            <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black opacity-50"></div>
+          </div>
+          <div className="bg-white shadow-lg rounded-lg p-6 md:p-8 -mt-16 md:-mt-24 relative z-10">
+            <div className="flex flex-wrap mb-4">
+              {Array.isArray(post?.tags)
+                ? post.tags.map(({ label }) => (
+                  <span
+                    key={label}
+                    className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
+                  >
+                    {label}
+                  </span>
+                ))
+                : null}
+            </div>
+            <header>
+              <h1 className="font-primary text-2xl font-bold md:text-4xl mb-4">
+                {post.title}
+              </h1>
+              <div className="hidden md:block md:mb-6 text-gray-600">
+                Written on <DateFormatter dateString={post.publishedAt} /> by{' '}
+                {post?.author?.name || ''}
+              </div>
+            </header>
+            <hr className="border-gray-300 mt-6 mb-6" />
+            <div className="max-w-2xl mx-auto">
+              <div
+                className="prose lg:prose-xl text-gray-800"
+                dangerouslySetInnerHTML={{ __html: post.content }}
+              />
+            </div>
           </div>
         </article>
+      </main>
       </div>
-    </Layout>
       <Footer2 />
       </>
   )

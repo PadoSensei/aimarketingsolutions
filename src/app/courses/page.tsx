@@ -7,7 +7,7 @@ import ContentGrid from '../../components/ContentGrid'
 import Layout from "@/components/Layout"
 import Footer2 from "@/components/Footer2"
 
-export default async function Courses( params : Params) {
+export default async function Courses(params: Params) {
     const { allPosts } = await getData(params)
 
     // const ptPosts = allPosts.filter(post => post.language === 'pt')
@@ -17,14 +17,14 @@ export default async function Courses( params : Params) {
     return (
         <>
             <NavBar />
-            <Layout>
-            <ContentGrid
-                title="Courses"
-                items={allPosts}
-                collection="courses"
-                priority
-            />
-            </Layout>
+            <div className="flex flex-col min-h-screen flex-grow bg-gradient-to-r from-gradient-purple to-gradient-blue">
+                <ContentGrid
+                    title="Courses"
+                    items={allPosts}
+                    collection="courses"
+                    priority
+                />
+            </div>
             <Footer2 />
         </>
     )

@@ -1,6 +1,6 @@
 const ImageBlurb = () => {
     return (
-        <section className="bg-gradient-to-r from-gradient-blue-left to-gradient-purple-right flex justify-center align-items p-8 h-800 w-400">
+        <section className="bg-gradient-to-r from-gradient-purple to-gradient-blue flex justify-center align-items p-8 h-800 w-400">
             <div className="h-80 w-3/6">
                 <iframe
                     className="h-full w-full rounded-lg"

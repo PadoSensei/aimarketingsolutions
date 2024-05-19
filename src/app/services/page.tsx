@@ -20,7 +20,7 @@ export default function Services() {
             <div className="p-3 bg-black bg-opacity-50 rounded-full">
               <IconPersonVideo3 className="text-white h-8 w-8 opacity-75" />
             </div>
-            <h3 className="text-2xl font-bold text-white">AI Literacy Training</h3>
+            <h3 className="text-2xl font-bold text-white text-center">AI Literacy Training</h3>
             <p className="text-lg text-zinc-200 dark:text-zinc-100 text-center">
               Educate teams on AI capabilities and best practices with comprehensive training tailored to business needs.
             </p>
@@ -32,7 +32,7 @@ export default function Services() {
             <div className="p-3 bg-black bg-opacity-50 rounded-full">
               <IconPersonChalkboard className="text-white h-8 w-8 opacity-75" />
             </div>
-            <h3 className="text-2xl font-bold text-white">AI Marketing Consulting</h3>
+            <h3 className="text-2xl font-bold text-white text-center">AI Marketing Consulting</h3>
             <p className="text-lg text-zinc-200 dark:text-zinc-100 text-center">
               Get expert advice and strategic planning to seamlessly integrate AI into your marketing efforts.
             </p>
@@ -41,7 +41,7 @@ export default function Services() {
             <div className="p-3 bg-black bg-opacity-50 rounded-full">
               <IconProbot className="text-white h-8 w-8 opacity-75" />
             </div>
-            <h3 className="text-2xl font-bold text-white">Custom AI Agents</h3>
+            <h3 className="text-2xl font-bold text-white text-center">Custom AI Agents</h3>
             <p className="text-lg text-zinc-200 dark:text-zinc-100 text-center">
               Develop AI-driven agents to automate marketing tasks and enhance customer interactions, boosting performance.
             </p>
@@ -50,7 +50,7 @@ export default function Services() {
             <div className="p-3 bg-black bg-opacity-50 rounded-full">
               <IconLike className="text-white h-8 w-8 opacity-75" />
             </div>
-            <h3 className="text-2xl font-bold text-white">AI Digital Marketing Agency</h3>
+            <h3 className="text-2xl font-bold text-white text-center">AI Digital Marketing Agency</h3>
             <p className="text-lg text-zinc-200 dark:text-zinc-100 text-center">
               Full-service digital marketing from AI-enhanced content creation to SEO and Google Ads, optimized for your business success.
             </p>

@@ -1,6 +1,6 @@
 {
-  "commit": "6a9f104096e1da833e24dfd220aecbcd2d10fd73",
-  "generated": "2024-05-19T19:25:30.198Z",
+  "commit": "a025d41c2d4cb0bfdd6ea43c8d2247c01d2ad729",
+  "generated": "2024-05-19T19:25:47.142Z",
   "metadata": [
     {
       "__outstatic": {
@@ -183,8 +183,8 @@
     },
     {
       "__outstatic": {
-        "commit": "6a9f104096e1da833e24dfd220aecbcd2d10fd73",
-        "hash": "3653485922",
+        "commit": "a025d41c2d4cb0bfdd6ea43c8d2247c01d2ad729",
+        "hash": "2998715572",
         "path": "outstatic/content/courses/ff.md"
       },
       "author": {
@@ -197,7 +197,7 @@
       "price": "100",
       "publishedAt": "2024-05-19T19:30:38.579Z",
       "slug": "ff",
-      "status": "draft",
+      "status": "published",
       "title": "ff",
       "urlPaymentLink": "https://comunidadedeestatistica.com.br/introducao-a-web-analytics-com-inteligencia-artificial/"
     }

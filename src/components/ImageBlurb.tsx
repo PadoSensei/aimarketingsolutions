@@ -5,7 +5,7 @@ const ImageBlurb = () => {
                 <iframe
                     className="h-full w-full rounded-lg"
                     width="100%"
-                    src="https://www.youtube.com/embed/or42R4cad30"
+                    src="https://www.youtube.com/embed/I3f0Uh1SokY"
                     title="Welcome to the AI Marketing Revolution!" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     referrerPolicy="strict-origin-when-cross-origin"
                     allowFullScreen>

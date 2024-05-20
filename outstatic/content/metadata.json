@@ -1,32 +1,26 @@
 {
-  "commit": "d5c494b8527d12da8217eaccb3b5bd4e59e669e4",
-  "generated": "Mon, 20 May 2024 15:26:37 GMT",
+  "commit": "d7b7551cfea31c43e5a0f839927ea9ed0e00d047",
+  "generated": "Mon, 20 May 2024 17:58:59 GMT",
   "metadata": [
     {
       "__outstatic": {
-        "commit": "2e64dc1e22d94dfb979869d8f6d63e10b8633a58",
-        "hash": "2945424743",
-        "path": "outstatic/content/posts/generative-ai-for-personalization.md"
+        "commit": "47f642b85a5c08c2e6355a68fa9a4152cefb0e31",
+        "hash": "431594696",
+        "path": "outstatic/content/courses/generative-ai-for-marketing-how-to-implement-ai-tools-to-generate-and-implement-marketing-strategies.md"
       },
       "author": {
-        "name": "Ludmila FD",
-        "picture": "https://avatars.githubusercontent.com/u/84784950?v=4"
+        "name": "Ludmila Domingos",
+        "picture": "/images/ludmila-domingos-marketing-ai-verde-kxMT.png"
       },
-      "collection": "posts",
-      "coverImage": "/images/dall-e-2024-03-11-13.00.43---an-art-deco-style-party-scene-celebrating-the-league-of-extraordinary-contrarians--infused-with-salvador-dali-s-surrealistic-elements.-the-scene-depic-1-EyNz.webp",
-      "description": "Generative AI for Personalization is a powerful tool for businesses to create and target buyer personas, implement AI-driven personalization, and leverage AI for a data-driven experimentation strategy. This technology allows for unparalleled customization and interaction levels, generating unique client engagements by analyzing extensive data.",
-      "key": "",
-      "language": "eng",
-      "publishedAt": "2024-04-23T11:28:31.249Z",
-      "slug": "generative-ai-for-personalization",
+      "collection": "courses",
+      "coverImage": "/images/course-image-3-Q5Mz.png",
+      "description": "Generative AI for Marketing - Implementing AI Tools to Generate and Implement Marketing Strategies; In this comprehensive course designed for beginners and intermediate learners, you'll discover how to harness the potential of artificial intelligence to revolutionise your marketing strategies.  You'll learn how leading organisations are leveraging AI and explore innovative, cost-effective technologies that you can implement immediately.",
+      "price": "€50",
+      "publishedAt": "2024-05-20T11:45:57.425Z",
+      "slug": "generative-ai-for-marketing-how-to-implement-ai-tools-to-generate-and-implement-marketing-strategies",
       "status": "published",
-      "tags": [
-        {
-          "label": "generativeAI",
-          "value": "generativeAi"
-        }
-      ],
-      "title": "Generative AI for Personalization"
+      "title": "Generative AI for Marketing: How to Implement AI Tools to Generate and Implement Marketing Strategies",
+      "urlPaymentLink": "https://buy.stripe.com/5kAcMS9UD4FR4s86oo"
     },
     {
       "__outstatic": {
@@ -68,41 +62,29 @@
     },
     {
       "__outstatic": {
-        "commit": "7ba46f34a491db1a17e93792aa3b960032d3bf28",
-        "hash": "2376360632",
-        "path": "outstatic/content/courses/generative-ai-for-marketing-how-to-implement-ai-tools-to-generate-and-implement-marketing-strategies.md"
+        "commit": "2e64dc1e22d94dfb979869d8f6d63e10b8633a58",
+        "hash": "2945424743",
+        "path": "outstatic/content/posts/generative-ai-for-personalization.md"
       },
       "author": {
-        "name": "Ludmila Domingos",
-        "picture": "/images/ludmila-domingos-marketing-ai-verde-kxMT.png"
+        "name": "Ludmila FD",
+        "picture": "https://avatars.githubusercontent.com/u/84784950?v=4"
       },
-      "collection": "courses",
-      "coverImage": "/images/course-image-3-Q5Mz.png",
-      "description": "Generative AI for Marketing - Implementing AI Tools to Generate and Implement Marketing Strategies; In this comprehensive course designed for beginners and intermediate learners, you'll discover how to harness the potential of artificial intelligence to revolutionise your marketing strategies.  You'll learn how leading organisations are leveraging AI and explore innovative, cost-effective technologies that you can implement immediately.",
-      "price": "€50",
-      "publishedAt": "2024-05-20T11:45:57.425Z",
-      "slug": "generative-ai-for-marketing-how-to-implement-ai-tools-to-generate-and-implement-marketing-strategies",
+      "collection": "posts",
+      "coverImage": "/images/dall-e-2024-03-11-13.00.43---an-art-deco-style-party-scene-celebrating-the-league-of-extraordinary-contrarians--infused-with-salvador-dali-s-surrealistic-elements.-the-scene-depic-1-EyNz.webp",
+      "description": "Generative AI for Personalization is a powerful tool for businesses to create and target buyer personas, implement AI-driven personalization, and leverage AI for a data-driven experimentation strategy. This technology allows for unparalleled customization and interaction levels, generating unique client engagements by analyzing extensive data.",
+      "key": "",
+      "language": "eng",
+      "publishedAt": "2024-04-23T11:28:31.249Z",
+      "slug": "generative-ai-for-personalization",
       "status": "published",
-      "title": "Generative AI for Marketing: How to Implement AI Tools to Generate and Implement Marketing Strategies",
-      "urlPaymentLink": "https://buy.stripe.com/5kAcMS9UD4FR4s86oo"
-    },
-    {
-      "__outstatic": {
-        "commit": "26b813b7d9f09caa9a53ead4f515ea28e26ab2be",
-        "hash": "3896763695",
-        "path": "outstatic/content/testing/tester.md"
-      },
-      "author": {
-        "name": "paddya",
-        "picture": "https://avatars.githubusercontent.com/u/44815835?v=4"
-      },
-      "collection": "testing",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2024-05-06T18:24:01.819Z",
-      "slug": "tester",
-      "status": "published",
-      "title": "tester"
+      "tags": [
+        {
+          "label": "generativeAI",
+          "value": "generativeAi"
+        }
+      ],
+      "title": "Generative AI for Personalization"
     },
     {
       "__outstatic": {
@@ -124,20 +106,21 @@
     },
     {
       "__outstatic": {
-        "commit": "aa1f387e5c66347e675bed0862b070d8946c95f4",
-        "hash": "1055690014",
-        "path": "outstatic/content/projects/couple-pizza.md"
+        "commit": "26b813b7d9f09caa9a53ead4f515ea28e26ab2be",
+        "hash": "3896763695",
+        "path": "outstatic/content/testing/tester.md"
       },
       "author": {
-        "name": "Bob Marley"
+        "name": "paddya",
+        "picture": "https://avatars.githubusercontent.com/u/44815835?v=4"
       },
-      "collection": "projects",
-      "coverImage": "/images/couple-pizza.png",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
-      "publishedAt": "2022-03-16T05:35:07.322Z",
-      "slug": "couple-pizza",
+      "collection": "testing",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-05-06T18:24:01.819Z",
+      "slug": "tester",
       "status": "published",
-      "title": "Couple Pizza"
+      "title": "tester"
     },
     {
       "__outstatic": {
@@ -155,6 +138,23 @@
       "slug": "bearbnb",
       "status": "published",
       "title": " 🧸 Bearbnb"
+    },
+    {
+      "__outstatic": {
+        "commit": "aa1f387e5c66347e675bed0862b070d8946c95f4",
+        "hash": "1055690014",
+        "path": "outstatic/content/projects/couple-pizza.md"
+      },
+      "author": {
+        "name": "Bob Marley"
+      },
+      "collection": "projects",
+      "coverImage": "/images/couple-pizza.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
+      "publishedAt": "2022-03-16T05:35:07.322Z",
+      "slug": "couple-pizza",
+      "status": "published",
+      "title": "Couple Pizza"
     },
     {
       "__outstatic": {

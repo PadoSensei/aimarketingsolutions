@@ -1,7 +1,27 @@
 {
-  "commit": "c617a66972a2fada800a2b93e5686a5203bb99fe",
-  "generated": "2024-05-20T15:01:22.514Z",
+  "commit": "fc1ed2d449f36dbce70f0daf0cdc6edb7fe8c3c2",
+  "generated": "Mon, 20 May 2024 15:01:47 GMT",
   "metadata": [
+    {
+      "__outstatic": {
+        "commit": "b846e2b9c9cdfa393c129de86cea2fa4ebafe704",
+        "hash": "2679135291",
+        "path": "outstatic/content/courses/generative-ai-for-marketing-how-to-implement-ai-tools-to-generate-and-implement-marketing-strategies.md"
+      },
+      "author": {
+        "name": "Ludmila Domingos",
+        "picture": "/images/ludmila-domingos-marketing-ai-verde-kxMT.png"
+      },
+      "collection": "courses",
+      "coverImage": "/images/course-image-2-YzMj.png",
+      "description": "Generative AI for Marketing Implementing AI Tools to Generate and Implement Marketing Strategies",
+      "price": "€50",
+      "publishedAt": "2024-05-20T11:45:57.425Z",
+      "slug": "generative-ai-for-marketing-how-to-implement-ai-tools-to-generate-and-implement-marketing-strategies",
+      "status": "published",
+      "title": "Generative AI for Marketing: How to Implement AI Tools to Generate and Implement Marketing Strategies",
+      "urlPaymentLink": "https://buy.stripe.com/5kAcMS9UD4FR4s86oo"
+    },
     {
       "__outstatic": {
         "commit": "2e64dc1e22d94dfb979869d8f6d63e10b8633a58",
@@ -180,26 +200,6 @@
         }
       ],
       "title": "IA Generativa para Personalização"
-    },
-    {
-      "__outstatic": {
-        "commit": "c617a66972a2fada800a2b93e5686a5203bb99fe",
-        "hash": "3268325176",
-        "path": "outstatic/content/courses/generative-ai-for-marketing-how-to-implement-ai-tools-to-generate-and-implement-marketing-strategies.md"
-      },
-      "author": {
-        "name": "Ludmila Domingos",
-        "picture": "/images/ludmila-domingos-marketing-ai-verde-kxMT.png"
-      },
-      "collection": "courses",
-      "coverImage": "/images/course-image-3-E0Nj.png",
-      "description": "Generative AI for Marketing Implementing AI Tools to Generate and Implement Marketing Strategies",
-      "price": "€50",
-      "publishedAt": "2024-05-20T11:45:57.425Z",
-      "slug": "generative-ai-for-marketing-how-to-implement-ai-tools-to-generate-and-implement-marketing-strategies",
-      "status": "published",
-      "title": "Generative AI for Marketing: How to Implement AI Tools to Generate and Implement Marketing Strategies",
-      "urlPaymentLink": "https://buy.stripe.com/5kAcMS9UD4FR4s86oo"
     }
   ]
 }

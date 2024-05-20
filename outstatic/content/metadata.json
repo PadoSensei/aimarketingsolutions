@@ -1,25 +1,7 @@
 {
-  "commit": "b3fdbce34c03704863a13502e2f922bab846f8b4",
-  "generated": "2024-05-20T15:20:40.636Z",
+  "commit": "8025db4314453e8daf26e96bc58b4e4c59582921",
+  "generated": "Mon, 20 May 2024 15:20:55 GMT",
   "metadata": [
-    {
-      "__outstatic": {
-        "commit": "2e47122b5b6d49d6d1ddb15bcd33edc4a0c1256e",
-        "hash": "217348983",
-        "path": "outstatic/content/pages/home.md"
-      },
-      "author": {
-        "name": "Andre Vitorio",
-        "picture": ""
-      },
-      "collection": "pages",
-      "coverImage": "",
-      "description": "This is my blog.",
-      "publishedAt": "2022-03-17T05:35:07.322Z",
-      "slug": "home",
-      "status": "published",
-      "title": "Home"
-    },
     {
       "__outstatic": {
         "commit": "2e64dc1e22d94dfb979869d8f6d63e10b8633a58",
@@ -48,21 +30,21 @@
     },
     {
       "__outstatic": {
-        "commit": "e0f2265addf9ad25028af294c207b9b84b2deae3",
-        "hash": "4211004557",
-        "path": "outstatic/content/courses/test-course.md"
+        "commit": "2e47122b5b6d49d6d1ddb15bcd33edc4a0c1256e",
+        "hash": "217348983",
+        "path": "outstatic/content/pages/home.md"
       },
       "author": {
-        "name": "Padraig",
-        "picture": "https://avatars.githubusercontent.com/u/44815835?v=4"
+        "name": "Andre Vitorio",
+        "picture": ""
       },
-      "collection": "courses",
-      "coverImage": "/images/dall-e-2024-03-15-00.31.10---a-dynamic-representation-of-event-capturing-in-javascript--set-in-a-japanese-techno-ninja-cityscape.-the-image-shows-an-inverted-tree-structure-with-n-M0OT.webp",
-      "description": "",
-      "publishedAt": "2024-05-01T20:00:15.111Z",
-      "slug": "test-course",
+      "collection": "pages",
+      "coverImage": "",
+      "description": "This is my blog.",
+      "publishedAt": "2022-03-17T05:35:07.322Z",
+      "slug": "home",
       "status": "published",
-      "title": "Test course"
+      "title": "Home"
     },
     {
       "__outstatic": {

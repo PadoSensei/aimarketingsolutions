@@ -1,7 +1,45 @@
 {
-  "commit": "da9a1ac6906e22047919a682f7a5e6e6d076e10f",
-  "generated": "2024-05-20T17:58:51.390Z",
+  "commit": "d7b7551cfea31c43e5a0f839927ea9ed0e00d047",
+  "generated": "Mon, 20 May 2024 17:58:59 GMT",
   "metadata": [
+    {
+      "__outstatic": {
+        "commit": "47f642b85a5c08c2e6355a68fa9a4152cefb0e31",
+        "hash": "431594696",
+        "path": "outstatic/content/courses/generative-ai-for-marketing-how-to-implement-ai-tools-to-generate-and-implement-marketing-strategies.md"
+      },
+      "author": {
+        "name": "Ludmila Domingos",
+        "picture": "/images/ludmila-domingos-marketing-ai-verde-kxMT.png"
+      },
+      "collection": "courses",
+      "coverImage": "/images/course-image-3-Q5Mz.png",
+      "description": "Generative AI for Marketing - Implementing AI Tools to Generate and Implement Marketing Strategies; In this comprehensive course designed for beginners and intermediate learners, you'll discover how to harness the potential of artificial intelligence to revolutionise your marketing strategies.  You'll learn how leading organisations are leveraging AI and explore innovative, cost-effective technologies that you can implement immediately.",
+      "price": "€50",
+      "publishedAt": "2024-05-20T11:45:57.425Z",
+      "slug": "generative-ai-for-marketing-how-to-implement-ai-tools-to-generate-and-implement-marketing-strategies",
+      "status": "published",
+      "title": "Generative AI for Marketing: How to Implement AI Tools to Generate and Implement Marketing Strategies",
+      "urlPaymentLink": "https://buy.stripe.com/5kAcMS9UD4FR4s86oo"
+    },
+    {
+      "__outstatic": {
+        "commit": "2e47122b5b6d49d6d1ddb15bcd33edc4a0c1256e",
+        "hash": "217348983",
+        "path": "outstatic/content/pages/home.md"
+      },
+      "author": {
+        "name": "Andre Vitorio",
+        "picture": ""
+      },
+      "collection": "pages",
+      "coverImage": "",
+      "description": "This is my blog.",
+      "publishedAt": "2022-03-17T05:35:07.322Z",
+      "slug": "home",
+      "status": "published",
+      "title": "Home"
+    },
     {
       "__outstatic": {
         "commit": "0fd8ddf0bdd744e0e4007c769e637d135dd40c7b",
@@ -21,24 +59,6 @@
       "status": "published",
       "title": "Introdução a Web Analytics com Inteligência Artificial",
       "urlPaymentLink": "https://sacola.pagbank.com.br/99281ded-7f22-4ef5-88e4-9de6dad1440c"
-    },
-    {
-      "__outstatic": {
-        "commit": "2e47122b5b6d49d6d1ddb15bcd33edc4a0c1256e",
-        "hash": "217348983",
-        "path": "outstatic/content/pages/home.md"
-      },
-      "author": {
-        "name": "Andre Vitorio",
-        "picture": ""
-      },
-      "collection": "pages",
-      "coverImage": "",
-      "description": "This is my blog.",
-      "publishedAt": "2022-03-17T05:35:07.322Z",
-      "slug": "home",
-      "status": "published",
-      "title": "Home"
     },
     {
       "__outstatic": {
@@ -68,24 +88,6 @@
     },
     {
       "__outstatic": {
-        "commit": "26b813b7d9f09caa9a53ead4f515ea28e26ab2be",
-        "hash": "3896763695",
-        "path": "outstatic/content/testing/tester.md"
-      },
-      "author": {
-        "name": "paddya",
-        "picture": "https://avatars.githubusercontent.com/u/44815835?v=4"
-      },
-      "collection": "testing",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2024-05-06T18:24:01.819Z",
-      "slug": "tester",
-      "status": "published",
-      "title": "tester"
-    },
-    {
-      "__outstatic": {
         "commit": "b22b0f4f3d38a659cbab9b89ac2b7394f2446de4",
         "hash": "425893791",
         "path": "outstatic/content/projects/flycream-travel.md"
@@ -104,6 +106,24 @@
     },
     {
       "__outstatic": {
+        "commit": "26b813b7d9f09caa9a53ead4f515ea28e26ab2be",
+        "hash": "3896763695",
+        "path": "outstatic/content/testing/tester.md"
+      },
+      "author": {
+        "name": "paddya",
+        "picture": "https://avatars.githubusercontent.com/u/44815835?v=4"
+      },
+      "collection": "testing",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-05-06T18:24:01.819Z",
+      "slug": "tester",
+      "status": "published",
+      "title": "tester"
+    },
+    {
+      "__outstatic": {
         "commit": "caeb954ea1579e04b6b74c80ddf718e56c60a67d",
         "hash": "1076515129",
         "path": "outstatic/content/projects/bearbnb.md"
@@ -118,6 +138,23 @@
       "slug": "bearbnb",
       "status": "published",
       "title": " 🧸 Bearbnb"
+    },
+    {
+      "__outstatic": {
+        "commit": "aa1f387e5c66347e675bed0862b070d8946c95f4",
+        "hash": "1055690014",
+        "path": "outstatic/content/projects/couple-pizza.md"
+      },
+      "author": {
+        "name": "Bob Marley"
+      },
+      "collection": "projects",
+      "coverImage": "/images/couple-pizza.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
+      "publishedAt": "2022-03-16T05:35:07.322Z",
+      "slug": "couple-pizza",
+      "status": "published",
+      "title": "Couple Pizza"
     },
     {
       "__outstatic": {
@@ -147,43 +184,6 @@
         }
       ],
       "title": "IA Generativa para Personalização"
-    },
-    {
-      "__outstatic": {
-        "commit": "aa1f387e5c66347e675bed0862b070d8946c95f4",
-        "hash": "1055690014",
-        "path": "outstatic/content/projects/couple-pizza.md"
-      },
-      "author": {
-        "name": "Bob Marley"
-      },
-      "collection": "projects",
-      "coverImage": "/images/couple-pizza.png",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
-      "publishedAt": "2022-03-16T05:35:07.322Z",
-      "slug": "couple-pizza",
-      "status": "published",
-      "title": "Couple Pizza"
-    },
-    {
-      "__outstatic": {
-        "commit": "da9a1ac6906e22047919a682f7a5e6e6d076e10f",
-        "hash": "2769323729",
-        "path": "outstatic/content/courses/generative-ai-for-marketing-how-to-implement-ai-tools-to-generate-and-implement-marketing-strategies.md"
-      },
-      "author": {
-        "name": "Ludmila Domingos",
-        "picture": "/images/ludmila-domingos-marketing-ai-verde-kxMT.png"
-      },
-      "collection": "courses",
-      "coverImage": "/images/course-image-3-Q5Mz.png",
-      "description": "Generative AI for Marketing - Implementing AI Tools to Generate and Implement Marketing Strategies; In this comprehensive course designed for beginners and intermediate learners, you'll discover how to harness the potential of artificial intelligence to revolutionise your marketing strategies.  You'll learn how leading organisations are leveraging AI and explore innovative, cost-effective technologies that you can implement immediately.",
-      "price": "€50",
-      "publishedAt": "2024-05-20T11:45:57.425Z",
-      "slug": "generative-ai-for-marketing-how-to-implement-ai-tools-to-generate-and-implement-marketing-strategies",
-      "status": "published",
-      "title": "Generative AI for Marketing: How to Implement AI Tools to Generate and Implement Marketing Strategies",
-      "urlPaymentLink": "https://buy.stripe.com/5kAcMS9UD4FR4s86oo"
     }
   ]
 }

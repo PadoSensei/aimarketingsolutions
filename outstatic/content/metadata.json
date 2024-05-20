@@ -1,6 +1,6 @@
 {
-  "commit": "e90f004eb101365865fe8ded46f73f1ad6d0e82f",
-  "generated": "2024-05-19T19:27:13.863Z",
+  "commit": "f8832741889726049ce422cf2b99e86871fb4d4c",
+  "generated": "2024-05-20T14:43:31.582Z",
   "metadata": [
     {
       "__outstatic": {
@@ -180,6 +180,26 @@
       "slug": "couple-pizza",
       "status": "published",
       "title": "Couple Pizza"
+    },
+    {
+      "__outstatic": {
+        "commit": "f8832741889726049ce422cf2b99e86871fb4d4c",
+        "hash": "4120232394",
+        "path": "outstatic/content/courses/generative-ai-for-marketing-how-to-implement-ai-tools-to-generate-and-implement-marketing-strategies.md"
+      },
+      "author": {
+        "name": "Ludmila Domingos",
+        "picture": "/images/ludmila-domingos-marketing-ai-verde-kxMT.png"
+      },
+      "collection": "courses",
+      "coverImage": "/images/course-image-k3Mj.png",
+      "description": "Generative AI for Marketing Implementing AI Tools to Generate and Implement Marketing Strategies",
+      "price": "€50",
+      "publishedAt": "2024-05-20T11:45:57.425Z",
+      "slug": "generative-ai-for-marketing-how-to-implement-ai-tools-to-generate-and-implement-marketing-strategies",
+      "status": "published",
+      "title": "Generative AI for Marketing: How to Implement AI Tools to Generate and Implement Marketing Strategies",
+      "urlPaymentLink": "https://buy.stripe.com/5kAcMS9UD4FR4s86oo"
     }
   ]
 }

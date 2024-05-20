@@ -1,6 +1,6 @@
 {
-  "commit": "c250fc16207e56c905072b65bcfe20cd5b53c67b",
-  "generated": "2024-05-20T15:26:17.668Z",
+  "commit": "d5c494b8527d12da8217eaccb3b5bd4e59e669e4",
+  "generated": "Mon, 20 May 2024 15:26:30 GMT",
   "metadata": [
     {
       "__outstatic": {
@@ -48,6 +48,46 @@
     },
     {
       "__outstatic": {
+        "commit": "0fd8ddf0bdd744e0e4007c769e637d135dd40c7b",
+        "hash": "3135255717",
+        "path": "outstatic/content/courses/introducao-a-web-analytics-com-inteligencia-artificial.md"
+      },
+      "author": {
+        "name": "Ludmila Domingos",
+        "picture": "/images/ludmila-domingos-marketing-ai-verde-Y0Mz.png"
+      },
+      "collection": "courses",
+      "coverImage": "/images/course-cover-website-g4NT.png",
+      "description": "De maneira clara e sem complicação, você vai aprender o básico do Google Analytics e explorar como a IA pode ajudar a tomar decisões mais inteligentes.  Ao final, você terá uma compreensão sólida dos dados e estará no caminho certo para usar essas informações a favor do seu negócio.  Tudo explicado de forma acessível, perfeito para quem está começando no mundo digital!",
+      "price": "R$300",
+      "publishedAt": "2024-05-20T15:15:57.224Z",
+      "slug": "introducao-a-web-analytics-com-inteligencia-artificial",
+      "status": "published",
+      "title": "Introdução a Web Analytics com Inteligência Artificial",
+      "urlPaymentLink": "https://sacola.pagbank.com.br/99281ded-7f22-4ef5-88e4-9de6dad1440c"
+    },
+    {
+      "__outstatic": {
+        "commit": "7ba46f34a491db1a17e93792aa3b960032d3bf28",
+        "hash": "2376360632",
+        "path": "outstatic/content/courses/generative-ai-for-marketing-how-to-implement-ai-tools-to-generate-and-implement-marketing-strategies.md"
+      },
+      "author": {
+        "name": "Ludmila Domingos",
+        "picture": "/images/ludmila-domingos-marketing-ai-verde-kxMT.png"
+      },
+      "collection": "courses",
+      "coverImage": "/images/course-image-3-Q5Mz.png",
+      "description": "Generative AI for Marketing - Implementing AI Tools to Generate and Implement Marketing Strategies; In this comprehensive course designed for beginners and intermediate learners, you'll discover how to harness the potential of artificial intelligence to revolutionise your marketing strategies.  You'll learn how leading organisations are leveraging AI and explore innovative, cost-effective technologies that you can implement immediately.",
+      "price": "€50",
+      "publishedAt": "2024-05-20T11:45:57.425Z",
+      "slug": "generative-ai-for-marketing-how-to-implement-ai-tools-to-generate-and-implement-marketing-strategies",
+      "status": "published",
+      "title": "Generative AI for Marketing: How to Implement AI Tools to Generate and Implement Marketing Strategies",
+      "urlPaymentLink": "https://buy.stripe.com/5kAcMS9UD4FR4s86oo"
+    },
+    {
+      "__outstatic": {
         "commit": "26b813b7d9f09caa9a53ead4f515ea28e26ab2be",
         "hash": "3896763695",
         "path": "outstatic/content/testing/tester.md"
@@ -84,23 +124,6 @@
     },
     {
       "__outstatic": {
-        "commit": "aa1f387e5c66347e675bed0862b070d8946c95f4",
-        "hash": "1055690014",
-        "path": "outstatic/content/projects/couple-pizza.md"
-      },
-      "author": {
-        "name": "Bob Marley"
-      },
-      "collection": "projects",
-      "coverImage": "/images/couple-pizza.png",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
-      "publishedAt": "2022-03-16T05:35:07.322Z",
-      "slug": "couple-pizza",
-      "status": "published",
-      "title": "Couple Pizza"
-    },
-    {
-      "__outstatic": {
         "commit": "caeb954ea1579e04b6b74c80ddf718e56c60a67d",
         "hash": "1076515129",
         "path": "outstatic/content/projects/bearbnb.md"
@@ -115,6 +138,23 @@
       "slug": "bearbnb",
       "status": "published",
       "title": " 🧸 Bearbnb"
+    },
+    {
+      "__outstatic": {
+        "commit": "aa1f387e5c66347e675bed0862b070d8946c95f4",
+        "hash": "1055690014",
+        "path": "outstatic/content/projects/couple-pizza.md"
+      },
+      "author": {
+        "name": "Bob Marley"
+      },
+      "collection": "projects",
+      "coverImage": "/images/couple-pizza.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
+      "publishedAt": "2022-03-16T05:35:07.322Z",
+      "slug": "couple-pizza",
+      "status": "published",
+      "title": "Couple Pizza"
     },
     {
       "__outstatic": {
@@ -144,46 +184,6 @@
         }
       ],
       "title": "IA Generativa para Personalização"
-    },
-    {
-      "__outstatic": {
-        "commit": "8eb8e25d117bd00a47d115be60ab76cf20f57236",
-        "hash": "3135255717",
-        "path": "outstatic/content/courses/introducao-a-web-analytics-com-inteligencia-artificial.md"
-      },
-      "author": {
-        "name": "Ludmila Domingos",
-        "picture": "/images/ludmila-domingos-marketing-ai-verde-Y0Mz.png"
-      },
-      "collection": "courses",
-      "coverImage": "/images/course-cover-website-g4NT.png",
-      "description": "De maneira clara e sem complicação, você vai aprender o básico do Google Analytics e explorar como a IA pode ajudar a tomar decisões mais inteligentes.  Ao final, você terá uma compreensão sólida dos dados e estará no caminho certo para usar essas informações a favor do seu negócio.  Tudo explicado de forma acessível, perfeito para quem está começando no mundo digital!",
-      "price": "R$300",
-      "publishedAt": "2024-05-20T15:15:57.224Z",
-      "slug": "introducao-a-web-analytics-com-inteligencia-artificial",
-      "status": "published",
-      "title": "Introdução a Web Analytics com Inteligência Artificial",
-      "urlPaymentLink": "https://sacola.pagbank.com.br/99281ded-7f22-4ef5-88e4-9de6dad1440c"
-    },
-    {
-      "__outstatic": {
-        "commit": "c250fc16207e56c905072b65bcfe20cd5b53c67b",
-        "hash": "2376360632",
-        "path": "outstatic/content/courses/generative-ai-for-marketing-how-to-implement-ai-tools-to-generate-and-implement-marketing-strategies.md"
-      },
-      "author": {
-        "name": "Ludmila Domingos",
-        "picture": "/images/ludmila-domingos-marketing-ai-verde-kxMT.png"
-      },
-      "collection": "courses",
-      "coverImage": "/images/course-image-3-Q5Mz.png",
-      "description": "Generative AI for Marketing - Implementing AI Tools to Generate and Implement Marketing Strategies; In this comprehensive course designed for beginners and intermediate learners, you'll discover how to harness the potential of artificial intelligence to revolutionise your marketing strategies.  You'll learn how leading organisations are leveraging AI and explore innovative, cost-effective technologies that you can implement immediately.",
-      "price": "€50",
-      "publishedAt": "2024-05-20T11:45:57.425Z",
-      "slug": "generative-ai-for-marketing-how-to-implement-ai-tools-to-generate-and-implement-marketing-strategies",
-      "status": "published",
-      "title": "Generative AI for Marketing: How to Implement AI Tools to Generate and Implement Marketing Strategies",
-      "urlPaymentLink": "https://buy.stripe.com/5kAcMS9UD4FR4s86oo"
     }
   ]
 }

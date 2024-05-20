@@ -2,7 +2,7 @@
 author:
   name: 'Ludmila Domingos'
   picture: '/images/ludmila-domingos-marketing-ai-verde-kxMT.png'
-coverImage: '/images/course-image-k3Mj.png'
+coverImage: '/images/course-image-2-YzMj.png'
 title: 'Generative AI for Marketing: How to Implement AI Tools to Generate and Implement Marketing Strategies'
 status: 'published'
 slug: 'generative-ai-for-marketing-how-to-implement-ai-tools-to-generate-and-implement-marketing-strategies'
@@ -16,7 +16,7 @@ Welcome! I'm Ludmila, your guide through this comprehensive course on marketing 
 \
 With nearly a decade of experience in marketing across various countries and industries, I've had the privilege of learning from diverse projects and demands. \
 \
-This course is designed to equip marketing professionals with a deep understanding of generative AI and its applications in marketing. 
+This course is designed to equip marketing professionals with a deep understanding of generative AI and its applications in marketing.
 
 ## Course Overview
 

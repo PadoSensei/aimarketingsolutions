@@ -1,6 +1,6 @@
 {
-  "commit": "8aa819bc9106dafefbb51411306a3452e1d4046a",
-  "generated": "2024-05-20T15:19:14.870Z",
+  "commit": "554744408e746cc516297e4d7e33ffc79fd9722f",
+  "generated": "Mon, 20 May 2024 15:19:28 GMT",
   "metadata": [
     {
       "__outstatic": {
@@ -22,23 +22,21 @@
     },
     {
       "__outstatic": {
-        "commit": "6b081946257992882563e131419e95d62db64460",
-        "hash": "2982783497",
-        "path": "outstatic/content/courses/introducao-a-web-analytics-com-inteligencia-artificial.md"
+        "commit": "2e47122b5b6d49d6d1ddb15bcd33edc4a0c1256e",
+        "hash": "217348983",
+        "path": "outstatic/content/pages/home.md"
       },
       "author": {
-        "name": "Ludmila Domingos",
-        "picture": "/images/ludmila-domingos-marketing-ai-verde-Y0Mz.png"
+        "name": "Andre Vitorio",
+        "picture": ""
       },
-      "collection": "courses",
-      "coverImage": "/images/course-cover-website-I0NT.png",
-      "description": "De maneira clara e sem complicação, você vai aprender o básico do Google Analytics e explorar como a IA pode ajudar a tomar decisões mais inteligentes.  Ao final, você terá uma compreensão sólida dos dados e estará no caminho certo para usar essas informações a favor do seu negócio.  Tudo explicado de forma acessível, perfeito para quem está começando no mundo digital!",
-      "price": "R$300",
-      "publishedAt": "2024-05-20T15:15:57.224Z",
-      "slug": "introducao-a-web-analytics-com-inteligencia-artificial",
-      "status": "draft",
-      "title": "Introdução a Web Analytics com Inteligência Artificial",
-      "urlPaymentLink": "https://sacola.pagbank.com.br/99281ded-7f22-4ef5-88e4-9de6dad1440c"
+      "collection": "pages",
+      "coverImage": "",
+      "description": "This is my blog.",
+      "publishedAt": "2022-03-17T05:35:07.322Z",
+      "slug": "home",
+      "status": "published",
+      "title": "Home"
     },
     {
       "__outstatic": {
@@ -68,24 +66,6 @@
     },
     {
       "__outstatic": {
-        "commit": "2e47122b5b6d49d6d1ddb15bcd33edc4a0c1256e",
-        "hash": "217348983",
-        "path": "outstatic/content/pages/home.md"
-      },
-      "author": {
-        "name": "Andre Vitorio",
-        "picture": ""
-      },
-      "collection": "pages",
-      "coverImage": "",
-      "description": "This is my blog.",
-      "publishedAt": "2022-03-17T05:35:07.322Z",
-      "slug": "home",
-      "status": "published",
-      "title": "Home"
-    },
-    {
-      "__outstatic": {
         "commit": "e0f2265addf9ad25028af294c207b9b84b2deae3",
         "hash": "4211004557",
         "path": "outstatic/content/courses/test-course.md"
@@ -101,6 +81,46 @@
       "slug": "test-course",
       "status": "published",
       "title": "Test course"
+    },
+    {
+      "__outstatic": {
+        "commit": "6b081946257992882563e131419e95d62db64460",
+        "hash": "3697176197",
+        "path": "outstatic/content/courses/introducao-a-web-analytics-com-inteligencia-artificial.md"
+      },
+      "author": {
+        "name": "Ludmila Domingos",
+        "picture": "/images/ludmila-domingos-marketing-ai-verde-Y0Mz.png"
+      },
+      "collection": "courses",
+      "coverImage": "/images/course-cover-website-I0NT.png",
+      "description": "De maneira clara e sem complicação, você vai aprender o básico do Google Analytics e explorar como a IA pode ajudar a tomar decisões mais inteligentes.  Ao final, você terá uma compreensão sólida dos dados e estará no caminho certo para usar essas informações a favor do seu negócio.  Tudo explicado de forma acessível, perfeito para quem está começando no mundo digital!",
+      "price": "R$300",
+      "publishedAt": "2024-05-20T15:15:57.224Z",
+      "slug": "introducao-a-web-analytics-com-inteligencia-artificial",
+      "status": "published",
+      "title": "Introdução a Web Analytics com Inteligência Artificial",
+      "urlPaymentLink": "https://sacola.pagbank.com.br/99281ded-7f22-4ef5-88e4-9de6dad1440c"
+    },
+    {
+      "__outstatic": {
+        "commit": "d7a5dc9a22b9e04325d0910ea5599fcc89c946ca",
+        "hash": "2094960460",
+        "path": "outstatic/content/courses/generative-ai-for-marketing-how-to-implement-ai-tools-to-generate-and-implement-marketing-strategies.md"
+      },
+      "author": {
+        "name": "Ludmila Domingos",
+        "picture": "/images/ludmila-domingos-marketing-ai-verde-kxMT.png"
+      },
+      "collection": "courses",
+      "coverImage": "/images/course-image-3-gwMT.png",
+      "description": "Generative AI for Marketing Implementing AI Tools to Generate and Implement Marketing Strategies",
+      "price": "€50",
+      "publishedAt": "2024-05-20T11:45:57.425Z",
+      "slug": "generative-ai-for-marketing-how-to-implement-ai-tools-to-generate-and-implement-marketing-strategies",
+      "status": "published",
+      "title": "Generative AI for Marketing: How to Implement AI Tools to Generate and Implement Marketing Strategies",
+      "urlPaymentLink": "https://buy.stripe.com/5kAcMS9UD4FR4s86oo"
     },
     {
       "__outstatic": {
@@ -200,26 +220,6 @@
         }
       ],
       "title": "IA Generativa para Personalização"
-    },
-    {
-      "__outstatic": {
-        "commit": "8aa819bc9106dafefbb51411306a3452e1d4046a",
-        "hash": "2094960460",
-        "path": "outstatic/content/courses/generative-ai-for-marketing-how-to-implement-ai-tools-to-generate-and-implement-marketing-strategies.md"
-      },
-      "author": {
-        "name": "Ludmila Domingos",
-        "picture": "/images/ludmila-domingos-marketing-ai-verde-kxMT.png"
-      },
-      "collection": "courses",
-      "coverImage": "/images/course-image-3-gwMT.png",
-      "description": "Generative AI for Marketing Implementing AI Tools to Generate and Implement Marketing Strategies",
-      "price": "€50",
-      "publishedAt": "2024-05-20T11:45:57.425Z",
-      "slug": "generative-ai-for-marketing-how-to-implement-ai-tools-to-generate-and-implement-marketing-strategies",
-      "status": "published",
-      "title": "Generative AI for Marketing: How to Implement AI Tools to Generate and Implement Marketing Strategies",
-      "urlPaymentLink": "https://buy.stripe.com/5kAcMS9UD4FR4s86oo"
     }
   ]
 }

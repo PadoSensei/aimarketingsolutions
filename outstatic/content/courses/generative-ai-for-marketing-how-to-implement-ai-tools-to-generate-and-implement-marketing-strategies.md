@@ -2,7 +2,7 @@
 author:
   name: 'Ludmila Domingos'
   picture: '/images/ludmila-domingos-marketing-ai-verde-kxMT.png'
-coverImage: '/images/course-image-3-E0Nj.png'
+coverImage: '/images/course-image-3-gwMT.png'
 title: 'Generative AI for Marketing: How to Implement AI Tools to Generate and Implement Marketing Strategies'
 status: 'published'
 slug: 'generative-ai-for-marketing-how-to-implement-ai-tools-to-generate-and-implement-marketing-strategies'

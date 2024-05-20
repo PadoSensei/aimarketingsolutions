@@ -1,6 +1,6 @@
 {
-  "commit": "554744408e746cc516297e4d7e33ffc79fd9722f",
-  "generated": "Mon, 20 May 2024 15:19:28 GMT",
+  "commit": "b3fdbce34c03704863a13502e2f922bab846f8b4",
+  "generated": "2024-05-20T15:20:36.734Z",
   "metadata": [
     {
       "__outstatic": {
@@ -63,24 +63,6 @@
         }
       ],
       "title": "Generative AI for Personalization"
-    },
-    {
-      "__outstatic": {
-        "commit": "e0f2265addf9ad25028af294c207b9b84b2deae3",
-        "hash": "4211004557",
-        "path": "outstatic/content/courses/test-course.md"
-      },
-      "author": {
-        "name": "Padraig",
-        "picture": "https://avatars.githubusercontent.com/u/44815835?v=4"
-      },
-      "collection": "courses",
-      "coverImage": "/images/dall-e-2024-03-15-00.31.10---a-dynamic-representation-of-event-capturing-in-javascript--set-in-a-japanese-techno-ninja-cityscape.-the-image-shows-an-inverted-tree-structure-with-n-M0OT.webp",
-      "description": "",
-      "publishedAt": "2024-05-01T20:00:15.111Z",
-      "slug": "test-course",
-      "status": "published",
-      "title": "Test course"
     },
     {
       "__outstatic": {

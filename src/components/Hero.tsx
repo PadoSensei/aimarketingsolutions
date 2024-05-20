@@ -1,8 +1,8 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import Logo from '../../public/images/Logo_Dark.png'
-//TODO - Update text 
 
+// TODO - ADD Responsiveness to order of logo and text on small screens
 
 const Hero = () => {
   return (
@@ -35,7 +35,6 @@ const Hero = () => {
               fill
               sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
             />
-            <div className="absolute inset-0 bg-gradient-to-r from-gray-900/80 to-gray-800/60"></div>
           </div>
         </div>
       </div>

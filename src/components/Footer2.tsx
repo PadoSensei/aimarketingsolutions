@@ -1,3 +1,4 @@
+// TODO Update responsiveness on small screen - single lines and wraps on footer text
 const Footer2 = () => {
     return (
       <footer className="bg-black text-white">

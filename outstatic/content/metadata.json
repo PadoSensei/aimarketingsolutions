@@ -1,26 +1,44 @@
 {
-  "commit": "7d7d82682f39c144cb55fa95fe9934445ef1e48d",
-  "generated": "2024-05-20T15:17:17.884Z",
+  "commit": "56b93f3aedfd48ba0a6f8725f4bf6a7ba03e140e",
+  "generated": "Mon, 20 May 2024 15:17:25 GMT",
   "metadata": [
     {
       "__outstatic": {
-        "commit": "b846e2b9c9cdfa393c129de86cea2fa4ebafe704",
-        "hash": "2679135291",
-        "path": "outstatic/content/courses/generative-ai-for-marketing-how-to-implement-ai-tools-to-generate-and-implement-marketing-strategies.md"
+        "commit": "7eca05ac85115d9f26ed9da62aa6272a7289c7e9",
+        "hash": "1453234425",
+        "path": "outstatic/content/courses/2nd-test.md"
+      },
+      "author": {
+        "name": "Padraig",
+        "picture": "https://avatars.githubusercontent.com/u/44815835?v=4"
+      },
+      "collection": "courses",
+      "coverImage": "/images/dall-e-2024-02-28-00.06.38---1.-a-serene-japanese-garden--where-a-ninja-is-meditatively-preparing-tea--symbolizing-the-creation-of-a-promise-in-a-peaceful-and-focused-manner.-the--A0NT.webp",
+      "description": "",
+      "publishedAt": "2024-05-03T18:44:08.767Z",
+      "slug": "2nd-test",
+      "status": "published",
+      "title": "2nd test"
+    },
+    {
+      "__outstatic": {
+        "commit": "84b7306cc79bc226f7f935d3a9a779f43600534e",
+        "hash": "3716328257",
+        "path": "outstatic/content/courses/introducao-a-web-analytics-com-inteligencia-artificial.md"
       },
       "author": {
         "name": "Ludmila Domingos",
-        "picture": "/images/ludmila-domingos-marketing-ai-verde-kxMT.png"
+        "picture": "/images/ludmila-domingos-marketing-ai-verde-Y0Mz.png"
       },
       "collection": "courses",
-      "coverImage": "/images/course-image-2-YzMj.png",
-      "description": "Generative AI for Marketing Implementing AI Tools to Generate and Implement Marketing Strategies",
-      "price": "€50",
-      "publishedAt": "2024-05-20T11:45:57.425Z",
-      "slug": "generative-ai-for-marketing-how-to-implement-ai-tools-to-generate-and-implement-marketing-strategies",
-      "status": "published",
-      "title": "Generative AI for Marketing: How to Implement AI Tools to Generate and Implement Marketing Strategies",
-      "urlPaymentLink": "https://buy.stripe.com/5kAcMS9UD4FR4s86oo"
+      "coverImage": "/images/course-cover-website-I0NT.png",
+      "description": "De maneira clara e sem complicação, você vai aprender o básico do Google Analytics e explorar como a IA pode ajudar a tomar decisões mais inteligentes.  Ao final, você terá uma compreensão sólida dos dados e estará no caminho certo para usar essas informações a favor do seu negócio.  Tudo explicado de forma acessível, perfeito para quem está começando no mundo digital!",
+      "price": "R$300",
+      "publishedAt": "2024-05-20T15:15:57.224Z",
+      "slug": "introducao-a-web-analytics-com-inteligencia-artificial",
+      "status": "draft",
+      "title": "Introdução a Web Analytics com Inteligência Artificial",
+      "urlPaymentLink": "https://sacola.pagbank.com.br/99281ded-7f22-4ef5-88e4-9de6dad1440c"
     },
     {
       "__outstatic": {
@@ -86,21 +104,23 @@
     },
     {
       "__outstatic": {
-        "commit": "7eca05ac85115d9f26ed9da62aa6272a7289c7e9",
-        "hash": "1453234425",
-        "path": "outstatic/content/courses/2nd-test.md"
+        "commit": "b846e2b9c9cdfa393c129de86cea2fa4ebafe704",
+        "hash": "3268325176",
+        "path": "outstatic/content/courses/generative-ai-for-marketing-how-to-implement-ai-tools-to-generate-and-implement-marketing-strategies.md"
       },
       "author": {
-        "name": "Padraig",
-        "picture": "https://avatars.githubusercontent.com/u/44815835?v=4"
+        "name": "Ludmila Domingos",
+        "picture": "/images/ludmila-domingos-marketing-ai-verde-kxMT.png"
       },
       "collection": "courses",
-      "coverImage": "/images/dall-e-2024-02-28-00.06.38---1.-a-serene-japanese-garden--where-a-ninja-is-meditatively-preparing-tea--symbolizing-the-creation-of-a-promise-in-a-peaceful-and-focused-manner.-the--A0NT.webp",
-      "description": "",
-      "publishedAt": "2024-05-03T18:44:08.767Z",
-      "slug": "2nd-test",
+      "coverImage": "/images/course-image-3-E0Nj.png",
+      "description": "Generative AI for Marketing Implementing AI Tools to Generate and Implement Marketing Strategies",
+      "price": "€50",
+      "publishedAt": "2024-05-20T11:45:57.425Z",
+      "slug": "generative-ai-for-marketing-how-to-implement-ai-tools-to-generate-and-implement-marketing-strategies",
       "status": "published",
-      "title": "2nd test"
+      "title": "Generative AI for Marketing: How to Implement AI Tools to Generate and Implement Marketing Strategies",
+      "urlPaymentLink": "https://buy.stripe.com/5kAcMS9UD4FR4s86oo"
     },
     {
       "__outstatic": {
@@ -200,26 +220,6 @@
         }
       ],
       "title": "IA Generativa para Personalização"
-    },
-    {
-      "__outstatic": {
-        "commit": "7d7d82682f39c144cb55fa95fe9934445ef1e48d",
-        "hash": "2982783497",
-        "path": "outstatic/content/courses/introducao-a-web-analytics-com-inteligencia-artificial.md"
-      },
-      "author": {
-        "name": "Ludmila Domingos",
-        "picture": "/images/ludmila-domingos-marketing-ai-verde-Y0Mz.png"
-      },
-      "collection": "courses",
-      "coverImage": "/images/course-cover-website-I0NT.png",
-      "description": "De maneira clara e sem complicação, você vai aprender o básico do Google Analytics e explorar como a IA pode ajudar a tomar decisões mais inteligentes.  Ao final, você terá uma compreensão sólida dos dados e estará no caminho certo para usar essas informações a favor do seu negócio.  Tudo explicado de forma acessível, perfeito para quem está começando no mundo digital!",
-      "price": "R$300",
-      "publishedAt": "2024-05-20T15:15:57.224Z",
-      "slug": "introducao-a-web-analytics-com-inteligencia-artificial",
-      "status": "draft",
-      "title": "Introdução a Web Analytics com Inteligência Artificial",
-      "urlPaymentLink": "https://sacola.pagbank.com.br/99281ded-7f22-4ef5-88e4-9de6dad1440c"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
-  "commit": "1172915237c2968e0847d95197b3245f237ac86d",
-  "generated": "2024-05-20T15:16:57.242Z",
+  "commit": "7d7d82682f39c144cb55fa95fe9934445ef1e48d",
+  "generated": "2024-05-20T15:17:17.884Z",
   "metadata": [
     {
       "__outstatic": {
@@ -203,8 +203,8 @@
     },
     {
       "__outstatic": {
-        "commit": "1172915237c2968e0847d95197b3245f237ac86d",
-        "hash": "3716328257",
+        "commit": "7d7d82682f39c144cb55fa95fe9934445ef1e48d",
+        "hash": "2982783497",
         "path": "outstatic/content/courses/introducao-a-web-analytics-com-inteligencia-artificial.md"
       },
       "author": {

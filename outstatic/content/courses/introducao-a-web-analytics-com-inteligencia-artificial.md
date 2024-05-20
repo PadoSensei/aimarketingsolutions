@@ -5,9 +5,7 @@ author:
   name: 'Ludmila Domingos'
   picture: '/images/ludmila-domingos-marketing-ai-verde-Y0Mz.png'
 slug: 'introducao-a-web-analytics-com-inteligencia-artificial'
-description: 'De maneira clara e sem complicação, você vai aprender o básico do Google Analytics e explorar como a IA pode ajudar a tomar decisões mais inteligentes. 
-Ao final, você terá uma compreensão sólida dos dados e estará no caminho certo para usar essas informações a favor do seu negócio. 
-Tudo explicado de forma acessível, perfeito para quem está começando no mundo digital!'
+description: 'De maneira clara e sem complicação, você vai aprender o básico do Google Analytics e explorar como a IA pode ajudar a tomar decisões mais inteligentes.  Ao final, você terá uma compreensão sólida dos dados e estará no caminho certo para usar essas informações a favor do seu negócio.  Tudo explicado de forma acessível, perfeito para quem está começando no mundo digital!'
 coverImage: '/images/course-cover-website-I0NT.png'
 price: 'R$300'
 urlPaymentLink: 'https://sacola.pagbank.com.br/99281ded-7f22-4ef5-88e4-9de6dad1440c'
@@ -18,9 +16,10 @@ Inicie sua jornada de web analytics com nosso curso introdutório de 10 horas, i
 \
 De maneira clara e sem complicação, você vai aprender o básico do Google Analytics e explorar como a IA pode ajudar a tomar decisões mais inteligentes. \
 Ao final, você terá uma compreensão sólida dos dados e estará no caminho certo para usar essas informações a favor do seu negócio. \
-Tudo explicado de forma acessível, perfeito para quem está começando no mundo digital!\
-\
-## Você vai **aprender**:\
+Tudo explicado de forma acessível, perfeito para quem está começando no mundo digital!
+
+## Você vai aprender:
+
 **Aula 1: Entendendo a Análise da Web (2 Horas)**
 
 1. **O que é Web Analytics?**: Introdução ao conceito e sua importância para os negócios.
@@ -52,8 +51,8 @@ Tudo explicado de forma acessível, perfeito para quem está começando no mundo
 3. **Introdução à Otimização da Taxa de Conversão (CRO)**: Estratégias básicas para melhorar o desempenho do site e alcançar objetivos de negócios.
 4. **Conclusão do Curso e Próximos Passos**: Como continuar aprendendo e começar a implementar estratégias com base no aprendizado do curso.
 
-Carga horária: **10 horas**\
-\
+Carga horária: **10 horas**
+
 # Sobre a Professora:
 
- Ludmila Domingos é uma consultora de marketing que já deixou sua marca em diversas áreas, de cervejarias, plataformas de educação, agências de marketing internacional a empresas de tecnologia. Vivendo na Irlanda, ela é apaixonada por ajudar pequenos empresários a turbinarem suas estratégias de marketing com a ajuda de análise de dados e inteligência artificial. Com quase uma década de experiência, Ludmila traz uma abordagem super acessível e personalizada para cada cliente, ajudando-os a expandir sua presença online e crescer suas empresas através do marketing.
+Ludmila Domingos é uma consultora de marketing que já deixou sua marca em diversas áreas, de cervejarias, plataformas de educação, agências de marketing internacional a empresas de tecnologia. Vivendo na Irlanda, ela é apaixonada por ajudar pequenos empresários a turbinarem suas estratégias de marketing com a ajuda de análise de dados e inteligência artificial. Com quase uma década de experiência, Ludmila traz uma abordagem super acessível e personalizada para cada cliente, ajudando-os a expandir sua presença online e crescer suas empresas através do marketing.

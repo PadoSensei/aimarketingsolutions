@@ -1,6 +1,6 @@
 {
-  "commit": "fc1ed2d449f36dbce70f0daf0cdc6edb7fe8c3c2",
-  "generated": "Mon, 20 May 2024 15:01:47 GMT",
+  "commit": "1172915237c2968e0847d95197b3245f237ac86d",
+  "generated": "2024-05-20T15:16:57.242Z",
   "metadata": [
     {
       "__outstatic": {
@@ -200,6 +200,26 @@
         }
       ],
       "title": "IA Generativa para Personalização"
+    },
+    {
+      "__outstatic": {
+        "commit": "1172915237c2968e0847d95197b3245f237ac86d",
+        "hash": "3716328257",
+        "path": "outstatic/content/courses/introducao-a-web-analytics-com-inteligencia-artificial.md"
+      },
+      "author": {
+        "name": "Ludmila Domingos",
+        "picture": "/images/ludmila-domingos-marketing-ai-verde-Y0Mz.png"
+      },
+      "collection": "courses",
+      "coverImage": "/images/course-cover-website-I0NT.png",
+      "description": "De maneira clara e sem complicação, você vai aprender o básico do Google Analytics e explorar como a IA pode ajudar a tomar decisões mais inteligentes.  Ao final, você terá uma compreensão sólida dos dados e estará no caminho certo para usar essas informações a favor do seu negócio.  Tudo explicado de forma acessível, perfeito para quem está começando no mundo digital!",
+      "price": "R$300",
+      "publishedAt": "2024-05-20T15:15:57.224Z",
+      "slug": "introducao-a-web-analytics-com-inteligencia-artificial",
+      "status": "draft",
+      "title": "Introdução a Web Analytics com Inteligência Artificial",
+      "urlPaymentLink": "https://sacola.pagbank.com.br/99281ded-7f22-4ef5-88e4-9de6dad1440c"
     }
   ]
 }

@@ -30,5 +30,3 @@ Additionally, you'll gain insights into using task-specific GPTs helpers, analys
 By the end of this course, you'll be empowered to evaluate and enhance your marketing strategies using the latest AI technologies, positioning yourself at the forefront of the AI marketing revolution.
 
 Are you ready to unlock the power of AI for your marketing efforts?
-
-if so, go to \[My Course\](www.google.com)

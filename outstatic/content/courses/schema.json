@@ -10,7 +10,7 @@
       "title": "Price"
     },
     "urlPaymentLink": {
-      "required": true,
+      "required": false,
       "description": "URL Payment Link",
       "fieldType": "String",
       "dataType": "string",

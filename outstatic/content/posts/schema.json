@@ -17,6 +17,14 @@
         {
           "value": "iagenerativa",
           "label": "IAGENERATIVA"
+        },
+        {
+          "value": "aIinMarketing",
+          "label": "AIinMarketing"
+        },
+        {
+          "value": "marketingAi",
+          "label": "MarketingAI"
         }
       ],
       "fieldType": "Tags",

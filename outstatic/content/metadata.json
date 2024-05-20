@@ -1,6 +1,6 @@
 {
-  "commit": "4398d612217a59caa3d79749531d7d2454356d8e",
-  "generated": "Mon, 20 May 2024 18:14:42 GMT",
+  "commit": "9bd5da50fae158cffe297a222a491d5c14ae8164",
+  "generated": "2024-05-20T19:22:22.174Z",
   "metadata": [
     {
       "__outstatic": {
@@ -184,6 +184,35 @@
         }
       ],
       "title": "IA Generativa para Personalização"
+    },
+    {
+      "__outstatic": {
+        "commit": "9bd5da50fae158cffe297a222a491d5c14ae8164",
+        "hash": "1471176696",
+        "path": "outstatic/content/posts/how-ai-is-revolutionizing-marketing.md"
+      },
+      "author": {
+        "name": "Ludmila FD",
+        "picture": "https://avatars.githubusercontent.com/u/84784950?v=4"
+      },
+      "collection": "posts",
+      "coverImage": "/images/ai-Q2ND.png",
+      "description": "Discover how AI is transforming marketing through hyper-personalization, campaign optimization, customer service, and more. Learn the key applications and best practices for leveraging AI to deliver more efficient, targeted, and effective marketing that drives business growth. Understand the challenges and future potential as AI reshapes the marketing landscape",
+      "language": "eng",
+      "publishedAt": "2024-05-20T19:26:31.492Z",
+      "slug": "how-ai-is-revolutionizing-marketing",
+      "status": "draft",
+      "tags": [
+        {
+          "label": "AIinMarketing",
+          "value": "aIinMarketing"
+        },
+        {
+          "label": "MarketingAI",
+          "value": "marketingAi"
+        }
+      ],
+      "title": "How AI is Revolutionizing Marketing"
     }
   ]
 }

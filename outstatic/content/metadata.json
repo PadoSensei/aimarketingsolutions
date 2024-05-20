@@ -1,27 +1,7 @@
 {
-  "commit": "d7b7551cfea31c43e5a0f839927ea9ed0e00d047",
-  "generated": "Mon, 20 May 2024 17:58:59 GMT",
+  "commit": "2ea3a9097db7556b1ad7111533ba1a81ccc9aad0",
+  "generated": "2024-05-20T18:14:22.761Z",
   "metadata": [
-    {
-      "__outstatic": {
-        "commit": "47f642b85a5c08c2e6355a68fa9a4152cefb0e31",
-        "hash": "431594696",
-        "path": "outstatic/content/courses/generative-ai-for-marketing-how-to-implement-ai-tools-to-generate-and-implement-marketing-strategies.md"
-      },
-      "author": {
-        "name": "Ludmila Domingos",
-        "picture": "/images/ludmila-domingos-marketing-ai-verde-kxMT.png"
-      },
-      "collection": "courses",
-      "coverImage": "/images/course-image-3-Q5Mz.png",
-      "description": "Generative AI for Marketing - Implementing AI Tools to Generate and Implement Marketing Strategies; In this comprehensive course designed for beginners and intermediate learners, you'll discover how to harness the potential of artificial intelligence to revolutionise your marketing strategies.  You'll learn how leading organisations are leveraging AI and explore innovative, cost-effective technologies that you can implement immediately.",
-      "price": "€50",
-      "publishedAt": "2024-05-20T11:45:57.425Z",
-      "slug": "generative-ai-for-marketing-how-to-implement-ai-tools-to-generate-and-implement-marketing-strategies",
-      "status": "published",
-      "title": "Generative AI for Marketing: How to Implement AI Tools to Generate and Implement Marketing Strategies",
-      "urlPaymentLink": "https://buy.stripe.com/5kAcMS9UD4FR4s86oo"
-    },
     {
       "__outstatic": {
         "commit": "2e47122b5b6d49d6d1ddb15bcd33edc4a0c1256e",
@@ -184,6 +164,26 @@
         }
       ],
       "title": "IA Generativa para Personalização"
+    },
+    {
+      "__outstatic": {
+        "commit": "2ea3a9097db7556b1ad7111533ba1a81ccc9aad0",
+        "hash": "3495992137",
+        "path": "outstatic/content/courses/generative-ai-for-marketing-how-to-implement-ai-tools-to-generate-and-implement-marketing-strategies.md"
+      },
+      "author": {
+        "name": "Ludmila Domingos",
+        "picture": "/images/ludmila-domingos-marketing-ai-verde-kxMT.png"
+      },
+      "collection": "courses",
+      "coverImage": "/images/course-image-3-Q5Mz.png",
+      "description": "Generative AI for Marketing - Implementing AI Tools to Generate and Implement Marketing Strategies; In this comprehensive course designed for beginners and intermediate learners, you'll discover how to harness the potential of artificial intelligence to revolutionise your marketing strategies.  You'll learn how leading organisations are leveraging AI and explore innovative, cost-effective technologies that you can implement immediately.",
+      "price": "€50",
+      "publishedAt": "2024-05-20T11:45:57.425Z",
+      "slug": "generative-ai-for-marketing-how-to-implement-ai-tools-to-generate-and-implement-marketing-strategies",
+      "status": "published",
+      "title": "Generative AI for Marketing: How to Implement AI Tools to Generate and Implement Marketing Strategies",
+      "urlPaymentLink": ""
     }
   ]
 }

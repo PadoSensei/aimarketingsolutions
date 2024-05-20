@@ -50,22 +50,22 @@ const NavBar: React.FC<NavBarProps> = () => {
           </div>
           <div className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-4">
-              <Link href="/" className="text-gray-800 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition duration-300" aria-current="page">
+              <Link href="/" className="text-gray-800 hover:underline hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition duration-300" aria-current="page">
                 Home
               </Link>
-              <Link href="/about" className="text-gray-800 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition duration-300">
+              <Link href="/about" className="text-gray-800 hover:underline hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition duration-300">
                 About
               </Link>
-              <Link href="/blog" className="text-gray-800 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition duration-300">
+              <Link href="/blog" className="text-gray-800 hover:underline hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition duration-300">
                 Blog
               </Link>
-              <Link href="/#services" className="text-gray-800 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition duration-300">
+              <Link href="/#services" className="text-gray-800 hover:underline hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition duration-300">
                 Services
               </Link>
-              <Link href="/courses" className="text-gray-800 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition duration-300">
+              <Link href="/courses" className="text-gray-800 hover:underline hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition duration-300">
                 Courses
               </Link>
-              <Link href="/contact" className="text-gray-800 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition duration-300">
+              <Link href="/contact" className="text-gray-800 hover:underline hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition duration-300">
                 Contact
               </Link>
             </div>

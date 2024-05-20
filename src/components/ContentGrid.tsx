@@ -21,7 +21,7 @@ const ContentGrid = ({
   priority = false
 }: Props) => {
   return (
-    <section id={collection} className="py-12">
+    <section id={collection} className="p-12">
       <h2 className="mb-8 text-3xl md:text-4xl font-bold text-center">
         {title}
       </h2>

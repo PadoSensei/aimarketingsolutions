@@ -6,7 +6,7 @@ author:
   picture: '/images/ludmila-domingos-marketing-ai-verde-Y0Mz.png'
 slug: 'introducao-a-web-analytics-com-inteligencia-artificial'
 description: 'De maneira clara e sem complicação, você vai aprender o básico do Google Analytics e explorar como a IA pode ajudar a tomar decisões mais inteligentes.  Ao final, você terá uma compreensão sólida dos dados e estará no caminho certo para usar essas informações a favor do seu negócio.  Tudo explicado de forma acessível, perfeito para quem está começando no mundo digital!'
-coverImage: '/images/course-cover-website-I0NT.png'
+coverImage: '/images/course-cover-website-g4NT.png'
 price: 'R$300'
 urlPaymentLink: 'https://sacola.pagbank.com.br/99281ded-7f22-4ef5-88e4-9de6dad1440c'
 publishedAt: '2024-05-20T15:15:57.224Z'

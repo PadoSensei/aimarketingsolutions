@@ -1,6 +1,6 @@
 ---
 title: 'Introdução a Web Analytics com Inteligência Artificial'
-status: 'draft'
+status: 'published'
 author:
   name: 'Ludmila Domingos'
   picture: '/images/ludmila-domingos-marketing-ai-verde-Y0Mz.png'

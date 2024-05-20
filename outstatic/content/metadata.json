@@ -1,7 +1,27 @@
 {
-  "commit": "4e161f48fe859da241823603c46446ae80b27a5f",
-  "generated": "2024-05-20T14:43:44.550Z",
+  "commit": "bec1c870414e55cad1d0bec20658608d03a5225a",
+  "generated": "Mon, 20 May 2024 14:44:08 GMT",
   "metadata": [
+    {
+      "__outstatic": {
+        "commit": "5fbe2d76b81930b45d8c659a516e9ad088fcb386",
+        "hash": "4120232394",
+        "path": "outstatic/content/courses/generative-ai-for-marketing-how-to-implement-ai-tools-to-generate-and-implement-marketing-strategies.md"
+      },
+      "author": {
+        "name": "Ludmila Domingos",
+        "picture": "/images/ludmila-domingos-marketing-ai-verde-kxMT.png"
+      },
+      "collection": "courses",
+      "coverImage": "/images/course-image-k3Mj.png",
+      "description": "Generative AI for Marketing Implementing AI Tools to Generate and Implement Marketing Strategies",
+      "price": "€50",
+      "publishedAt": "2024-05-20T11:45:57.425Z",
+      "slug": "generative-ai-for-marketing-how-to-implement-ai-tools-to-generate-and-implement-marketing-strategies",
+      "status": "published",
+      "title": "Generative AI for Marketing: How to Implement AI Tools to Generate and Implement Marketing Strategies",
+      "urlPaymentLink": "https://buy.stripe.com/5kAcMS9UD4FR4s86oo"
+    },
     {
       "__outstatic": {
         "commit": "2e64dc1e22d94dfb979869d8f6d63e10b8633a58",
@@ -27,24 +47,6 @@
         }
       ],
       "title": "Generative AI for Personalization"
-    },
-    {
-      "__outstatic": {
-        "commit": "7eca05ac85115d9f26ed9da62aa6272a7289c7e9",
-        "hash": "1453234425",
-        "path": "outstatic/content/courses/2nd-test.md"
-      },
-      "author": {
-        "name": "Padraig",
-        "picture": "https://avatars.githubusercontent.com/u/44815835?v=4"
-      },
-      "collection": "courses",
-      "coverImage": "/images/dall-e-2024-02-28-00.06.38---1.-a-serene-japanese-garden--where-a-ninja-is-meditatively-preparing-tea--symbolizing-the-creation-of-a-promise-in-a-peaceful-and-focused-manner.-the--A0NT.webp",
-      "description": "",
-      "publishedAt": "2024-05-03T18:44:08.767Z",
-      "slug": "2nd-test",
-      "status": "published",
-      "title": "2nd test"
     },
     {
       "__outstatic": {
@@ -84,6 +86,24 @@
     },
     {
       "__outstatic": {
+        "commit": "7eca05ac85115d9f26ed9da62aa6272a7289c7e9",
+        "hash": "1453234425",
+        "path": "outstatic/content/courses/2nd-test.md"
+      },
+      "author": {
+        "name": "Padraig",
+        "picture": "https://avatars.githubusercontent.com/u/44815835?v=4"
+      },
+      "collection": "courses",
+      "coverImage": "/images/dall-e-2024-02-28-00.06.38---1.-a-serene-japanese-garden--where-a-ninja-is-meditatively-preparing-tea--symbolizing-the-creation-of-a-promise-in-a-peaceful-and-focused-manner.-the--A0NT.webp",
+      "description": "",
+      "publishedAt": "2024-05-03T18:44:08.767Z",
+      "slug": "2nd-test",
+      "status": "published",
+      "title": "2nd test"
+    },
+    {
+      "__outstatic": {
         "commit": "26b813b7d9f09caa9a53ead4f515ea28e26ab2be",
         "hash": "3896763695",
         "path": "outstatic/content/testing/tester.md"
@@ -99,6 +119,41 @@
       "slug": "tester",
       "status": "published",
       "title": "tester"
+    },
+    {
+      "__outstatic": {
+        "commit": "b22b0f4f3d38a659cbab9b89ac2b7394f2446de4",
+        "hash": "425893791",
+        "path": "outstatic/content/projects/flycream-travel.md"
+      },
+      "author": {
+        "name": "Andre Vitorio",
+        "picture": "https://avatars.githubusercontent.com/u/1417109?v=4"
+      },
+      "collection": "projects",
+      "coverImage": "/images/flycream-travel.png",
+      "description": "One more day, one more joy. I feel blessed.",
+      "publishedAt": "2022-09-14T17:55:40.452Z",
+      "slug": "flycream-travel",
+      "status": "published",
+      "title": "Flycream Travel"
+    },
+    {
+      "__outstatic": {
+        "commit": "aa1f387e5c66347e675bed0862b070d8946c95f4",
+        "hash": "1055690014",
+        "path": "outstatic/content/projects/couple-pizza.md"
+      },
+      "author": {
+        "name": "Bob Marley"
+      },
+      "collection": "projects",
+      "coverImage": "/images/couple-pizza.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
+      "publishedAt": "2022-03-16T05:35:07.322Z",
+      "slug": "couple-pizza",
+      "status": "published",
+      "title": "Couple Pizza"
     },
     {
       "__outstatic": {
@@ -145,61 +200,6 @@
         }
       ],
       "title": "IA Generativa para Personalização"
-    },
-    {
-      "__outstatic": {
-        "commit": "b22b0f4f3d38a659cbab9b89ac2b7394f2446de4",
-        "hash": "425893791",
-        "path": "outstatic/content/projects/flycream-travel.md"
-      },
-      "author": {
-        "name": "Andre Vitorio",
-        "picture": "https://avatars.githubusercontent.com/u/1417109?v=4"
-      },
-      "collection": "projects",
-      "coverImage": "/images/flycream-travel.png",
-      "description": "One more day, one more joy. I feel blessed.",
-      "publishedAt": "2022-09-14T17:55:40.452Z",
-      "slug": "flycream-travel",
-      "status": "published",
-      "title": "Flycream Travel"
-    },
-    {
-      "__outstatic": {
-        "commit": "aa1f387e5c66347e675bed0862b070d8946c95f4",
-        "hash": "1055690014",
-        "path": "outstatic/content/projects/couple-pizza.md"
-      },
-      "author": {
-        "name": "Bob Marley"
-      },
-      "collection": "projects",
-      "coverImage": "/images/couple-pizza.png",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
-      "publishedAt": "2022-03-16T05:35:07.322Z",
-      "slug": "couple-pizza",
-      "status": "published",
-      "title": "Couple Pizza"
-    },
-    {
-      "__outstatic": {
-        "commit": "4e161f48fe859da241823603c46446ae80b27a5f",
-        "hash": "2062423794",
-        "path": "outstatic/content/courses/generative-ai-for-marketing-how-to-implement-ai-tools-to-generate-and-implement-marketing-strategies.md"
-      },
-      "author": {
-        "name": "Ludmila Domingos",
-        "picture": "/images/ludmila-domingos-marketing-ai-verde-kxMT.png"
-      },
-      "collection": "courses",
-      "coverImage": "/images/course-image-k3Mj.png",
-      "description": "Generative AI for Marketing Implementing AI Tools to Generate and Implement Marketing Strategies",
-      "price": "€50",
-      "publishedAt": "2024-05-20T11:45:57.425Z",
-      "slug": "generative-ai-for-marketing-how-to-implement-ai-tools-to-generate-and-implement-marketing-strategies",
-      "status": "published",
-      "title": "Generative AI for Marketing: How to Implement AI Tools to Generate and Implement Marketing Strategies",
-      "urlPaymentLink": "https://buy.stripe.com/5kAcMS9UD4FR4s86oo"
     }
   ]
 }

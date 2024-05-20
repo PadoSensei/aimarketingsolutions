@@ -1,6 +1,6 @@
 {
-  "commit": "9bd5da50fae158cffe297a222a491d5c14ae8164",
-  "generated": "2024-05-20T19:22:22.174Z",
+  "commit": "9775999a9947402bd7d4a9542d759df9487d0cf4",
+  "generated": "2024-05-20T19:22:32.193Z",
   "metadata": [
     {
       "__outstatic": {
@@ -187,8 +187,8 @@
     },
     {
       "__outstatic": {
-        "commit": "9bd5da50fae158cffe297a222a491d5c14ae8164",
-        "hash": "1471176696",
+        "commit": "9775999a9947402bd7d4a9542d759df9487d0cf4",
+        "hash": "3231336387",
         "path": "outstatic/content/posts/how-ai-is-revolutionizing-marketing.md"
       },
       "author": {
@@ -201,7 +201,7 @@
       "language": "eng",
       "publishedAt": "2024-05-20T19:26:31.492Z",
       "slug": "how-ai-is-revolutionizing-marketing",
-      "status": "draft",
+      "status": "published",
       "tags": [
         {
           "label": "AIinMarketing",

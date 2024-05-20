@@ -1,6 +1,6 @@
 {
-  "commit": "f8832741889726049ce422cf2b99e86871fb4d4c",
-  "generated": "2024-05-20T14:43:31.582Z",
+  "commit": "4e161f48fe859da241823603c46446ae80b27a5f",
+  "generated": "2024-05-20T14:43:44.550Z",
   "metadata": [
     {
       "__outstatic": {
@@ -183,8 +183,8 @@
     },
     {
       "__outstatic": {
-        "commit": "f8832741889726049ce422cf2b99e86871fb4d4c",
-        "hash": "4120232394",
+        "commit": "4e161f48fe859da241823603c46446ae80b27a5f",
+        "hash": "2062423794",
         "path": "outstatic/content/courses/generative-ai-for-marketing-how-to-implement-ai-tools-to-generate-and-implement-marketing-strategies.md"
       },
       "author": {

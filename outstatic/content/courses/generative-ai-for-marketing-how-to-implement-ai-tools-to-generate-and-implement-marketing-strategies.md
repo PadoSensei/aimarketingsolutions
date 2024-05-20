@@ -6,8 +6,7 @@ coverImage: '/images/course-image-k3Mj.png'
 title: 'Generative AI for Marketing: How to Implement AI Tools to Generate and Implement Marketing Strategies'
 status: 'published'
 slug: 'generative-ai-for-marketing-how-to-implement-ai-tools-to-generate-and-implement-marketing-strategies'
-description: 'Generative AI for Marketing
-Implementing AI Tools to Generate and Implement Marketing Strategies'
+description: 'Generative AI for Marketing Implementing AI Tools to Generate and Implement Marketing Strategies'
 price: '€50'
 urlPaymentLink: 'https://buy.stripe.com/5kAcMS9UD4FR4s86oo'
 publishedAt: '2024-05-20T11:45:57.425Z'
@@ -17,9 +16,9 @@ Welcome! I'm Ludmila, your guide through this comprehensive course on marketing 
 \
 With nearly a decade of experience in marketing across various countries and industries, I've had the privilege of learning from diverse projects and demands. \
 \
-This course is designed to equip marketing professionals with a deep understanding of generative AI and its applications in marketing. \
-\
-## Course Overview 
+This course is designed to equip marketing professionals with a deep understanding of generative AI and its applications in marketing. 
+
+## Course Overview
 
 In this comprehensive course designed for beginners and intermediate learners, you'll discover how to harness the potential of artificial intelligence to revolutionise your marketing strategies. \
 You'll learn how leading organisations are leveraging AI and explore innovative, cost-effective technologies that you can implement immediately.

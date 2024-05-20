@@ -1,7 +1,8 @@
 import Link from 'next/link'
 import Image from 'next/image'
-
+import Logo from '../../public/images/Logo_Dark.png'
 //TODO - Update text 
+
 
 const Hero = () => {
   return (
@@ -27,8 +28,8 @@ const Hero = () => {
         <div className="md:order-2">
           <div className="relative h-[400px] md:h-[500px] lg:h-[600px] overflow-hidden">
             <Image
-              src="/images/Banner2.jpg"
-              alt="AI Marketing Banner"
+              src={Logo}
+              alt="AI Marketing Logo"
               priority={true}
               className="object-center w-full h-full"
               fill

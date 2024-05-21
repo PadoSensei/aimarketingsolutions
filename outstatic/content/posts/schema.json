@@ -25,6 +25,14 @@
         {
           "value": "marketingAi",
           "label": "MarketingAI"
+        },
+        {
+          "value": "aiSmallBusiness",
+          "label": "AISmallBusiness"
+        },
+        {
+          "value": "ai",
+          "label": "AI"
         }
       ],
       "fieldType": "Tags",

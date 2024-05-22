@@ -1,5 +1,6 @@
 import { absoluteUrl } from '@/lib/utils'
 import { Metadata } from 'next'
+import Script from 'next/script'
 import '../styles/index.css'
 
 export const metadata: Metadata = {
@@ -37,7 +38,28 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <head>
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-E7NY2W59JZ"
+        />
+
+        <script
+          id="google-analytics"
+          dangerouslySetInnerHTML={{
+            __html: `
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', '${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}');
+      `
+          }}
+        />
+      </head>
+
+      <body>
+        {children}
+      </body>
     </html>
   )
 }

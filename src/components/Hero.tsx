@@ -1,6 +1,6 @@
 import Link from 'next/link'
-import Image from 'next/image'
-import Logo from '../../public/images/Logo_Dark.png'
+// import Image from 'next/image'
+// import Logo from '../../public/images/Logo_Dark.png'
 
 // TODO - ADD Responsiveness to order of logo and text on small screens
 
@@ -26,7 +26,7 @@ const Hero = () => {
           </div>
         </div>
         <div className="p-4 sm: order-1 md:order-2">
-          <div className="relative h-[400px] md:h-[500px] lg:h-[600px] overflow-hidden">
+          {/* <div className="relative h-[400px] md:h-[500px] lg:h-[600px] overflow-hidden">
             <Image
               src={Logo}
               alt="AI Marketing Logo"
@@ -35,7 +35,15 @@ const Hero = () => {
               fill
               sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
             />
-          </div>
+          </div> */}
+          <iframe
+            className="h-full w-full rounded-lg"
+            width="100%"
+            src="https://www.youtube.com/embed/I3f0Uh1SokY"
+            title="Welcome to the AI Marketing Revolution!" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerPolicy="strict-origin-when-cross-origin"
+            allowFullScreen>
+          </iframe>
         </div>
       </div>
     </section>

@@ -47,7 +47,7 @@ const ContentGrid = ({
                 <h3 className="text-xl font-bold mb-2 hover:underline">
                   {item.title}
                 </h3>
-                <p className="text-gray-700 leading-relaxed">
+                <p className="text-gray-700 text-large leading-relaxed">
                   {item.description}
                 </p>
               </div>

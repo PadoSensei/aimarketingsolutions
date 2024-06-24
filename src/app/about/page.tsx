@@ -15,35 +15,80 @@ export default function About() {
           </header>
           <section className="text-gray-700 leading-relaxed mb-6">
             <p className="text-lg">
-              As a seasoned marketing professional with a strong background in omni marketing, I've witnessed firsthand the transformative power of artificial intelligence (AI) in our industry. My journey from traditional marketing to AI-driven strategies has been nothing short of revolutionary, and I'm here to guide you through this exciting transition.
+              As a seasoned marketing professional with a strong background in omni marketing, I have always been passionate about leveraging cutting-edge technologies to drive marketing success. In recent years, I have developed a deep interest in the transformative potential of artificial intelligence (AI) in marketing.
             </p>
           </section>
 
           <section className="text-gray-700 leading-relaxed mb-6">
             <p className="text-lg">
-              In today's rapidly evolving market, AI isn't just a buzzword—it's a game-changer. Recognizing its immense potential, I've dedicated myself to mastering AI tools and strategies, completing prestigious courses like Piloting AI for Marketers by Marketing AI Institute, AI for Marketers by HubSpot, and Career Essentials in Generative AI by Microsoft and LinkedIn.
+              In recent years, I have developed a deep interest in the transformative potential of artificial intelligence (AI) in marketing.
             </p>
           </section>
 
           <section className="text-gray-700 leading-relaxed mb-6">
             <p className="text-lg">
-              My mission is clear: to empower marketers like you to thrive in this AI-driven landscape. Whether you're just starting to explore AI or looking to deepen your expertise, I offer the knowledge and tools you need to stay competitive and innovative.
+              Recognizing the immense impact AI will have on the marketing landscape, I have dedicated myself to researching and mastering AI tools and strategies. To further my expertise, I have completed several prestigious courses, including:
+
             </p>
           </section>
 
           <section className="text-gray-700 leading-relaxed mb-8">
             <p className="text-lg mb-4">Here's how I can help elevate your marketing game:</p>
             <ul className="list-disc pl-6">
-              <li>AI-Enhanced Marketing Workshops: Gain a deep understanding of AI fundamentals and their practical applications in marketing.</li>
-              <li>Personalized Strategy Audits: I'll assess your current approach and integrate AI efficiencies to boost your results.</li>
-              <li>AI Integration Guidance: From content creation to predictive analytics, learn how to leverage AI tools for streamlined workflows and improved outcomes.</li>
+              <li>Piloting AI for Marketers by Marketing AI Institute</li>
+              <li>AI for Marketers by HubSpot </li>
+              <li>Career Essentials in Generative AI by Microsoft and LinkedIn</li>
             </ul>
+          </section>
+
+          <section className="text-gray-700 leading-relaxed mb-6">
+            <p className="text-lg">
+              These courses have equipped me with the knowledge and skills needed to effectively implement AI in marketing campaigns, from content creation and personalization to predictive analytics and automation.
+            </p>
+          </section>
+
+          <section className="text-gray-700 leading-relaxed mb-6">
+            <p className="text-lg">
+              My mission is to help marketers like you elevate your professional level and become fiercely competitive in this fast-paced, technology-driven industry. By sharing my expertise and insights, I aim to empower you to:
+            </p>
+          </section>
+
+          <section className="text-gray-700 leading-relaxed mb-8">
+
+            <ul className="list-disc pl-6">
+              <li>Understand the fundamentals of AI and its applications in marketing</li>
+              <li>Identify opportunities to integrate AI into your marketing strategies </li>
+              <li>Leverage AI tools to streamline workflows, boost productivity, and drive better results</li>
+              <li>Develop the skills and mindset needed to thrive in an AI-powered marketing landscape</li>
+              <li>Stay ahead of the curve and position yourself as a valuable asset in your organization
+              </li>
+            </ul>
+          </section>
+
+          <section className="text-gray-700 leading-relaxed mb-6">
+            <p className="text-lg">
+              Through a combination of workshops, online courses, in-person training, and personalized consultancy, I provide a comprehensive approach to AI literacy for marketers. Whether you're just starting to explore AI or looking to deepen your expertise, I offer resources and guidance tailored to your needs and goals.
+            </p>
+          </section>
+
+          <section className="text-gray-700 leading-relaxed mb-6">
+            <p className="text-lg">
+              If you're ready to take your marketing career to the next level and harness the power of AI, I'm here to support you every step of the way. Together, we can navigate the exciting world of AI-driven marketing and unlock new opportunities for growth and success.
+            </p>
           </section>
 
           <footer className="text-gray-700 leading-relaxed">
             <p className="text-lg">Together, let's navigate the exciting world of AI-driven marketing and unlock new opportunities for growth.</p>
             <p className="text-lg">Are you ready to position yourself at the forefront of the marketing revolution? Let's embark on this transformative journey together.</p>
           </footer>
+
+
+          {/* <section className="text-gray-700 leading-relaxed mb-6">
+            <p className="text-lg">
+              Ludmila Domingos
+              AI Marketing Strategist and Educator
+            </p>
+          </section> */}
         </article>
       </main>
 

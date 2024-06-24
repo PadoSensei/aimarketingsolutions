@@ -39,7 +39,7 @@ const NavBar: React.FC<NavBarProps> = () => {
   }, [isMenuOpen]);
 
   return (
-    <nav className="bg-white border-gray-200 rounded-lg shadow-md">
+    <nav className="bg-black text-white border-gray-200 shadow-md">
       <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex-shrink-0">
@@ -50,22 +50,22 @@ const NavBar: React.FC<NavBarProps> = () => {
           </div>
           <div className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-4">
-              <Link href="/" className="text-gray-800 hover:underline hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition duration-300" aria-current="page">
+              <Link href="/" className="text-white hover:underline hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition duration-300" aria-current="page">
                 Home
               </Link>
-              <Link href="/about" className="text-gray-800 hover:underline hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition duration-300">
+              <Link href="/about" className="text-white-800 hover:underline hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition duration-300">
                 About
               </Link>
-              <Link href="/blog" className="text-gray-800 hover:underline hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition duration-300">
+              <Link href="/blog" className="text-white hover:underline hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition duration-300">
                 Blog
               </Link>
-              <Link href="/#services" className="text-gray-800 hover:underline hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition duration-300">
+              <Link href="/#services" className="text-white hover:underline hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition duration-300">
                 Services
               </Link>
-              <Link href="/courses" className="text-gray-800 hover:underline hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition duration-300">
+              <Link href="/courses" className="text-white hover:underline hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition duration-300">
                 Courses
               </Link>
-              <Link href="/contact" className="text-gray-800 hover:underline hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition duration-300">
+              <Link href="/contact" className="text-white hover:underline hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition duration-300">
                 Contact
               </Link>
             </div>
@@ -114,7 +114,7 @@ const NavBar: React.FC<NavBarProps> = () => {
                   Blog
                 </Link>
                 <Link
-                  href="/#services"
+                  href="/services"
                   className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900 transition duration-300 shadow-sm"
                   role="menuitem"
                 >

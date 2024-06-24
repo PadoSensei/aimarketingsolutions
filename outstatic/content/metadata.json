@@ -1,6 +1,6 @@
 {
-  "commit": "e52a115311f8d1329fabe99bfd42ea19253c12f6",
-  "generated": "Mon, 24 Jun 2024 09:20:36 GMT",
+  "commit": "38ae15b5ac5654710a2a475d6ac8a604547260a4",
+  "generated": "2024-06-24T09:21:55.737Z",
   "metadata": [
     {
       "__outstatic": {
@@ -30,44 +30,6 @@
         }
       ],
       "title": "How AI is Revolutionizing Marketing"
-    },
-    {
-      "__outstatic": {
-        "commit": "e53cc8a4dd983ca2d22615614baf4563ac4b9265",
-        "hash": "1741197523",
-        "path": "outstatic/content/posts/5-ways-ai-can-help-small-businesses-boost-their-online-presence.md"
-      },
-      "author": {
-        "name": "Ludmila FD",
-        "picture": "https://avatars.githubusercontent.com/u/84784950?v=4"
-      },
-      "collection": "posts",
-      "coverImage": "/images/5-ways-ai-can-help-small-businesses-boost-their-online-presence-E4MD.png",
-      "description": "AI has the potential to revolutionize the way small businesses approach digital marketing. By leveraging AI-powered tools and strategies, small businesses can automate repetitive tasks, gain valuable insights into customer behavior, and deliver personalized experiences that drive engagement and sales. In this article, we'll explore five specific ways AI can help small businesses boost their online presence and generate more revenue.",
-      "key": "",
-      "language": "eng",
-      "publishedAt": "2024-04-23T11:28:31.249Z",
-      "slug": "5-ways-ai-can-help-small-businesses-boost-their-online-presence",
-      "status": "published",
-      "tags": [
-        {
-          "label": "AIinMarketing",
-          "value": "aIinMarketing"
-        },
-        {
-          "label": "MarketingAI",
-          "value": "marketingAi"
-        },
-        {
-          "label": "AISmallBusiness",
-          "value": "aiSmallBusiness"
-        },
-        {
-          "label": "AI",
-          "value": "ai"
-        }
-      ],
-      "title": "5 Ways AI Can Help Small Businesses Boost Their Online Presence"
     },
     {
       "__outstatic": {
@@ -241,6 +203,44 @@
       "slug": "bearbnb",
       "status": "published",
       "title": " 🧸 Bearbnb"
+    },
+    {
+      "__outstatic": {
+        "commit": "38ae15b5ac5654710a2a475d6ac8a604547260a4",
+        "hash": "3538776762",
+        "path": "outstatic/content/posts/5-ways-ai-can-help-small-businesses-boost-their-online-presence.md"
+      },
+      "author": {
+        "name": "Ludmila FD",
+        "picture": "https://avatars.githubusercontent.com/u/84784950?v=4"
+      },
+      "collection": "posts",
+      "coverImage": "/images/5-ways-ai-can-help-small-businesses-boost-their-online-presence-E4MD.png",
+      "description": "AI has the potential to revolutionize the way small businesses approach digital marketing. By leveraging AI-powered tools and strategies, small businesses can automate repetitive tasks, gain valuable insights into customer behavior, and deliver personalized experiences that drive engagement and sales. ",
+      "key": "",
+      "language": "eng",
+      "publishedAt": "2024-04-23T11:28:31.249Z",
+      "slug": "5-ways-ai-can-help-small-businesses-boost-their-online-presence",
+      "status": "published",
+      "tags": [
+        {
+          "label": "AIinMarketing",
+          "value": "aIinMarketing"
+        },
+        {
+          "label": "MarketingAI",
+          "value": "marketingAi"
+        },
+        {
+          "label": "AISmallBusiness",
+          "value": "aiSmallBusiness"
+        },
+        {
+          "label": "AI",
+          "value": "ai"
+        }
+      ],
+      "title": "5 Ways AI Can Help Small Businesses Boost Their Online Presence"
     }
   ]
 }

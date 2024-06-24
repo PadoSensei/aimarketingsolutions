@@ -1,36 +1,7 @@
 {
-  "commit": "38ae15b5ac5654710a2a475d6ac8a604547260a4",
-  "generated": "2024-06-24T09:24:25.673Z",
+  "commit": "8745c0541358f8a8b0457d1da0471314e551fead",
+  "generated": "2024-06-24T09:30:10.643Z",
   "metadata": [
-    {
-      "__outstatic": {
-        "commit": "bdd9524c02fdf6b62838f283fe9e202b042ab33e",
-        "hash": "3231336387",
-        "path": "outstatic/content/posts/how-ai-is-revolutionizing-marketing.md"
-      },
-      "author": {
-        "name": "Ludmila FD",
-        "picture": "https://avatars.githubusercontent.com/u/84784950?v=4"
-      },
-      "collection": "posts",
-      "coverImage": "/images/ai-Q2ND.png",
-      "description": "Discover how AI is transforming marketing through hyper-personalization, campaign optimization, customer service, and more. Learn the key applications and best practices for leveraging AI to deliver more efficient, targeted, and effective marketing that drives business growth. Understand the challenges and future potential as AI reshapes the marketing landscape",
-      "language": "eng",
-      "publishedAt": "2024-05-20T19:26:31.492Z",
-      "slug": "how-ai-is-revolutionizing-marketing",
-      "status": "published",
-      "tags": [
-        {
-          "label": "AIinMarketing",
-          "value": "aIinMarketing"
-        },
-        {
-          "label": "MarketingAI",
-          "value": "marketingAi"
-        }
-      ],
-      "title": "How AI is Revolutionizing Marketing"
-    },
     {
       "__outstatic": {
         "commit": "2e47122b5b6d49d6d1ddb15bcd33edc4a0c1256e",
@@ -241,6 +212,35 @@
         }
       ],
       "title": "5 Ways AI Can Help Small Businesses Boost Their Online Presence"
+    },
+    {
+      "__outstatic": {
+        "commit": "8745c0541358f8a8b0457d1da0471314e551fead",
+        "hash": "2395978227",
+        "path": "outstatic/content/posts/how-ai-is-revolutionizing-marketing.md"
+      },
+      "author": {
+        "name": "Ludmila FD",
+        "picture": "https://avatars.githubusercontent.com/u/84784950?v=4"
+      },
+      "collection": "posts",
+      "coverImage": "/images/designer-A3OD.jpeg",
+      "description": "Discover how AI is transforming marketing through hyper-personalization, campaign optimization, customer service, and more. Learn the key applications and best practices for leveraging AI to deliver more efficient, targeted, and effective marketing that drives business growth. Understand the challenges and future potential as AI reshapes the marketing landscape",
+      "language": "eng",
+      "publishedAt": "2024-05-20T19:26:31.492Z",
+      "slug": "how-ai-is-revolutionizing-marketing",
+      "status": "published",
+      "tags": [
+        {
+          "label": "AIinMarketing",
+          "value": "aIinMarketing"
+        },
+        {
+          "label": "MarketingAI",
+          "value": "marketingAi"
+        }
+      ],
+      "title": "How AI is Revolutionizing Marketing"
     }
   ]
 }

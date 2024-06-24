@@ -6,7 +6,7 @@ author:
   picture: 'https://avatars.githubusercontent.com/u/84784950?v=4'
 slug: 'how-ai-is-revolutionizing-marketing'
 description: 'Discover how AI is transforming marketing through hyper-personalization, campaign optimization, customer service, and more. Learn the key applications and best practices for leveraging AI to deliver more efficient, targeted, and effective marketing that drives business growth. Understand the challenges and future potential as AI reshapes the marketing landscape'
-coverImage: '/images/ai-Q2ND.png'
+coverImage: '/images/designer-A3OD.jpeg'
 language: 'eng'
 tags: [{"label":"AIinMarketing","value":"aIinMarketing"},{"label":"MarketingAI","value":"marketingAi"}]
 publishedAt: '2024-05-20T19:26:31.492Z'

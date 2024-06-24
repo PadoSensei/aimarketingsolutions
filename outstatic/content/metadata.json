@@ -1,6 +1,6 @@
 {
-  "commit": "2a86d4c734098ef2c13d4f4e13294ca36bb7be73",
-  "generated": "2024-05-21T12:23:18.275Z",
+  "commit": "9cca07df7fb02c750d4a703e171e6ff629d2e354",
+  "generated": "2024-06-24T09:08:31.861Z",
   "metadata": [
     {
       "__outstatic": {
@@ -225,6 +225,51 @@
         }
       ],
       "title": "5 Ways AI Can Help Small Businesses Boost Their Online Presence"
+    },
+    {
+      "__outstatic": {
+        "commit": "9cca07df7fb02c750d4a703e171e6ff629d2e354",
+        "hash": "827922399",
+        "path": "outstatic/content/posts/the-evolving-landscape-of-search.md"
+      },
+      "author": {
+        "name": "Ludmila FD",
+        "picture": "https://avatars.githubusercontent.com/u/84784950?v=4"
+      },
+      "collection": "posts",
+      "coverImage": "/images/perplexity-MwMz.png",
+      "description": "Explore the changing landscape of search engines as AI-powered alternatives like Perplexity challenge Google's dominance. Learn about the impact on digital marketing, SEO strategies, and the future of online search in this comprehensive analysis of AI-driven search technologies.",
+      "language": "eng",
+      "publishedAt": "2024-06-24T09:02:11.375Z",
+      "slug": "the-evolving-landscape-of-search",
+      "status": "published",
+      "tags": [
+        {
+          "label": "AIinMarketing",
+          "value": "aIinMarketing"
+        },
+        {
+          "label": "IA ",
+          "value": "ia"
+        },
+        {
+          "label": "AISmallBusiness",
+          "value": "aiSmallBusiness"
+        },
+        {
+          "label": "MarketingAI",
+          "value": "marketingAi"
+        },
+        {
+          "label": "Perplexity",
+          "value": "perplexity"
+        },
+        {
+          "label": "FutureOfMarketing",
+          "value": "futureOfMarketing"
+        }
+      ],
+      "title": "The Evolving Landscape of Search "
     }
   ]
 }

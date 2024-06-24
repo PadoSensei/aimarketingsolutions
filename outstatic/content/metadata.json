@@ -1,6 +1,6 @@
 {
-  "commit": "c045e11fff49c6d20042e9c03d17efdfb4648290",
-  "generated": "2024-06-24T09:10:23.583Z",
+  "commit": "4908dd55191b2ded219a1367e4978e5048b9515d",
+  "generated": "2024-06-24T09:20:09.712Z",
   "metadata": [
     {
       "__outstatic": {
@@ -199,8 +199,8 @@
     },
     {
       "__outstatic": {
-        "commit": "9cca07df7fb02c750d4a703e171e6ff629d2e354",
-        "hash": "827922399",
+        "commit": "4908dd55191b2ded219a1367e4978e5048b9515d",
+        "hash": "2891903897",
         "path": "outstatic/content/posts/the-evolving-landscape-of-search.md"
       },
       "author": {
@@ -208,7 +208,7 @@
         "picture": "https://avatars.githubusercontent.com/u/84784950?v=4"
       },
       "collection": "posts",
-      "coverImage": "/images/perplexity-MwMz.png",
+      "coverImage": "/images/modern-design-A4Nj.png",
       "description": "Explore the changing landscape of search engines as AI-powered alternatives like Perplexity challenge Google's dominance. Learn about the impact on digital marketing, SEO strategies, and the future of online search in this comprehensive analysis of AI-driven search technologies.",
       "language": "eng",
       "publishedAt": "2024-06-24T09:02:11.375Z",

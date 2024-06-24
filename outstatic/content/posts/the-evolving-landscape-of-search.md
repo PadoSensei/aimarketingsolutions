@@ -2,7 +2,7 @@
 author:
   name: 'Ludmila FD'
   picture: 'https://avatars.githubusercontent.com/u/84784950?v=4'
-coverImage: '/images/perplexity-MwMz.png'
+coverImage: '/images/modern-design-A4Nj.png'
 title: 'The Evolving Landscape of Search '
 status: 'published'
 slug: 'the-evolving-landscape-of-search'
@@ -12,7 +12,7 @@ tags: [{"value":"aIinMarketing","label":"AIinMarketing"},{"value":"ia","label":"
 publishedAt: '2024-06-24T09:02:11.375Z'
 ---
 
-## Google, AI, and the Rise of  Perplexity
+## Google, AI, and the Rise of Perplexity
 
 The world of search engines has undergone significant transformations since its inception. From basic keyword matching to sophisticated algorithms, the evolution has been driven by the need for more accurate and relevant search results. Google, founded in 1998, has been at the forefront of this evolution, leveraging its PageRank algorithm to become the most used search engine globally. However, as the internet continues to evolve and artificial intelligence (AI) becomes increasingly sophisticated, new players are emerging to challenge Google's dominance.
 
@@ -82,12 +82,12 @@ What do you think?
 
 **References:**
 
- Statista - Worldwide desktop market share of leading search engines 2010-2023
+Statista - Worldwide desktop market share of leading search engines 2010-2023
 
- Search Engine Journal - Google Rolls Back AI Search Feature After Flubs and Flaws
+Search Engine Journal - Google Rolls Back AI Search Feature After Flubs and Flaws
 
- Skim AI - 10 Must-Know Stats and Facts About Perplexity AI
+Skim AI - 10 Must-Know Stats and Facts About Perplexity AI
 
- CMSWire - Marketers: What's Your AI-Powered Search Strategy?
+CMSWire - Marketers: What's Your AI-Powered Search Strategy?
 
- GLB GPT - Revolutionizing Search: How Perplexity AI Challenges Google's Dominance
+GLB GPT - Revolutionizing Search: How Perplexity AI Challenges Google's Dominance

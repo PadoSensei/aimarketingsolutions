@@ -1,6 +1,6 @@
 {
-  "commit": "9cca07df7fb02c750d4a703e171e6ff629d2e354",
-  "generated": "2024-06-24T09:08:31.861Z",
+  "commit": "c045e11fff49c6d20042e9c03d17efdfb4648290",
+  "generated": "2024-06-24T09:10:23.583Z",
   "metadata": [
     {
       "__outstatic": {
@@ -129,35 +129,6 @@
       "slug": "bearbnb",
       "status": "published",
       "title": " 🧸 Bearbnb"
-    },
-    {
-      "__outstatic": {
-        "commit": "faa4d95d574e1848f7f3aa7e1134e5d0c888464b",
-        "hash": "3047923081",
-        "path": "outstatic/content/posts/is-generativa-para-personalizacao.md"
-      },
-      "author": {
-        "name": "Ludmila FD",
-        "picture": "https://avatars.githubusercontent.com/u/84784950?v=4"
-      },
-      "collection": "posts",
-      "coverImage": "/images/dall-e-2024-02-28-17.27.34---a-master-ninja-demonstrating-advanced-techniques-to-apprentices-in-a-dojo--with-the-scene-void-of-any-text-to-emphasize-the-interaction-context-of--th-UxMD.webp",
-      "description": "A IA Generativa para Personalização é uma ferramenta poderosa para empresas criarem e direcionarem personas de compradores, implementarem personalização impulsionada por IA e aproveitarem a IA para uma estratégia de experimentação orientada por dados. Esta tecnologia permite uma personalização e interação sem precedentes, gerando engajamentos únicos com clientes ao analisar dados extensivos.",
-      "language": "pt",
-      "publishedAt": "2024-04-23T11:32:54.970Z",
-      "slug": "is-generativa-para-personalizacao",
-      "status": "published",
-      "tags": [
-        {
-          "label": "IA ",
-          "value": "ia"
-        },
-        {
-          "label": "IAGENERATIVA",
-          "value": "iagenerativa"
-        }
-      ],
-      "title": "IA Generativa para Personalização"
     },
     {
       "__outstatic": {

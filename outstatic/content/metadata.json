@@ -1,7 +1,92 @@
 {
-  "commit": "4908dd55191b2ded219a1367e4978e5048b9515d",
-  "generated": "2024-06-24T09:20:09.712Z",
+  "commit": "e52a115311f8d1329fabe99bfd42ea19253c12f6",
+  "generated": "Mon, 24 Jun 2024 09:20:36 GMT",
   "metadata": [
+    {
+      "__outstatic": {
+        "commit": "bdd9524c02fdf6b62838f283fe9e202b042ab33e",
+        "hash": "3231336387",
+        "path": "outstatic/content/posts/how-ai-is-revolutionizing-marketing.md"
+      },
+      "author": {
+        "name": "Ludmila FD",
+        "picture": "https://avatars.githubusercontent.com/u/84784950?v=4"
+      },
+      "collection": "posts",
+      "coverImage": "/images/ai-Q2ND.png",
+      "description": "Discover how AI is transforming marketing through hyper-personalization, campaign optimization, customer service, and more. Learn the key applications and best practices for leveraging AI to deliver more efficient, targeted, and effective marketing that drives business growth. Understand the challenges and future potential as AI reshapes the marketing landscape",
+      "language": "eng",
+      "publishedAt": "2024-05-20T19:26:31.492Z",
+      "slug": "how-ai-is-revolutionizing-marketing",
+      "status": "published",
+      "tags": [
+        {
+          "label": "AIinMarketing",
+          "value": "aIinMarketing"
+        },
+        {
+          "label": "MarketingAI",
+          "value": "marketingAi"
+        }
+      ],
+      "title": "How AI is Revolutionizing Marketing"
+    },
+    {
+      "__outstatic": {
+        "commit": "e53cc8a4dd983ca2d22615614baf4563ac4b9265",
+        "hash": "1741197523",
+        "path": "outstatic/content/posts/5-ways-ai-can-help-small-businesses-boost-their-online-presence.md"
+      },
+      "author": {
+        "name": "Ludmila FD",
+        "picture": "https://avatars.githubusercontent.com/u/84784950?v=4"
+      },
+      "collection": "posts",
+      "coverImage": "/images/5-ways-ai-can-help-small-businesses-boost-their-online-presence-E4MD.png",
+      "description": "AI has the potential to revolutionize the way small businesses approach digital marketing. By leveraging AI-powered tools and strategies, small businesses can automate repetitive tasks, gain valuable insights into customer behavior, and deliver personalized experiences that drive engagement and sales. In this article, we'll explore five specific ways AI can help small businesses boost their online presence and generate more revenue.",
+      "key": "",
+      "language": "eng",
+      "publishedAt": "2024-04-23T11:28:31.249Z",
+      "slug": "5-ways-ai-can-help-small-businesses-boost-their-online-presence",
+      "status": "published",
+      "tags": [
+        {
+          "label": "AIinMarketing",
+          "value": "aIinMarketing"
+        },
+        {
+          "label": "MarketingAI",
+          "value": "marketingAi"
+        },
+        {
+          "label": "AISmallBusiness",
+          "value": "aiSmallBusiness"
+        },
+        {
+          "label": "AI",
+          "value": "ai"
+        }
+      ],
+      "title": "5 Ways AI Can Help Small Businesses Boost Their Online Presence"
+    },
+    {
+      "__outstatic": {
+        "commit": "2e47122b5b6d49d6d1ddb15bcd33edc4a0c1256e",
+        "hash": "217348983",
+        "path": "outstatic/content/pages/home.md"
+      },
+      "author": {
+        "name": "Andre Vitorio",
+        "picture": ""
+      },
+      "collection": "pages",
+      "coverImage": "",
+      "description": "This is my blog.",
+      "publishedAt": "2022-03-17T05:35:07.322Z",
+      "slug": "home",
+      "status": "published",
+      "title": "Home"
+    },
     {
       "__outstatic": {
         "commit": "0fd8ddf0bdd744e0e4007c769e637d135dd40c7b",
@@ -25,7 +110,7 @@
     {
       "__outstatic": {
         "commit": "ccde46fce15b48c1bcebde15a7d74482fcfab043",
-        "hash": "2769323729",
+        "hash": "3495992137",
         "path": "outstatic/content/courses/generative-ai-for-marketing-how-to-implement-ai-tools-to-generate-and-implement-marketing-strategies.md"
       },
       "author": {
@@ -40,25 +125,52 @@
       "slug": "generative-ai-for-marketing-how-to-implement-ai-tools-to-generate-and-implement-marketing-strategies",
       "status": "published",
       "title": "Generative AI for Marketing: How to Implement AI Tools to Generate and Implement Marketing Strategies",
-      "urlPaymentLink": "https://buy.stripe.com/5kAcMS9UD4FR4s86oo"
+      "urlPaymentLink": ""
     },
     {
       "__outstatic": {
-        "commit": "2e47122b5b6d49d6d1ddb15bcd33edc4a0c1256e",
-        "hash": "217348983",
-        "path": "outstatic/content/pages/home.md"
+        "commit": "f8ca40af5aa785299bb084e05bd81b7d9719622f",
+        "hash": "827922399",
+        "path": "outstatic/content/posts/the-evolving-landscape-of-search.md"
       },
       "author": {
-        "name": "Andre Vitorio",
-        "picture": ""
+        "name": "Ludmila FD",
+        "picture": "https://avatars.githubusercontent.com/u/84784950?v=4"
       },
-      "collection": "pages",
-      "coverImage": "",
-      "description": "This is my blog.",
-      "publishedAt": "2022-03-17T05:35:07.322Z",
-      "slug": "home",
+      "collection": "posts",
+      "coverImage": "/images/perplexity-MwMz.png",
+      "description": "Explore the changing landscape of search engines as AI-powered alternatives like Perplexity challenge Google's dominance. Learn about the impact on digital marketing, SEO strategies, and the future of online search in this comprehensive analysis of AI-driven search technologies.",
+      "language": "eng",
+      "publishedAt": "2024-06-24T09:02:11.375Z",
+      "slug": "the-evolving-landscape-of-search",
       "status": "published",
-      "title": "Home"
+      "tags": [
+        {
+          "label": "AIinMarketing",
+          "value": "aIinMarketing"
+        },
+        {
+          "label": "IA ",
+          "value": "ia"
+        },
+        {
+          "label": "AISmallBusiness",
+          "value": "aiSmallBusiness"
+        },
+        {
+          "label": "MarketingAI",
+          "value": "marketingAi"
+        },
+        {
+          "label": "Perplexity",
+          "value": "perplexity"
+        },
+        {
+          "label": "FutureOfMarketing",
+          "value": "futureOfMarketing"
+        }
+      ],
+      "title": "The Evolving Landscape of Search "
     },
     {
       "__outstatic": {
@@ -129,118 +241,6 @@
       "slug": "bearbnb",
       "status": "published",
       "title": " 🧸 Bearbnb"
-    },
-    {
-      "__outstatic": {
-        "commit": "9775999a9947402bd7d4a9542d759df9487d0cf4",
-        "hash": "3231336387",
-        "path": "outstatic/content/posts/how-ai-is-revolutionizing-marketing.md"
-      },
-      "author": {
-        "name": "Ludmila FD",
-        "picture": "https://avatars.githubusercontent.com/u/84784950?v=4"
-      },
-      "collection": "posts",
-      "coverImage": "/images/ai-Q2ND.png",
-      "description": "Discover how AI is transforming marketing through hyper-personalization, campaign optimization, customer service, and more. Learn the key applications and best practices for leveraging AI to deliver more efficient, targeted, and effective marketing that drives business growth. Understand the challenges and future potential as AI reshapes the marketing landscape",
-      "language": "eng",
-      "publishedAt": "2024-05-20T19:26:31.492Z",
-      "slug": "how-ai-is-revolutionizing-marketing",
-      "status": "published",
-      "tags": [
-        {
-          "label": "AIinMarketing",
-          "value": "aIinMarketing"
-        },
-        {
-          "label": "MarketingAI",
-          "value": "marketingAi"
-        }
-      ],
-      "title": "How AI is Revolutionizing Marketing"
-    },
-    {
-      "__outstatic": {
-        "commit": "2a86d4c734098ef2c13d4f4e13294ca36bb7be73",
-        "hash": "1741197523",
-        "path": "outstatic/content/posts/5-ways-ai-can-help-small-businesses-boost-their-online-presence.md"
-      },
-      "author": {
-        "name": "Ludmila FD",
-        "picture": "https://avatars.githubusercontent.com/u/84784950?v=4"
-      },
-      "collection": "posts",
-      "coverImage": "/images/5-ways-ai-can-help-small-businesses-boost-their-online-presence-E4MD.png",
-      "description": "AI has the potential to revolutionize the way small businesses approach digital marketing. By leveraging AI-powered tools and strategies, small businesses can automate repetitive tasks, gain valuable insights into customer behavior, and deliver personalized experiences that drive engagement and sales. In this article, we'll explore five specific ways AI can help small businesses boost their online presence and generate more revenue.",
-      "key": "",
-      "language": "eng",
-      "publishedAt": "2024-04-23T11:28:31.249Z",
-      "slug": "5-ways-ai-can-help-small-businesses-boost-their-online-presence",
-      "status": "published",
-      "tags": [
-        {
-          "label": "AIinMarketing",
-          "value": "aIinMarketing"
-        },
-        {
-          "label": "MarketingAI",
-          "value": "marketingAi"
-        },
-        {
-          "label": "AISmallBusiness",
-          "value": "aiSmallBusiness"
-        },
-        {
-          "label": "AI",
-          "value": "ai"
-        }
-      ],
-      "title": "5 Ways AI Can Help Small Businesses Boost Their Online Presence"
-    },
-    {
-      "__outstatic": {
-        "commit": "4908dd55191b2ded219a1367e4978e5048b9515d",
-        "hash": "2891903897",
-        "path": "outstatic/content/posts/the-evolving-landscape-of-search.md"
-      },
-      "author": {
-        "name": "Ludmila FD",
-        "picture": "https://avatars.githubusercontent.com/u/84784950?v=4"
-      },
-      "collection": "posts",
-      "coverImage": "/images/modern-design-A4Nj.png",
-      "description": "Explore the changing landscape of search engines as AI-powered alternatives like Perplexity challenge Google's dominance. Learn about the impact on digital marketing, SEO strategies, and the future of online search in this comprehensive analysis of AI-driven search technologies.",
-      "language": "eng",
-      "publishedAt": "2024-06-24T09:02:11.375Z",
-      "slug": "the-evolving-landscape-of-search",
-      "status": "published",
-      "tags": [
-        {
-          "label": "AIinMarketing",
-          "value": "aIinMarketing"
-        },
-        {
-          "label": "IA ",
-          "value": "ia"
-        },
-        {
-          "label": "AISmallBusiness",
-          "value": "aiSmallBusiness"
-        },
-        {
-          "label": "MarketingAI",
-          "value": "marketingAi"
-        },
-        {
-          "label": "Perplexity",
-          "value": "perplexity"
-        },
-        {
-          "label": "FutureOfMarketing",
-          "value": "futureOfMarketing"
-        }
-      ],
-      "title": "The Evolving Landscape of Search "
     }
   ]
 }

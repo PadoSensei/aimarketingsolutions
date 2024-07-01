@@ -21,7 +21,7 @@ export default function Services() {
               <IconPersonVideo3 className="text-white h-8 w-8 opacity-75" />
             </div>
             <h3 className="text-2xl font-bold text-white text-center">AI Literacy Programs</h3>
-            <p className="text-lg text-zinc-200 dark:text-zinc-100 text-center">
+            <p className="text-lg md:text-xl text-zinc-200 dark:text-zinc-100 text-center">
               Empower your marketing team with comprehensive AI literacy training designed to improve productivity, augment creativity, and streamline operations.
             </p>
           </div>
@@ -30,7 +30,7 @@ export default function Services() {
               <IconPersonChalkboard className="text-white h-8 w-8 opacity-75" />
             </div>
             <h3 className="text-2xl font-bold text-white text-center">AI Consultancy</h3>
-            <p className="text-lg text-zinc-200 dark:text-zinc-100 text-center">
+            <p className="text-lg md:text-xl text-zinc-200 dark:text-zinc-100 text-center">
               Get tailored AI solutions to integrate into your marketing strategies. Our experts provide end-to-end guidance to help you harness AI for growth and innovation.
             </p>
           </div>
@@ -39,7 +39,7 @@ export default function Services() {
               <IconProbot className="text-white h-8 w-8 opacity-75" />
             </div>
             <h3 className="text-2xl font-bold text-white text-center">AI Mentoring</h3>
-            <p className="text-lg text-zinc-200 dark:text-zinc-100 text-center">
+            <p className="text-lg md:text-xl text-zinc-200 dark:text-zinc-100 text-center">
               Receive personalized mentorship on implementing AI in your daily tasks, both for marketing and administrative functions, to enhance efficiency and effectiveness.
             </p>
           </div>
@@ -48,7 +48,7 @@ export default function Services() {
               <IconLike className="text-white h-8 w-8 opacity-75" />
             </div>
             <h3 className="text-2xl font-bold text-white text-center">AI Workshops</h3>
-            <p className="text-lg text-zinc-200 dark:text-zinc-100 text-center">
+            <p className="text-lg md:text-xl text-zinc-200 dark:text-zinc-100 text-center">
               Participate in interactive workshops that offer hands-on experience with AI tools and techniques, enhancing your team's efficiency and creativity.
             </p>
           </div>
@@ -57,7 +57,7 @@ export default function Services() {
               <IconLike className="text-white h-8 w-8 opacity-75" />
             </div>
             <h3 className="text-2xl font-bold text-white text-center">AI Online Courses</h3>
-            <p className="text-lg text-zinc-200 dark:text-zinc-100 text-center">
+            <p className="text-lg md:text-xl text-zinc-200 dark:text-zinc-100 text-center">
               Access self-paced online courses that break down complex AI concepts into digestible modules, available anytime to fit your schedule.
             </p>
           </div>
@@ -66,7 +66,7 @@ export default function Services() {
               <IconLike className="text-white h-8 w-8 opacity-75" />
             </div>
             <h3 className="text-2xl font-bold text-white text-center">AI In-Person Courses</h3>
-            <p className="text-lg text-zinc-200 dark:text-zinc-100 text-center">
+            <p className="text-lg md:text-xl text-zinc-200 dark:text-zinc-100 text-center">
               Join our in-depth in-person courses focusing on strategic AI applications in marketing, taught by industry experts.
             </p>
           </div>

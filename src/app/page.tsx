@@ -21,7 +21,7 @@ export default async function Index() {
       <Hero />
       </div>
       <Services />
-      <ImageBlurb />
+      {/* <ImageBlurb /> */}
       <Footer2 />
     </Layout>
   )

@@ -71,12 +71,12 @@ export default function Services() {
             </p>
           </div>
         </div>
-        <div className='flex justify-center'>
-          <Link className="bg-white px-6 py-2 rounded-md text-lg font-semibold" href="./courses">
-            Find Out More
+      </div>
+        <div className='p-top-4 flex justify-center'>
+          <Link className="bg-white px-6 py-2 rounded-md text-lg font-semibold" href="./services">
+            Find Out More About Our Services!
           </Link>
         </div>
-      </div>
     </section>
   );
 }

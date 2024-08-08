@@ -33,6 +33,14 @@
         {
           "value": "ai",
           "label": "AI"
+        },
+        {
+          "value": "perplexity",
+          "label": "Perplexity"
+        },
+        {
+          "value": "futureOfMarketing",
+          "label": "FutureOfMarketing"
         }
       ],
       "fieldType": "Tags",

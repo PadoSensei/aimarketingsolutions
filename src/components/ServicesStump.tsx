@@ -53,24 +53,6 @@ export default function ServicesStump() {
             Our private LLM solutions are designed to provide SMEs with powerful, customized tools for content generation, customer service automation, and data analysis
             </p>
           </div>
-          {/* <div className="flex flex-col items-center space-y-4 border-gray-800 p-6 rounded-lg">
-            <div className="p-3 bg-black bg-opacity-50 rounded-full">
-              <IconLike className="text-white h-8 w-8 opacity-75" />
-            </div>
-            <h3 className="text-2xl font-bold text-white text-center">AI Online Courses</h3>
-            <p className="text-lg text-zinc-200 dark:text-zinc-100 text-center">
-              Access self-paced online courses that break down complex AI concepts into digestible modules, available anytime to fit your schedule.
-            </p>
-          </div>
-          <div className="flex flex-col items-center space-y-4 border-gray-800 p-6 rounded-lg">
-            <div className="p-3 bg-black bg-opacity-50 rounded-full">
-              <IconLike className="text-white h-8 w-8 opacity-75" />
-            </div>
-            <h3 className="text-2xl font-bold text-white text-center">AI In-Person Courses</h3>
-            <p className="text-lg text-zinc-200 dark:text-zinc-100 text-center">
-              Join our in-depth in-person courses focusing on strategic AI applications in marketing, taught by industry experts.
-            </p>
-          </div> */}
         </div>
       </div>
         <div className='p-top-4 flex justify-center'>

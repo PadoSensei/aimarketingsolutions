@@ -35,6 +35,7 @@ export default function About() {
                   <ul className="list-disc pl-6 text-lg text-gray-700">
                     <li>A decade of marketing experience across Brazil, Italy, and Ireland</li>
                     <li>AI integration and marketing technology expert</li>
+                    <li><a className="underline decoration-solid hover:decoration-double" href="https://www.linkedin.com/in/dludmila/">Find out more on Linkedin!</a></li>
                   </ul>
                 </div>
               }

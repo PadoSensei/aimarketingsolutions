@@ -3,12 +3,10 @@ import { load } from 'outstatic/server'
 import ContentGrid from '../components/ContentGrid'
 import markdownToHtml from '../lib/markdownToHtml'
 import Hero from '@/components/Hero'
-import Intro from '@/components/Intro'
 import Footer2 from '@/components/Footer2'
-import BlogHome from '@/components/BlogHome'
-import ImageBlurb from '@/components/ImageBlurb'
 import Services from './services/page'
 import NavBar from '@/components/NavBar'
+import ServicesStump from '@/components/ServicesStump'
 
 export default async function Index() {
   const { content, allPosts, allProjects } = await getData()
@@ -17,11 +15,9 @@ export default async function Index() {
     <Layout>
       <NavBar />
       <div className='bg-gradient-to-r from-gradient-blue-left to-gradient-purple-right '>
-
       <Hero />
       </div>
-      <Services />
-      {/* <ImageBlurb /> */}
+      <ServicesStump />
       <Footer2 />
     </Layout>
   )

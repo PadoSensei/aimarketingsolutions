@@ -16,7 +16,7 @@ const Footer2 = () => {
                   </a>
                 </li>
                 <li className="mb-2 md:mb-0 md:mr-4">
-                  <a href="#services" className="text-sm hover:underline">
+                  <a href="/services" className="text-sm hover:underline">
                     Services
                   </a>
                 </li>

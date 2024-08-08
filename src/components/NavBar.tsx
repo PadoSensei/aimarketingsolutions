@@ -59,7 +59,7 @@ const NavBar: React.FC<NavBarProps> = () => {
               <Link href="/blog" className="text-white hover:underline hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition duration-300">
                 Blog
               </Link>
-              <Link href="/#services" className="text-white hover:underline hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition duration-300">
+              <Link href="/services" className="text-white hover:underline hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition duration-300">
                 Services
               </Link>
               <Link href="/courses" className="text-white hover:underline hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition duration-300">

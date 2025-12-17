@@ -8,21 +8,21 @@ export default function ContactForm() {
   }
 
   return (
-    <main className="flex-grow bg-gradient-to-r from-gradient-purple to-gradient-blue px-4 py-8 sm:px-8 md:px-16 lg:px-32">
-      <div className="max-w-3xl mx-auto px-4 ">
-        <h1 className="text-3xl font-bold text-white text-center mb-8">
+    <main className="flex-grow px-4 py-8 bg-gradient-to-r from-gradient-purple to-gradient-blue sm:px-8 md:px-16 lg:px-32">
+      <div className="max-w-3xl px-4 mx-auto ">
+        <h1 className="mb-8 text-3xl font-bold text-center text-white">
           Contact Us
         </h1>
         <form
           onSubmit={handleSubmit}
-          className="bg-white rounded-lg shadow-md p-8"
+          className="p-8 bg-white rounded-lg shadow-md"
           noValidate
         >
-          <fieldset className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <fieldset className="grid grid-cols-1 gap-6 md:grid-cols-2">
             <div>
               <label
                 htmlFor="email"
-                className="block text-gray-700 font-bold mb-2"
+                className="block mb-2 font-bold text-gray-700"
               >
                 Email
               </label>
@@ -44,7 +44,7 @@ export default function ContactForm() {
             <div>
               <label
                 htmlFor="subject"
-                className="block text-gray-700 font-bold mb-2"
+                className="block mb-2 font-bold text-gray-700"
               >
                 Subject
               </label>
@@ -67,7 +67,7 @@ export default function ContactForm() {
           <div className="mt-6">
             <label
               htmlFor="message"
-              className="block text-gray-700 font-bold mb-2"
+              className="block mb-2 font-bold text-gray-700"
             >
               Message
             </label>
@@ -89,7 +89,7 @@ export default function ContactForm() {
           <button
             type="submit"
             disabled={state.submitting}
-            className="mt-6 w-full md:w-auto px-6 py-3 bg-blue-600 text-white font-bold rounded-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
+            className="w-full px-6 py-3 mt-6 font-bold text-white bg-blue-600 rounded-md md:w-auto hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
           >
             {state.submitting ? "Submitting..." : "Submit"}
           </button>

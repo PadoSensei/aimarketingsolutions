@@ -1,109 +1,112 @@
 //@ts-nocheck
-import Footer2 from "@/components/Footer2"
-import NavBar from "@/components/NavBar"
-import Layout from "@/components/Layout"
+import Footer2 from "@/components/Footer2";
+import NavBar from "@/components/NavBar";
 
-const ServiceCard = ({ title, description, items, benefits }) => (
-  <div className="bg-white/90 rounded-lg shadow-md p-6">
-    <h3 className="text-xl font-semibold mb-2">{title}</h3>
-    <p className="text-lg mb-2">{description}</p>
-    <ul className="list-disc pl-6 text-lg mb-2">
-      {items.map((item, index) => (
-        <li key={index}>{item}</li>
-      ))}
-    </ul>
-    <p className="text-lg font-semibold">Benefits:</p>
-    <ul className="list-disc pl-6 text-lg">
-      {benefits.map((benefit, index) => (
-        <li key={index}>{benefit}</li>
-      ))}
-    </ul>
+// Simple Card for the "What We Do" section
+const ServiceCard = ({ icon, title, description }) => (
+  <div className="flex flex-col items-start h-full p-8 transition-transform duration-300 shadow-lg bg-white/95 rounded-xl hover:-translate-y-1">
+    <div className="mb-6 text-5xl">{icon}</div>
+    <h3 className="mb-4 text-2xl font-bold text-gray-900">{title}</h3>
+    <p className="text-lg leading-relaxed text-gray-700">{description}</p>
+  </div>
+);
+
+// Step item for "How It Works"
+const ProcessStep = ({ number, title, description }) => (
+  <div className="flex flex-col items-center p-4 text-center">
+    <div className="flex items-center justify-center w-16 h-16 mb-6 text-2xl font-bold text-purple-700 bg-white border-4 border-purple-200 rounded-full shadow-md">
+      {number}
+    </div>
+    <h3 className="mb-3 text-xl font-bold text-white">{title}</h3>
+    <p className="max-w-sm text-lg text-white/90">{description}</p>
   </div>
 );
 
 export default function Services() {
-  const services = [
+  const servicesData = [
     {
-      title: "AI Literacy Programmes",
-      description: "Demystify AI and harness its power for your marketing efforts",
-      items: [
-        "Comprehensive Courses: From AI basics to advanced applications in marketing",
-        "Hands-on Workshops: Practical sessions to implement AI tools in your workflows",
-        "Customized Training: Tailored programmes for your team's specific needs"
-      ],
-      benefits: [
-        "Enhance decision-making with AI-driven insights",
-        "Stay ahead of the competition with the latest AI trends",
-        "Boost your team's confidence and efficiency in leveraging AI for marketing"
-      ]
+      icon: "📋",
+      title: "Process Automation",
+      description:
+        "We identify what's eating your time and set up automations using tools you already have (or cheap ones you can learn quickly).",
     },
     {
-      title: "Custom AI Agent Development",
-      description: "Automate and optimize your marketing processes with tailored AI solutions",
-      items: [
-        "Personalized AI Agents: Designed to address your specific marketing challenges",
-        "Workflow Automation: Streamline repetitive tasks and focus on strategy",
-        "Data Analysis: Gain deeper insights into customer behavior and preferences"
-      ],
-      benefits: [
-        "Increase efficiency and productivity by up to 50%",
-        "Make data-driven decisions with confidence",
-        "Scale your marketing efforts and results"
-      ]
+      icon: "🔗",
+      title: "System Integration",
+      description:
+        "We connect your existing software so data flows automatically - no more copying and pasting between apps.",
     },
     {
-      title: "AI-Powered Content Creation",
-      description: "Generate high-quality, personalized content at scale",
-      items: [
-        "Better Content Generation: Create weeks' worth of quality content in hours, not days",
-        "Multi-Format Mastery: From podcasts to blog posts, from articles to social media, video calls to action lists",
-        "Personalization Engine: Tailor content to specific audience segments automatically"
-      ],
-      benefits: [
-        "Reduce content creation time by up to 70%",
-        "Maintain a consistent brand voice across all channels",
-        "Increase engagement rates with AI-personalized content"
-      ]
+      icon: "🛠️",
+      title: "Off-the-Shelf Solutions",
+      description:
+        "We use proven, affordable tools that already exist - no need to reinvent the wheel. We identify the right software for your needs, set it up, and show you how to use it.",
+    },
+  ];
+
+  const processData = [
+    {
+      number: "1",
+      title: "Initial Conversation",
+      description: "We understand where you're wasting time",
     },
     {
-      title: "Private Language Models (LLMs)",
-      description: "Harness the power of custom-built AI models for your specific industry and needs",
-      items: [
-        "Industry-Specific LLMs: Trained on data relevant to your business sector",
-        "Secure and Private: Maintain control over your data and insights",
-        "Continuous Learning: Models that evolve with your business"
-      ],
-      benefits: [
-        "Get more accurate and relevant AI-generated content",
-        "Protect sensitive information with private models",
-        "Stay at the forefront of AI technology in your industry"
-      ]
-    }
+      number: "2",
+      title: "We Send You a Plan",
+      description: "Specific tools and automations we would implement",
+    },
+    {
+      number: "3",
+      title: "We Do the Work",
+      description: "You approve, we implement, you get your time back",
+    },
   ];
 
   return (
     <div className="flex flex-col min-h-screen">
       <NavBar />
 
-      <main className="flex-grow bg-gradient-to-r from-gradient-purple to-gradient-blue px-4 py-8 sm:px-8 md:px-16 lg:px-32">
-        <article className="max-w-7xl mx-auto">
-          <h2 className="text-3xl font-semibold mb-8 text-white text-center">Our Services</h2>
-          <p className="text-xl mb-8 text-white text-center">
-            At AI Marketing Solutions, we empower SMEs and marketers with cutting-edge AI technologies. Our services are designed to make AI accessible, practical, and impactful for businesses of all sizes
-          </p>
+      <main className="flex-grow px-4 py-12 bg-gradient-to-r from-gradient-purple to-gradient-blue sm:px-8 md:px-16 lg:px-32">
+        <article className="mx-auto space-y-20 max-w-7xl">
+          {/* SECTION 1: WHAT WE ACTUALLY DO */}
+          <section>
+            <h1 className="mb-12 text-4xl font-bold text-center text-white md:text-5xl">
+              What We Actually Do
+            </h1>
+            <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
+              {servicesData.map((service, index) => (
+                <ServiceCard key={index} {...service} />
+              ))}
+            </div>
+          </section>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
-            {services.map((service, index) => (
-              <ServiceCard key={index} {...service} />
-            ))}
-          </div>
+          {/* SECTION 2: HOW IT WORKS */}
+          <section className="p-8 border bg-white/10 rounded-3xl md:p-12 border-white/20">
+            <h2 className="mb-12 text-3xl font-bold text-center text-white md:text-4xl">
+              How It Works
+            </h2>
+            <div className="relative grid grid-cols-1 gap-12 md:grid-cols-3">
+              {/* Optional connector line for desktop */}
+              <div className="hidden md:block absolute top-8 left-[16%] right-[16%] h-1 bg-white/30 -z-10" />
 
-          <footer className="mt-12 text-white text-center">
-            <p className="text-lg">Transform your marketing with AI-powered solutions tailored for your business. Produce better content, make data-driven decisions, and drive results - all in less time</p>
-          </footer>
+              {processData.map((step, index) => (
+                <ProcessStep key={index} {...step} />
+              ))}
+            </div>
+          </section>
+
+          {/* SECTION 3: CTA */}
+          <section className="pb-8 text-center">
+            <a
+              href="/contact"
+              className="inline-block px-12 py-4 text-xl font-bold text-purple-700 transition-all duration-200 bg-white rounded-full shadow-xl hover:bg-gray-100 hover:scale-105"
+            >
+              Contact Us
+            </a>
+          </section>
         </article>
       </main>
-      
+
       <Footer2 />
     </div>
   );

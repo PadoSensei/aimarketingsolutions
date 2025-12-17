@@ -1,43 +1,43 @@
-import { absoluteUrl } from '@/lib/utils'
-import { Metadata } from 'next'
-import '../styles/index.css'
+import { absoluteUrl } from "@/lib/utils";
+import { Metadata } from "next";
+import "../styles/index.css";
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://outstatic.com'),
+  metadataBase: new URL("https://outstatic.com"),
   title: {
-    default: 'AI Marketing Solutions',
-    template: '%s | Outstatic'
+    default: "AI Solutions",
+    template: "%s | Outstatic",
   },
-  description: 'Your expert on digital marketing',
+  description: "Your expert on digital marketing",
   openGraph: {
-    title: 'Ai Marketing Solutions',
-    description: 'The evolution of digital marketing.',
-    url: absoluteUrl('/'),
-    siteName: 'Next.js',
+    title: "AI Solutions",
+    description: "The evolution of digital marketing.",
+    url: absoluteUrl("/"),
+    siteName: "Next.js",
     images: [
       {
-        url: absoluteUrl('/images/og-image.png'),
+        url: absoluteUrl("/images/og-image.png"),
         width: 1800,
-        height: 1600
-      }
+        height: 1600,
+      },
     ],
-    locale: 'en_US',
-    type: 'website'
+    locale: "en_US",
+    type: "website",
   },
   icons: {
-    icon: [{ url: '/favicon/favicon-32x32.png' }],
-    apple: [{ url: '/favicon/favicon-32x32.png' }]
-  }
-}
+    icon: [{ url: "/favicon/favicon-32x32.png" }],
+    apple: [{ url: "/favicon/favicon-32x32.png" }],
+  },
+};
 
 export default function RootLayout({
-  children
+  children,
 }: {
-  children: React.ReactNode
+  children: React.ReactNode;
 }) {
   return (
     <html lang="en">
       <body>{children}</body>
     </html>
-  )
+  );
 }

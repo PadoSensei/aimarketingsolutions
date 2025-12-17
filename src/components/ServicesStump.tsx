@@ -23,16 +23,20 @@ export default function ServicesStump() {
   ];
 
   return (
-    <section id="services" className="py-16 bg-black md:py-24">
-      <div className="container px-4 mx-auto md:px-6">
+    <section id="services" className="relative py-20 bg-black md:py-32">
+      <div className="container relative z-10 px-4 mx-auto md:px-6">
         {/* Header Section */}
-        <header className="mb-12 text-center">
-          <h2 className="text-4xl font-bold tracking-tighter text-transparent uppercase md:text-5xl bg-clip-text bg-gradient-to-r from-white to-gray-500">
-            What We Actually Do
+        <header className="mb-16 text-center">
+          <h2 className="mb-4 text-4xl font-extrabold tracking-tight text-white uppercase md:text-5xl">
+            What We{" "}
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-blue-400">
+              Actually Do
+            </span>
           </h2>
-          <p className="max-w-3xl mx-auto mt-4 text-lg md:text-xl text-zinc-200 dark:text-zinc-100">
-            We help small businesses stop drowning in manual work with practical
-            solutions.
+          <div className="w-24 h-1 mx-auto mb-6 rounded-full bg-gradient-to-r from-purple-500 to-blue-500"></div>
+          <p className="max-w-2xl mx-auto text-lg md:text-xl text-zinc-400">
+            We help small businesses stop drowning in manual work with
+            practical, no-nonsense solutions.
           </p>
         </header>
 
@@ -41,34 +45,42 @@ export default function ServicesStump() {
           {services.map((service, index) => (
             <div
               key={index}
-              className="flex flex-col items-center p-8 space-y-4 transition-colors duration-300 border border-gray-800 rounded-xl bg-zinc-900/50 hover:bg-zinc-900"
+              className="relative p-8 transition-all duration-300 border group rounded-2xl bg-zinc-900/40 border-white/10 hover:border-purple-500/50 hover:-translate-y-2"
             >
-              <div className="p-4 bg-black bg-opacity-50 border border-gray-800 rounded-full">
-                <span
-                  className="text-4xl"
-                  role="img"
-                  aria-label={service.title}
-                >
-                  {service.icon}
-                </span>
+              {/* Hover Glow Effect */}
+              <div className="absolute inset-0 transition-opacity duration-300 opacity-0 bg-gradient-to-br from-purple-500/5 to-blue-500/5 group-hover:opacity-100 rounded-2xl" />
+
+              <div className="relative z-10 flex flex-col items-center space-y-4">
+                <div className="p-4 transition-transform duration-300 border rounded-full shadow-inner bg-zinc-800 border-white/5 group-hover:scale-110">
+                  <span
+                    className="text-4xl filter drop-shadow-lg"
+                    role="img"
+                    aria-label={service.title}
+                  >
+                    {service.icon}
+                  </span>
+                </div>
+                <h3 className="text-2xl font-bold text-center text-white transition-colors group-hover:text-purple-200">
+                  {service.title}
+                </h3>
+                <p className="text-lg leading-relaxed text-center transition-colors text-zinc-400 group-hover:text-zinc-300">
+                  {service.description}
+                </p>
               </div>
-              <h3 className="text-2xl font-bold text-center text-white">
-                {service.title}
-              </h3>
-              <p className="text-lg leading-relaxed text-center text-zinc-300">
-                {service.description}
-              </p>
             </div>
           ))}
         </div>
 
         {/* CTA Button */}
-        <div className="flex justify-center mt-12">
+        <div className="flex justify-center mt-16">
           <Link
-            className="px-8 py-3 text-lg font-bold text-black transition-colors bg-white rounded-full hover:bg-gray-200"
+            className="group relative inline-flex items-center gap-2 px-8 py-4 text-lg font-bold text-black transition-all bg-white rounded-full hover:bg-gray-100 hover:shadow-[0_0_20px_rgba(255,255,255,0.3)]"
             href="/services"
           >
-            Find Out More About How We Do It!
+            Find Out More About How We Do It
+            <span className="transition-transform group-hover:translate-x-1">
+              →
+            </span>
           </Link>
         </div>
       </div>

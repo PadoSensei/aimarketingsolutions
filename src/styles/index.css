@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-.home-intro p {
-  @apply text-2xl font-semibold leading-9;
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #000; /* Ensures no white flashes during load */
 }

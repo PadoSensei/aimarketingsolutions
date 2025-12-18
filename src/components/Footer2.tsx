@@ -39,14 +39,14 @@ const Footer2 = () => {
                   Services
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link
                   href="/blog"
                   className="text-sm transition-colors text-zinc-500 hover:text-purple-400"
                 >
                   Blog
                 </Link>
-              </li>
+              </li> */}
             </ul>
           </div>
 
@@ -70,20 +70,20 @@ const Footer2 = () => {
                   Privacy Policy
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link
                   href="/terms"
                   className="text-sm transition-colors text-zinc-500 hover:text-purple-400"
                 >
                   Terms of Service
                 </Link>
-              </li>
+              </li> */}
             </ul>
           </div>
 
           {/* NEWSLETTER (Optional, adds pro feel) */}
           <div className="flex flex-col items-center text-center md:items-start md:text-left">
-            <h4 className="mb-4 font-semibold text-zinc-100">Stay Updated</h4>
+            {/* <h4 className="mb-4 font-semibold text-zinc-100">Stay Updated</h4>
             <p className="mb-4 text-sm text-zinc-500">
               Get the latest AI tips straight to your inbox.
             </p>
@@ -96,7 +96,7 @@ const Footer2 = () => {
               <button className="bg-white text-black font-bold py-2.5 px-4 rounded-lg hover:bg-gray-200 transition-colors text-sm">
                 Subscribe
               </button>
-            </div>
+            </div> */}
           </div>
         </div>
 

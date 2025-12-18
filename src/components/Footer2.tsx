@@ -105,7 +105,7 @@ const Footer2 = () => {
           {/* Socials placeholder */}
           <div className="flex mb-4 space-x-6 md:mb-0">
             <a
-              href="#"
+              href="https://www.linkedin.com/company/103651291"
               className="transition-colors text-zinc-600 hover:text-white"
             >
               <span className="sr-only">LinkedIn</span>

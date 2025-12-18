@@ -1,20 +1,17 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  content: [
+    "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+  ],
   theme: {
     extend: {
       colors: {
-        'gradient-blue':'#A8E5FE', 
-        'gradient-purple':'#64149C'  
-      }
-    }
+        "gradient-blue": "#A8E5FE",
+        "gradient-purple": "#64149C",
+      },
+    },
   },
-  content: [
-    './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
-    './src/components/**/*.{js,ts,jsx,tsx,mdx}',
-    './src/app/**/*.{js,ts,jsx,tsx,mdx}'
-  ],
-  plugins: [require('@tailwindcss/typography')]
-}
-
-
-
+  plugins: [require("@tailwindcss/typography")],
+};

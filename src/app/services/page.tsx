@@ -29,9 +29,7 @@ const ProcessStep = ({ number, title, description }) => (
   <div className="relative z-10 flex flex-col items-center p-4 text-center group">
     {/* Number Circle */}
     <div className="flex items-center justify-center w-20 h-20 mb-6 text-3xl font-bold text-white bg-zinc-900 border-4 border-zinc-800 rounded-full shadow-[0_0_20px_rgba(0,0,0,0.5)] group-hover:border-purple-500 group-hover:shadow-[0_0_20px_rgba(168,85,247,0.4)] transition-all duration-300 relative">
-      <span className="text-transparent bg-clip-text bg-gradient-to-br from-purple-400 to-blue-400">
-        {number}
-      </span>
+      <span className="gradient-text">{number}</span>
     </div>
     <h3 className="mb-3 text-xl font-bold text-white">{title}</h3>
     <p className="max-w-sm text-lg leading-relaxed text-zinc-400">
@@ -94,10 +92,7 @@ export default function Services() {
           <section>
             <div className="mb-16 text-center">
               <h1 className="mb-6 text-4xl font-extrabold tracking-tight text-white md:text-6xl">
-                What We{" "}
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-blue-400">
-                  Actually Do
-                </span>
+                What We <span className="gradient-text">Actually Do</span>
               </h1>
               <p className="max-w-2xl mx-auto text-xl text-zinc-400">
                 Practical, results-driven solutions to reclaim your time.

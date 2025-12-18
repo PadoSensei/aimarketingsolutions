@@ -9,7 +9,7 @@ const Footer2 = () => {
         <div className="grid grid-cols-1 gap-12 mb-12 md:grid-cols-2 lg:grid-cols-4">
           {/* BRAND COLUMN */}
           <div className="flex flex-col items-center text-center md:items-start md:text-left">
-            <h3 className="mb-4 text-xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-blue-400">
+            <h3 className="mb-4 text-xl font-bold gradient-text">
               AI Solutions™
             </h3>
             <p className="max-w-xs mb-6 text-sm leading-relaxed text-zinc-500">

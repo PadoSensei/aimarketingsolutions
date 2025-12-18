@@ -77,7 +77,7 @@ Goal: Refactor or create components that strictly adhere to the "Premium Dark AI
 
     H2: text-3xl md:text-5xl font-bold.
 
-    Emphasis: Use text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-blue-400 for key words in headlines.
+    Emphasis: Use gradient-text for key words in headlines.
 
 6.  Code Requirements
 

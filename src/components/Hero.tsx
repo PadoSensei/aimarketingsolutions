@@ -17,9 +17,7 @@ const Hero = () => {
           </div>
           <h1 className="mb-6 text-4xl font-extrabold leading-tight tracking-tight text-white md:text-5xl lg:text-6xl">
             Stop Wasting Time on <br className="hidden md:block" />
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-400">
-              Repetitive Work
-            </span>
+            <span className="gradient-purple-pink">Repetitive Work</span>
           </h1>
           <h2 className="max-w-2xl mb-8 text-lg leading-relaxed text-slate-300 md:text-xl lg:text-2xl">
             We help small business owners automate manual tasks using simple,
@@ -64,11 +62,9 @@ const Hero = () => {
 
             {/* 3. Text Underneath (Free Floating) */}
             <div className="mt-8 text-center">
-              <h3 className="text-3xl font-extrabold tracking-tighter text-white uppercase md:text-5xl drop-shadow-lg">
-                AI{" "}
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-blue-400">
-                  Solutions
-                </span>
+              <h3 className="text-3xl font-extrabold tracking-tighter uppercase md:text-5xl drop-shadow-lg">
+                <span className="text-white">AI</span>{" "}
+                <span className="gradient-text">SOLUTIONS</span>
               </h3>
             </div>
           </div>
@@ -95,27 +91,3 @@ const Hero = () => {
 };
 
 export default Hero;
-
-{
-  /* VIDEO CONTENT */
-}
-{
-  /* <div className="relative flex justify-center w-full md:w-1/2"> */
-}
-{
-  /* Glow behind video */
-}
-<div className="absolute inset-0 transform scale-95 bg-gradient-to-r from-purple-500 to-blue-500 rounded-2xl blur-2xl opacity-30" />;
-
-{
-  /* <div className="relative w-full overflow-hidden border shadow-2xl rounded-2xl border-slate-700 bg-slate-900">
-            <iframe
-              className="w-full aspect-video md:h-[400px] lg:h-[450px]"
-              src="https://www.youtube.com/embed/I3f0Uh1SokY"
-              title="Welcome to the AI Revolution!"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              referrerPolicy="strict-origin-when-cross-origin"
-              allowFullScreen
-            />
-          </div> */
-}

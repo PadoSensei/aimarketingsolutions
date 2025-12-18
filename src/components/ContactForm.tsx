@@ -36,10 +36,7 @@ export default function ContactForm() {
       {/* HEADER */}
       <div className="mb-10 text-center">
         <h1 className="mb-4 text-4xl font-bold text-white md:text-5xl">
-          Get in{" "}
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-blue-400">
-            Touch
-          </span>
+          Get in <span className="gradient-text">Touch</span>
         </h1>
         <p className="text-lg text-zinc-400">
           Ready to work smarter? Send us a message and let's chat.

@@ -1,9 +1,28 @@
 @import "tailwindcss";
 
+@plugin "@tailwindcss/typography";
+
 html {
   scroll-behavior: smooth;
 }
 
 body {
-  background-color: #000; /* Ensures no white flashes during load */
+  background-color: #000;
+}
+
+/* Custom gradient text utility - pure CSS */
+.gradient-text {
+  background: linear-gradient(to right, rgb(192, 132, 252), rgb(147, 197, 253));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+
+.gradient-purple-pink {
+  background: linear-gradient(to right, rgb(192, 132, 252), rgb(244, 114, 182));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
 }

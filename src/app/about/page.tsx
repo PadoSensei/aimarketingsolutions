@@ -97,10 +97,7 @@ export default function About() {
           {/* Header */}
           <header className="mb-20 text-center">
             <h1 className="mb-6 text-5xl font-extrabold tracking-tight text-white md:text-6xl">
-              Who We{" "}
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-blue-400">
-                Are
-              </span>
+              Who We <span className="gradient-text">Are</span>
             </h1>
             <p className="max-w-3xl mx-auto text-xl leading-relaxed md:text-2xl text-zinc-400">
               We're a two-person automation consultancy based in Ireland,

@@ -62,10 +62,7 @@ const NavBar = () => {
 
               {/* Text with Gradient */}
               <span className="self-center hidden text-lg font-bold tracking-tight text-white whitespace-nowrap sm:block">
-                AI{" "}
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-blue-400">
-                  Solutions
-                </span>
+                AI <span className="gradient-text">Solutions</span>
               </span>
             </Link>
           </div>

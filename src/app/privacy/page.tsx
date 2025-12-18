@@ -23,10 +23,7 @@ export default function PrivacyPolicy() {
           {/* HEADER */}
           <header className="mb-16 text-center">
             <h1 className="mb-6 text-4xl font-extrabold tracking-tight text-white md:text-6xl">
-              Privacy{" "}
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-blue-400">
-                Policy
-              </span>
+              Privacy <span className="gradient-text">Policy</span>
             </h1>
             <div className="inline-flex items-center px-4 py-2 space-x-2 text-sm border rounded-full bg-white/5 border-white/10 text-zinc-400">
               <span>Effective Date: {currentDate}</span>

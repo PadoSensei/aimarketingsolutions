@@ -20,10 +20,7 @@ export default async function Blogs() {
           {/* Header */}
           <div className="mb-16 text-center">
             <h1 className="mb-6 text-4xl font-extrabold text-white md:text-6xl">
-              Latest{" "}
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-blue-400">
-                Insights
-              </span>
+              Latest <span className="gradient-text">Insights</span>
             </h1>
             <p className="max-w-2xl mx-auto text-xl text-zinc-400">
               Expert advice on AI automation, marketing strategy, and business

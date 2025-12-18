@@ -25,6 +25,7 @@
     "remark-html": "^15.0.2"
   },
   "devDependencies": {
+    "@tailwindcss/postcss": "^4.0.0",
     "@tailwindcss/typography": "^0.5.9",
     "@types/debug": "^4.1.12",
     "@types/diff-match-patch": "^1.0.36",

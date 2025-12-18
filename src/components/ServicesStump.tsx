@@ -28,10 +28,7 @@ export default function ServicesStump() {
         {/* Header Section */}
         <header className="mb-16 text-center">
           <h2 className="mb-4 text-4xl font-extrabold tracking-tight text-white uppercase md:text-5xl">
-            What We{" "}
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-blue-400">
-              Actually Do
-            </span>
+            What We <span className="gradient-text">Actually Do</span>
           </h2>
           <div className="w-24 h-1 mx-auto mb-6 rounded-full bg-gradient-to-r from-purple-500 to-blue-500"></div>
           <p className="max-w-2xl mx-auto text-lg md:text-xl text-zinc-400">

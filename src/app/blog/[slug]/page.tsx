@@ -1,4 +1,5 @@
 //@ts-nocheck
+// blog/[slug]/page.tsx
 import Image from "next/image";
 import { Metadata } from "next";
 import { OstDocument } from "outstatic";
@@ -15,13 +16,14 @@ type Post = {
 } & OstDocument;
 
 interface Params {
-  params: {
+  params: Promise<{
     slug: string;
-  };
+  }>;
 }
 
-export async function generateMetadata(params: Params): Promise<Metadata> {
-  const post = await getData(params);
+export async function generateMetadata({ params }: Params): Promise<Metadata> {
+  const resolvedParams = await params;
+  const post = await getData(resolvedParams);
 
   if (!post) {
     return {};
@@ -53,8 +55,9 @@ export async function generateMetadata(params: Params): Promise<Metadata> {
   };
 }
 
-export default async function Blog(params: Params) {
-  const post = await getData(params);
+export default async function Blog({ params }: Params) {
+  const resolvedParams = await params;
+  const post = await getData(resolvedParams);
 
   return (
     <div className="flex flex-col min-h-screen bg-slate-950">
@@ -124,7 +127,7 @@ export default async function Blog(params: Params) {
   );
 }
 
-async function getData({ params }: Params) {
+async function getData(params: { slug: string }) {
   const db = await load();
 
   const post = await db

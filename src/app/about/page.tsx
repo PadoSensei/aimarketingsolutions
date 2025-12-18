@@ -114,7 +114,7 @@ export default function About() {
             <TeamProfile
               name="Ludmila Domingos"
               role="Founder | AI Strategist"
-              image="/images/Ludmila Domingos Marketing AI verde.png"
+              image="/images/lu-suit.jpg"
               linkedin="https://www.linkedin.com/in/dludmila/"
               isReversed={false}
               bio={
@@ -139,7 +139,7 @@ export default function About() {
             <TeamProfile
               name="Padraig O'Donoghue"
               role="Software Developer"
-              image="/images/padraig-placeholder.jpg"
+              image="/images/pod_suit.jpg"
               linkedin="https://www.linkedin.com/in/padraig-o-donoghue-6175101ba/"
               isReversed={true}
               bio={

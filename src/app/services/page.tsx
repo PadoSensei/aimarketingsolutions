@@ -44,7 +44,7 @@ export default function Services() {
       icon: "📋",
       title: "Process Automation",
       description:
-        "We identify what's eating your time and set up automations using tools you already have (or cheap ones you can learn quickly).",
+        "We identify what's eating your time and set up automations using tools you can learn quickly.",
     },
     {
       icon: "🔗",

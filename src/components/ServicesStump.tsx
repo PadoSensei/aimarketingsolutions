@@ -6,7 +6,7 @@ export default function ServicesStump() {
       icon: "📋",
       title: "Process Automation",
       description:
-        "We identify what's eating your time and set up automations using tools you already have (or cheap ones you can learn quickly).",
+        "We identify what's eating your time and set up automations using tools you can learn quickly.",
     },
     {
       icon: "🔗",
@@ -71,13 +71,10 @@ export default function ServicesStump() {
         {/* CTA Button */}
         <div className="flex justify-center mt-16">
           <Link
-            className="group relative inline-flex items-center gap-2 px-8 py-4 text-lg font-bold text-black transition-all bg-white rounded-full hover:bg-gray-100 hover:shadow-[0_0_20px_rgba(255,255,255,0.3)]"
             href="/services"
+            className="px-8 py-4 text-lg font-bold text-white transition-all duration-300 rounded-full shadow-lg bg-gradient-to-r from-purple-600 to-blue-600 shadow-purple-500/25 hover:shadow-purple-500/50 hover:scale-105"
           >
             Find Out More About How We Do It
-            <span className="transition-transform group-hover:translate-x-1">
-              →
-            </span>
           </Link>
         </div>
       </div>

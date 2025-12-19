@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   description: "Your expert on digital marketing",
   openGraph: {
     title: "AI Solutions",
-    description: "The evolution of digital marketing.",
+    description: "Grow without the grind.",
     url: absoluteUrl("/"),
     siteName: "Next.js",
     images: [

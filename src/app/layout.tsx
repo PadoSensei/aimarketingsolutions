@@ -1,6 +1,7 @@
 import { absoluteUrl } from "@/lib/utils";
 import { Metadata } from "next";
 import "@/styles/index.css";
+import { Analytics } from "@vercel/analytics/react";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://outstatic.com"),
@@ -38,6 +39,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>{children}</body>
+      <Analytics />
     </html>
   );
 }

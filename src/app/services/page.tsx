@@ -3,11 +3,11 @@ import React from "react";
 import Footer2 from "@/components/Footer2";
 import NavBar from "@/components/NavBar";
 import Link from "next/link";
+import { servicesData } from "@/data/servicesData";
 
-// 1. REFACTORED SERVICE CARD (Dark Glass + Hover Glow)
+// REFACTORED SERVICE CARD (Dark Glass + Hover Glow)
 const ServiceCard = ({ icon, title, description }) => (
   <div className="group relative h-full p-8 rounded-2xl bg-zinc-900/40 border border-white/10 backdrop-blur-sm transition-all duration-300 hover:-translate-y-2 hover:border-purple-500/50 hover:shadow-[0_0_30px_rgba(168,85,247,0.15)]">
-    {/* Inner Glow Gradient on Hover */}
     <div className="absolute inset-0 transition-opacity duration-500 opacity-0 pointer-events-none bg-gradient-to-br from-purple-500/5 to-blue-500/5 group-hover:opacity-100 rounded-2xl" />
 
     <div className="relative z-10 flex flex-col items-start">
@@ -24,10 +24,9 @@ const ServiceCard = ({ icon, title, description }) => (
   </div>
 );
 
-// 2. REFACTORED PROCESS STEP (Neon Indicators)
+// REFACTORED PROCESS STEP (Neon Indicators)
 const ProcessStep = ({ number, title, description }) => (
   <div className="relative z-10 flex flex-col items-center p-4 text-center group">
-    {/* Number Circle */}
     <div className="flex items-center justify-center w-20 h-20 mb-6 text-3xl font-bold text-white bg-zinc-900 border-4 border-zinc-800 rounded-full shadow-[0_0_20px_rgba(0,0,0,0.5)] group-hover:border-purple-500 group-hover:shadow-[0_0_20px_rgba(168,85,247,0.4)] transition-all duration-300 relative">
       <span className="gradient-text">{number}</span>
     </div>
@@ -39,27 +38,6 @@ const ProcessStep = ({ number, title, description }) => (
 );
 
 export default function Services() {
-  const servicesData = [
-    {
-      icon: "📋",
-      title: "Process Automation",
-      description:
-        "We identify what's eating your time and set up automations using tools you can learn quickly.",
-    },
-    {
-      icon: "🔗",
-      title: "System Integration",
-      description:
-        "We connect your existing software so data flows automatically - no more copying and pasting between apps.",
-    },
-    {
-      icon: "🛠️",
-      title: "Off-the-Shelf Solutions",
-      description:
-        "We use proven, affordable tools that already exist - no need to reinvent the wheel. We identify the right software for your needs.",
-    },
-  ];
-
   const processData = [
     {
       number: "1",
@@ -99,7 +77,8 @@ export default function Services() {
               </p>
             </div>
 
-            <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
+            {/* Updated Grid for 4 items */}
+            <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4">
               {servicesData.map((service, index) => (
                 <ServiceCard key={index} {...service} />
               ))}
@@ -108,7 +87,6 @@ export default function Services() {
 
           {/* SECTION 2: HOW IT WORKS */}
           <section className="relative p-8 overflow-hidden border md:p-16 rounded-3xl bg-zinc-900/30 border-white/5 backdrop-blur-md">
-            {/* Subtle Grid Background inside the card */}
             <div className="absolute inset-0 bg-[url('/grid-pattern.svg')] opacity-5 pointer-events-none"></div>
 
             <h2 className="mb-16 text-3xl font-bold text-center text-white md:text-5xl">
@@ -116,8 +94,6 @@ export default function Services() {
             </h2>
 
             <div className="relative grid grid-cols-1 gap-12 md:grid-cols-3">
-              {/* Connector Line (The "Data Pipe") */}
-              {/* Positioned at top-10 to align with the center of the 20x20 (80px) circles */}
               <div className="hidden md:block absolute top-10 left-[16%] right-[16%] h-1 bg-gradient-to-r from-purple-900 via-purple-500 to-blue-500 rounded-full opacity-30" />
 
               {processData.map((step, index) => (

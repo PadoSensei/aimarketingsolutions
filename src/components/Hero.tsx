@@ -21,7 +21,7 @@ const Hero = () => {
           </h1>
           <h2 className="max-w-2xl mb-8 text-lg leading-relaxed text-slate-300 md:text-xl lg:text-2xl">
             We help small business owners automate manual tasks using simple,
-            affordable tools—so you can focus on{" "}
+            affordable tools — so you can focus on{" "}
             <span className="font-semibold text-white">growing</span> instead of
             grinding.
           </h2>

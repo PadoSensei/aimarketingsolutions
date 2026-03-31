@@ -1,27 +1,7 @@
 import Link from "next/link";
+import { servicesData } from "../data/servicesData";
 
 export default function ServicesStump() {
-  const services = [
-    {
-      icon: "📋",
-      title: "Process Automation",
-      description:
-        "We identify what's eating your time and set up automations using tools you can learn quickly.",
-    },
-    {
-      icon: "🔗",
-      title: "System Integration",
-      description:
-        "We connect your existing software so data flows automatically - no more copying and pasting between apps.",
-    },
-    {
-      icon: "🛠️",
-      title: "Off-the-Shelf Solutions",
-      description:
-        "We use proven, affordable tools that already exist - no need to reinvent the wheel. We identify the right software for your needs.",
-    },
-  ];
-
   return (
     <section id="services" className="relative py-20 bg-black md:py-32">
       <div className="container relative z-10 px-4 mx-auto md:px-6">
@@ -37,9 +17,9 @@ export default function ServicesStump() {
           </p>
         </header>
 
-        {/* 3-Column Grid for Services */}
-        <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
-          {services.map((service, index) => (
+        {/* 4-Column Responsive Grid */}
+        <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4">
+          {servicesData.map((service, index) => (
             <div
               key={index}
               className="relative p-8 transition-all duration-300 border group rounded-2xl bg-zinc-900/40 border-white/10 hover:border-purple-500/50 hover:-translate-y-2"

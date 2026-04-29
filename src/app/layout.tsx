@@ -4,30 +4,34 @@ import "@/styles/index.css";
 import { Analytics } from "@vercel/analytics/react";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://outstatic.com"),
+  metadataBase: new URL("https://aisolutions.irish"),
   title: {
     default: "AI Solutions",
-    template: "%s | Outstatic",
+    template: "%s | AI Solutions",
   },
-  description: "Your expert on digital marketing",
+  description:
+    "We help small businesses automate manual tasks using simple, affordable tools — so you can focus on growing instead of grinding.",
   openGraph: {
     title: "AI Solutions",
     description: "Grow without the grind.",
     url: absoluteUrl("/"),
-    siteName: "Next.js",
+    siteName: "AI Solutions",
     images: [
       {
         url: absoluteUrl("/images/og-image.png"),
         width: 1800,
         height: 1600,
+        alt: "AI Solutions — Automation & AI Coaching",
       },
     ],
     locale: "en_US",
     type: "website",
   },
-  icons: {
-    icon: [{ url: "/favicon/favicon-32x32.png" }],
-    apple: [{ url: "/favicon/favicon-32x32.png" }],
+  twitter: {
+    card: "summary_large_image",
+    title: "AI Solutions",
+    description: "Grow without the grind.",
+    images: [absoluteUrl("/images/og-image.png")],
   },
 };
 
@@ -38,8 +42,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
-      <Analytics />
+      <body>
+        {children}
+        <Analytics />
+      </body>
     </html>
   );
 }

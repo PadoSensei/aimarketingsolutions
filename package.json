@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "type-check": "tsc --noEmit"
   },
   "dependencies": {
     "@formspree/react": "^3.0.0",
@@ -15,6 +16,8 @@
     "@tanstack/react-query-persist-client": "5.80.7",
     "@vercel/analytics": "^2.0.1",
     "date-fns": "^2.30.0",
+    "embla-carousel-autoplay": "^8.6.0",
+    "embla-carousel-react": "^8.6.0",
     "gray-matter": "^4.0.3",
     "lucide-react": "^0.561.0",
     "next": "^15.5.9",

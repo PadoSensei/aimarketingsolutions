@@ -1,5 +1,4 @@
 @import "tailwindcss";
-
 @plugin "@tailwindcss/typography";
 
 html {
@@ -10,19 +9,32 @@ body {
   background-color: #000;
 }
 
-/* Custom gradient text utility - pure CSS */
+/* ── Brand gradient — matches the logo illustration exactly ──
+   #A8E5FE (cyan-blue) → #64149C (deep purple)              */
 .gradient-text {
-  background: linear-gradient(to right, rgb(192, 132, 252), rgb(147, 197, 253));
+  background: linear-gradient(to right, #a8e5fe, #64149c);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
   color: transparent;
 }
 
+/* Secondary warm accent — hero subheadings, highlights */
 .gradient-purple-pink {
   background: linear-gradient(to right, rgb(192, 132, 252), rgb(244, 114, 182));
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
   color: transparent;
+}
+
+.embla {
+  overflow: hidden;
+}
+.embla__container {
+  display: flex;
+}
+.embla__slide {
+  flex: 0 0 100%;
+  min-width: 0;
 }

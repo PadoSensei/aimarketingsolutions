@@ -7,6 +7,9 @@ export default {
         "gradient-blue": "#A8E5FE",
         "gradient-purple": "#64149C",
       },
+      animation: {
+        "spin-slow": "spin 8s linear infinite",
+      },
     },
   },
 };

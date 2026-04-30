@@ -24,7 +24,7 @@ export const coachingSlides = [
     title: "Thinking in Systems",
     tag: "THE FRANCHISE MINDSET",
     description:
-      "Use the teacher's background to teach the logic of automation.",
+      "Understand the logic behind automation - before touching any tool.",
     points: [
       {
         title: "Start Small, Win Big",
@@ -55,7 +55,7 @@ export const coachingSlides = [
         desc: "Masterclass on shadow AI, enterprise AI, security, and knowing what not to put in a prompt.",
       },
       {
-        title: "The Language of Power",
+        title: "The Language of Decision-Makers",
         desc: "What to ask IT, what to ask your boss, and how to advocate for tools that reclaim your team's time.",
       },
     ],

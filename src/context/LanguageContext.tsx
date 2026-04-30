@@ -1,5 +1,4 @@
 "use client";
-
 import React, { createContext, useState, useEffect, ReactNode } from "react";
 import en from "../locales/en.json";
 import pt from "../locales/pt.json";
@@ -7,10 +6,9 @@ import type { Translations } from "@/types/translations";
 
 type Language = "en" | "pt";
 
-// ✅ Single source of truth
 const translations: Record<Language, Translations> = {
-  en: en as Translations,
-  pt: pt as Translations,
+  en: en as unknown as Translations,
+  pt: pt as unknown as Translations,
 };
 
 interface LanguageContextProps {
@@ -26,7 +24,6 @@ export const LanguageContext = createContext<LanguageContextProps | undefined>(
 export const LanguageProvider = ({ children }: { children: ReactNode }) => {
   const [language, setLanguage] = useState<Language>("en");
 
-  // ✅ Load language from localStorage
   useEffect(() => {
     const savedLanguage = localStorage.getItem("language") as Language | null;
     if (savedLanguage === "en" || savedLanguage === "pt") {
@@ -41,7 +38,6 @@ export const LanguageProvider = ({ children }: { children: ReactNode }) => {
 
   const t = (key: string, variables?: Record<string, string>): string => {
     const keys = key.split(".");
-
     const resolve = (obj: any) => {
       return keys.reduce(
         (acc, k) => (acc && acc[k] !== undefined ? acc[k] : undefined),
@@ -49,15 +45,12 @@ export const LanguageProvider = ({ children }: { children: ReactNode }) => {
       );
     };
 
-    // ✅ Try current language
     let value = resolve(translations[language]);
 
-    // ✅ Fallback to English
     if (value === undefined) {
       value = resolve(translations.en);
     }
 
-    // ✅ Replace variables
     if (typeof value === "string") {
       if (variables) {
         return Object.entries(variables).reduce(

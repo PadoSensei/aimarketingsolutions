@@ -127,4 +127,16 @@ export type Translations = {
     "week-4": CoachingWeek;
     investment: Investment;
   };
+
+  footer: {
+    brandDescription: string;
+    linkedinAria: string;
+    company: string;
+    support: string;
+    readyToAutomate: string;
+    bookCall: string;
+    contactCta: string;
+    allRightsReserved: string;
+    madeWithLove: string;
+  };
 };

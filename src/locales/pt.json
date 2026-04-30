@@ -1,7 +1,5 @@
 {
-  "brand": {
-    "name": "AI Solutions"
-  },
+  "brand": { "name": "AI Solutions" },
   "nav": {
     "home": "Início",
     "seeHowWeDoIt": "Veja Como Fazemos",
@@ -31,7 +29,7 @@
     "title": "O Que Realmente",
     "titleAccent": "Fazemos",
     "subtitle": "Ajudamos pequenas empresas a parar de se perder em trabalho manual com soluções práticas.",
-    "ctaCoaching": "Inscreva-se na Mentoria de IA"
+    "ctaCoaching": "Inscreva-se!"
   },
   "aiCoachingHero": {
     "eyebrow": "Mentoria de {{brandName}}",
@@ -123,6 +121,17 @@
     "bookingSubtitle": "Escolha um horário — a primeira sessão é uma chamada de descoberta gratuita.",
     "calendarTitle": "Agende uma sessão com {{brandName}}"
   },
+  "footer": {
+    "brandDescription": "Ajudamos pequenas empresas a automatizar trabalho manual com ferramentas de IA simples e acessíveis.",
+    "linkedinAria": "Siga {{brandName}} no LinkedIn",
+    "company": "Empresa",
+    "support": "Suporte",
+    "readyToAutomate": "Pronto para Automatizar?",
+    "bookCall": "Agende uma chamada de descoberta gratuita e veja como podemos poupar-lhe horas por semana.",
+    "contactCta": "Fale Connosco",
+    "allRightsReserved": "© {{brandName}}. Todos os direitos reservados.",
+    "madeWithLove": "Feito com ☕ na Irlanda"
+  },
   "coachingData": {
     "week-1": {
       "week": "Semana 1",
@@ -148,7 +157,7 @@
       "week": "Semana 2",
       "title": "Pensar em Sistemas",
       "tag": "A MENTALIDADE DE FRANCHISE",
-      "description": "Usar a lógica da automação para transformar processos repetitivos.",
+      "description": "Compreenda a lógica por trás da automação — antes de usar qualquer ferramenta.",
       "points": [
         {
           "title": "Comece Pequeno, Ganhe Grande",
@@ -179,7 +188,7 @@
           "desc": "Masterclass sobre shadow AI, IA empresarial, segurança e o que não colocar num prompt."
         },
         {
-          "title": "A Linguagem do Poder",
+          "title": "A Linguagem dos Tomadores de Decisãor",
           "desc": "O que perguntar à TI, ao seu chefe, e como defender ferramentas que recuperam o tempo da sua equipa."
         }
       ]

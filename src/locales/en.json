@@ -1,7 +1,5 @@
 {
-  "brand": {
-    "name": "AI Solutions"
-  },
+  "brand": { "name": "AI Solutions" },
   "nav": {
     "home": "Home",
     "seeHowWeDoIt": "See How We Do It",
@@ -31,7 +29,7 @@
     "title": "What We",
     "titleAccent": "Actually Do",
     "subtitle": "We help small businesses stop drowning in manual work with practical, no-nonsense solutions.",
-    "ctaCoaching": "Sign up for AI Coaching"
+    "ctaCoaching": "Sign up!"
   },
   "aiCoachingHero": {
     "eyebrow": "{{brandName}} Coaching",
@@ -123,6 +121,17 @@
     "bookingSubtitle": "Pick a time that works for you — first session is a free discovery call.",
     "calendarTitle": "Book a session with {{brandName}}"
   },
+  "footer": {
+    "brandDescription": "Helping small businesses automate manual work with simple, affordable AI tools.",
+    "linkedinAria": "Follow {{brandName}} on LinkedIn",
+    "company": "Company",
+    "support": "Support",
+    "readyToAutomate": "Ready to Automate?",
+    "bookCall": "Book a free discovery call and find out how we can save you hours every week.",
+    "contactCta": "Get in Touch",
+    "allRightsReserved": "© {{brandName}}. All rights reserved.",
+    "madeWithLove": "Made with ☕ in Ireland"
+  },
   "coachingData": {
     "week-1": {
       "week": "Week 1",
@@ -148,7 +157,7 @@
       "week": "Week 2",
       "title": "Thinking in Systems",
       "tag": "THE FRANCHISE MINDSET",
-      "description": "Use the teacher's background to teach the logic of automation.",
+      "description": "Understand the logic behind automation - before touching any tool.",
       "points": [
         {
           "title": "Start Small, Win Big",
@@ -179,7 +188,7 @@
           "desc": "Masterclass on shadow AI, enterprise AI, security, and knowing what not to put in a prompt."
         },
         {
-          "title": "The Language of Power",
+          "title": "The Language of Decision-Makers",
           "desc": "What to ask IT, what to ask your boss, and how to advocate for tools that reclaim your team's time."
         }
       ]

@@ -10,7 +10,7 @@ type Translations = typeof en;
 interface LanguageContextProps {
   language: Language;
   setLanguage: (lang: Language) => void;
-  t: (key: string) => string;
+  t: (key: string, variables?: Record<string, string>) => string;
 }
 
 export const LanguageContext = createContext<LanguageContextProps | undefined>(
@@ -35,7 +35,7 @@ export const LanguageProvider = ({ children }: { children: ReactNode }) => {
     localStorage.setItem("language", lang);
   };
 
-  const t = (key: string): string => {
+  const t = (key: string, variables?: Record<string, string>): string => {
     const keys = key.split(".");
     let value: any = translations[language];
 
@@ -45,18 +45,31 @@ export const LanguageProvider = ({ children }: { children: ReactNode }) => {
       } else {
         // Fallback to English if translation is missing in the current language
         let fallbackValue: any = translations["en"];
+        let foundFallback = true;
         for (const fk of keys) {
           if (fallbackValue !== undefined && fallbackValue[fk] !== undefined) {
             fallbackValue = fallbackValue[fk];
           } else {
-            return key; // Return the key itself if both fail
+            foundFallback = false;
+            break;
           }
         }
-        return typeof fallbackValue === "string" ? fallbackValue : key;
+        value = foundFallback ? fallbackValue : undefined;
+        break;
       }
     }
 
-    return typeof value === "string" ? value : key;
+    if (typeof value === "string") {
+      let result = value;
+      if (variables) {
+        Object.entries(variables).forEach(([vKey, vValue]) => {
+          result = result.replaceAll(`{{${vKey}}}`, vValue);
+        });
+      }
+      return result;
+    }
+
+    return key;
   };
 
   return (

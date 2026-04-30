@@ -1,4 +1,7 @@
 {
+  "brand": {
+    "name": "AI Solutions"
+  },
   "nav": {
     "home": "Home",
     "seeHowWeDoIt": "See How We Do It",
@@ -12,7 +15,7 @@
     "closeMenu": "Close menu"
   },
   "hero": {
-    "eyebrow": "AI Solutions · Ireland",
+    "eyebrow": "{{brandName}} · Ireland",
     "title": "Stop Wasting Time",
     "on": "on",
     "titleAccent": "Repetitive Work",
@@ -31,14 +34,14 @@
     "ctaCoaching": "Sign up for AI Coaching"
   },
   "aiCoachingHero": {
-    "eyebrow": "AI Solutions Coaching",
+    "eyebrow": "{{brandName}} Coaching",
     "title": "The Strategic",
     "titleAccent": "AI Residency",
     "subtitle": "A 4-week programme built for high-achieving, AI-anxious professionals.",
     "framework": "Not a tools list — a framework for",
     "frameworkBold": "Landscape, Logic, and Leadership.",
     "transformation": "Move from \"I've heard of this\" to \"I can lead this room.\"",
-    "ctaButton": "About AI Solutions",
+    "ctaButton": "About {{brandName}}",
     "imageAlt": "Strategic AI Residency — professional coaching session"
   },
   "about": {
@@ -50,7 +53,7 @@
     "roleDeveloper": "Software Developer",
     "linkedinConnect": "Connect on LinkedIn",
     "signUpCoaching": "Sign up for AI Coaching",
-    "ludmilaBio1": "After nearly a decade working across marketing and technology in Brazil, Italy, and Ireland, Ludmila founded AI Solutions to bridge the gap between advanced AI technology and the practical needs of small to medium-sized businesses.",
+    "ludmilaBio1": "After nearly a decade working across marketing and technology in Brazil, Italy, and Ireland, Ludmila founded {{brandName}} to bridge the gap between advanced AI technology and the practical needs of small to medium-sized businesses.",
     "ludmilaBio2": "Her journey through different markets has given her a unique perspective on the challenges small businesses face, especially the overwhelming amount of manual work that defeats team morale and prevents growth.",
     "padraigBio1": "Padraig is a full-stack software engineer and former History & Politics teacher who loves to learn through building, experimenting, and teaching.",
     "padraigBio2": "His approach is straightforward: simplify the complex and create practical solutions to real-world problems. Padraig brings technical depth combined with a teacher's ability to make technology accessible and understandable for non-technical business owners.",
@@ -92,13 +95,13 @@
   },
   "footer": {
     "brandDescription": "Empowering small businesses with automation tools to grow without the grind.",
-    "linkedinAria": "AI Solutions on LinkedIn",
+    "linkedinAria": "{{brandName}} on LinkedIn",
     "company": "Company",
     "support": "Support",
     "readyToAutomate": "Ready to automate?",
     "bookCall": "Book a free discovery call and see what's possible.",
     "contactCta": "Get in touch →",
-    "allRightsReserved": "AI Solutions™ — All Rights Reserved",
+    "allRightsReserved": "{{brandName}}™ — All Rights Reserved",
     "madeWithLove": "Made with ❤️ in Ireland"
   },
   "contact": {
@@ -128,7 +131,7 @@
     "bookingEyebrow": "Get Started",
     "bookingTitle": "Book your intro call",
     "bookingSubtitle": "30 minutes. No pressure. Just clarity.",
-    "calendarTitle": "Schedule a call with AI Solutions"
+    "calendarTitle": "Schedule a call with {{brandName}}"
   },
   "servicesData": {
     "process-automation": {

@@ -45,7 +45,7 @@ const Footer = () => {
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 text-sm transition-colors duration-200 text-zinc-500 hover:text-white group"
-              aria-label={t("footer.linkedinAria")}
+              aria-label={t("footer.linkedinAria", { brandName: t("brand.name") })}
             >
               <span className="flex items-center justify-center w-8 h-8 transition-colors duration-200 border rounded-full border-zinc-800 group-hover:border-purple-600">
                 <svg
@@ -119,7 +119,7 @@ const Footer = () => {
         {/* Bottom bar */}
         <div className="flex flex-col items-center justify-between gap-3 pt-6 border-t border-white/5 sm:flex-row">
           <p className="text-xs text-zinc-700">
-            © {new Date().getFullYear()} {t("footer.allRightsReserved")}
+            © {new Date().getFullYear()} {t("footer.allRightsReserved", { brandName: t("brand.name") })}
           </p>
           <p className="text-xs text-zinc-700">{t("footer.madeWithLove")}</p>
         </div>

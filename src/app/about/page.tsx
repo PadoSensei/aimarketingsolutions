@@ -155,7 +155,7 @@ export default function About() {
               }}
               bio={
                 <>
-                  <p>{t("about.ludmilaBio1")}</p>
+                  <p>{t("about.ludmilaBio1", { brandName: t("brand.name") })}</p>
                   <p>{t("about.ludmilaBio2")}</p>
                 </>
               }

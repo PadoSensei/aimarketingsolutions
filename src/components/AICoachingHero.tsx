@@ -17,7 +17,7 @@ export default function AICoachingHero() {
           <div className="z-10 flex-1 p-8 space-y-6 md:p-14 lg:p-16">
             {/* Eyebrow label */}
             <span className="inline-block px-4 py-1.5 text-xs font-bold tracking-widest text-purple-200 uppercase bg-purple-900/50 border border-purple-600/40 rounded-full">
-              {t("aiCoachingHero.eyebrow")}
+              {t("aiCoachingHero.eyebrow", { brandName: t("brand.name") })}
             </span>
 
             <h1 className="text-4xl font-extrabold tracking-tight md:text-5xl lg:text-6xl text-white leading-[1.1]">
@@ -46,7 +46,7 @@ export default function AICoachingHero() {
                 href="/about"
                 className="px-8 py-3 font-bold text-purple-900 transition-all duration-200 bg-white rounded-full shadow-lg hover:bg-purple-50 shadow-purple-950/40"
               >
-                {t("aiCoachingHero.ctaButton")}
+                {t("aiCoachingHero.ctaButton", { brandName: t("brand.name") })}
               </Button>
 
               {/* Secondary CTA */}

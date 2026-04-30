@@ -1,15 +1,19 @@
 "use client";
 import { useState, useEffect } from "react";
 import Link from "next/link";
-
-const navLinks = [
-  { label: "About", href: "/about" },
-  { label: "Services", href: "/services" },
-  { label: "AI Coaching", href: "/ai-coaching" },
-  // { label: "Blog", href: "/posts" },
-];
+import { useTranslation } from "@/hooks/useTranslation";
+import LanguageToggle from "./LanguageToggle";
 
 const NavBar = () => {
+  const { t } = useTranslation();
+
+  const navLinks = [
+    { label: t("nav.about"), href: "/about" },
+    { label: t("nav.services"), href: "/services" },
+    { label: t("nav.aiCoaching"), href: "/ai-coaching" },
+    // { label: "Blog", href: "/posts" },
+  ];
+
   const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
 
@@ -71,22 +75,25 @@ const NavBar = () => {
           </ul>
 
           {/* Desktop CTA */}
-          <div className="hidden md:block">
+          <div className="hidden items-center gap-4 md:flex">
+            <LanguageToggle />
             <Link
               href="/contact"
               className="inline-flex items-center px-5 py-2.5 text-sm font-semibold text-white rounded-full border border-purple-700/60 hover:bg-purple-900/30 hover:border-purple-500 transition-all duration-200"
             >
-              Contact Us
+              {t("nav.contact")}
             </Link>
           </div>
 
           {/* Mobile Hamburger */}
-          <button
-            onClick={() => setIsOpen((prev) => !prev)}
-            className="relative flex flex-col items-center justify-center w-10 h-10 transition-colors duration-200 border rounded-full md:hidden border-white/10 hover:border-purple-600/50"
-            aria-label={isOpen ? "Close menu" : "Open menu"}
-            aria-expanded={isOpen}
-          >
+          <div className="flex items-center gap-3 md:hidden">
+            <LanguageToggle />
+            <button
+              onClick={() => setIsOpen((prev) => !prev)}
+              className="relative flex flex-col items-center justify-center w-10 h-10 transition-colors duration-200 border rounded-full border-white/10 hover:border-purple-600/50"
+              aria-label={isOpen ? t("nav.closeMenu") : t("nav.openMenu")}
+              aria-expanded={isOpen}
+            >
             <span
               className={`block h-px w-5 bg-white transition-all duration-300 ${
                 isOpen ? "rotate-45 translate-y-[1px]" : "-translate-y-1"
@@ -97,12 +104,13 @@ const NavBar = () => {
                 isOpen ? "opacity-0 scale-x-0" : "opacity-100"
               }`}
             />
-            <span
-              className={`block h-px w-5 bg-white transition-all duration-300 ${
-                isOpen ? "-rotate-45 -translate-y-[1px]" : "translate-y-1"
-              }`}
-            />
-          </button>
+              <span
+                className={`block h-px w-5 bg-white transition-all duration-300 ${
+                  isOpen ? "-rotate-45 -translate-y-[1px]" : "translate-y-1"
+                }`}
+              />
+            </button>
+          </div>
         </nav>
       </header>
 
@@ -148,7 +156,7 @@ const NavBar = () => {
                 onClick={() => setIsOpen(false)}
                 className="flex items-center justify-center w-full px-5 py-3 text-base font-semibold text-white transition-all duration-200 border rounded-xl border-purple-700/60 hover:bg-purple-900/30"
               >
-                Contact Us →
+                {t("nav.contact")} →
               </Link>
             </div>
           </nav>

@@ -1,10 +1,14 @@
+"use client";
 import Layout from "@/components/Layout";
 import NavBar from "@/components/NavBar";
 import Footer from "@/components/Footer";
 import AICarousel from "@/components/AICarousel";
 import AICoachingHero from "@/components/AICoachingHero";
+import { useTranslation } from "@/hooks/useTranslation";
 
 export default function AiCoachingPage() {
+  const { t } = useTranslation();
+
   return (
     <Layout>
       <NavBar />
@@ -19,16 +23,15 @@ export default function AiCoachingPage() {
           <div className="mb-8">
             {/* Section badge — mirrors Gamma's week tag chips */}
             <span className="inline-block px-4 py-1.5 text-xs font-bold tracking-widest text-purple-300 uppercase bg-purple-950/60 border border-purple-800/60 rounded-full mb-5">
-              4-Week Programme
+              {t("aiCoaching.roadmapEyebrow")}
             </span>
 
             <h2 className="mb-3 text-4xl font-bold tracking-tight text-white">
-              The Coaching <span className="gradient-text">Roadmap</span>
+              {t("aiCoaching.roadmapTitle")} <span className="gradient-text">{t("aiCoaching.roadmapTitleAccent")}</span>
             </h2>
 
             <p className="max-w-2xl text-lg text-purple-300/80">
-              A proven framework designed to turn AI anxiety into strategic
-              advantage — one week at a time.
+              {t("aiCoaching.roadmapSubtitle")}
             </p>
           </div>
 
@@ -44,15 +47,15 @@ export default function AiCoachingPage() {
           <section id="book" className="space-y-8">
             <div className="space-y-3 text-center">
               <span className="inline-block px-4 py-1.5 text-xs font-bold tracking-widest text-purple-300 uppercase bg-purple-950/60 border border-purple-800/60 rounded-full">
-                Get Started
+                {t("aiCoaching.bookingEyebrow")}
               </span>
 
               <h2 className="text-4xl font-bold text-white">
-                Book your intro call
+                {t("aiCoaching.bookingTitle")}
               </h2>
 
               <p className="text-lg text-purple-300/80">
-                30 minutes. No pressure. Just clarity.
+                {t("aiCoaching.bookingSubtitle")}
               </p>
             </div>
 
@@ -67,7 +70,7 @@ export default function AiCoachingPage() {
                   width="100%"
                   height="700"
                   frameBorder="0"
-                  title="Schedule a call with AI Solutions"
+                  title={t("aiCoaching.calendarTitle")}
                   className="block"
                   style={{ colorScheme: "light" }}
                 />

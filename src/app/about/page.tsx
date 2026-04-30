@@ -1,8 +1,10 @@
+"use client";
 import React from "react";
 import Footer from "@/components/Footer";
 import NavBar from "@/components/NavBar";
 import Button from "@/components/Button";
 import Image from "next/image";
+import { useTranslation } from "@/hooks/useTranslation";
 
 // 1. Define Props Interfaces
 interface TeamProfileProps {
@@ -29,7 +31,9 @@ const TeamProfile = ({
   linkedin,
   isReversed,
   showCoachingCta,
-}: TeamProfileProps) => (
+}: TeamProfileProps) => {
+  const { t } = useTranslation();
+  return (
   <div
     className={`group relative flex flex-col ${
       isReversed ? "md:flex-row-reverse" : "md:flex-row"
@@ -84,19 +88,20 @@ const TeamProfile = ({
             <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
           </svg>
           <span className="pb-px transition-all border-b border-transparent group-hover/link:border-white">
-            Connect on LinkedIn
+            {t("about.linkedinConnect")}
           </span>
         </a>
 
         {showCoachingCta && (
           <Button href="/ai-coaching" className="px-6 py-2.5 text-sm w-fit">
-            Sign up for AI Coaching
+            {t("about.signUpCoaching")}
           </Button>
         )}
       </div>
     </div>
   </div>
 );
+};
 
 const InfoSection = ({ title, content }: InfoSectionProps) => (
   <div className="flex flex-col h-full p-8 md:p-10 rounded-3xl border border-white/10 bg-zinc-900/30 hover:border-purple-500/30 hover:shadow-[0_0_40px_rgba(147,51,234,0.06)] transition-all duration-300">
@@ -111,6 +116,7 @@ const InfoSection = ({ title, content }: InfoSectionProps) => (
 );
 
 export default function About() {
+  const { t } = useTranslation();
   return (
     <div className="flex flex-col min-h-screen bg-black">
       <NavBar />
@@ -121,20 +127,20 @@ export default function About() {
         <article className="relative z-10 max-w-5xl mx-auto space-y-16">
           <header className="py-12 space-y-5 text-center">
             <span className="inline-block px-4 py-1.5 text-xs font-bold tracking-widest text-purple-300 uppercase bg-purple-900/25 border border-purple-700/40 rounded-full">
-              The Team
+              {t("about.eyebrow")}
             </span>
             <h1 className="text-4xl font-extrabold tracking-tight text-white md:text-5xl lg:text-6xl">
-              Who We <span className="gradient-text">Are</span>
+              {t("about.title")} <span className="gradient-text">{t("about.titleAccent")}</span>
             </h1>
             <p className="max-w-2xl mx-auto text-lg leading-relaxed text-zinc-400 md:text-xl">
-              A two-person automation consultancy based in Ireland.
+              {t("about.subtitle")}
             </p>
           </header>
 
           <div className="flex flex-col gap-8">
             <TeamProfile
               name="Ludmila Domingos"
-              role="Founder · AI Strategist"
+              role={t("about.roleFounder")}
               image="/images/lu-suit.jpg"
               showCoachingCta={true}
               linkedin="https://www.linkedin.com/in/dludmila/"

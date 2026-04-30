@@ -1,7 +1,10 @@
+"use client";
 import Link from "next/link";
 import Button from "./Button";
+import { useTranslation } from "@/hooks/useTranslation";
 
 const Hero = () => {
+  const { t } = useTranslation();
   return (
     <section className="relative flex items-center min-h-[calc(100vh-5rem)] pb-28 overflow-hidden bg-black">
       {/* ── Background atmosphere ───────────────────────────── */}
@@ -29,16 +32,16 @@ const Hero = () => {
               <span className="absolute inline-flex w-full h-full bg-purple-400 rounded-full opacity-75 animate-ping" />
               <span className="relative inline-flex rounded-full h-1.5 w-1.5 bg-purple-500" />
             </span>
-            AI Solutions · Ireland
+            {t("hero.eyebrow")}
           </div>
 
           {/* H1 */}
           <h1 className="text-4xl font-extrabold leading-[1.08] tracking-tight text-white sm:text-5xl lg:text-6xl">
-            Stop Wasting Time
+            {t("hero.title")}
             <br className="hidden sm:block" />
-            on{" "}
+            {t("hero.on")}{" "}
             <span className="relative inline-block">
-              <span className="gradient-purple-pink">Repetitive Work</span>
+              <span className="gradient-purple-pink">{t("hero.titleAccent")}</span>
               {/* Underline accent */}
               <span className="absolute left-0 w-full h-px -bottom-1 bg-gradient-to-r from-purple-500/80 to-pink-500/0" />
             </span>
@@ -46,20 +49,19 @@ const Hero = () => {
 
           {/* Subheading */}
           <p className="max-w-lg mx-auto text-lg leading-relaxed text-zinc-400 md:mx-0 lg:text-xl">
-            We help small business owners automate manual tasks using simple,
-            affordable tools — so you can focus on{" "}
-            <span className="font-semibold text-white">growing</span> instead of
-            grinding.
+            {t("hero.subtitle")}{" "}
+            <span className="font-semibold text-white">{t("hero.growing")}</span>{" "}
+            {t("hero.insteadOfGrinding")}
           </p>
 
           {/* CTA Buttons */}
           <div className="flex flex-col items-center justify-center gap-4 pt-2 sm:flex-row md:justify-start">
-            <Button href="/ai-coaching">Sign Up For AI Coaching</Button>
+            <Button href="/ai-coaching">{t("hero.ctaCoaching")}</Button>
             <Link
               href="/contact"
               className="inline-flex items-center gap-2 px-7 py-3.5 text-base font-semibold text-zinc-300 transition-all duration-200 border rounded-full border-white/10 hover:border-white/25 hover:text-white hover:bg-white/5"
             >
-              Contact Us
+              {t("hero.ctaContact")}
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -115,7 +117,7 @@ const Hero = () => {
                 <span className="gradient-text">SOLUTIONS</span>
               </p>
               <p className="mt-1 text-xs tracking-widest uppercase text-zinc-600">
-                Automation · AI Coaching
+                {t("hero.footerTitle")}
               </p>
             </div>
           </div>

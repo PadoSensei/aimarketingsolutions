@@ -2,9 +2,17 @@
 import React, { useState, useEffect, useCallback } from "react";
 import useEmblaCarousel from "embla-carousel-react";
 import { coachingSlides } from "@/data/coachingData";
+import { useTranslation } from "@/hooks/useTranslation";
 
 export default function AICarousel() {
+  const { t } = useTranslation();
   const [emblaRef, emblaApi] = useEmblaCarousel({ loop: false });
+
+  const getSlideKey = (index: number) => {
+    if (index === 4) return "investment";
+    return `week-${index + 1}`;
+  };
+
   const [selectedIndex, setSelectedIndex] = useState(0);
 
   const onSelect = useCallback(() => {
@@ -37,7 +45,7 @@ export default function AICarousel() {
     <div className="w-full max-w-5xl mx-auto">
       {/* Week Tab Bar */}
       <div className="flex gap-2 pb-2 mb-6 overflow-x-auto scrollbar-hide">
-        {coachingSlides.map((slide, i) => (
+        {coachingSlides.map((_, i) => (
           <button
             key={i}
             onClick={() => scrollTo(i)}
@@ -47,7 +55,7 @@ export default function AICarousel() {
                 : "bg-transparent text-purple-300 border-purple-800 hover:border-purple-500 hover:text-white"
             }`}
           >
-            {slide.week}
+            {t(`coachingData.${getSlideKey(i)}.week`)}
           </button>
         ))}
       </div>
@@ -55,52 +63,57 @@ export default function AICarousel() {
       {/* Embla Viewport */}
       <div className="overflow-hidden rounded-3xl" ref={emblaRef}>
         <div className="flex">
-          {coachingSlides.map((slide, index) => (
-            <div key={index} className="flex-[0_0_100%] min-w-0 p-1">
-              {/* Slide Card */}
-              <div className="w-full p-8 md:p-10 rounded-3xl border border-purple-900/60 bg-gradient-to-br from-[#0D0020] via-[#10002B] to-[#0A0018] shadow-2xl shadow-purple-950/50">
-                {/* Tag */}
-                <span className="inline-block px-3 py-1 mb-5 text-xs font-bold tracking-widest text-purple-300 uppercase border rounded-full bg-purple-900/40 border-purple-700/50">
-                  {slide.tag}
-                </span>
+          {coachingSlides.map((slide, index) => {
+            const slideKey = getSlideKey(index);
+            return (
+              <div key={index} className="flex-[0_0_100%] min-w-0 p-1">
+                {/* Slide Card */}
+                <div className="w-full p-8 md:p-10 rounded-3xl border border-purple-900/60 bg-gradient-to-br from-[#0D0020] via-[#10002B] to-[#0A0018] shadow-2xl shadow-purple-950/50">
+                  {/* Tag */}
+                  <span className="inline-block px-3 py-1 mb-5 text-xs font-bold tracking-widest text-purple-300 uppercase border rounded-full bg-purple-900/40 border-purple-700/50">
+                    {t(`coachingData.${slideKey}.tag`)}
+                  </span>
 
-                {/* Heading */}
-                <h2 className="mb-2 text-3xl font-extrabold text-white md:text-4xl">
-                  {slide.week}:{" "}
-                  <span className="gradient-text">{slide.title}</span>
-                </h2>
+                  {/* Heading */}
+                  <h2 className="mb-2 text-3xl font-extrabold text-white md:text-4xl">
+                    {t(`coachingData.${slideKey}.week`)}:{" "}
+                    <span className="gradient-text">
+                      {t(`coachingData.${slideKey}.title`)}
+                    </span>
+                  </h2>
 
-                {/* Goal line */}
-                <p className="text-base mb-7 md:text-lg text-purple-300/80">
-                  <span className="font-semibold text-purple-200">Goal:</span>{" "}
-                  {slide.description}
-                </p>
+                  {/* Goal line */}
+                  <p className="text-base mb-7 md:text-lg text-purple-300/80">
+                    <span className="font-semibold text-purple-200">Goal:</span>{" "}
+                    {t(`coachingData.${slideKey}.description`)}
+                  </p>
 
-                {/* Feature Cards Grid */}
-                <div
-                  className={`grid gap-3 ${
-                    slide.points.length === 3
-                      ? "grid-cols-1 md:grid-cols-3"
-                      : "grid-cols-1 md:grid-cols-2"
-                  }`}
-                >
-                  {slide.points.map((point, i) => (
-                    <div
-                      key={i}
-                      className="p-4 transition-all duration-200 border bg-white/5 border-white/10 rounded-xl hover:bg-white/8 hover:border-purple-700/50"
-                    >
-                      <p className="mb-1 text-sm font-bold text-white">
-                        {point.title}
-                      </p>
-                      <p className="text-xs leading-relaxed text-purple-300/70">
-                        {point.desc}
-                      </p>
-                    </div>
-                  ))}
+                  {/* Feature Cards Grid */}
+                  <div
+                    className={`grid gap-3 ${
+                      slide.points.length === 3
+                        ? "grid-cols-1 md:grid-cols-3"
+                        : "grid-cols-1 md:grid-cols-2"
+                    }`}
+                  >
+                    {slide.points.map((_, i) => (
+                      <div
+                        key={i}
+                        className="p-4 transition-all duration-200 border bg-white/5 border-white/10 rounded-xl hover:bg-white/8 hover:border-purple-700/50"
+                      >
+                        <p className="mb-1 text-sm font-bold text-white">
+                          {t(`coachingData.${slideKey}.points.${i}.title`)}
+                        </p>
+                        <p className="text-xs leading-relaxed text-purple-300/70">
+                          {t(`coachingData.${slideKey}.points.${i}.desc`)}
+                        </p>
+                      </div>
+                    ))}
+                  </div>
                 </div>
               </div>
-            </div>
-          ))}
+            );
+          })}
         </div>
       </div>
 

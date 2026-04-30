@@ -2,6 +2,7 @@ import { absoluteUrl } from "@/lib/utils";
 import { Metadata } from "next";
 import "@/styles/index.css";
 import { Analytics } from "@vercel/analytics/react";
+import { LanguageProvider } from "@/context/LanguageContext";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://aisolutions.irish"),
@@ -43,7 +44,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        {children}
+        <LanguageProvider>
+          {children}
+        </LanguageProvider>
         <Analytics />
       </body>
     </html>

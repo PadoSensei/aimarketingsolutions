@@ -1,4 +1,7 @@
 {
+  "brand": {
+    "name": "AI Solutions"
+  },
   "nav": {
     "home": "Início",
     "seeHowWeDoIt": "Veja Como Fazemos",
@@ -12,7 +15,7 @@
     "closeMenu": "Fechar menu"
   },
   "hero": {
-    "eyebrow": "Soluções de IA · Irlanda",
+    "eyebrow": "{{brandName}} · Irlanda",
     "title": "Pare de Perder Tempo",
     "on": "com",
     "titleAccent": "Trabalho Repetitivo",
@@ -31,14 +34,14 @@
     "ctaCoaching": "Inscreva-se na Mentoria de IA"
   },
   "aiCoachingHero": {
-    "eyebrow": "Mentoria de Soluções de IA",
+    "eyebrow": "Mentoria de {{brandName}}",
     "title": "A Residência",
     "titleAccent": "Estratégica de IA",
     "subtitle": "Um programa de 4 semanas criado para profissionais de alto desempenho com ansiedade em relação à IA.",
     "framework": "Não é uma lista de ferramentas — um framework para",
     "frameworkBold": "Cenário, Lógica e Liderança.",
     "transformation": "Passe de \"já ouvi falar disto\" para \"posso liderar esta sala.\"",
-    "ctaButton": "Sobre Soluções de IA",
+    "ctaButton": "Sobre {{brandName}}",
     "imageAlt": "Residência Estratégica de IA — sessão de mentoria profissional"
   },
   "about": {
@@ -50,7 +53,7 @@
     "roleDeveloper": "Desenvolvedor de Software",
     "linkedinConnect": "Conectar no LinkedIn",
     "signUpCoaching": "Inscreva-se na Mentoria de IA",
-    "ludmilaBio1": "Após quase uma década a trabalhar em marketing e tecnologia no Brasil, Itália e Irlanda, Ludmila fundou a AI Solutions para colmatar a lacuna entre a tecnologia de IA avançada e as necessidades práticas das pequenas e médias empresas.",
+    "ludmilaBio1": "Após quase uma década a trabalhar em marketing e tecnologia no Brasil, Itália e Irlanda, Ludmila fundou a {{brandName}} para colmatar a lacuna entre a tecnologia de IA avançada e as necessidades práticas das pequenas e médias empresas.",
     "ludmilaBio2": "A sua jornada por diferentes mercados deu-lhe uma perspetiva única sobre os desafios que as pequenas empresas enfrentam, especialmente a quantidade avassaladora de trabalho manual que destrói o moral da equipa e impede o crescimento.",
     "padraigBio1": "Padraig é um engenheiro de software full-stack e ex-professor de História e Política que adora aprender através da construção, experimentação e ensino.",
     "padraigBio2": "A sua abordagem é direta: simplificar o complexo e criar soluções práticas para problemas do mundo real. Padraig traz profundidade técnica combinada com a capacidade de um professor para tornar a tecnologia acessível e compreensível para proprietários de empresas não técnicos.",
@@ -92,13 +95,13 @@
   },
   "footer": {
     "brandDescription": "Capacitar pequenas empresas com ferramentas de automação para crescer sem o esforço excessivo.",
-    "linkedinAria": "AI Solutions no LinkedIn",
+    "linkedinAria": "{{brandName}} no LinkedIn",
     "company": "Empresa",
     "support": "Suporte",
     "readyToAutomate": "Pronto para automatizar?",
     "bookCall": "Marque uma chamada de descoberta gratuita e veja o que é possível.",
     "contactCta": "Entre em contacto →",
-    "allRightsReserved": "AI Solutions™ — Todos os Direitos Reservados",
+    "allRightsReserved": "{{brandName}}™ — Todos os Direitos Reservados",
     "madeWithLove": "Feito com ❤️ na Irlanda"
   },
   "contact": {
@@ -128,7 +131,7 @@
     "bookingEyebrow": "Começar",
     "bookingTitle": "Marque a sua chamada de introdução",
     "bookingSubtitle": "30 minutos. Sem pressão. Apenas clareza.",
-    "calendarTitle": "Agende uma chamada com a AI Solutions"
+    "calendarTitle": "Agende uma chamada com a {{brandName}}"
   },
   "servicesData": {
     "process-automation": {

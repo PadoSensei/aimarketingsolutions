@@ -241,10 +241,11 @@
       }
     },
     "investment": {
-      "week": "Investment",
-      "title": "4-Week AI Coaching",
       "tag": "PRICING",
+      "title": "Investment: 4-Week AI Coaching",
       "description": "4 × 1:1 sessions, fully personalised to your business or role.",
+      "duration": "2–3 hours per week with ongoing support, over 4 weeks.",
+      "cta": "Talk to me directly →",
       "points": {
         "0": {
           "title": "Prompt Library",
@@ -256,7 +257,7 @@
         },
         "2": {
           "title": "Weekly Practice Plan",
-          "desc": "Structured exercises between sessions to build real habits, not just awareness."
+          "desc": "Structured, hands-on exercises between sessions to build real habits."
         }
       }
     }

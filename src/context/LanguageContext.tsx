@@ -3,9 +3,15 @@
 import React, { createContext, useState, useEffect, ReactNode } from "react";
 import en from "../locales/en.json";
 import pt from "../locales/pt.json";
+import type { Translations } from "@/types/translations";
 
 type Language = "en" | "pt";
-type Translations = typeof en;
+
+// ✅ Single source of truth
+const translations: Record<Language, Translations> = {
+  en: en as Translations,
+  pt: pt as Translations,
+};
 
 interface LanguageContextProps {
   language: Language;
@@ -17,15 +23,13 @@ export const LanguageContext = createContext<LanguageContextProps | undefined>(
   undefined
 );
 
-const translations: Record<Language, Translations> = { en, pt };
-
 export const LanguageProvider = ({ children }: { children: ReactNode }) => {
   const [language, setLanguage] = useState<Language>("en");
 
-  // Load language from localStorage if available
+  // ✅ Load language from localStorage
   useEffect(() => {
-    const savedLanguage = localStorage.getItem("language") as Language;
-    if (savedLanguage && (savedLanguage === "en" || savedLanguage === "pt")) {
+    const savedLanguage = localStorage.getItem("language") as Language | null;
+    if (savedLanguage === "en" || savedLanguage === "pt") {
       setLanguage(savedLanguage);
     }
   }, []);
@@ -37,43 +41,40 @@ export const LanguageProvider = ({ children }: { children: ReactNode }) => {
 
   const t = (key: string, variables?: Record<string, string>): string => {
     const keys = key.split(".");
-    let value: any = translations[language];
 
-    for (const k of keys) {
-      if (value !== undefined && value[k] !== undefined) {
-        value = value[k];
-      } else {
-        // Fallback to English if translation is missing in the current language
-        let fallbackValue: any = translations["en"];
-        let foundFallback = true;
-        for (const fk of keys) {
-          if (fallbackValue !== undefined && fallbackValue[fk] !== undefined) {
-            fallbackValue = fallbackValue[fk];
-          } else {
-            foundFallback = false;
-            break;
-          }
-        }
-        value = foundFallback ? fallbackValue : undefined;
-        break;
-      }
+    const resolve = (obj: any) => {
+      return keys.reduce(
+        (acc, k) => (acc && acc[k] !== undefined ? acc[k] : undefined),
+        obj
+      );
+    };
+
+    // ✅ Try current language
+    let value = resolve(translations[language]);
+
+    // ✅ Fallback to English
+    if (value === undefined) {
+      value = resolve(translations.en);
     }
 
+    // ✅ Replace variables
     if (typeof value === "string") {
-      let result = value;
       if (variables) {
-        Object.entries(variables).forEach(([vKey, vValue]) => {
-          result = result.replaceAll(`{{${vKey}}}`, vValue);
-        });
+        return Object.entries(variables).reduce(
+          (acc, [vKey, vValue]) => acc.replaceAll(`{{${vKey}}}`, vValue),
+          value
+        );
       }
-      return result;
+      return value;
     }
 
     return key;
   };
 
   return (
-    <LanguageContext.Provider value={{ language, setLanguage: handleSetLanguage, t }}>
+    <LanguageContext.Provider
+      value={{ language, setLanguage: handleSetLanguage, t }}
+    >
       {children}
     </LanguageContext.Provider>
   );

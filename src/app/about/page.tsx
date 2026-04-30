@@ -1,5 +1,5 @@
 import React from "react";
-import Footer2 from "@/components/Footer2";
+import Footer from "@/components/Footer";
 import NavBar from "@/components/NavBar";
 import Button from "@/components/Button";
 import Image from "next/image";
@@ -146,7 +146,7 @@ export default function About() {
           {/* ... grid ... */}
         </article>
       </main>
-      <Footer2 />
+      <Footer />
     </div>
   );
 }

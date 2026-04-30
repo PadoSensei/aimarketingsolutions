@@ -1,5 +1,5 @@
 import React from "react";
-import Footer2 from "@/components/Footer2";
+import Footer from "@/components/Footer";
 import NavBar from "@/components/NavBar";
 import { servicesData } from "@/data/servicesData";
 import Button from "@/components/Button";
@@ -120,7 +120,7 @@ export default function Services() {
           </section>
         </article>
       </main>
-      <Footer2 />
+      <Footer />
     </div>
   );
 }

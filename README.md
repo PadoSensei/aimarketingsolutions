@@ -74,7 +74,7 @@ src/
 │   ├── AICoachingHero.jsx      # Hero section for coaching page
 │   ├── Button.jsx              # Primary CTA button
 │   ├── ContentGrid.jsx         # Blog/project grid
-│   ├── Footer2.jsx             # Site footer
+│   ├── Footer.jsx             # Site footer
 │   ├── Hero.jsx                # Homepage hero
 │   ├── Layout.jsx              # Page wrapper
 │   ├── NavBar.jsx              # Sticky responsive navbar
@@ -165,6 +165,12 @@ Defined in `src/styles/index.css` — use these classes everywhere:
 /* #A8E5FE → #64149C, applied to text */
 
 /* Secondary warm accent — hero subheadings */
+/* #A8E5FE → #64149C, applied to text */
+
+/* Secondary warm accent — hero subheadings */
+/* #A8E5FE → #64149C, applied to text */
+
+/* Secondary warm accent — hero subheadings */
 .gradient-purple-pink; /* purple → pink, applied to text */
 ```
 
@@ -234,7 +240,7 @@ className="bg-zinc-900/40 border border-white/8 rounded-3xl
 - Conditionally renders "Sign up for AI Coaching" CTA on the coaching card
 - Links to full `/services` page
 
-### `Footer2`
+### `Footer`
 
 - Gradient accent line at top
 - Brand column + Company + Support + CTA columns

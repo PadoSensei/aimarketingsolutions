@@ -1,6 +1,6 @@
 import React from "react";
 import NavBar from "@/components/NavBar";
-import Footer2 from "@/components/Footer2";
+import Footer from "@/components/Footer";
 
 export default function PrivacyPolicy() {
   const currentDate = new Date().toLocaleDateString("en-US", {
@@ -243,7 +243,7 @@ export default function PrivacyPolicy() {
         </article>
       </main>
 
-      <Footer2 />
+      <Footer />
     </div>
   );
 }

@@ -1,6 +1,6 @@
 import Layout from "@/components/Layout";
 import NavBar from "@/components/NavBar";
-import Footer2 from "@/components/Footer2";
+import Footer from "@/components/Footer";
 import AICarousel from "@/components/AICarousel";
 import AICoachingHero from "@/components/AICoachingHero";
 
@@ -77,7 +77,7 @@ export default function AiCoachingPage() {
         </div>
       </main>
 
-      <Footer2 />
+      <Footer />
     </Layout>
   );
 }

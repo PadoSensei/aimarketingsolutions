@@ -2,7 +2,7 @@ import Layout from "../components/Layout";
 import { load } from "outstatic/server";
 import markdownToHtml from "../lib/markdownToHtml";
 import Hero from "@/components/Hero";
-import Footer2 from "@/components/Footer2";
+import Footer from "@/components/Footer";
 import NavBar from "@/components/NavBar";
 import ServicesStump from "@/components/ServicesStump";
 
@@ -14,7 +14,7 @@ export default async function Index() {
         <Hero />
       </div>
       <ServicesStump />
-      <Footer2 />
+      <Footer />
     </Layout>
   );
 }

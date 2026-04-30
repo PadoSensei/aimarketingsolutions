@@ -1,7 +1,7 @@
 import NavBar from "@/components/NavBar";
 import { load } from "outstatic/server";
 import ContentGrid from "../../components/ContentGrid";
-import Footer2 from "@/components/Footer2";
+import Footer from "@/components/Footer";
 import { OstDocument } from "outstatic";
 
 // 1. Define the Post interface
@@ -43,7 +43,7 @@ export default async function Blogs() {
         </div>
       </main>
 
-      <Footer2 />
+      <Footer />
     </div>
   );
 }

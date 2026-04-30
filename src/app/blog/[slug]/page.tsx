@@ -5,7 +5,7 @@ import { getDocumentSlugs, load } from "outstatic/server";
 import DateFormatter from "@/components/DateFormatter";
 import { absoluteUrl } from "@/lib/utils";
 import { notFound } from "next/navigation";
-import Footer2 from "@/components/Footer2";
+import Footer from "@/components/Footer";
 import NavBar from "@/components/NavBar";
 import markdownToHtml from "@/lib/markdownToHtml";
 
@@ -120,7 +120,7 @@ export default async function Blog({ params }: Params) {
         </article>
       </main>
 
-      <Footer2 />
+      <Footer />
     </div>
   );
 }

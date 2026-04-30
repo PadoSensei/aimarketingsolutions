@@ -1,6 +1,6 @@
 "use client";
 import ContactForm from "@/components/ContactForm";
-import Footer2 from "@/components/Footer2";
+import Footer from "@/components/Footer";
 import NavBar from "@/components/NavBar";
 
 export default function Contact() {
@@ -19,7 +19,7 @@ export default function Contact() {
         </div>
       </main>
 
-      <Footer2 />
+      <Footer />
     </div>
   );
 }

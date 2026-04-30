@@ -8,7 +8,7 @@ import { getDocumentSlugs, load } from "outstatic/server";
 import DateFormatter from "@/components/DateFormatter";
 import { absoluteUrl } from "@/lib/utils";
 import { notFound } from "next/navigation";
-import Footer2 from "@/components/Footer2";
+import Footer from "@/components/Footer";
 
 type Post = {
   tags: { value: string; label: string }[];
@@ -97,7 +97,7 @@ export default async function Post({ params }: Params) {
           </div>
         </article>
       </div>
-      <Footer2 />
+      <Footer />
     </Layout>
   );
 }

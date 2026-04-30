@@ -1,6 +1,8 @@
 import { useForm, ValidationError } from "@formspree/react";
+import { useTranslation } from "@/hooks/useTranslation";
 
 export default function ContactForm() {
+  const { t } = useTranslation();
   const [state, handleSubmit] = useForm("https://formspree.io/f/xeqyvozd");
 
   // SUCCESS STATE (Styled Card)
@@ -22,10 +24,9 @@ export default function ContactForm() {
             />
           </svg>
         </div>
-        <h3 className="mb-4 text-3xl font-bold text-white">Message Sent!</h3>
+        <h3 className="mb-4 text-3xl font-bold text-white">{t("contact.successTitle")}</h3>
         <p className="text-lg text-zinc-400">
-          {/* Escaped apostrophe here */}
-          Thanks for reaching out. We&apos;ll get back to you shortly.
+          {t("contact.successMessage")}
         </p>
       </div>
     );
@@ -37,11 +38,10 @@ export default function ContactForm() {
       {/* HEADER */}
       <div className="mb-10 text-center">
         <h1 className="mb-4 text-4xl font-bold text-white md:text-5xl">
-          Get in <span className="gradient-text">Touch</span>
+          {t("contact.title")} <span className="gradient-text">{t("contact.titleAccent")}</span>
         </h1>
         <p className="text-lg text-zinc-400">
-          {/* Escaped apostrophe here */}
-          Ready to work smarter? Send us a message and let&apos;s chat.
+          {t("contact.subtitle")}
         </p>
       </div>
 
@@ -59,14 +59,14 @@ export default function ContactForm() {
               htmlFor="email"
               className="block mb-2 text-sm font-semibold tracking-wider uppercase text-zinc-300"
             >
-              Email Address
+              {t("contact.labels.email")}
             </label>
             <input
               type="email"
               id="email"
               name="email"
               className="w-full px-4 py-3 text-white transition-all duration-200 border bg-zinc-950/50 border-zinc-700 rounded-xl placeholder-zinc-600 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent"
-              placeholder="you@company.com"
+              placeholder={t("contact.placeholders.email")}
               required
             />
             <ValidationError
@@ -83,14 +83,14 @@ export default function ContactForm() {
               htmlFor="subject"
               className="block mb-2 text-sm font-semibold tracking-wider uppercase text-zinc-300"
             >
-              Subject
+              {t("contact.labels.subject")}
             </label>
             <input
               type="text"
               id="subject"
               name="subject"
               className="w-full px-4 py-3 text-white transition-all duration-200 border bg-zinc-950/50 border-zinc-700 rounded-xl placeholder-zinc-600 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent"
-              placeholder="What can we help you with?"
+              placeholder={t("contact.placeholders.subject")}
               required
             />
             <ValidationError
@@ -108,14 +108,14 @@ export default function ContactForm() {
             htmlFor="message"
             className="block mb-2 text-sm font-semibold tracking-wider uppercase text-zinc-300"
           >
-            Message
+            {t("contact.labels.message")}
           </label>
           <textarea
             id="message"
             name="message"
             rows={5}
             className="w-full px-4 py-3 text-white transition-all duration-200 border resize-none bg-zinc-950/50 border-zinc-700 rounded-xl placeholder-zinc-600 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent"
-            placeholder="Tell us about your project..."
+            placeholder={t("contact.placeholders.message")}
             required
           ></textarea>
           <ValidationError
@@ -132,7 +132,7 @@ export default function ContactForm() {
           disabled={state.submitting}
           className="w-full px-8 py-4 text-lg font-bold text-white transition-all duration-300 bg-gradient-to-r from-purple-600 to-blue-600 rounded-xl hover:shadow-[0_0_20px_rgba(147,51,234,0.5)] hover:scale-[1.02] disabled:opacity-50 disabled:cursor-not-allowed"
         >
-          {state.submitting ? "Sending..." : "Send Message"}
+          {state.submitting ? t("contact.sending") : t("contact.submit")}
         </button>
       </form>
     </div>

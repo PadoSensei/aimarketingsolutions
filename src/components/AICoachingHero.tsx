@@ -1,8 +1,11 @@
 "use client";
 import Button from "./Button";
 import Image from "next/image";
+import { useTranslation } from "@/hooks/useTranslation";
 
 export default function AICoachingHero() {
+  const { t } = useTranslation();
+
   return (
     <section className="px-4 py-16 md:py-24">
       <div className="max-w-6xl mx-auto rounded-[2.5rem] overflow-hidden relative bg-gradient-to-br from-[#1a0040] via-[#2d0060] to-[#64149C] shadow-2xl shadow-purple-950/70 border border-purple-800/30">
@@ -14,28 +17,27 @@ export default function AICoachingHero() {
           <div className="z-10 flex-1 p-8 space-y-6 md:p-14 lg:p-16">
             {/* Eyebrow label */}
             <span className="inline-block px-4 py-1.5 text-xs font-bold tracking-widest text-purple-200 uppercase bg-purple-900/50 border border-purple-600/40 rounded-full">
-              AI Solutions Coaching
+              {t("aiCoachingHero.eyebrow")}
             </span>
 
             <h1 className="text-4xl font-extrabold tracking-tight md:text-5xl lg:text-6xl text-white leading-[1.1]">
-              The Strategic <span className="gradient-text">AI Residency</span>
+              {t("aiCoachingHero.title")}{" "}
+              <span className="gradient-text">{t("aiCoachingHero.titleAccent")}</span>
             </h1>
 
             <p className="max-w-md text-lg font-medium text-purple-200">
-              A 4-week programme built for high-achieving, AI-anxious
-              professionals.
+              {t("aiCoachingHero.subtitle")}
             </p>
 
             <p className="max-w-md text-base text-purple-300/80">
-              Not a tools list — a framework for{" "}
+              {t("aiCoachingHero.framework")}{" "}
               <span className="font-bold text-white">
-                Landscape, Logic, and Leadership.
+                {t("aiCoachingHero.frameworkBold")}
               </span>
             </p>
 
             <p className="text-base font-semibold text-[#A8E5FE]">
-              Move from &quot;I&apos;ve heard of this&quot; to &quot;I can lead
-              this room.&quot;
+              {t("aiCoachingHero.transformation")}
             </p>
 
             <div className="flex flex-wrap gap-4 pt-2">
@@ -44,7 +46,7 @@ export default function AICoachingHero() {
                 href="/about"
                 className="px-8 py-3 font-bold text-purple-900 transition-all duration-200 bg-white rounded-full shadow-lg hover:bg-purple-50 shadow-purple-950/40"
               >
-                About AI Solutions
+                {t("aiCoachingHero.ctaButton")}
               </Button>
 
               {/* Secondary CTA */}
@@ -64,7 +66,7 @@ export default function AICoachingHero() {
 
             <Image
               src="/images/AIHeroImage.jpeg"
-              alt="Strategic AI Residency — professional coaching session"
+              alt={t("aiCoachingHero.imageAlt")}
               fill
               priority
               className="object-cover object-center"

@@ -1,8 +1,11 @@
+"use client";
 import Link from "next/link";
 import { servicesData } from "../data/servicesData";
 import Button from "./Button";
+import { useTranslation } from "@/hooks/useTranslation";
 
 export default function ServicesStump() {
+  const { t } = useTranslation();
   return (
     <section
       id="services"
@@ -16,15 +19,14 @@ export default function ServicesStump() {
         {/* Header */}
         <header className="space-y-4 text-center mb-14">
           <span className="inline-block px-4 py-1.5 text-xs font-bold tracking-widest text-purple-300 uppercase bg-purple-900/25 border border-purple-700/40 rounded-full">
-            Our Services
+            {t("servicesStump.eyebrow")}
           </span>
           <h2 className="text-3xl font-extrabold tracking-tight text-white md:text-5xl">
-            What We <span className="gradient-text">Actually Do</span>
+            {t("servicesStump.title")} <span className="gradient-text">{t("servicesStump.titleAccent")}</span>
           </h2>
           <div className="w-16 h-px mx-auto bg-gradient-to-r from-purple-500 to-blue-500" />
           <p className="max-w-xl mx-auto text-base text-zinc-400 md:text-lg">
-            We help small businesses stop drowning in manual work with
-            practical, no-nonsense solutions.
+            {t("servicesStump.subtitle")}
           </p>
         </header>
 
@@ -52,12 +54,12 @@ export default function ServicesStump() {
 
                 {/* Title */}
                 <h3 className="text-lg font-bold text-white transition-colors duration-200 group-hover:text-purple-100">
-                  {service.title}
+                  {t(`servicesData.${service.slug}.title`)}
                 </h3>
 
                 {/* Description */}
                 <p className="flex-grow text-sm leading-relaxed transition-colors duration-200 text-zinc-400 group-hover:text-zinc-300">
-                  {service.description}
+                  {t(`servicesData.${service.slug}.description`)}
                 </p>
 
                 {/* AI Coaching CTA */}
@@ -67,7 +69,7 @@ export default function ServicesStump() {
                       href="/ai-coaching"
                       className="justify-center w-full text-sm"
                     >
-                      Sign up for AI Coaching
+                      {t("servicesStump.ctaCoaching")}
                     </Button>
                   </div>
                 )}
@@ -82,7 +84,7 @@ export default function ServicesStump() {
             href="/services"
             className="inline-flex items-center gap-2 px-8 py-3.5 text-base font-semibold text-white rounded-full border border-purple-700/50 hover:bg-purple-900/25 hover:border-purple-500 transition-all duration-200"
           >
-            See How We Do It
+            {t("nav.seeHowWeDoIt")}
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"

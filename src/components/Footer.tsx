@@ -1,16 +1,20 @@
+"use client";
 import Link from "next/link";
+import { useTranslation } from "@/hooks/useTranslation";
 
 const Footer = () => {
+  const { t } = useTranslation();
+
   const company = [
-    { label: "About Us", href: "/about" },
-    { label: "Services", href: "/services" },
-    { label: "AI Coaching", href: "/ai-coaching" },
-    { label: "Blog", href: "/posts" },
+    { label: t("nav.about"), href: "/about" },
+    { label: t("nav.services"), href: "/services" },
+    { label: t("nav.aiCoaching"), href: "/ai-coaching" },
+    { label: t("nav.blog"), href: "/posts" },
   ];
 
   const support = [
-    { label: "Contact", href: "/contact" },
-    { label: "Privacy Policy", href: "/privacy" },
+    { label: t("nav.contact"), href: "/contact" },
+    { label: t("nav.privacy"), href: "/privacy" },
   ];
 
   return (
@@ -33,8 +37,7 @@ const Footer = () => {
               </span>
             </Link>
             <p className="text-sm leading-relaxed text-zinc-500 max-w-[220px]">
-              Empowering small businesses with automation tools to grow without
-              the grind.
+              {t("footer.brandDescription")}
             </p>
             {/* LinkedIn */}
             <a
@@ -42,7 +45,7 @@ const Footer = () => {
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 text-sm transition-colors duration-200 text-zinc-500 hover:text-white group"
-              aria-label="AI Solutions on LinkedIn"
+              aria-label={t("footer.linkedinAria")}
             >
               <span className="flex items-center justify-center w-8 h-8 transition-colors duration-200 border rounded-full border-zinc-800 group-hover:border-purple-600">
                 <svg
@@ -61,7 +64,7 @@ const Footer = () => {
           {/* Company Links */}
           <div className="space-y-4">
             <h4 className="text-xs font-bold tracking-widest uppercase text-zinc-400">
-              Company
+              {t("footer.company")}
             </h4>
             <ul className="space-y-3">
               {company.map((link) => (
@@ -80,7 +83,7 @@ const Footer = () => {
           {/* Support Links */}
           <div className="space-y-4">
             <h4 className="text-xs font-bold tracking-widest uppercase text-zinc-400">
-              Support
+              {t("footer.support")}
             </h4>
             <ul className="space-y-3">
               {support.map((link) => (
@@ -99,17 +102,16 @@ const Footer = () => {
           {/* Contact CTA */}
           <div className="col-span-2 space-y-4 md:col-span-1">
             <h4 className="text-xs font-bold tracking-widest uppercase text-zinc-400">
-              Ready to automate?
+              {t("footer.readyToAutomate")}
             </h4>
             <p className="text-sm leading-relaxed text-zinc-500">
-              {/* Escaped the apostrophe here */}
-              Book a free discovery call and see what&apos;s possible.
+              {t("footer.bookCall")}
             </p>
             <Link
               href="/contact"
               className="inline-block px-5 py-2.5 text-sm font-semibold text-white rounded-full border border-purple-700/60 hover:bg-purple-900/30 hover:border-purple-500 transition-all duration-200"
             >
-              Get in touch →
+              {t("footer.contactCta")}
             </Link>
           </div>
         </div>
@@ -117,9 +119,9 @@ const Footer = () => {
         {/* Bottom bar */}
         <div className="flex flex-col items-center justify-between gap-3 pt-6 border-t border-white/5 sm:flex-row">
           <p className="text-xs text-zinc-700">
-            © {new Date().getFullYear()} AI Solutions™ — All Rights Reserved
+            © {new Date().getFullYear()} {t("footer.allRightsReserved")}
           </p>
-          <p className="text-xs text-zinc-700">Made with ❤️ in Ireland</p>
+          <p className="text-xs text-zinc-700">{t("footer.madeWithLove")}</p>
         </div>
       </div>
     </footer>

@@ -1,8 +1,10 @@
+"use client";
 import React from "react";
 import Footer from "@/components/Footer";
 import NavBar from "@/components/NavBar";
 import { servicesData } from "@/data/servicesData";
 import Button from "@/components/Button";
+import { useTranslation } from "@/hooks/useTranslation";
 
 // 1. Define Interfaces
 interface ServiceCardProps {
@@ -19,7 +21,9 @@ interface ProcessStepProps {
 }
 
 // 2. Refactor Components
-const ServiceCard = ({ icon, title, description, slug }: ServiceCardProps) => (
+const ServiceCard = ({ icon, title, description, slug }: ServiceCardProps) => {
+  const { t } = useTranslation();
+  return (
   <div className="group relative flex flex-col h-full p-8 rounded-2xl bg-zinc-900/50 border border-white/8 backdrop-blur-sm transition-all duration-300 hover:-translate-y-1.5 hover:border-purple-500/40 hover:shadow-[0_0_40px_rgba(147,51,234,0.12)]">
     <div className="absolute inset-0 transition-opacity duration-500 opacity-0 pointer-events-none bg-gradient-to-br from-purple-500/5 via-transparent to-blue-500/5 group-hover:opacity-100 rounded-2xl" />
 
@@ -39,13 +43,14 @@ const ServiceCard = ({ icon, title, description, slug }: ServiceCardProps) => (
       {slug === "ai-coaching" && (
         <div className="w-full mt-auto">
           <Button href="/ai-coaching" className="justify-center w-full">
-            Sign up!
+            {t("services.signUp")}
           </Button>
         </div>
       )}
     </div>
   </div>
 );
+};
 
 const ProcessStep = ({ number, title, description }: ProcessStepProps) => (
   <div className="relative z-10 flex flex-col items-center p-4 text-center group">
@@ -61,21 +66,22 @@ const ProcessStep = ({ number, title, description }: ProcessStepProps) => (
 
 // 3. Page component
 export default function Services() {
+  const { t } = useTranslation();
   const processData: ProcessStepProps[] = [
     {
       number: "1",
-      title: "Initial Conversation",
-      description: "We understand exactly where you're losing time.",
+      title: t("services.process.1.title"),
+      description: t("services.process.1.description"),
     },
     {
       number: "2",
-      title: "We Send You a Plan",
-      description: "Specific tools and automations, tailored to your business.",
+      title: t("services.process.2.title"),
+      description: t("services.process.2.description"),
     },
     {
       number: "3",
-      title: "We Do the Work",
-      description: "You approve, we implement — you get your time back.",
+      title: t("services.process.3.title"),
+      description: t("services.process.3.description"),
     },
   ];
 
@@ -90,17 +96,22 @@ export default function Services() {
           <section>
             <div className="mb-12 space-y-4 text-center">
               <span className="inline-block px-4 py-1.5 text-xs font-bold tracking-widest text-purple-300 uppercase bg-purple-900/25 border border-purple-700/40 rounded-full">
-                What We Do
+                {t("services.eyebrow")}
               </span>
               <h1 className="text-4xl font-extrabold tracking-tight text-white md:text-5xl lg:text-6xl">
-                Practical Solutions,{" "}
-                <span className="gradient-text">Real Results</span>
+                {t("services.title")}{" "}
+                <span className="gradient-text">{t("services.titleAccent")}</span>
               </h1>
             </div>
 
             <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
               {servicesData.map((service, index) => (
-                <ServiceCard key={index} {...service} />
+                <ServiceCard
+                  key={index}
+                  {...service}
+                  title={t(`servicesData.${service.slug}.title`)}
+                  description={t(`servicesData.${service.slug}.description`)}
+                />
               ))}
             </div>
           </section>
@@ -109,7 +120,8 @@ export default function Services() {
             {/* ... Process steps grid ... */}
             <div className="relative z-10">
               <h2 className="mb-12 text-3xl font-bold text-center text-white">
-                How It <span className="italic text-purple-400">Works</span>
+                {t("services.howItWorks")}{" "}
+                <span className="italic text-purple-400">{t("services.howItWorksAccent")}</span>
               </h2>
               <div className="relative grid grid-cols-1 gap-10 md:grid-cols-3">
                 {processData.map((step, index) => (

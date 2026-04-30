@@ -1,8 +1,7 @@
 // posts/[slug]/page.tsx
-import Image from "next/image";
+
 import { Metadata } from "next";
 import { OstDocument } from "outstatic";
-import Header from "@/components/Header";
 import Layout from "@/components/Layout";
 import markdownToHtml from "@/lib/markdownToHtml";
 import { getDocumentSlugs, load } from "outstatic/server";
@@ -62,7 +61,6 @@ export default async function Post({ params }: Params) {
   return (
     <Layout>
       <div className="max-w-6xl px-5 mx-auto">
-        <Header />
         <article className="mb-32">
           <div className="relative w-full mb-2 md:mb-4 sm:mx-0 h-52 md:h-96">
             {/* <Image

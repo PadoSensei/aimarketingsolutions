@@ -1,8 +1,19 @@
-//@ts-nocheck
 import NavBar from "@/components/NavBar";
 import { load } from "outstatic/server";
 import ContentGrid from "../../components/ContentGrid";
 import Footer2 from "@/components/Footer2";
+import { OstDocument } from "outstatic";
+
+// 1. Define the Post interface
+interface Post extends OstDocument {
+  title: string;
+  publishedAt: string;
+  slug: string;
+  coverImage?: string;
+  description: string;
+  tags?: { value: string; label: string }[];
+  language?: string;
+}
 
 export default async function Blogs() {
   const { allPosts } = await getData();
@@ -37,10 +48,11 @@ export default async function Blogs() {
   );
 }
 
-async function getData() {
+// 2. Define the return type for the function
+async function getData(): Promise<{ allPosts: Post[] }> {
   const db = await load();
 
-  const allPosts = await db
+  const allPosts = (await db
     .find({ collection: "posts" }, [
       "title",
       "publishedAt",
@@ -51,7 +63,7 @@ async function getData() {
       "language",
     ])
     .sort({ publishedAt: -1 })
-    .toArray();
+    .toArray()) as Post[]; // Cast to Post[]
 
   return {
     allPosts,

@@ -1,5 +1,3 @@
-//@ts-nocheck
-// blog/[slug]/page.tsx
 import Image from "next/image";
 import { Metadata } from "next";
 import { OstDocument } from "outstatic";

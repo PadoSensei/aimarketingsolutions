@@ -24,7 +24,8 @@ export default function ContactForm() {
         </div>
         <h3 className="mb-4 text-3xl font-bold text-white">Message Sent!</h3>
         <p className="text-lg text-zinc-400">
-          Thanks for reaching out. We'll get back to you shortly.
+          {/* Escaped apostrophe here */}
+          Thanks for reaching out. We&apos;ll get back to you shortly.
         </p>
       </div>
     );
@@ -39,7 +40,8 @@ export default function ContactForm() {
           Get in <span className="gradient-text">Touch</span>
         </h1>
         <p className="text-lg text-zinc-400">
-          Ready to work smarter? Send us a message and let's chat.
+          {/* Escaped apostrophe here */}
+          Ready to work smarter? Send us a message and let&apos;s chat.
         </p>
       </div>
 
@@ -49,6 +51,7 @@ export default function ContactForm() {
         className="p-8 border shadow-2xl md:p-10 rounded-3xl bg-zinc-900/30 border-white/10 backdrop-blur-md"
         noValidate
       >
+        {/* ... rest of your form code stays exactly the same ... */}
         <div className="grid grid-cols-1 gap-6 mb-6 md:grid-cols-2">
           {/* EMAIL INPUT */}
           <div className="col-span-1 md:col-span-2">

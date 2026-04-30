@@ -1,8 +1,6 @@
-import Footer from './Footer'
-
 type Props = {
-  children: React.ReactNode
-}
+  children: React.ReactNode;
+};
 
 const Layout = ({ children }: Props) => {
   return (
@@ -12,7 +10,7 @@ const Layout = ({ children }: Props) => {
       </div>
       {/* <Footer /> */}
     </>
-  )
-}
+  );
+};
 
-export default Layout
+export default Layout;

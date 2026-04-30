@@ -102,7 +102,8 @@ const Footer2 = () => {
               Ready to automate?
             </h4>
             <p className="text-sm leading-relaxed text-zinc-500">
-              Book a free discovery call and see what's possible.
+              {/* Escaped the apostrophe here */}
+              Book a free discovery call and see what&apos;s possible.
             </p>
             <Link
               href="/contact"

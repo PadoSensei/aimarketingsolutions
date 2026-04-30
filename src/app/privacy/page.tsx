@@ -1,7 +1,6 @@
 import React from "react";
 import NavBar from "@/components/NavBar";
 import Footer2 from "@/components/Footer2";
-import Link from "next/link";
 
 export default function PrivacyPolicy() {
   const currentDate = new Date().toLocaleDateString("en-US", {
@@ -227,9 +226,9 @@ export default function PrivacyPolicy() {
               The Short Version
             </h2>
             <p className="max-w-2xl mx-auto mb-6 text-lg text-zinc-200">
-              We don't track you on this website. No cookies, no analytics, no
-              email collection. When you work with us, we only access what you
-              authorize, we keep it secure, and you always own your data.
+              We don&apos;t track you on this website. No cookies, no analytics,
+              no email collection. When you work with us, we only access what
+              you authorize, we keep it secure, and you always own your data.
             </p>
             <div className="flex flex-col items-center justify-center gap-4 text-sm font-medium md:flex-row">
               <span className="text-purple-300">Questions? Just ask:</span>

@@ -34,7 +34,8 @@ export default function AICoachingHero() {
             </p>
 
             <p className="text-base font-semibold text-[#A8E5FE]">
-              Move from "I've heard of this" to "I can lead this room."
+              Move from &quot;I&apos;ve heard of this&quot; to &quot;I can lead
+              this room.&quot;
             </p>
 
             <div className="flex flex-wrap gap-4 pt-2">

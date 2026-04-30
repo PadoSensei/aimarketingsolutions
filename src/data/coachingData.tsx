@@ -17,10 +17,6 @@ export const coachingSlides = [
         title: "Industry Impact",
         desc: "LLMs and Generative AI are shifting professional labour from doing to reviewing.",
       },
-      {
-        title: "Safe Space Discussion",
-        desc: "Job security, data privacy, or looking out of touch — what are we actually afraid of?",
-      },
     ],
   },
   {
@@ -82,10 +78,6 @@ export const coachingSlides = [
       {
         title: "Human-Led",
         desc: "Decide which tasks will always need human judgement and presence.",
-      },
-      {
-        title: "Your North Star",
-        desc: "Map your 'Ideally Automated Day' — a workflow where mental load is minimised.",
       },
     ],
   },

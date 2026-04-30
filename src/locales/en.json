@@ -17,7 +17,7 @@
   "hero": {
     "eyebrow": "{{brandName}} · Ireland",
     "title": "Stop Wasting Time",
-    "on": "on",
+    "titleConnector": "on",
     "titleAccent": "Repetitive Work",
     "subtitle": "We help small business owners automate manual tasks using simple, affordable tools — so you can focus on",
     "growing": "growing",
@@ -54,17 +54,19 @@
     "linkedinConnect": "Connect on LinkedIn",
     "signUpCoaching": "Sign up for AI Coaching",
     "ludmilaBio1": "After nearly a decade working across marketing and technology in Brazil, Italy, and Ireland, Ludmila founded {{brandName}} to bridge the gap between advanced AI technology and the practical needs of small to medium-sized businesses.",
-    "ludmilaBio2": "Her journey through different markets has given her a unique perspective on the challenges small businesses face, especially the overwhelming amount of manual work that defeats team morale and prevents growth.",
-    "padraigBio1": "Padraig is a full-stack software engineer and former History & Politics teacher who loves to learn through building, experimenting, and teaching.",
-    "padraigBio2": "His approach is straightforward: simplify the complex and create practical solutions to real-world problems. Padraig brings technical depth combined with a teacher's ability to make technology accessible and understandable for non-technical business owners.",
+    "ludmilaBio2": "Her journey through different markets has given her a unique perspective on the challenges small businesses face.",
+    "padraigBio1": "Padraig is a full-stack software engineer and former History & Politics teacher.",
+    "padraigBio2": "His approach is straightforward: simplify the complex and create practical solutions.",
     "philosophyTitle": "Our Philosophy",
-    "philosophyP1": "We don't sell services we haven't used ourselves. Every tool we recommend, every automation we set up — we've tested it in our own business first.",
-    "philosophyP2": "We're not trying to be a big consultancy. We're two people who know how to make technology work for small teams without breaking the bank or requiring a computer science degree.",
+    "philosophyP1": "We don't sell services we haven't used ourselves.",
+    "philosophyP2": "We're not trying to be a big consultancy.",
     "whoWeWorkWithTitle": "Who We Work With",
     "whoWeWorkWithIntro": "We specialise in solo entrepreneurs and small teams (1–5 people) who are:",
-    "whoWeWorkWith1": "Overwhelmed by repetitive manual tasks",
-    "whoWeWorkWith2": "Hearing about AI everywhere but unsure where to start",
-    "whoWeWorkWith3": "Looking for practical, affordable solutions — not expensive enterprise systems"
+    "whoWeWorkWith": [
+      "Overwhelmed by repetitive manual tasks",
+      "Hearing about AI everywhere but unsure where to start",
+      "Looking for practical, affordable solutions"
+    ]
   },
   "services": {
     "eyebrow": "What We Do",
@@ -79,77 +81,47 @@
     "startCta": "Start Working Smarter",
     "signUp": "Sign up!",
     "process": {
-      "1": {
+      "0": {
         "title": "Initial Conversation",
         "description": "We understand exactly where you're losing time."
       },
-      "2": {
+      "1": {
         "title": "We Send You a Plan",
-        "description": "Specific tools and automations, tailored to your business."
+        "description": "Specific tools and automations tailored to your business."
       },
-      "3": {
+      "2": {
         "title": "We Do the Work",
-        "description": "You approve, we implement — you get your time back."
+        "description": "You approve, we implement."
       }
     }
-  },
-  "footer": {
-    "brandDescription": "Empowering small businesses with automation tools to grow without the grind.",
-    "linkedinAria": "{{brandName}} on LinkedIn",
-    "company": "Company",
-    "support": "Support",
-    "readyToAutomate": "Ready to automate?",
-    "bookCall": "Book a free discovery call and see what's possible.",
-    "contactCta": "Get in touch →",
-    "allRightsReserved": "{{brandName}}™ — All Rights Reserved",
-    "madeWithLove": "Made with ❤️ in Ireland"
-  },
-  "contact": {
-    "successTitle": "Message Sent!",
-    "successMessage": "Thanks for reaching out. We'll get back to you shortly.",
-    "title": "Get in",
-    "titleAccent": "Touch",
-    "subtitle": "Ready to work smarter? Send us a message and let's chat.",
-    "labels": {
-      "email": "Email Address",
-      "subject": "Subject",
-      "message": "Message"
-    },
-    "placeholders": {
-      "email": "you@company.com",
-      "subject": "What can we help you with?",
-      "message": "Tell us about your project..."
-    },
-    "submit": "Send Message",
-    "sending": "Sending..."
-  },
-  "aiCoaching": {
-    "roadmapEyebrow": "4-Week Programme",
-    "roadmapTitle": "The Coaching",
-    "roadmapTitleAccent": "Roadmap",
-    "roadmapSubtitle": "A proven framework designed to turn AI anxiety into strategic advantage — one week at a time.",
-    "bookingEyebrow": "Get Started",
-    "bookingTitle": "Book your intro call",
-    "bookingSubtitle": "30 minutes. No pressure. Just clarity.",
-    "calendarTitle": "Schedule a call with {{brandName}}"
   },
   "servicesData": {
     "process-automation": {
       "title": "Process Automation",
-      "description": "We identify what's eating your time and set up automations using tools you can learn quickly."
+      "description": "We map your repetitive workflows and automate them using tools like Make, Zapier, or custom scripts — saving you hours every week."
     },
     "system-integration": {
       "title": "System Integration",
-      "description": "We connect your existing software so data flows automatically - no more copying and pasting between apps."
+      "description": "We connect your existing tools so they talk to each other — CRMs, email platforms, spreadsheets, and more."
     },
     "off-the-shelf": {
-      "title": "Off-the-Shelf Solutions",
-      "description": "We use proven, affordable tools that already exist - no need to reinvent the wheel. We identify the right software for your needs."
+      "title": "Off-the-Shelf AI Tools",
+      "description": "Not everything needs to be custom-built. We identify and configure the right ready-made AI tools for your specific needs."
     },
     "ai-coaching": {
-      "title": "Practical AI Coaching",
-      "description": "Forget the hype. We provide training and strategies backed by real institutional partnerships. No buzzwords, just safe and effective implementation."
+      "title": "AI Coaching",
+      "description": "A 4-week 1:1 programme to build your strategic AI literacy — so you can lead, not just follow, the AI conversation."
     }
+  },
+  "aiCoaching": {
+    "roadmapEyebrow": "The Programme",
+    "roadmapTitle": "Your 4-Week",
+    "roadmapTitleAccent": "AI Roadmap",
+    "roadmapSubtitle": "A structured journey from AI anxiety to strategic confidence.",
+    "bookingEyebrow": "Book a Session",
+    "bookingTitle": "Ready to Start?",
+    "bookingSubtitle": "Pick a time that works for you — first session is a free discovery call.",
+    "calendarTitle": "Book a session with {{brandName}}"
   },
   "coachingData": {
     "week-1": {
@@ -157,109 +129,100 @@
       "title": "The New Frontier",
       "tag": "STATE OF PLAY",
       "description": "Replace 'Hype Anxiety' with 'Strategic Literacy.'",
-      "points": {
-        "0": {
+      "points": [
+        {
           "title": "General Purpose Technology",
           "desc": "AI is like electricity or the internet — infrastructure, not just a better search engine."
         },
-        "1": {
+        {
           "title": "The Paradigm Shift",
           "desc": "From 'Software you learn' to 'Intelligence you direct'."
         },
-        "2": {
+        {
           "title": "Industry Impact",
           "desc": "LLMs and Generative AI are shifting professional labour from doing to reviewing."
-        },
-        "3": {
-          "title": "Safe Space Discussion",
-          "desc": "Job security, data privacy, or looking out of touch — what are we actually afraid of?"
         }
-      }
+      ]
     },
     "week-2": {
       "week": "Week 2",
       "title": "Thinking in Systems",
       "tag": "THE FRANCHISE MINDSET",
       "description": "Use the teacher's background to teach the logic of automation.",
-      "points": {
-        "0": {
+      "points": [
+        {
           "title": "Start Small, Win Big",
           "desc": "Implement AI in small, low-risk tasks first to build confidence and demonstrate quick wins before scaling up."
         },
-        "1": {
+        {
           "title": "The Logic of Possibility",
           "desc": "If a task can be described, it can likely be automated. Understanding the 'Reasoning Engine.'"
         },
-        "2": {
+        {
           "title": "Franchisable Units",
           "desc": "See your workflow as repeatable processes that don't require 100% of your unique human spark."
         }
-      }
+      ]
     },
     "week-3": {
       "week": "Week 3",
       "title": "The AI-Forward Leader",
       "tag": "WORKPLACE STRATEGY",
       "description": "Navigate the corporate environment with confidence.",
-      "points": {
-        "0": {
+      "points": [
+        {
           "title": "Spot Opportunities",
           "desc": "Identify AI opportunities at the department level with an 'AI-Forward' posture."
         },
-        "1": {
+        {
           "title": "Ethics & Data Privacy",
           "desc": "Masterclass on shadow AI, enterprise AI, security, and knowing what not to put in a prompt."
         },
-        "2": {
+        {
           "title": "The Language of Power",
           "desc": "What to ask IT, what to ask your boss, and how to advocate for tools that reclaim your team's time."
         }
-      }
+      ]
     },
     "week-4": {
       "week": "Week 4",
       "title": "The Blueprint & Feasibility Audit",
       "tag": "STRATEGIC ROADMAP",
       "description": "Practical application of the previous 3 weeks, leaving with a plan, not a to-do list.",
-      "points": {
-        "0": {
+      "points": [
+        {
           "title": "Today",
           "desc": "Identify currently automatable tasks in your existing workflow."
         },
-        "1": {
+        {
           "title": "Implementation Timeline",
           "desc": "Map upcoming tools and integrations on your horizon."
         },
-        "2": {
+        {
           "title": "Human-Led",
           "desc": "Decide which tasks will always need human judgement and presence."
-        },
-        "3": {
-          "title": "Your North Star",
-          "desc": "Map your 'Ideally Automated Day' — a workflow where mental load is minimised."
         }
-      }
+      ]
     },
     "investment": {
+      "week": "Investment",
+      "title": "4-Week AI Coaching",
       "tag": "PRICING",
-      "title": "Investment: 4-Week AI Coaching",
       "description": "4 × 1:1 sessions, fully personalised to your business or role.",
-      "duration": "2–3 hours per week with ongoing support, over 4 weeks.",
-      "cta": "Talk to me directly →",
-      "points": {
-        "0": {
+      "points": [
+        {
           "title": "Prompt Library",
           "desc": "A curated library of prompts tailored to your specific industry and workflows."
         },
-        "1": {
+        {
           "title": "Tools Guide",
           "desc": "A personalised map of the tools that fit your stack and budget."
         },
-        "2": {
+        {
           "title": "Weekly Practice Plan",
-          "desc": "Structured, hands-on exercises between sessions to build real habits."
+          "desc": "Structured exercises between sessions to build real habits, not just awareness."
         }
-      }
+      ]
     }
   }
 }

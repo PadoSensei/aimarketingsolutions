@@ -39,9 +39,13 @@ const Hero = () => {
           <h1 className="text-4xl font-extrabold leading-[1.08] tracking-tight text-white sm:text-5xl lg:text-6xl">
             {t("hero.title")}
             <br className="hidden sm:block" />
-            {t("hero.on")}{" "}
+            {t("hero.titleConnector") && (
+              <span className="text-white">{t("hero.titleConnector")} </span>
+            )}
             <span className="relative inline-block">
-              <span className="gradient-purple-pink">{t("hero.titleAccent")}</span>
+              <span className="gradient-purple-pink">
+                {t("hero.titleAccent")}
+              </span>
               {/* Underline accent */}
               <span className="absolute left-0 w-full h-px -bottom-1 bg-gradient-to-r from-purple-500/80 to-pink-500/0" />
             </span>
@@ -50,7 +54,9 @@ const Hero = () => {
           {/* Subheading */}
           <p className="max-w-lg mx-auto text-lg leading-relaxed text-zinc-400 md:mx-0 lg:text-xl">
             {t("hero.subtitle")}{" "}
-            <span className="font-semibold text-white">{t("hero.growing")}</span>{" "}
+            <span className="font-semibold text-white">
+              {t("hero.growing")}
+            </span>{" "}
             {t("hero.insteadOfGrinding")}
           </p>
 

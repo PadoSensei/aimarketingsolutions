@@ -16,10 +16,10 @@
   },
   "hero": {
     "eyebrow": "{{brandName}} · Irlanda",
-    "title": "Não perca tempo com Trabalho Repetitivo",
-    "on": "com",
-    "titleAccent": "Trabalho Repetitivo",
-    "subtitle": "Ajudamos proprietários de pequenas empresas a automatizar tarefas manuais usando ferramentas simples e acessíveis — para que voce possa focar em",
+    "title": "Não perca tempo",
+    "titleConnector": "",
+    "titleAccent": "com Trabalho Repetitivo",
+    "subtitle": "Ajudamos proprietários de pequenas empresas a automatizar tarefas manuais usando ferramentas simples e acessíveis — para que você possa focar em",
     "growing": "crescer",
     "insteadOfGrinding": "em vez de se desgastar.",
     "ctaCoaching": "Inscreva-se na Mentoria de IA",
@@ -30,236 +30,199 @@
     "eyebrow": "Os Nossos Serviços",
     "title": "O Que Realmente",
     "titleAccent": "Fazemos",
-    "subtitle": "Ajudamos pequenas empresas a parar de se perder em trabalho manual com soluções práticas e diretas.",
+    "subtitle": "Ajudamos pequenas empresas a parar de se perder em trabalho manual com soluções práticas.",
     "ctaCoaching": "Inscreva-se na Mentoria de IA"
   },
   "aiCoachingHero": {
     "eyebrow": "Mentoria de {{brandName}}",
     "title": "A Residência",
     "titleAccent": "Estratégica de IA",
-    "subtitle": "Um programa de 4 semanas criado para profissionais de alto desempenho com ansiedade em relação à IA.",
+    "subtitle": "Um programa de 4 semanas criado para profissionais de alto desempenho.",
     "framework": "Não é uma lista de ferramentas — um framework para",
     "frameworkBold": "Cenário, Lógica e Liderança.",
     "transformation": "De \"já ouvi falar disto\" para \"posso liderar esta sala.\"",
     "ctaButton": "Sobre {{brandName}}",
-    "imageAlt": "Residência Estratégica de IA — sessão de mentoria profissional"
+    "imageAlt": "Residência Estratégica de IA"
   },
   "about": {
     "eyebrow": "A Equipe",
     "title": "Quem",
     "titleAccent": "Somos",
-    "subtitle": "Uma consultoria de automação de duas pessoas com sede na Irlanda, ajudando pequenas empresas a parar dese perder em trabalho manual.",
+    "subtitle": "Uma consultoria de automação de duas pessoas com sede na Irlanda.",
     "roleFounder": "Fundadora · Estrategista de IA",
     "roleDeveloper": "Desenvolvedor de Software",
     "linkedinConnect": "Conectar no LinkedIn",
     "signUpCoaching": "Inscreva-se na Mentoria de IA",
-    "ludmilaBio1": "Após quase uma década a trabalhar em marketing e tecnologia no Brasil, Itália e Irlanda, Ludmila fundou a {{brandName}} para preencher a lacuna entre a tecnologia de IA avançada e as necessidades práticas das pequenas e médias empresas.",
-    "ludmilaBio2": "A sua jornada por diferentes mercados deu-lhe uma perspectiva única sobre os desafios que as pequenas empresas enfrentam, especialmente a quantidade avassaladora de trabalho manual que destrói o moral da equipe e impede o crescimento.",
-    "padraigBio1": "Padraig é um engenheiro de software full-stack e ex-professor de História e Política que adora aprender através da construção, experimentação e ensino.",
-    "padraigBio2": "A sua abordagem é direta: simplificar o complexo e criar soluções práticas para problemas do mundo real. Padraig traz profundidade técnica combinada com a capacidade de um professor para tornar a tecnologia acessível e compreensível para proprietários de empresas não técnicos.",
+    "ludmilaBio1": "Após quase uma década a trabalhar em marketing e tecnologia.",
+    "ludmilaBio2": "Experiência internacional trouxe uma perspectiva única.",
+    "padraigBio1": "Padraig é um engenheiro de software full-stack.",
+    "padraigBio2": "Foca em simplificar o complexo.",
     "philosophyTitle": "A Nossa Filosofia",
-    "philosophyP1": "Não vendemos serviços que não usámos nós próprios. Cada ferramenta que recomendamos, cada automação que configuramos — testámos no nosso próprio negócio primeiro.",
-    "philosophyP2": "Não estamos a tentar ser uma grande consultora. Somos duas pessoas que sabem como fazer a tecnologia funcionar para pequenas equipes sem gastar uma fortuna ou precisar de um diploma em ciências da computação.",
+    "philosophyP1": "Não vendemos serviços que não usamos.",
+    "philosophyP2": "Somos uma pequena consultoria prática.",
     "whoWeWorkWithTitle": "Com Quem Trabalhamos",
-    "whoWeWorkWithIntro": "Somos especializados em em empreendedores individuais e pequenas equipes (1–5 pessoas) que:",
-    "whoWeWorkWith1": "Estão sobrecarregados com tarefas manuais repetitivas",
-    "whoWeWorkWith2": "Ouvem falar de IA em todo o lado mas não sabem por onde começar",
-    "whoWeWorkWith3": "Procuram soluções práticas e acessíveis — não sistemas empresariais caros"
+    "whoWeWorkWithIntro": "Trabalhamos com:",
+    "whoWeWorkWith": [
+      "Sobrecarregados com tarefas manuais",
+      "Confusos sobre IA",
+      "À procura de soluções acessíveis"
+    ]
   },
   "services": {
     "eyebrow": "O Que Fazemos",
     "title": "Soluções Práticas,",
     "titleAccent": "Resultados Reais",
-    "subtitle": "Sem jargão, sem exageros — apenas ferramentas que libertam o seu tempo.",
+    "subtitle": "Sem jargão — apenas ferramentas úteis.",
     "processEyebrow": "O Processo",
     "howItWorks": "Como",
     "howItWorksAccent": "Funciona",
     "readyTitle": "Pronto para recuperar o seu tempo?",
-    "readySubtitle": "Sem configuração complexa. Nós fazemos o trabalho pesado.",
-    "startCta": "Comece a Trabalhar de Forma Mais Inteligente",
+    "readySubtitle": "Sem configuração complexa.",
+    "startCta": "Comece Agora",
     "signUp": "Inscreva-se!",
     "process": {
-      "1": {
+      "0": {
         "title": "Conversa Inicial",
-        "description": "Entendemos exatamente onde está a perder tempo."
+        "description": "Entendemos onde perde tempo."
+      },
+      "1": {
+        "title": "Enviamos-lhe um Plano",
+        "description": "Ferramentas e automações específicas adaptadas ao seu negócio."
       },
       "2": {
-        "title": "Enviamos-lhe um Plano",
-        "description": "Ferramentas e automações específicas, adaptadas ao seu negócio."
-      },
-      "3": {
-        "title": "Nós Fazemos o Trabalho",
-        "description": "Você aprova, nós implementamos — você recupera o seu tempo."
+        "title": "Fazemos o Trabalho",
+        "description": "Você aprova, nós implementamos."
       }
     }
-  },
-  "footer": {
-    "brandDescription": "Capacitar pequenas empresas com ferramentas de automação para crescer sem o esforço excessivo.",
-    "linkedinAria": "{{brandName}} no LinkedIn",
-    "company": "Empresa",
-    "support": "Suporte",
-    "readyToAutomate": "Pronto para automatizar?",
-    "bookCall": "Agende uma conversa gratuita e veja o que é possível.",
-    "contactCta": "Entre em Contato →",
-    "allRightsReserved": "{{brandName}}™ — Todos os Direitos Reservados",
-    "madeWithLove": "Feito com ❤️ na Irlanda"
-  },
-  "contact": {
-    "successTitle": "Mensagem Enviada!",
-    "successMessage": "Obrigado por nos contactar. Responderemos em breve.",
-    "title": "Entre em",
-    "titleAccent": "Contacto",
-    "subtitle": "Pronto para trabalhar de forma mais inteligente? Envie-nos uma mensagem e vamos conversar.",
-    "labels": {
-      "email": "Endereço de E-mail",
-      "subject": "Assunto",
-      "message": "Mensagem"
-    },
-    "placeholders": {
-      "email": "voce@empresa.com",
-      "subject": "Em que podemos ajudar?",
-      "message": "Fale-nos sobre o seu projeto..."
-    },
-    "submit": "Enviar Mensagem",
-    "sending": "A enviar..."
-  },
-  "aiCoaching": {
-    "roadmapEyebrow": "Programa de 4 Semanas",
-    "roadmapTitle": "O Roteiro da",
-    "roadmapTitleAccent": "Mentoria",
-    "roadmapSubtitle": "Um framework comprovado projetado para transformar a ansiedade da IA em vantagem estratégica — uma semana de cada vez.",
-    "bookingEyebrow": "Começar",
-    "bookingTitle": "Marque a sua chamada de introdução",
-    "bookingSubtitle": "30 minutos. Sem pressão. Apenas clareza.",
-    "calendarTitle": "Agende uma chamada com a {{brandName}}"
   },
   "servicesData": {
     "process-automation": {
       "title": "Automação de Processos",
-      "description": "Identificamos o que está consumindo o seu tempo e configuramos automações usando ferramentas que pode aprender rapidamente."
+      "description": "Mapeamos os seus fluxos repetitivos e automatizamo-los com ferramentas como Make, Zapier ou scripts personalizados — poupando horas por semana."
     },
     "system-integration": {
       "title": "Integração de Sistemas",
-      "description": "Integramos o seu software existente para que os dados fluam automaticamente - sem mais copiar e colar entre apps."
+      "description": "Conectamos as suas ferramentas existentes para que comuniquem entre si — CRMs, plataformas de email, folhas de cálculo e mais."
     },
     "off-the-shelf": {
-      "title": "Soluções de Prateleira",
-      "description": "Usamos ferramentas comprovadas e acessíveis que já existem - não há necessidade de reinventar a roda. Identificamos o software certo para as suas necessidades."
+      "title": "Ferramentas de IA Prontas a Usar",
+      "description": "Nem tudo precisa de ser feito à medida. Identificamos e configuramos as ferramentas de IA certas para as suas necessidades específicas."
     },
     "ai-coaching": {
-      "title": "Mentoria Prática de IA",
-      "description": "Esqueça o hype. Entregamos formação prática e estratégias com respaldo institucional real."
+      "title": "Mentoria de IA",
+      "description": "Um programa individual de 4 semanas para desenvolver a sua literacia estratégica em IA — para liderar, não apenas acompanhar, a conversa sobre IA."
     }
+  },
+  "aiCoaching": {
+    "roadmapEyebrow": "O Programa",
+    "roadmapTitle": "O Seu Roteiro de",
+    "roadmapTitleAccent": "IA em 4 Semanas",
+    "roadmapSubtitle": "Uma jornada estruturada da ansiedade com IA à confiança estratégica.",
+    "bookingEyebrow": "Agende uma Sessão",
+    "bookingTitle": "Pronto para Começar?",
+    "bookingSubtitle": "Escolha um horário — a primeira sessão é uma chamada de descoberta gratuita.",
+    "calendarTitle": "Agende uma sessão com {{brandName}}"
   },
   "coachingData": {
     "week-1": {
       "week": "Semana 1",
       "title": "A Nova Fronteira",
-      "tag": "ESTADO DA ARTE",
-      "description": "Substitua a 'Ansiedade do Hype' por 'Literacia Estratégica'.",
-      "points": {
-        "0": {
-          "title": "Tecnologia de Propósito Geral",
-          "desc": "A IA é como a eletricidade ou a internet — infraestrutura, não apenas um motor de busca melhor."
+      "tag": "ESTADO ATUAL",
+      "description": "Substitua a 'Ansiedade do Hype' por 'Literacia Estratégica.'",
+      "points": [
+        {
+          "title": "Tecnologia de Uso Geral",
+          "desc": "A IA é como a eletricidade ou a internet — infraestrutura, não apenas um motor de busca melhorado."
         },
-        "1": {
+        {
           "title": "A Mudança de Paradigma",
-          "desc": "De 'Software que você aprende' para 'Inteligência que você direciona'."
+          "desc": "De 'Software que se aprende' para 'Inteligência que se dirige'."
         },
-        "2": {
+        {
           "title": "Impacto na Indústria",
           "desc": "LLMs e IA Generativa estão a deslocar o trabalho profissional do fazer para o rever."
-        },
-        "3": {
-          "title": "Discussão em Espaço Seguro",
-          "desc": "Segurança no emprego, privacidade de dados ou parecer desatualizado — do que temos realmente medo?"
         }
-      }
+      ]
     },
     "week-2": {
       "week": "Semana 2",
       "title": "Pensar em Sistemas",
-      "tag": "A MENTALIDADE DE FRANQUIA",
-      "description": "Use a experiência do professor para ensinar a lógica da automação.",
-      "points": {
-        "0": {
+      "tag": "A MENTALIDADE DE FRANCHISE",
+      "description": "Usar a lógica da automação para transformar processos repetitivos.",
+      "points": [
+        {
           "title": "Comece Pequeno, Ganhe Grande",
-          "desc": "Implemente a IA em pequenas tarefas de baixo risco primeiro para ganhar confiança e demonstrar vitórias rápidas antes de escalar."
+          "desc": "Implemente IA em tarefas pequenas e de baixo risco primeiro para criar confiança e mostrar resultados rápidos antes de escalar."
         },
-        "1": {
+        {
           "title": "A Lógica da Possibilidade",
-          "desc": "Se uma tarefa pode ser descrita, provavelmente pode ser automatizada. Compreender o 'Motor de Raciocínio'."
+          "desc": "Se uma tarefa pode ser descrita, provavelmente pode ser automatizada. Entender o 'Motor de Raciocínio'."
         },
-        "2": {
-          "title": "Unidades Franquiáveis",
-          "desc": "Veja o seu fluxo de trabalho como processos repetíveis que não exigem 100% da sua centelha humana única."
+        {
+          "title": "Unidades Franqueáveis",
+          "desc": "Veja o seu fluxo de trabalho como processos repetíveis que não requerem 100% da sua centelha humana única."
         }
-      }
+      ]
     },
     "week-3": {
       "week": "Semana 3",
-      "title": "O Líder Focado em IA",
+      "title": "O Líder Orientado para IA",
       "tag": "ESTRATÉGIA NO LOCAL DE TRABALHO",
       "description": "Navegue no ambiente corporativo com confiança.",
-      "points": {
-        "0": {
-          "title": "Identificar Oportunidades",
-          "desc": "Identifique oportunidades de IA ao nível do departamento com uma postura focada em IA."
+      "points": [
+        {
+          "title": "Identifique Oportunidades",
+          "desc": "Identifique oportunidades de IA ao nível do departamento com uma postura 'AI-Forward'."
         },
-        "1": {
+        {
           "title": "Ética e Privacidade de Dados",
-          "desc": "Masterclass sobre shadow IA, IA empresarial, segurança e saber o que não colocar num prompt."
+          "desc": "Masterclass sobre shadow AI, IA empresarial, segurança e o que não colocar num prompt."
         },
-        "2": {
+        {
           "title": "A Linguagem do Poder",
-          "desc": "O que perguntar ao TI, o que perguntar ao seu chefe e como defender ferramentas que recuperam o tempo da sua equipe."
+          "desc": "O que perguntar à TI, ao seu chefe, e como defender ferramentas que recuperam o tempo da sua equipa."
         }
-      }
+      ]
     },
     "week-4": {
       "week": "Semana 4",
       "title": "O Plano e Auditoria de Viabilidade",
       "tag": "ROTEIRO ESTRATÉGICO",
       "description": "Aplicação prática das 3 semanas anteriores, saindo com um plano, não uma lista de tarefas.",
-      "points": {
-        "0": {
+      "points": [
+        {
           "title": "Hoje",
           "desc": "Identifique tarefas atualmente automatizáveis no seu fluxo de trabalho existente."
         },
-        "1": {
+        {
           "title": "Cronograma de Implementação",
-          "desc": "Mapeie as próximas ferramentas e integrações no seu horizonte."
+          "desc": "Mapeie as ferramentas e integrações futuras no seu horizonte."
         },
-        "2": {
+        {
           "title": "Liderado por Humanos",
           "desc": "Decida quais tarefas precisarão sempre de julgamento e presença humana."
-        },
-        "3": {
-          "title": "Seu Norte Estratégic",
-          "desc": "Mapeie o seu 'Dia Idealmente Automatizado' — um fluxo de trabalho onde a carga mental é minimizada."
         }
-      }
+      ]
     },
     "investment": {
-      "tag": "FORMATO",
-      "title": "Investimento: Mentoria de IA de 4 Semanas",
-      "description": "4 × sessões 1:1, totalmente personalizadas para o seu negócio ou função.",
-      "duration": "2 a 3 horas por semana, com acompanhamento, durante 4 semanas.",
-      "cta": "Fale comigo diretamente →",
-      "points": {
-        "0": {
+      "week": "Investimento",
+      "title": "Mentoria de IA — 4 Semanas",
+      "tag": "PREÇOS",
+      "description": "4 sessões individuais, totalmente personalizadas para o seu negócio ou função.",
+      "points": [
+        {
           "title": "Biblioteca de Prompts",
-          "desc": "Uma biblioteca curada de prompts adaptados à sua indústria e fluxos de trabalho específicos."
+          "desc": "Uma biblioteca curada de prompts adaptada à sua indústria e fluxos de trabalho específicos."
         },
-        "1": {
+        {
           "title": "Guia de Ferramentas",
-          "desc": "Um mapa personalizado das ferramentas que se ajustam à sua estrutura e orçamento."
+          "desc": "Um mapa personalizado das ferramentas que se encaixam no seu stack e orçamento."
         },
-        "2": {
+        {
           "title": "Plano de Prática Semanal",
-          "desc": "Exercícios práticos estruturados entre sessões para criar hábitos reais, mão na massa."
+          "desc": "Exercícios estruturados entre sessões para criar hábitos reais, não apenas consciência."
         }
-      }
+      ]
     }
   }
 }

@@ -22,7 +22,10 @@ export default function ServicesStump() {
             {t("servicesStump.eyebrow")}
           </span>
           <h2 className="text-3xl font-extrabold tracking-tight text-white md:text-5xl">
-            {t("servicesStump.title")} <span className="gradient-text">{t("servicesStump.titleAccent")}</span>
+            {t("servicesStump.title")}{" "}
+            <span className="gradient-text">
+              {t("servicesStump.titleAccent")}
+            </span>
           </h2>
           <div className="w-16 h-px mx-auto bg-gradient-to-r from-purple-500 to-blue-500" />
           <p className="max-w-xl mx-auto text-base text-zinc-400 md:text-lg">
@@ -67,7 +70,7 @@ export default function ServicesStump() {
                   <div className="w-full pt-2 mt-auto">
                     <Button
                       href="/ai-coaching"
-                      className="justify-center w-full text-sm"
+                      className="justify-center w-full px-3 text-sm whitespace-nowrap"
                     >
                       {t("servicesStump.ctaCoaching")}
                     </Button>

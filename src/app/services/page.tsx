@@ -24,32 +24,35 @@ interface ProcessStepProps {
 const ServiceCard = ({ icon, title, description, slug }: ServiceCardProps) => {
   const { t } = useTranslation();
   return (
-  <div className="group relative flex flex-col h-full p-8 rounded-2xl bg-zinc-900/50 border border-white/8 backdrop-blur-sm transition-all duration-300 hover:-translate-y-1.5 hover:border-purple-500/40 hover:shadow-[0_0_40px_rgba(147,51,234,0.12)]">
-    <div className="absolute inset-0 transition-opacity duration-500 opacity-0 pointer-events-none bg-gradient-to-br from-purple-500/5 via-transparent to-blue-500/5 group-hover:opacity-100 rounded-2xl" />
+    <div className="group relative flex flex-col h-full p-8 rounded-2xl bg-zinc-900/50 border border-white/8 backdrop-blur-sm transition-all duration-300 hover:-translate-y-1.5 hover:border-purple-500/40 hover:shadow-[0_0_40px_rgba(147,51,234,0.12)]">
+      <div className="absolute inset-0 transition-opacity duration-500 opacity-0 pointer-events-none bg-gradient-to-br from-purple-500/5 via-transparent to-blue-500/5 group-hover:opacity-100 rounded-2xl" />
 
-    <div className="relative z-10 flex flex-col items-start flex-grow">
-      <div className="flex items-center justify-center mb-5 transition-all duration-300 border w-14 h-14 rounded-2xl bg-zinc-800/70 border-white/5 group-hover:border-purple-500/30 group-hover:bg-purple-900/20">
-        <span className="text-3xl">{icon}</span>
-      </div>
-
-      <h3 className="mb-3 text-xl font-bold text-white transition-colors duration-200 group-hover:text-purple-100">
-        {title}
-      </h3>
-
-      <p className="flex-grow mb-6 text-base leading-relaxed transition-colors duration-200 text-zinc-400 group-hover:text-zinc-300">
-        {description}
-      </p>
-
-      {slug === "ai-coaching" && (
-        <div className="w-full mt-auto">
-          <Button href="/ai-coaching" className="justify-center w-full">
-            {t("services.signUp")}
-          </Button>
+      <div className="relative z-10 flex flex-col items-start flex-grow">
+        <div className="flex items-center justify-center mb-5 transition-all duration-300 border w-14 h-14 rounded-2xl bg-zinc-800/70 border-white/5 group-hover:border-purple-500/30 group-hover:bg-purple-900/20">
+          <span className="text-3xl">{icon}</span>
         </div>
-      )}
+
+        <h3 className="mb-3 text-xl font-bold text-white transition-colors duration-200 group-hover:text-purple-100">
+          {title}
+        </h3>
+
+        <p className="flex-grow mb-6 text-base leading-relaxed transition-colors duration-200 text-zinc-400 group-hover:text-zinc-300">
+          {description}
+        </p>
+
+        {slug === "ai-coaching" && (
+          <div className="w-full mt-auto">
+            <Button
+              href="/ai-coaching"
+              className="justify-center w-full px-3 whitespace-nowrap"
+            >
+              {t("services.signUp")}
+            </Button>
+          </div>
+        )}
+      </div>
     </div>
-  </div>
-);
+  );
 };
 
 const ProcessStep = ({ number, title, description }: ProcessStepProps) => (
@@ -70,18 +73,18 @@ export default function Services() {
   const processData: ProcessStepProps[] = [
     {
       number: "1",
+      title: t("services.process.0.title"),
+      description: t("services.process.0.description"),
+    },
+    {
+      number: "2",
       title: t("services.process.1.title"),
       description: t("services.process.1.description"),
     },
     {
-      number: "2",
+      number: "3",
       title: t("services.process.2.title"),
       description: t("services.process.2.description"),
-    },
-    {
-      number: "3",
-      title: t("services.process.3.title"),
-      description: t("services.process.3.description"),
     },
   ];
 
@@ -100,7 +103,9 @@ export default function Services() {
               </span>
               <h1 className="text-4xl font-extrabold tracking-tight text-white md:text-5xl lg:text-6xl">
                 {t("services.title")}{" "}
-                <span className="gradient-text">{t("services.titleAccent")}</span>
+                <span className="gradient-text">
+                  {t("services.titleAccent")}
+                </span>
               </h1>
             </div>
 
@@ -121,7 +126,9 @@ export default function Services() {
             <div className="relative z-10">
               <h2 className="mb-12 text-3xl font-bold text-center text-white">
                 {t("services.howItWorks")}{" "}
-                <span className="italic text-purple-400">{t("services.howItWorksAccent")}</span>
+                <span className="italic text-purple-400">
+                  {t("services.howItWorksAccent")}
+                </span>
               </h2>
               <div className="relative grid grid-cols-1 gap-10 md:grid-cols-3">
                 {processData.map((step, index) => (

@@ -10,16 +10,16 @@
     "aiCoaching": "Mentoria de IA",
     "blog": "Blog",
     "privacy": "Política de Privacidade",
-    "contact": "Contacte-nos",
+    "contact": "Fale Conosco",
     "openMenu": "Abrir menu",
     "closeMenu": "Fechar menu"
   },
   "hero": {
     "eyebrow": "{{brandName}} · Irlanda",
-    "title": "Pare de Perder Tempo",
+    "title": "Não perca tempo com Trabalho Repetitivo",
     "on": "com",
     "titleAccent": "Trabalho Repetitivo",
-    "subtitle": "Ajudamos proprietários de pequenas empresas a automatizar tarefas manuais usando ferramentas simples e acessíveis — para que se possa concentrar em",
+    "subtitle": "Ajudamos proprietários de pequenas empresas a automatizar tarefas manuais usando ferramentas simples e acessíveis — para que voce possa focar em",
     "growing": "crescer",
     "insteadOfGrinding": "em vez de se desgastar.",
     "ctaCoaching": "Inscreva-se na Mentoria de IA",
@@ -30,7 +30,7 @@
     "eyebrow": "Os Nossos Serviços",
     "title": "O Que Realmente",
     "titleAccent": "Fazemos",
-    "subtitle": "Ajudamos pequenas empresas a parar de se afogar em trabalho manual com soluções práticas e diretas.",
+    "subtitle": "Ajudamos pequenas empresas a parar de se perder em trabalho manual com soluções práticas e diretas.",
     "ctaCoaching": "Inscreva-se na Mentoria de IA"
   },
   "aiCoachingHero": {
@@ -40,28 +40,28 @@
     "subtitle": "Um programa de 4 semanas criado para profissionais de alto desempenho com ansiedade em relação à IA.",
     "framework": "Não é uma lista de ferramentas — um framework para",
     "frameworkBold": "Cenário, Lógica e Liderança.",
-    "transformation": "Passe de \"já ouvi falar disto\" para \"posso liderar esta sala.\"",
+    "transformation": "De \"já ouvi falar disto\" para \"posso liderar esta sala.\"",
     "ctaButton": "Sobre {{brandName}}",
     "imageAlt": "Residência Estratégica de IA — sessão de mentoria profissional"
   },
   "about": {
-    "eyebrow": "A Equipa",
+    "eyebrow": "A Equipe",
     "title": "Quem",
     "titleAccent": "Somos",
-    "subtitle": "Uma consultoria de automação de duas pessoas com sede na Irlanda, ajudando pequenas empresas a parar de se afogar em trabalho manual.",
+    "subtitle": "Uma consultoria de automação de duas pessoas com sede na Irlanda, ajudando pequenas empresas a parar dese perder em trabalho manual.",
     "roleFounder": "Fundadora · Estrategista de IA",
     "roleDeveloper": "Desenvolvedor de Software",
     "linkedinConnect": "Conectar no LinkedIn",
     "signUpCoaching": "Inscreva-se na Mentoria de IA",
-    "ludmilaBio1": "Após quase uma década a trabalhar em marketing e tecnologia no Brasil, Itália e Irlanda, Ludmila fundou a {{brandName}} para colmatar a lacuna entre a tecnologia de IA avançada e as necessidades práticas das pequenas e médias empresas.",
-    "ludmilaBio2": "A sua jornada por diferentes mercados deu-lhe uma perspetiva única sobre os desafios que as pequenas empresas enfrentam, especialmente a quantidade avassaladora de trabalho manual que destrói o moral da equipa e impede o crescimento.",
+    "ludmilaBio1": "Após quase uma década a trabalhar em marketing e tecnologia no Brasil, Itália e Irlanda, Ludmila fundou a {{brandName}} para preencher a lacuna entre a tecnologia de IA avançada e as necessidades práticas das pequenas e médias empresas.",
+    "ludmilaBio2": "A sua jornada por diferentes mercados deu-lhe uma perspectiva única sobre os desafios que as pequenas empresas enfrentam, especialmente a quantidade avassaladora de trabalho manual que destrói o moral da equipe e impede o crescimento.",
     "padraigBio1": "Padraig é um engenheiro de software full-stack e ex-professor de História e Política que adora aprender através da construção, experimentação e ensino.",
     "padraigBio2": "A sua abordagem é direta: simplificar o complexo e criar soluções práticas para problemas do mundo real. Padraig traz profundidade técnica combinada com a capacidade de um professor para tornar a tecnologia acessível e compreensível para proprietários de empresas não técnicos.",
     "philosophyTitle": "A Nossa Filosofia",
     "philosophyP1": "Não vendemos serviços que não usámos nós próprios. Cada ferramenta que recomendamos, cada automação que configuramos — testámos no nosso próprio negócio primeiro.",
-    "philosophyP2": "Não estamos a tentar ser uma grande consultora. Somos duas pessoas que sabem como fazer a tecnologia funcionar para pequenas equipas sem gastar uma fortuna ou precisar de um diploma em ciências da computação.",
+    "philosophyP2": "Não estamos a tentar ser uma grande consultora. Somos duas pessoas que sabem como fazer a tecnologia funcionar para pequenas equipes sem gastar uma fortuna ou precisar de um diploma em ciências da computação.",
     "whoWeWorkWithTitle": "Com Quem Trabalhamos",
-    "whoWeWorkWithIntro": "Especializamo-nos em empreendedores individuais e pequenas equipas (1–5 pessoas) que:",
+    "whoWeWorkWithIntro": "Somos especializados em em empreendedores individuais e pequenas equipes (1–5 pessoas) que:",
     "whoWeWorkWith1": "Estão sobrecarregados com tarefas manuais repetitivas",
     "whoWeWorkWith2": "Ouvem falar de IA em todo o lado mas não sabem por onde começar",
     "whoWeWorkWith3": "Procuram soluções práticas e acessíveis — não sistemas empresariais caros"
@@ -75,7 +75,7 @@
     "howItWorks": "Como",
     "howItWorksAccent": "Funciona",
     "readyTitle": "Pronto para recuperar o seu tempo?",
-    "readySubtitle": "Sem configuração complexa. Nós tratamos do trabalho pesado.",
+    "readySubtitle": "Sem configuração complexa. Nós fazemos o trabalho pesado.",
     "startCta": "Comece a Trabalhar de Forma Mais Inteligente",
     "signUp": "Inscreva-se!",
     "process": {
@@ -99,8 +99,8 @@
     "company": "Empresa",
     "support": "Suporte",
     "readyToAutomate": "Pronto para automatizar?",
-    "bookCall": "Marque uma chamada de descoberta gratuita e veja o que é possível.",
-    "contactCta": "Entre em contacto →",
+    "bookCall": "Agende uma conversa gratuita e veja o que é possível.",
+    "contactCta": "Entre em Contato →",
     "allRightsReserved": "{{brandName}}™ — Todos os Direitos Reservados",
     "madeWithLove": "Feito com ❤️ na Irlanda"
   },
@@ -136,11 +136,11 @@
   "servicesData": {
     "process-automation": {
       "title": "Automação de Processos",
-      "description": "Identificamos o que está a consumir o seu tempo e configuramos automações usando ferramentas que pode aprender rapidamente."
+      "description": "Identificamos o que está consumindo o seu tempo e configuramos automações usando ferramentas que pode aprender rapidamente."
     },
     "system-integration": {
       "title": "Integração de Sistemas",
-      "description": "Ligamos o seu software existente para que os dados fluam automaticamente - sem mais copiar e colar entre apps."
+      "description": "Integramos o seu software existente para que os dados fluam automaticamente - sem mais copiar e colar entre apps."
     },
     "off-the-shelf": {
       "title": "Soluções de Prateleira",
@@ -148,7 +148,7 @@
     },
     "ai-coaching": {
       "title": "Mentoria Prática de IA",
-      "description": "Esqueça o hype. Fornecemos formação e estratégias apoiadas por parcerias institucionais reais. Sem palavras da moda, apenas implementação segura e eficaz."
+      "description": "Esqueça o hype. Entregamos formação prática e estratégias com respaldo institucional real."
     }
   },
   "coachingData": {
@@ -212,7 +212,7 @@
         },
         "2": {
           "title": "A Linguagem do Poder",
-          "desc": "O que perguntar ao TI, o que perguntar ao seu chefe e como defender ferramentas que recuperam o tempo da sua equipa."
+          "desc": "O que perguntar ao TI, o que perguntar ao seu chefe e como defender ferramentas que recuperam o tempo da sua equipe."
         }
       }
     },
@@ -235,16 +235,17 @@
           "desc": "Decida quais tarefas precisarão sempre de julgamento e presença humana."
         },
         "3": {
-          "title": "A Sua Estrela Guia",
+          "title": "Seu Norte Estratégic",
           "desc": "Mapeie o seu 'Dia Idealmente Automatizado' — um fluxo de trabalho onde a carga mental é minimizada."
         }
       }
     },
     "investment": {
-      "week": "Investimento",
-      "title": "Mentoria de IA de 4 Semanas",
-      "tag": "PREÇOS",
+      "tag": "FORMATO",
+      "title": "Investimento: Mentoria de IA de 4 Semanas",
       "description": "4 × sessões 1:1, totalmente personalizadas para o seu negócio ou função.",
+      "duration": "2 a 3 horas por semana, com acompanhamento, durante 4 semanas.",
+      "cta": "Fale comigo diretamente →",
       "points": {
         "0": {
           "title": "Biblioteca de Prompts",
@@ -256,7 +257,7 @@
         },
         "2": {
           "title": "Plano de Prática Semanal",
-          "desc": "Exercícios estruturados entre sessões para criar hábitos reais, não apenas consciência."
+          "desc": "Exercícios práticos estruturados entre sessões para criar hábitos reais, mão na massa."
         }
       }
     }

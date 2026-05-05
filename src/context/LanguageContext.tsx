@@ -3,6 +3,7 @@ import React, { createContext, useState, useEffect, ReactNode } from "react";
 import en from "../locales/en.json";
 import pt from "../locales/pt.json";
 import type { Translations } from "@/types/translations";
+import { resolveTranslation } from "@/lib/resolveTranslation";
 
 type Language = "en" | "pt";
 
@@ -37,31 +38,13 @@ export const LanguageProvider = ({ children }: { children: ReactNode }) => {
   };
 
   const t = (key: string, variables?: Record<string, string>): string => {
-    const keys = key.split(".");
-    const resolve = (obj: any) => {
-      return keys.reduce(
-        (acc, k) => (acc && acc[k] !== undefined ? acc[k] : undefined),
-        obj
-      );
-    };
-
-    let value = resolve(translations[language]);
+    let value = resolveTranslation(translations[language], key, variables);
 
     if (value === undefined) {
-      value = resolve(translations.en);
+      value = resolveTranslation(translations.en, key, variables);
     }
 
-    if (typeof value === "string") {
-      if (variables) {
-        return Object.entries(variables).reduce(
-          (acc, [vKey, vValue]) => acc.replaceAll(`{{${vKey}}}`, vValue),
-          value
-        );
-      }
-      return value;
-    }
-
-    return key;
+    return value ?? key;
   };
 
   return (

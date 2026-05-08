@@ -24,9 +24,9 @@ export default function ContactForm() {
             />
           </svg>
         </div>
-        <h3 className="mb-4 text-3xl font-bold text-white">{t("contact.successTitle")}</h3>
+        <h3 className="mb-4 text-3xl font-bold text-white">{t("contact.success.title")}</h3>
         <p className="text-lg text-zinc-400">
-          {t("contact.successMessage")}
+          {t("contact.success.message")}
         </p>
       </div>
     );

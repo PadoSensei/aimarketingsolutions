@@ -30,6 +30,7 @@
     "remark-html": "^15.0.2"
   },
   "devDependencies": {
+    "@playwright/test": "^1.59.1",
     "@tailwindcss/postcss": "^4.0.0",
     "@tailwindcss/typography": "^0.5.9",
     "@types/debug": "^4.1.12",

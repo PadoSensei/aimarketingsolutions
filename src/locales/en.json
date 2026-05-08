@@ -60,11 +60,32 @@
     "philosophyP2": "We're not trying to be a big consultancy.",
     "whoWeWorkWithTitle": "Who We Work With",
     "whoWeWorkWithIntro": "We specialise in solo entrepreneurs and small teams (1–5 people) who are:",
-    "whoWeWorkWith": [
+    "whoWeWorkWithItems": [
       "Overwhelmed by repetitive manual tasks",
       "Hearing about AI everywhere but unsure where to start",
       "Looking for practical, affordable solutions"
     ]
+  },
+  "contact": {
+    "title": "Get in",
+    "titleAccent": "Touch",
+    "subtitle": "Ready to work smarter? Send us a message and let's chat.",
+    "success": {
+      "title": "Message Sent!",
+      "message": "Thanks for reaching out. We'll get back to you shortly."
+    },
+    "labels": {
+      "email": "Email Address",
+      "subject": "Subject",
+      "message": "Message"
+    },
+    "placeholders": {
+      "email": "you@company.com",
+      "subject": "What can we help you with?",
+      "message": "Tell us about your project..."
+    },
+    "submit": "Send Message",
+    "sending": "Sending..."
   },
   "services": {
     "eyebrow": "What We Do",

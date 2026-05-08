@@ -1,4 +1,7 @@
 {
+  "common": {
+    "brandName": "AI Solutions"
+  },
   "brand": { "name": "AI Solutions" },
   "nav": {
     "home": "Início",
@@ -47,17 +50,22 @@
     "title": "Quem",
     "titleAccent": "Somos",
     "subtitle": "Uma consultoria de automação de duas pessoas com sede na Irlanda.",
-    "roleFounder": "Fundadora · Estrategista de IA",
-    "roleDeveloper": "Desenvolvedor de Software",
+    "ludmila": {
+      "name": "Ludmila Domingos",
+      "role": "Fundadora · Estrategista de IA",
+      "bio": "Após quase uma década trabalhando em marketing e tecnologia no Brasil, Itália e Irlanda, Ludmila fundou a {{brandName}} para preencher a lacuna entre a tecnologia de IA avançada e as necessidades práticas das pequenas empresas.\n\nSua experiência em diferentes mercados proporciona uma perspectiva única sobre os desafios enfrentados por pequenas equipes — especialmente o trabalho manual excessivo que prejudica o moral e impede o crescimento."
+    },
+    "padraig": {
+      "name": "Padraig O'Donoghue",
+      "role": "Desenvolvedor de Software",
+      "bio": "Padraig é um engenheiro de software full-stack e ex-professor de História e Política.\n\nSua abordagem é direta: simplificar o complexo e criar soluções práticas. Padraig traz profundidade técnica combinada com a habilidade de um professor para tornar a tecnologia acessível e compreensível para proprietários de empresas não técnicos."
+    },
+    "philosophy": {
+      "title": "A Nossa Filosofia",
+      "content": "Não vendemos serviços que nós mesmos não tenhamos usado. Cada ferramenta que recomendamos, cada automação que configuramos — testamos em nosso próprio negócio primeiro.\n\nNão estamos tentando ser uma grande consultoria. Somos duas pessoas que sabem como fazer a tecnologia funcionar para equipes pequenas sem gastar muito ou exigir um diploma em ciência da computação."
+    },
     "linkedinConnect": "Conectar no LinkedIn",
     "signUpCoaching": "Inscreva-se na Mentoria de IA",
-    "ludmilaBio1": "Após quase uma década a trabalhar em marketing e tecnologia no Brasil, Itália e Irlanda, Ludmila fundou a {{brandName}} para preencher a lacuna entre a tecnologia de IA avançada e as necessidades práticas das pequenas e médias empresas.",
-    "ludmilaBio2": "Experiência internacional trouxe uma perspectiva única.",
-    "padraigBio1": "Padraig é um engenheiro de software full-stack.",
-    "padraigBio2": "Foca em simplificar o complexo.",
-    "philosophyTitle": "A Nossa Filosofia",
-    "philosophyP1": "Não vendemos serviços que não usamos.",
-    "philosophyP2": "Somos uma pequena consultoria prática.",
     "whoWeWorkWithTitle": "Com Quem Trabalhamos",
     "whoWeWorkWithIntro": "Trabalhamos com:",
     "whoWeWorkWithItems": [

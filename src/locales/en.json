@@ -1,4 +1,7 @@
 {
+  "common": {
+    "brandName": "AI Solutions"
+  },
   "brand": { "name": "AI Solutions" },
   "nav": {
     "home": "Home",
@@ -47,17 +50,22 @@
     "title": "Who We",
     "titleAccent": "Are",
     "subtitle": "A two-person automation consultancy based in Ireland, helping small businesses stop drowning in manual work.",
-    "roleFounder": "Founder · AI Strategist",
-    "roleDeveloper": "Software Developer",
+    "ludmila": {
+      "name": "Ludmila Domingos",
+      "role": "Founder · AI Strategist",
+      "bio": "After nearly a decade working across marketing and technology in Brazil, Italy, and Ireland, Ludmila founded {{brandName}} to bridge the gap between advanced AI and the practical needs of small businesses.\n\nHer experience across different markets gives her a unique perspective on the challenges small teams face — especially the manual work that defeats morale and prevents growth."
+    },
+    "padraig": {
+      "name": "Padraig O'Donoghue",
+      "role": "Software Developer",
+      "bio": "Padraig is a full-stack software engineer and former History & Politics teacher.\n\nHis approach is straightforward: simplify the complex and create practical solutions. Padraig brings technical depth combined with a teacher's ability to make technology accessible and understandable for non-technical business owners."
+    },
+    "philosophy": {
+      "title": "Our Philosophy",
+      "content": "We don't sell services we haven't used ourselves. Every tool we recommend, every automation we set up — we've tested it in our own business first.\n\nWe're not trying to be a big consultancy. We're two people who know how to make technology work for small teams without breaking the bank or requiring a computer science degree."
+    },
     "linkedinConnect": "Connect on LinkedIn",
     "signUpCoaching": "Sign up for AI Coaching",
-    "ludmilaBio1": "After nearly a decade working across marketing and technology in Brazil, Italy, and Ireland, Ludmila founded {{brandName}} to bridge the gap between advanced AI technology and the practical needs of small to medium-sized businesses.",
-    "ludmilaBio2": "Her journey through different markets has given her a unique perspective on the challenges small businesses face.",
-    "padraigBio1": "Padraig is a full-stack software engineer and former History & Politics teacher.",
-    "padraigBio2": "His approach is straightforward: simplify the complex and create practical solutions.",
-    "philosophyTitle": "Our Philosophy",
-    "philosophyP1": "We don't sell services we haven't used ourselves.",
-    "philosophyP2": "We're not trying to be a big consultancy.",
     "whoWeWorkWithTitle": "Who We Work With",
     "whoWeWorkWithIntro": "We specialise in solo entrepreneurs and small teams (1–5 people) who are:",
     "whoWeWorkWithItems": [

@@ -10,7 +10,7 @@ import { useTranslation } from "@/hooks/useTranslation";
 interface TeamProfileProps {
   name: string;
   role: string;
-  bio: React.ReactNode;
+  bio: string;
   image: string;
   linkedin: string;
   reversed?: boolean;
@@ -68,7 +68,9 @@ const TeamProfile = ({
           {name}
         </h3>
         <div className="mb-6 space-y-3 text-base leading-relaxed transition-colors duration-200 text-zinc-400 group-hover:text-zinc-300">
-          {bio}
+          {bio.split("\n\n").map((paragraph, index) => (
+            <p key={index}>{paragraph}</p>
+          ))}
         </div>
 
         <div
@@ -145,42 +147,33 @@ export default function About() {
           {/* TEAM */}
           <div className="space-y-8">
             <TeamProfile
-              name="Ludmila Domingos"
-              role={t("about.roleFounder")}
+              name={t("about.ludmila.name")}
+              role={t("about.ludmila.role")}
               image="/images/lu-suit.jpg"
               linkedin="https://www.linkedin.com/in/dludmila/"
               cta={{
                 label: t("about.signUpCoaching"),
                 href: "/ai-coaching",
               }}
-              bio={
-                <>
-                  <p>{t("about.ludmilaBio1", { brandName: t("brand.name") })}</p>
-                  <p>{t("about.ludmilaBio2")}</p>
-                </>
-              }
+              bio={t("about.ludmila.bio")}
             />
 
             <TeamProfile
-              name="Padraig O'Donoghue"
-              role={t("about.roleDeveloper")}
+              name={t("about.padraig.name")}
+              role={t("about.padraig.role")}
               image="/images/pod_suit.jpg"
               linkedin="https://www.linkedin.com/in/padraig-o-donoghue-6175101ba/"
               reversed
-              bio={
-                <>
-                  <p>{t("about.padraigBio1")}</p>
-                  <p>{t("about.padraigBio2")}</p>
-                </>
-              }
+              bio={t("about.padraig.bio")}
             />
           </div>
 
           {/* INFO */}
           <div className="grid gap-6 md:grid-cols-2">
-            <InfoSection title={t("about.philosophyTitle")}>
-              <p>{t("about.philosophyP1")}</p>
-              <p>{t("about.philosophyP2")}</p>
+            <InfoSection title={t("about.philosophy.title")}>
+              {t("about.philosophy.content").split("\n\n").map((paragraph, index) => (
+                <p key={index}>{paragraph}</p>
+              ))}
             </InfoSection>
 
             <InfoSection title={t("about.whoWeWorkWithTitle")}>

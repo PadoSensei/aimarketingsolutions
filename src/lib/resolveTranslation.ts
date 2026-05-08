@@ -12,13 +12,25 @@ export function resolveTranslation(
     obj
   );
 
-  if (typeof value === "string" || Array.isArray(value)) {
-    if (variables && typeof value === "string") {
-      return Object.entries(variables).reduce(
+  if (typeof value === "string") {
+    let result = value;
+
+    // Automatic interpolation for brandName
+    if (result.includes("{{brandName}}") && (!variables || !variables.brandName)) {
+      const brandName = obj.common?.brandName || obj.brand?.name || "AI Solutions";
+      result = result.replaceAll("{{brandName}}", brandName);
+    }
+
+    if (variables) {
+      result = Object.entries(variables).reduce(
         (acc, [vKey, vValue]) => acc.replaceAll(`{{${vKey}}}`, vValue),
-        value
+        result
       );
     }
+    return result;
+  }
+
+  if (Array.isArray(value)) {
     return value;
   }
 

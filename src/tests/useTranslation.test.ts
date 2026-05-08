@@ -24,6 +24,11 @@ describe('resolveTranslation Utility', () => {
     expect(result).toBe('Test Brand · Ireland');
   });
 
+  it('automatically interpolates brandName if not provided', () => {
+    const result = resolveTranslation(en, 'hero.eyebrow');
+    expect(result).toBe('AI Solutions · Ireland');
+  });
+
   it('returns PT value when PT locale is used', () => {
     const result = resolveTranslation(pt, 'nav.home');
     expect(result).toBe('Início');

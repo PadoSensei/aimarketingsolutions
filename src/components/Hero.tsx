@@ -32,7 +32,7 @@ const Hero = () => {
               <span className="absolute inline-flex w-full h-full bg-purple-400 rounded-full opacity-75 animate-ping" />
               <span className="relative inline-flex rounded-full h-1.5 w-1.5 bg-purple-500" />
             </span>
-            {t("hero.eyebrow", { brandName: t("brand.name") })}
+            {t("hero.eyebrow")}
           </div>
 
           {/* H1 */}

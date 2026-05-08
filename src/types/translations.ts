@@ -20,6 +20,9 @@ export type Investment = {
 };
 
 export type Translations = {
+  common: {
+    brandName: string;
+  };
   brand: {
     name: string;
   };
@@ -70,17 +73,22 @@ export type Translations = {
     title: string;
     titleAccent: string;
     subtitle: string;
-    roleFounder: string;
-    roleDeveloper: string;
+    ludmila: {
+      name: string;
+      role: string;
+      bio: string;
+    };
+    padraig: {
+      name: string;
+      role: string;
+      bio: string;
+    };
+    philosophy: {
+      title: string;
+      content: string;
+    };
     linkedinConnect: string;
     signUpCoaching: string;
-    ludmilaBio1: string;
-    ludmilaBio2: string;
-    padraigBio1: string;
-    padraigBio2: string;
-    philosophyTitle: string;
-    philosophyP1: string;
-    philosophyP2: string;
     whoWeWorkWithTitle: string;
     whoWeWorkWithIntro: string;
     whoWeWorkWithItems: string[];

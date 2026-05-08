@@ -70,7 +70,7 @@ export default function AiCoachingPage() {
                   width="100%"
                   height="700"
                   frameBorder="0"
-                  title={t("aiCoaching.calendarTitle", { brandName: t("brand.name") })}
+                  title={t("aiCoaching.calendarTitle")}
                   className="block"
                   style={{ colorScheme: "light" }}
                 />

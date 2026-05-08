@@ -186,9 +186,12 @@ export default function About() {
             <InfoSection title={t("about.whoWeWorkWithTitle")}>
               <p>{t("about.whoWeWorkWithIntro")}</p>
               <ul className="mt-4 space-y-2">
-                {["whoWeWorkWith1", "whoWeWorkWith2", "whoWeWorkWith3"].map(
-                  (key) => (
-                    <li key={key}>✓ {t(`about.${key}`)}</li>
+                {(t("about.whoWeWorkWithItems") as unknown as string[]).map(
+                  (item, index) => (
+                    <li key={index} className="flex items-start gap-3">
+                      <span className="text-purple-400">✓</span>
+                      <span>{item}</span>
+                    </li>
                   )
                 )}
               </ul>

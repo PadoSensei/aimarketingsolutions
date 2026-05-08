@@ -4,7 +4,7 @@ export function resolveTranslation(
   obj: any,
   key: string,
   variables?: Record<string, string>
-): string | undefined {
+): any {
   const keys = key.split(".");
 
   const value = keys.reduce(
@@ -12,8 +12,8 @@ export function resolveTranslation(
     obj
   );
 
-  if (typeof value === "string") {
-    if (variables) {
+  if (typeof value === "string" || Array.isArray(value)) {
+    if (variables && typeof value === "string") {
       return Object.entries(variables).reduce(
         (acc, [vKey, vValue]) => acc.replaceAll(`{{${vKey}}}`, vValue),
         value

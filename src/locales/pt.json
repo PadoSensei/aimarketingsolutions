@@ -60,11 +60,32 @@
     "philosophyP2": "Somos uma pequena consultoria prática.",
     "whoWeWorkWithTitle": "Com Quem Trabalhamos",
     "whoWeWorkWithIntro": "Trabalhamos com:",
-    "whoWeWorkWith": [
+    "whoWeWorkWithItems": [
       "Sobrecarregados com tarefas manuais",
       "Confusos sobre IA",
       "À procura de soluções acessíveis"
     ]
+  },
+  "contact": {
+    "title": "Entre em",
+    "titleAccent": "Contato",
+    "subtitle": "Pronto para trabalhar de forma mais inteligente? Envie-nos uma mensagem e vamos conversar.",
+    "success": {
+      "title": "Mensagem Enviada!",
+      "message": "Obrigado por entrar em contato. Retornaremos em breve."
+    },
+    "labels": {
+      "email": "Endereço de E-mail",
+      "subject": "Assunto",
+      "message": "Mensagem"
+    },
+    "placeholders": {
+      "email": "voce@empresa.com",
+      "subject": "Como podemos ajudar?",
+      "message": "Conte-nos sobre o seu projeto..."
+    },
+    "submit": "Enviar Mensagem",
+    "sending": "Enviando..."
   },
   "services": {
     "eyebrow": "O Que Fazemos",

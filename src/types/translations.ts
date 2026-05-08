@@ -83,7 +83,28 @@ export type Translations = {
     philosophyP2: string;
     whoWeWorkWithTitle: string;
     whoWeWorkWithIntro: string;
-    whoWeWorkWith: string[];
+    whoWeWorkWithItems: string[];
+  };
+  contact: {
+    title: string;
+    titleAccent: string;
+    subtitle: string;
+    success: {
+      title: string;
+      message: string;
+    };
+    labels: {
+      email: string;
+      subject: string;
+      message: string;
+    };
+    placeholders: {
+      email: string;
+      subject: string;
+      message: string;
+    };
+    submit: string;
+    sending: string;
   };
   services: {
     eyebrow: string;

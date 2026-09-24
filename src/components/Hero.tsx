@@ -40,7 +40,10 @@ const Hero = () => {
             {t("hero.title")}
             <br className="hidden sm:block" />
             {t("hero.titleConnector") && (
-              <span className="text-white">{t("hero.titleConnector")} </span>
+              <>
+                <span className="sm:hidden">&nbsp;</span>
+                <span className="text-white">{t("hero.titleConnector")} </span>
+              </>
             )}
             <span className="relative inline-block">
               <span className="gradient-purple-pink">

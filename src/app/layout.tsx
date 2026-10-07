@@ -3,6 +3,7 @@ import { Metadata } from "next";
 import "@/styles/index.css";
 import { Analytics } from "@vercel/analytics/react";
 import { LanguageProvider } from "@/context/LanguageContext";
+import Script from "next/script";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://aisolutions.irish"),
@@ -44,9 +45,23 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <LanguageProvider>
-          {children}
-        </LanguageProvider>
+        <Script
+          strategy="afterInteractive"
+          src="https://www.googletagmanager.com/gtag/js?id=G-VWH1WT3KDF"
+        />
+        <Script
+          id="google-analytics"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-VWH1WT3KDF');
+            `,
+          }}
+        />
+        <LanguageProvider>{children}</LanguageProvider>
         <Analytics />
       </body>
     </html>

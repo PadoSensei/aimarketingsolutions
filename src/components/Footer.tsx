@@ -9,7 +9,6 @@ const Footer = () => {
     { label: t("nav.about"), href: "/about" },
     { label: t("nav.services"), href: "/services" },
     { label: t("nav.aiCoaching"), href: "/ai-coaching" },
-    { label: t("nav.blog"), href: "/posts" },
   ];
 
   const support = [

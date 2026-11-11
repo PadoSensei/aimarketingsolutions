@@ -5,9 +5,10 @@ import Footer from "@/components/Footer";
 import AICarousel from "@/components/AICarousel";
 import AICoachingHero from "@/components/AICoachingHero";
 import { useTranslation } from "@/hooks/useTranslation";
+import PricingDisplay from "@/components/PricingDisplay";
 
 export default function AiCoachingPage() {
-  const { t } = useTranslation();
+  const { t, language } = useTranslation();
 
   return (
     <Layout>
@@ -26,9 +27,19 @@ export default function AiCoachingPage() {
               {t("aiCoaching.roadmapEyebrow")}
             </span>
 
-            <h2 className="mb-3 text-4xl font-bold tracking-tight text-white">
-              {t("aiCoaching.roadmapTitle")} <span className="gradient-text">{t("aiCoaching.roadmapTitleAccent")}</span>
-            </h2>
+            <div className="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-3">
+              <div>
+                <h2 className="text-4xl font-bold tracking-tight text-white">
+                  {t("aiCoaching.roadmapTitle")} <span className="gradient-text">{t("aiCoaching.roadmapTitleAccent")}</span>
+                </h2>
+              </div>
+              <div className="inline-flex items-center px-4 py-2 rounded-xl bg-purple-900/30 border border-purple-500/30 text-purple-200 text-sm font-semibold">
+                <PricingDisplay
+                  itemKey="aiCoaching"
+                  prefix={language === "pt" ? "Investimento a partir de" : "Investment from"}
+                />
+              </div>
+            </div>
 
             <p className="max-w-2xl text-lg text-purple-300/80">
               {t("aiCoaching.roadmapSubtitle")}

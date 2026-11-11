@@ -5,6 +5,7 @@ import NavBar from "@/components/NavBar";
 import { servicesData } from "@/data/servicesData";
 import Button from "@/components/Button";
 import { useTranslation } from "@/hooks/useTranslation";
+import PricingDisplay from "@/components/PricingDisplay";
 
 // 1. Define Interfaces
 interface ServiceCardProps {
@@ -22,7 +23,7 @@ interface ProcessStepProps {
 
 // 2. Refactor Components
 const ServiceCard = ({ icon, title, description, slug }: ServiceCardProps) => {
-  const { t } = useTranslation();
+  const { t, language } = useTranslation();
   return (
     <div className="group relative flex flex-col h-full p-8 rounded-2xl bg-zinc-900/50 border border-white/8 backdrop-blur-sm transition-all duration-300 hover:-translate-y-1.5 hover:border-purple-500/40 hover:shadow-[0_0_40px_rgba(147,51,234,0.12)]">
       <div className="absolute inset-0 transition-opacity duration-500 opacity-0 pointer-events-none bg-gradient-to-br from-purple-500/5 via-transparent to-blue-500/5 group-hover:opacity-100 rounded-2xl" />
@@ -40,16 +41,32 @@ const ServiceCard = ({ icon, title, description, slug }: ServiceCardProps) => {
           {description}
         </p>
 
-        {slug === "ai-coaching" && (
-          <div className="w-full mt-auto">
-            <Button
-              href="/ai-coaching"
-              className="justify-center w-full px-3 whitespace-nowrap"
-            >
-              {t("services.signUp")}
-            </Button>
-          </div>
-        )}
+        <div className="w-full mt-auto pt-4 border-t border-white/5 space-y-3">
+          {slug === "ai-coaching" ? (
+            <>
+              <div className="text-sm text-purple-300 font-medium">
+                <PricingDisplay
+                  itemKey="aiCoaching"
+                  prefix={language === "pt" ? "A partir de" : "From"}
+                />
+              </div>
+              <Button
+                href="/ai-coaching"
+                className="justify-center w-full px-3 whitespace-nowrap"
+              >
+                {t("services.signUp")}
+              </Button>
+            </>
+          ) : (
+            <div className="text-xs text-zinc-400 font-medium">
+              <PricingDisplay
+                itemKey="websites"
+                prefix={language === "pt" ? "A partir de" : "From"}
+                suffix={language === "pt" ? "/ mês" : "/ month"}
+              />
+            </div>
+          )}
+        </div>
       </div>
     </div>
   );

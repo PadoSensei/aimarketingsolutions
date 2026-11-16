@@ -1,4 +1,4 @@
-# AI Solutions™ — Website
+# AI Solutions — Website
 
 > **Grow without the grind.**  
 > The official website for [aisolutions.irish](https://aisolutions.irish) — a two-person automation consultancy based in Ireland helping small businesses reclaim their time through practical AI and automation tools.
@@ -171,6 +171,18 @@ Defined in `src/styles/index.css` — use these classes everywhere:
 /* #A8E5FE → #64149C, applied to text */
 
 /* Secondary warm accent — hero subheadings */
+/* #A8E5FE → #64149C, applied to text */
+
+/* Secondary warm accent — hero subheadings */
+/* #A8E5FE → #64149C, applied to text */
+
+/* Secondary warm accent — hero subheadings */
+/* #A8E5FE → #64149C, applied to text */
+
+/* Secondary warm accent — hero subheadings */
+/* #A8E5FE → #64149C, applied to text */
+
+/* Secondary warm accent — hero subheadings */
 .gradient-purple-pink; /* purple → pink, applied to text */
 ```
 
@@ -217,7 +229,7 @@ className="bg-zinc-900/40 border border-white/8 rounded-3xl
 - Fixed, sticky with `backdrop-blur` on scroll
 - Animated hamburger → × mobile menu
 - Body scroll lock when mobile menu is open
-- Logo: inline image + "**AI** Solutions™" wordmark
+- Logo: inline image + "**AI** Solutions" wordmark
 
 ### `Hero`
 

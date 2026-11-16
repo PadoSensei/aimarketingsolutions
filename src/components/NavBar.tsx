@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 import { useTranslation } from "@/hooks/useTranslation";
 import LanguageToggle from "./LanguageToggle";
+import { ThemeToggle } from "./ThemeToggle";
 
 const NavBar = () => {
   const { t } = useTranslation();
@@ -55,8 +56,8 @@ const NavBar = () => {
               className="object-cover rounded-full"
             />
             <span className="text-xl font-extrabold tracking-tight">
-              <span className="text-white">AI </span>
-              <span className="gradient-text">Solutions™</span>
+              <span className="text-foreground">AI </span>
+              <span className="gradient-text">Solutions</span>
             </span>
           </Link>
 
@@ -66,7 +67,7 @@ const NavBar = () => {
               <li key={link.href}>
                 <Link
                   href={link.href}
-                  className="px-4 py-2 text-sm font-medium transition-all duration-200 rounded-full text-zinc-400 hover:text-white hover:bg-white/5"
+                  className="px-4 py-2 text-sm font-medium transition-all duration-200 rounded-full text-zinc-400 hover:text-foreground hover:bg-foreground/5"
                 >
                   {link.label}
                 </Link>
@@ -75,11 +76,12 @@ const NavBar = () => {
           </ul>
 
           {/* Desktop CTA */}
-          <div className="hidden items-center gap-4 md:flex">
+          <div className="items-center hidden gap-4 md:flex">
             <LanguageToggle />
+            <ThemeToggle />
             <Link
               href="/contact"
-              className="inline-flex items-center px-5 py-2.5 text-sm font-semibold text-white rounded-full border border-purple-700/60 hover:bg-purple-900/30 hover:border-purple-500 transition-all duration-200"
+              className="inline-flex items-center px-5 py-2.5 text-sm font-semibold text-foreground rounded-full border border-purple-700/60 hover:bg-purple-900/30 hover:border-purple-500 transition-all duration-200"
             >
               {t("nav.contact")}
             </Link>
@@ -88,24 +90,25 @@ const NavBar = () => {
           {/* Mobile Hamburger */}
           <div className="flex items-center gap-3 md:hidden">
             <LanguageToggle />
+            <ThemeToggle />
             <button
               onClick={() => setIsOpen((prev) => !prev)}
               className="relative flex flex-col items-center justify-center w-10 h-10 transition-colors duration-200 border rounded-full border-white/10 hover:border-purple-600/50"
               aria-label={isOpen ? t("nav.closeMenu") : t("nav.openMenu")}
               aria-expanded={isOpen}
             >
-            <span
-              className={`block h-px w-5 bg-white transition-all duration-300 ${
-                isOpen ? "rotate-45 translate-y-[1px]" : "-translate-y-1"
-              }`}
-            />
-            <span
-              className={`block h-px w-5 bg-white transition-all duration-300 ${
-                isOpen ? "opacity-0 scale-x-0" : "opacity-100"
-              }`}
-            />
               <span
-                className={`block h-px w-5 bg-white transition-all duration-300 ${
+                className={`block h-px w-5 bg-foreground transition-all duration-300 ${
+                  isOpen ? "rotate-45 translate-y-[1px]" : "-translate-y-1"
+                }`}
+              />
+              <span
+                className={`block h-px w-5 bg-foreground transition-all duration-300 ${
+                  isOpen ? "opacity-0 scale-x-0" : "opacity-100"
+                }`}
+              />
+              <span
+                className={`block h-px w-5 bg-foreground transition-all duration-300 ${
                   isOpen ? "-rotate-45 -translate-y-[1px]" : "translate-y-1"
                 }`}
               />
@@ -143,7 +146,7 @@ const NavBar = () => {
                 key={link.href}
                 href={link.href}
                 onClick={() => setIsOpen(false)}
-                className="flex items-center px-4 py-3 text-base font-medium transition-all duration-200 text-zinc-300 hover:text-white hover:bg-white/5 rounded-xl"
+                className="flex items-center px-4 py-3 text-base font-medium transition-all duration-200 text-zinc-300 hover:text-foreground hover:bg-foreground/5 rounded-xl"
               >
                 {link.label}
               </Link>
@@ -154,7 +157,7 @@ const NavBar = () => {
               <Link
                 href="/contact"
                 onClick={() => setIsOpen(false)}
-                className="flex items-center justify-center w-full px-5 py-3 text-base font-semibold text-white transition-all duration-200 border rounded-xl border-purple-700/60 hover:bg-purple-900/30"
+                className="flex items-center justify-center w-full px-5 py-3 text-base font-semibold transition-all duration-200 border text-foreground rounded-xl border-purple-700/60 hover:bg-purple-900/30"
               >
                 {t("nav.contact")} →
               </Link>

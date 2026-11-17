@@ -50,10 +50,14 @@
     "title": "Who We",
     "titleAccent": "Are",
     "subtitle": "A two-person automation consultancy based in Ireland, helping small businesses stop drowning in manual work.",
+    "based": {
+      "title": "Where are we based?",
+      "content": "We work between Pipa, Rio Grande do Norte, Brazil, and Ireland. We meet clients in Pipa in person and work with clients in Ireland online."
+    },
     "ludmila": {
       "name": "Ludmila Domingos",
       "role": "Founder · AI Strategist",
-      "bio": "After nearly a decade working across marketing and technology in Brazil, Italy, and Ireland, Ludmila founded {{brandName}} to bridge the gap between advanced AI and the practical needs of small businesses.\n\nHer experience across different markets gives her a unique perspective on the challenges small teams face — especially the manual work that defeats morale and prevents growth."
+      "bio": "After nearly a decade working across marketing and technology in Brazil, Italy, and Ireland, Ludmila founded {{brandName}} to bridge the gap between advanced AI and the practical needs of small businesses.\n\nHer experience across different markets gives her a unique perspective on the challenges small teams face — especially the manual work that defeats morale and prevents growth. \n\nToday she leads client work and coaching in Pipa, and runs the AI Coaching programme in English and Portuguese."
     },
     "padraig": {
       "name": "Padraig O'Donoghue",
@@ -107,6 +111,7 @@
     "readySubtitle": "No complex setup. We handle the heavy lifting.",
     "startCta": "Start Working Smarter",
     "signUp": "Sign up!",
+    "learnMore": "Learn more",
     "process": {
       "0": {
         "title": "Initial Conversation",
@@ -123,21 +128,21 @@
     }
   },
   "servicesData": {
-    "process-automation": {
-      "title": "Process Automation",
-      "description": "We map your repetitive workflows and automate them using tools like Make, Zapier, or custom scripts — saving you hours every week."
+    "websites": {
+      "title": "Websites with booking",
+      "description": "Your own domian website, with reservation and payment flows, and monthly analytics reports."
     },
-    "system-integration": {
-      "title": "System Integration",
-      "description": "We connect your existing tools so they talk to each other — CRMs, email platforms, spreadsheets, and more."
-    },
-    "off-the-shelf": {
-      "title": "Off-the-Shelf AI Tools",
-      "description": "Not everything needs to be custom-built. We identify and configure the right ready-made AI tools for your specific needs."
-    },
-    "ai-coaching": {
+    "aiCoaching": {
       "title": "AI Coaching",
-      "description": "A 4-week 1:1 programme to build your strategic AI literacy — so you can lead, not just follow, the AI conversation."
+      "description": "Four one-to-one sessions to use AI with confidence. You leave with a plan, prompt library and tools guide."
+    },
+    "consulting": {
+      "title": "AI Consulting",
+      "description": "Not sure where AI fits? We look at how you work and send you a list of ready-made tools that fit your budget."
+    },
+    "automation": {
+      "title": "Automation",
+      "description": "We connect the tools you already use to automate repetitive tasks, starting with ready-made tools before anything custom."
     }
   },
   "aiCoaching": {
@@ -148,7 +153,8 @@
     "bookingEyebrow": "Book a Session",
     "bookingTitle": "Ready to Start?",
     "bookingSubtitle": "Pick a time that works for you — first session is a free discovery call.",
-    "calendarTitle": "Book a session with {{brandName}}"
+    "calendarTitle": "Book a session with {{brandName}}",
+    "investmentPrefix": "Investment from"
   },
   "footer": {
     "brandDescription": "Helping small businesses automate manual work with simple, affordable AI tools.",
@@ -159,7 +165,7 @@
     "bookCall": "Book a free discovery call and find out how we can save you hours every week.",
     "contactCta": "Get in Touch",
     "allRightsReserved": "© {{brandName}}. All rights reserved.",
-    "madeWithLove": "Made with ❤️ in Ireland"
+    "madeWithLove": "Made with ❤️ in Ireland and Brazil"
   },
   "coachingData": {
     "week-1": {

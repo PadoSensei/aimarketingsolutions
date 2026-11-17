@@ -50,6 +50,10 @@
     "title": "Quem",
     "titleAccent": "Somos",
     "subtitle": "Uma consultoria de automação de duas pessoas com sede na Irlanda.",
+    "based": {
+      "title": "Onde estamos?",
+      "content": "Trabalhamos entre Pipa, Rio Grande do Norte, Brasil, e a Irlanda. Encontramo-nos com clientes em Pipa pessoalmente e trabalhamos com clientes na Irlanda online."
+    },
     "ludmila": {
       "name": "Ludmila Domingos",
       "role": "Fundadora · Estrategista de IA",
@@ -107,6 +111,7 @@
     "readySubtitle": "Sem configuração complexa.",
     "startCta": "Comece Agora",
     "signUp": "Inscreva-se!",
+    "learnMore": "Saiba mais",
     "process": {
       "0": {
         "title": "Conversa Inicial",
@@ -123,21 +128,21 @@
     }
   },
   "servicesData": {
-    "process-automation": {
-      "title": "Automação de Processos",
-      "description": "Mapeamos os seus fluxos repetitivos e automatizamo-los com ferramentas como Make, Zapier ou scripts personalizados — poupando horas por semana."
+    "websites": {
+      "title": "Sites com reservas",
+      "description": "O seu próprio site, com reservas, pagamentos e relatórios mensais de análise."
     },
-    "system-integration": {
-      "title": "Integração de Sistemas",
-      "description": "Conectamos as suas ferramentas existentes para que comuniquem entre si — CRMs, plataformas de email, folhas de cálculo e mais."
-    },
-    "off-the-shelf": {
-      "title": "Ferramentas de IA Prontas a Usar",
-      "description": "Nem tudo precisa de ser feito à medida. Identificamos e configuramos as ferramentas de IA certas para as suas necessidades específicas."
-    },
-    "ai-coaching": {
+    "aiCoaching": {
       "title": "Mentoria de IA",
-      "description": "Um programa individual de 4 semanas para desenvolver a sua literacia estratégica em IA — para liderar, não apenas acompanhar, a conversa sobre IA."
+      "description": "Quatro sessões individuais para usar a IA com confiança. Você sai com um plano, biblioteca de prompts e guia de ferramentas."
+    },
+    "consulting": {
+      "title": "Consultoria de IA",
+      "description": "Não sabe onde a IA se encaixa? Analisamos o seu trabalho e enviamos uma lista de ferramentas prontas que cabem no seu orçamento."
+    },
+    "automation": {
+      "title": "Automação",
+      "description": "Conectamos as ferramentas que já utiliza para automatizar tarefas repetitivas, começando com ferramentas prontas antes de qualquer personalização."
     }
   },
   "aiCoaching": {
@@ -146,6 +151,7 @@
     "roadmapTitleAccent": "IA em 4 Semanas",
     "roadmapSubtitle": "Uma jornada estruturada da ansiedade com IA à confiança estratégica.",
     "bookingEyebrow": "Agende uma Sessão",
+    "investmentPrefix": "Investimento a partir de",
     "bookingTitle": "Pronto para Começar?",
     "bookingSubtitle": "Escolha um horário — a primeira sessão é uma chamada de descoberta gratuita.",
     "calendarTitle": "Agende uma sessão com {{brandName}}"
@@ -159,7 +165,7 @@
     "bookCall": "Agende uma chamada de descoberta gratuita e veja como podemos poupar-lhe horas por semana.",
     "contactCta": "Fale Connosco",
     "allRightsReserved": "© {{brandName}}. Todos os direitos reservados.",
-    "madeWithLove": "Feito com ☕ na Irlanda"
+    "madeWithLove": "Feito com ❤️ na Irlanda e no Brasil"
   },
   "coachingData": {
     "week-1": {
@@ -217,7 +223,7 @@
           "desc": "Masterclass sobre shadow AI, IA empresarial, segurança e o que não colocar num prompt."
         },
         {
-          "title": "A Linguagem dos Tomadores de Decisãor",
+          "title": "A Linguagem dos Tomadores de Decisão",
           "desc": "O que perguntar à TI, ao seu chefe, e como defender ferramentas que recuperam o tempo da sua equipa."
         }
       ]

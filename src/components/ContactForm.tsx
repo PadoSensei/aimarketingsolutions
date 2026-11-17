@@ -1,3 +1,4 @@
+"use client";
 import { useForm, ValidationError } from "@formspree/react";
 import { useTranslation } from "@/hooks/useTranslation";
 
@@ -5,13 +6,13 @@ export default function ContactForm() {
   const { t } = useTranslation();
   const [state, handleSubmit] = useForm("https://formspree.io/f/xeqyvozd");
 
-  // SUCCESS STATE (Styled Card)
+  // SUCCESS STATE
   if (state.succeeded) {
     return (
-      <div className="w-full max-w-2xl p-12 mx-auto text-center border shadow-2xl rounded-2xl bg-zinc-900/30 border-white/10 backdrop-blur-md">
-        <div className="flex items-center justify-center w-20 h-20 mx-auto mb-6 rounded-full bg-green-500/20">
+      <div className="w-full max-w-2xl p-12 mx-auto text-center transition-colors border shadow-xl rounded-3xl bg-card border-border backdrop-blur-md">
+        <div className="flex items-center justify-center w-20 h-20 mx-auto mb-6 rounded-full bg-green-500/10">
           <svg
-            className="w-10 h-10 text-green-400"
+            className="w-10 h-10 text-green-600 dark:text-green-400"
             fill="none"
             stroke="currentColor"
             viewBox="0 0 24 24"
@@ -24,8 +25,10 @@ export default function ContactForm() {
             />
           </svg>
         </div>
-        <h3 className="mb-4 text-3xl font-bold text-white">{t("contact.success.title")}</h3>
-        <p className="text-lg text-zinc-400">
+        <h3 className="mb-4 text-3xl font-bold text-foreground">
+          {t("contact.success.title")}
+        </h3>
+        <p className="text-lg text-foreground/70">
           {t("contact.success.message")}
         </p>
       </div>
@@ -35,29 +38,25 @@ export default function ContactForm() {
   // FORM STATE
   return (
     <div className="w-full max-w-2xl mx-auto">
-      {/* HEADER */}
       <div className="mb-10 text-center">
-        <h1 className="mb-4 text-4xl font-bold text-white md:text-5xl">
-          {t("contact.title")} <span className="gradient-text">{t("contact.titleAccent")}</span>
+        <h1 className="mb-4 text-4xl font-bold text-foreground md:text-5xl">
+          {t("contact.title")}{" "}
+          <span className="gradient-text">{t("contact.titleAccent")}</span>
         </h1>
-        <p className="text-lg text-zinc-400">
-          {t("contact.subtitle")}
-        </p>
+        <p className="text-lg text-foreground/70">{t("contact.subtitle")}</p>
       </div>
 
-      {/* FORM CARD */}
       <form
         onSubmit={handleSubmit}
-        className="p-8 border shadow-2xl md:p-10 rounded-3xl bg-zinc-900/30 border-white/10 backdrop-blur-md"
+        className="p-8 transition-colors border shadow-xl md:p-10 rounded-3xl bg-card border-border backdrop-blur-md"
         noValidate
       >
-        {/* ... rest of your form code stays exactly the same ... */}
         <div className="grid grid-cols-1 gap-6 mb-6 md:grid-cols-2">
           {/* EMAIL INPUT */}
           <div className="col-span-1 md:col-span-2">
             <label
               htmlFor="email"
-              className="block mb-2 text-sm font-semibold tracking-wider uppercase text-zinc-300"
+              className="block mb-2 text-sm font-semibold tracking-wider uppercase text-foreground/70"
             >
               {t("contact.labels.email")}
             </label>
@@ -65,7 +64,7 @@ export default function ContactForm() {
               type="email"
               id="email"
               name="email"
-              className="w-full px-4 py-3 text-white transition-all duration-200 border bg-zinc-950/50 border-zinc-700 rounded-xl placeholder-zinc-600 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent"
+              className="w-full px-4 py-3 transition-all border bg-background border-border rounded-xl focus:outline-none focus:ring-2 focus:ring-purple-500 text-foreground placeholder-foreground/30"
               placeholder={t("contact.placeholders.email")}
               required
             />
@@ -73,7 +72,7 @@ export default function ContactForm() {
               prefix="Email"
               field="email"
               errors={state.errors}
-              className="mt-1 text-sm text-red-400"
+              className="mt-1 text-sm text-red-500"
             />
           </div>
 
@@ -81,7 +80,7 @@ export default function ContactForm() {
           <div className="col-span-1 md:col-span-2">
             <label
               htmlFor="subject"
-              className="block mb-2 text-sm font-semibold tracking-wider uppercase text-zinc-300"
+              className="block mb-2 text-sm font-semibold tracking-wider uppercase text-foreground/70"
             >
               {t("contact.labels.subject")}
             </label>
@@ -89,7 +88,7 @@ export default function ContactForm() {
               type="text"
               id="subject"
               name="subject"
-              className="w-full px-4 py-3 text-white transition-all duration-200 border bg-zinc-950/50 border-zinc-700 rounded-xl placeholder-zinc-600 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent"
+              className="w-full px-4 py-3 transition-all border bg-background border-border rounded-xl focus:outline-none focus:ring-2 focus:ring-purple-500 text-foreground placeholder-foreground/30"
               placeholder={t("contact.placeholders.subject")}
               required
             />
@@ -97,7 +96,7 @@ export default function ContactForm() {
               prefix="Subject"
               field="subject"
               errors={state.errors}
-              className="mt-1 text-sm text-red-400"
+              className="mt-1 text-sm text-red-500"
             />
           </div>
         </div>
@@ -106,7 +105,7 @@ export default function ContactForm() {
         <div className="mb-8">
           <label
             htmlFor="message"
-            className="block mb-2 text-sm font-semibold tracking-wider uppercase text-zinc-300"
+            className="block mb-2 text-sm font-semibold tracking-wider uppercase text-foreground/70"
           >
             {t("contact.labels.message")}
           </label>
@@ -114,7 +113,7 @@ export default function ContactForm() {
             id="message"
             name="message"
             rows={5}
-            className="w-full px-4 py-3 text-white transition-all duration-200 border resize-none bg-zinc-950/50 border-zinc-700 rounded-xl placeholder-zinc-600 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent"
+            className="w-full px-4 py-3 transition-all border resize-none bg-background border-border rounded-xl focus:outline-none focus:ring-2 focus:ring-purple-500 text-foreground placeholder-foreground/30"
             placeholder={t("contact.placeholders.message")}
             required
           ></textarea>
@@ -122,7 +121,7 @@ export default function ContactForm() {
             prefix="Message"
             field="message"
             errors={state.errors}
-            className="mt-1 text-sm text-red-400"
+            className="mt-1 text-sm text-red-500"
           />
         </div>
 
@@ -130,7 +129,7 @@ export default function ContactForm() {
         <button
           type="submit"
           disabled={state.submitting}
-          className="w-full px-8 py-4 text-lg font-bold text-white transition-all duration-300 bg-gradient-to-r from-purple-600 to-blue-600 rounded-xl hover:shadow-[0_0_20px_rgba(147,51,234,0.5)] hover:scale-[1.02] disabled:opacity-50 disabled:cursor-not-allowed"
+          className="w-full px-8 py-4 text-lg font-bold text-white transition-all duration-300 bg-purple-600 shadow-lg rounded-xl hover:bg-purple-700 disabled:opacity-50 disabled:cursor-not-allowed hover:shadow-purple-500/20"
         >
           {state.submitting ? t("contact.sending") : t("contact.submit")}
         </button>

@@ -3,8 +3,13 @@ import "@/styles/index.css";
 import { Analytics } from "@vercel/analytics/react";
 import { LanguageProvider } from "@/context/LanguageContext";
 import Script from "next/script";
-import { constructMetadata, getOrganizationSchema, getWebSiteSchema } from "@/lib/seo";
+import {
+  constructMetadata,
+  getOrganizationSchema,
+  getWebSiteSchema,
+} from "@/lib/seo";
 import JsonLd from "@/components/SEO";
+import { ThemeProvider } from "next-themes";
 
 export const metadata: Metadata = {
   ...constructMetadata({
@@ -33,11 +38,15 @@ export default function RootLayout({
   const webSiteSchema = getWebSiteSchema();
 
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <head>
         <JsonLd data={[orgSchema, webSiteSchema]} />
       </head>
       <body>
+        <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
+          <LanguageProvider>{children}</LanguageProvider>
+        </ThemeProvider>
+        <Analytics />
         <Script
           strategy="afterInteractive"
           src="https://www.googletagmanager.com/gtag/js?id=G-VWH1WT3KDF"
@@ -54,8 +63,6 @@ export default function RootLayout({
             `,
           }}
         />
-        <LanguageProvider>{children}</LanguageProvider>
-        <Analytics />
       </body>
     </html>
   );

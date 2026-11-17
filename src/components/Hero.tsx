@@ -42,9 +42,13 @@ const Hero = () => {
           </div>
 
           <h1 className="text-4xl font-extrabold leading-[1.08] tracking-tight text-foreground sm:text-5xl lg:text-6xl">
-            {t("hero.title")}
-            <br className="hidden sm:block" />
-            <span className="text-foreground">{t("hero.titleConnector")} </span>
+            <span className="whitespace-nowrap">
+              {t("hero.title")}{" "}
+              <span className="text-foreground">
+                {t("hero.titleConnector")}
+              </span>
+            </span>
+            <br />
             <span className="relative inline-block">
               <span className="gradient-purple-pink">
                 {t("hero.titleAccent")}

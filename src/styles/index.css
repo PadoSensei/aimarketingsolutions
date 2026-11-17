@@ -1,25 +1,51 @@
 @import "tailwindcss";
 @plugin "@tailwindcss/typography";
 
-html {
-  scroll-behavior: smooth;
+@theme {
+  /* 1. Theme Variables (Semantic Colors) */
+  --color-background: #ffffff;
+  --color-foreground: #09090b;
+  --color-card: #f4f4f5;
+  --color-border: #e4e4e7;
+
+  /* 2. Brand Colors */
+  --color-gradient-blue: #a8e5fe;
+  --color-gradient-purple: #64149c;
+
+  /* 3. Animations */
+  --animate-spin-slow: spin 8s linear infinite;
 }
 
-body {
-  background-color: #000;
+/* Dark Mode Overrides */
+.dark {
+  --color-background: #000000;
+  --color-foreground: #f4f4f5;
+  --color-card: #18181b;
+  --color-border: #27272a;
 }
 
-/* ── Brand gradient — matches the logo illustration exactly ──
-   #A8E5FE (cyan-blue) → #64149C (deep purple)              */
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply transition-colors duration-300 bg-background text-foreground;
+  }
+}
+
+/* 4. Custom Components & Brand Classes */
 .gradient-text {
-  background: linear-gradient(to right, #a8e5fe, #64149c);
+  background: linear-gradient(
+    to right,
+    var(--color-gradient-blue),
+    var(--color-gradient-purple)
+  );
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
   color: transparent;
 }
 
-/* Secondary warm accent — hero subheadings, highlights */
 .gradient-purple-pink {
   background: linear-gradient(to right, rgb(192, 132, 252), rgb(244, 114, 182));
   -webkit-background-clip: text;
@@ -28,6 +54,7 @@ body {
   color: transparent;
 }
 
+/* Embla Carousel Styles */
 .embla {
   overflow: hidden;
 }

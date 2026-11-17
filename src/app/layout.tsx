@@ -1,39 +1,31 @@
-import { absoluteUrl } from "@/lib/utils";
 import { Metadata } from "next";
 import "@/styles/index.css";
 import { Analytics } from "@vercel/analytics/react";
 import { LanguageProvider } from "@/context/LanguageContext";
 import Script from "next/script";
+import {
+  constructMetadata,
+  getOrganizationSchema,
+  getWebSiteSchema,
+} from "@/lib/seo";
+import JsonLd from "@/components/SEO";
+import { ThemeProvider } from "next-themes";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://aisolutions.irish"),
-  title: {
-    default: "AI Solutions",
-    template: "%s | AI Solutions",
-  },
-  description:
-    "We help small businesses automate manual tasks using simple, affordable tools — so you can focus on growing instead of grinding.",
+  ...constructMetadata({
+    title: undefined,
+    description:
+      "We help small businesses automate manual tasks using simple, affordable tools — so you can focus on growing instead of grinding.",
+    path: "/",
+  }),
+  metadataBase: new URL("https://www.aisolutions.irish"),
   openGraph: {
-    title: "AI Solutions",
+    ...constructMetadata({ path: "/" }).openGraph,
     description: "Grow without the grind.",
-    url: absoluteUrl("/"),
-    siteName: "AI Solutions",
-    images: [
-      {
-        url: absoluteUrl("/images/og-image.png"),
-        width: 1800,
-        height: 1600,
-        alt: "AI Solutions — Automation & AI Coaching",
-      },
-    ],
-    locale: "en_US",
-    type: "website",
   },
   twitter: {
-    card: "summary_large_image",
-    title: "AI Solutions",
+    ...constructMetadata({ path: "/" }).twitter,
     description: "Grow without the grind.",
-    images: [absoluteUrl("/images/og-image.png")],
   },
 };
 
@@ -42,9 +34,19 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
+  const orgSchema = getOrganizationSchema();
+  const webSiteSchema = getWebSiteSchema();
+
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
+      <head>
+        <JsonLd data={[orgSchema, webSiteSchema]} />
+      </head>
       <body>
+        <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
+          <LanguageProvider>{children}</LanguageProvider>
+        </ThemeProvider>
+        <Analytics />
         <Script
           strategy="afterInteractive"
           src="https://www.googletagmanager.com/gtag/js?id=G-VWH1WT3KDF"
@@ -61,8 +63,6 @@ export default function RootLayout({
             `,
           }}
         />
-        <LanguageProvider>{children}</LanguageProvider>
-        <Analytics />
       </body>
     </html>
   );

@@ -9,7 +9,11 @@ import { useTranslation } from "../hooks/useTranslation";
 export default function AICarousel() {
   const { t } = useTranslation();
 
-  const [emblaRef, emblaApi] = useEmblaCarousel({ loop: false });
+  const [emblaRef, emblaApi] = useEmblaCarousel({
+    loop: false,
+    dragFree: false, // Prevents free-scrolling, snaps to slides
+    containScroll: "trimSnaps",
+  });
   const [selectedIndex, setSelectedIndex] = useState(0);
 
   const getSlideKey = (index: number) => {

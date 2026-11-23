@@ -3,6 +3,7 @@ import Link from "next/link";
 import Button from "./Button";
 import { Badge } from "./Badge";
 import { useTranslation } from "@/hooks/useTranslation";
+import { Logo } from "./Logo";
 
 const Hero = () => {
   const { t } = useTranslation();
@@ -98,11 +99,7 @@ const Hero = () => {
               <div className="absolute transition-all duration-700 rounded-full -inset-2 bg-gradient-to-r from-purple-600 via-blue-500 to-pink-600 blur-lg opacity-20 group-hover:opacity-40 animate-spin-slow" />
               <div className="absolute -inset-[3px] rounded-full bg-gradient-to-br from-purple-500/40 to-blue-500/30" />
               <div className="relative w-[240px] h-[240px] sm:w-[300px] sm:h-[300px] md:w-[360px] md:h-[360px] rounded-full overflow-hidden bg-background shadow-2xl">
-                <img
-                  src="/images/Logo-White.png"
-                  alt="AI Solutions Logo"
-                  className="object-cover w-full h-full invert dark:invert-0"
-                />
+                <Logo variant="hero" />
               </div>
             </div>
             <div className="text-center mt-7">

@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useTranslation } from "@/hooks/useTranslation";
 import LanguageToggle from "./LanguageToggle";
 import { ThemeToggle } from "./ThemeToggle";
+import { Logo } from "./Logo";
 
 const NavBar = () => {
   const { t } = useTranslation();
@@ -46,13 +47,7 @@ const NavBar = () => {
             className="inline-flex items-center gap-2.5 shrink-0"
             onClick={() => setIsOpen(false)}
           >
-            <img
-              src="/images/Logo-White.png"
-              alt="AI Solutions logo"
-              width={32}
-              height={32}
-              className="object-cover rounded-full invert dark:invert-0"
-            />
+            <Logo variant="navbar" />
             <span className="text-xl font-extrabold tracking-tight">
               <span className="text-foreground">AI </span>
               <span className="gradient-text">Solutions</span>

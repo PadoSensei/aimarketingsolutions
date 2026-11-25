@@ -268,5 +268,114 @@
         }
       ]
     }
+  },
+  "vetMasterclass": {
+    "eyebrow": "Masterclass online ao vivo · 2h30",
+    "title": "Primeiros passos com IA na",
+    "titleAccent": "prática veterinária",
+    "intro": "Para veterinários que querem começar a usar inteligência artificial na clínica com segurança: o que a IA faz bem, onde ela erra, como pedir de forma clara e o que você nunca deve inserir nela.",
+    "ctaSign": "Quero me inscrever",
+    "ctaProgram": "Ver o programa",
+    "details": {
+      "date": "Data: 15-18 Dez 2026, 19:00 às 21:30",
+      "location": "Online, ao vivo",
+      "includes": "Certificado de 2h30 e gravação por 30 dias",
+      "target": "Para: Veterinários e estudantes de veterinária"
+    },
+    "whoFor": {
+      "title": "Para quem é",
+      "subtitle": "É para você se…",
+      "items": [
+        "Nunca usou IA, ou apenas uma ou duas vezes",
+        "Quer começar mas não sabe por onde",
+        "Preocupa-se em cometer erros ou expor dados dos tutores"
+      ],
+      "alreadyUse": "Já usa IA com frequência?",
+      "alreadyUseDesc": "Esta aula é introdutória. Em 2027 realizaremos a masterclass 'IA com Estratégia', sobre como extrair mais de cada ferramenta."
+    },
+    "whatYoullSee": {
+      "title": "O que você verá",
+      "subtitle": "Algumas ideias, bem explicadas, com exemplos da prática clínica e demonstrações ao vivo.",
+      "agenda": [
+        {
+          "time": "19:00",
+          "title": "O que a IA é e o que não é",
+          "desc": "O que ela faz bem, onde erra e por que qualquer dado clínico deve ser verificado com a fonte."
+        },
+        {
+          "time": "19:15",
+          "title": "Como pedir bem",
+          "desc": "Os 4 ingredientes de um bom prompt, com exemplos ao vivo."
+        },
+        {
+          "time": "19:55",
+          "title": "É uma conversa",
+          "desc": "Como refinar a resposta em vez de aceitar a primeira."
+        },
+        {
+          "time": "20:05",
+          "title": "Duas ferramentas, uma regra",
+          "desc": "Para que serve o Claude e para que serve o NotebookLM."
+        },
+        {
+          "time": "20:30",
+          "title": "Segurança e proteção de dados (LGPD)",
+          "desc": "O que pode e o que nunca deve ser inserido na IA, e onde encontrar as configurações de privacidade."
+        },
+        {
+          "time": "21:00",
+          "title": "Por onde começar amanhã, e dúvidas",
+          "desc": "Uma tarefa simples para a sua primeira semana e tempo para as suas perguntas."
+        }
+      ]
+    },
+    "difference": {
+      "title": "A diferença está no pedido",
+      "vague": "Pedido vago:",
+      "vagueEx": "\"Escreva instruções pós-castração.\"",
+      "context": "Pedido com contexto:",
+      "contextEx": "\"Sou veterinário de pequenos animais. Escreva instruções pós-castração para uma cadela para o tutor ler no WhatsApp: linguagem simples, até 10 pontos, tom acolhedor, e no final, os sinais de alerta que indicam que devem voltar à clínica.\""
+    },
+    "safety": {
+      "title": "Se identifica o tutor, não entra",
+      "desc": "Um bloco inteiro da aula é sobre segurança: o que a Lei Geral de Proteção de Dados (LGPD) e o sigilo profissional exigem ao usar IA. Você levará este semáforo de volta para a sua clínica.",
+      "green": "Verde – OK usar: artigos, protocolos, bulas de medicamentos e textos gerais para tutores.",
+      "amber": "Amarelo – apenas sem dados identificáveis: informações clínicas do paciente, sem nada que leve ao tutor.",
+      "red": "Vermelho – nunca: nome do tutor, CPF, telefone, endereço, e-mail ou documentos completos."
+    },
+    "youllLeaveWith": {
+      "title": "Você sairá com",
+      "items": [
+        "Um cartão com os 4 ingredientes de um bom pedido",
+        "O semáforo de dados para a sua clínica",
+        "O guia da 'primeira semana com IA'",
+        "A gravação da aula por 30 dias"
+      ]
+    },
+    "pricing": {
+      "title": "Preço",
+      "members": "Membros Anclivepa: R$ 150",
+      "students": "Estudantes: R$ 150",
+      "nonMembers": "Não-membros: R$ 220",
+      "disclaimer": "Máximo de 25 participantes. Mínimo de 8: reembolso total caso não seja atingido. Cancelamentos com 70% de reembolso até 7 dias antes do evento."
+    },
+    "faq": {
+      "title": "FAQ",
+      "items": [
+        {
+          "q": "Preciso entender de tecnologia?",
+          "a": "Não. A aula começa do zero."
+        },
+        {
+          "q": "Preciso de um computador?",
+          "a": "Pode assistir pelo telemóvel/celular. Um computador ajuda para testar depois. Enviaremos um guia para configurar contas gratuitas antes da aula."
+        },
+        {
+          "q": "E se eu não puder assistir ao vivo?",
+          "a": "A gravação estará disponível por 30 dias."
+        },
+        { "q": "Tem certificado?", "a": "Sim, de 2h30." }
+      ]
+    }
   }
 }

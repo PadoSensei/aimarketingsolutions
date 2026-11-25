@@ -168,4 +168,30 @@ export type Translations = {
     allRightsReserved: string;
     madeWithLove: string;
   };
+  vetMasterclass: {
+    eyebrow: string;
+    title: string;
+    titleAccent: string;
+    intro: string;
+    ctaSign: string;
+    ctaProgram: string;
+    details: {
+      date: string;
+      location: string;
+      includes: string;
+      target: string;
+    };
+    whoFor: {
+      title: string;
+      subtitle: string;
+      items: string[];
+      alreadyUse: string;
+      alreadyUseDesc: string;
+    };
+    whatYoullSee: {
+      title: string;
+      subtitle: string;
+      agenda: { time: string; title: string; desc: string }[];
+    };
+  };
 };

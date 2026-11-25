@@ -268,5 +268,114 @@
         }
       ]
     }
+  },
+  "vetMasterclass": {
+    "eyebrow": "Live online masterclass · 2h30",
+    "title": "First steps with AI in",
+    "titleAccent": "Veterinary practice",
+    "intro": "For vets who want to start using artificial intelligence in the clinic safely: what AI does well, where it gets things wrong, how to ask clearly, and what you should never put into it.",
+    "ctaSign": "I want to sign up",
+    "ctaProgram": "See the programme",
+    "details": {
+      "date": "Date: 15-18 Dec 2026, 7:00 to 9:30 pm",
+      "location": "Online, live",
+      "includes": "2h30 certificate and recording for 30 days",
+      "target": "For: Veterinarians and veterinary students"
+    },
+    "whoFor": {
+      "title": "Who it's for",
+      "subtitle": "It's for you if…",
+      "items": [
+        "You've never used AI, or only once or twice",
+        "You want to start but don't know where",
+        "You're worried about making mistakes or exposing pet owners' data"
+      ],
+      "alreadyUse": "Already use AI often?",
+      "alreadyUseDesc": "This class is introductory. In 2027 we'll run the masterclass 'AI with Strategy', on getting more out of each tool."
+    },
+    "whatYoullSee": {
+      "title": "What you'll see",
+      "subtitle": "A few ideas, explained well, with examples from clinical practice and live demos.",
+      "agenda": [
+        {
+          "time": "7:00 pm",
+          "title": "What AI is and what it isn't",
+          "desc": "What it does well, where it gets things wrong, and why anything clinical must be checked against the source."
+        },
+        {
+          "time": "7:15 pm",
+          "title": "How to ask well",
+          "desc": "The 4 ingredients of a good request, with live examples."
+        },
+        {
+          "time": "7:55 pm",
+          "title": "It's a conversation",
+          "desc": "How to refine the answer instead of accepting the first one."
+        },
+        {
+          "time": "8:05 pm",
+          "title": "Two tools, one rule",
+          "desc": "What Claude is for and what NotebookLM is for."
+        },
+        {
+          "time": "8:30 pm",
+          "title": "Safety and data protection (LGPD)",
+          "desc": "What can and can never go into AI, and where to find the privacy settings."
+        },
+        {
+          "time": "9:00 pm",
+          "title": "Where to start tomorrow, plus Q&A",
+          "desc": "One simple task for your first week, and time for your questions."
+        }
+      ]
+    },
+    "difference": {
+      "title": "The difference is in the request",
+      "vague": "Vague request:",
+      "vagueEx": "\"Write post-spay instructions.\"",
+      "context": "Request with context:",
+      "contextEx": "\"I'm a small-animal vet. Write post-spay instructions for a female dog for the owner to read on WhatsApp: simple language, up to 10 points, a warm tone, and at the end the warning signs that mean they should come back to the clinic.\""
+    },
+    "safety": {
+      "title": "If it identifies the owner, it doesn't go in",
+      "desc": "A whole block of the class is about safety: what Brazil's data protection law (LGPD) and professional confidentiality require when you use AI. You'll take this traffic light back to your clinic.",
+      "green": "Green – OK to use: articles, protocols, drug leaflets and general texts for pet owners.",
+      "amber": "Amber – only without identifying details: the patient's clinical information, with nothing that leads back to the owner.",
+      "red": "Red – never: the owner's name, CPF (tax ID), phone number, address or email, and complete documents."
+    },
+    "youllLeaveWith": {
+      "title": "You'll leave with",
+      "items": [
+        "A card with the 4 ingredients of a good request",
+        "The data traffic light for your clinic",
+        "The 'first week with AI' guide",
+        "The class recording for 30 days"
+      ]
+    },
+    "pricing": {
+      "title": "Price",
+      "members": "Anclivepa members: R$ 150",
+      "students": "Students: R$ 150",
+      "nonMembers": "Non-members: R$ 220",
+      "disclaimer": "Maximum of 25 participants. Minimum of 8: full refund if not reached. 70% refund for cancellations up to 7 days before."
+    },
+    "faq": {
+      "title": "FAQ",
+      "items": [
+        {
+          "q": "Do I need to know about technology?",
+          "a": "No. The class starts from scratch."
+        },
+        {
+          "q": "Do I need a computer?",
+          "a": "You can watch on your phone. A computer helps for trying things out afterwards. We'll send a guide to setting up free accounts before the class."
+        },
+        {
+          "q": "What if I can't watch live?",
+          "a": "The recording is available for 30 days."
+        },
+        { "q": "Is there a certificate?", "a": "Yes, for 2h30." }
+      ]
+    }
   }
 }
